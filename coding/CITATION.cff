@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated CUA security survey and this versioned reproducibility package."
+title: "CUA Security Survey: HPAC/HPAT v3.1.2 Coding Artifact"
+version: "0.5.0"
+date-released: 2026-08-16
+type: dataset
+authors:
+  - name: "CUA Security Survey authors"
+license: "CC-BY-4.0"
+abstract: "Public manual source-coding records, codebook, evidence ledger, validation scripts, and bounded independent-coder comparisons for the v3.1.2 HPAC/HPAT analysis of a 226-study computer-use-agent security corpus."

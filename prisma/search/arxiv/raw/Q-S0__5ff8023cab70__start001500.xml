@@ -1,0 +1,837 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/laT4SZ1G46pvNoprWogcG3QInCA</id>
+  <title>arXiv Query: search_query=( (ti:"agent" OR ti:"agents" OR ti:"agentic" OR ti:"MCP") AND (ti:"security" OR ti:"safety" OR ti:"attack" OR ti:"attacks" OR ti:"defense" OR ti:"defenses" OR ti:"secure" OR ti:"securing" OR ti:"safeguard" OR ti:"guardrail" OR ti:"firewall" OR ti:"privilege" OR ti:"permission" OR ti:"authorization" OR ti:"malicious" OR ti:"backdoor" OR ti:"poisoning" OR ti:"injection" OR ti:"hijacking" OR ti:"exploit" OR ti:"risk" OR ti:"risks" OR ti:"unintended consequence" OR ti:"unprivileged" OR ti:"information-flow control" OR ti:"information flow control") ) AND submittedDate:"202301010000 TO 202607312359"&amp;id_list=&amp;start=1500&amp;max_results=500</title>
+  <updated>2026-08-14T09:22:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=((ti:%22agent%22+OR+(ti:%22agents%22+OR+(ti:%22agentic%22+OR+ti:%22MCP%22)))+AND+(ti:%22security%22+OR+(ti:%22safety%22+OR+(ti:%22attack%22+OR+(ti:%22attacks%22+OR+(ti:%22defense%22+OR+(ti:%22defenses%22+OR+(ti:%22secure%22+OR+(ti:%22securing%22+OR+(ti:%22safeguard%22+OR+(ti:%22guardrail%22+OR+(ti:%22firewall%22+OR+(ti:%22privilege%22+OR+(ti:%22permission%22+OR+(ti:%22authorization%22+OR+(ti:%22malicious%22+OR+(ti:%22backdoor%22+OR+(ti:%22poisoning%22+OR+(ti:%22injection%22+OR+(ti:%22hijacking%22+OR+(ti:%22exploit%22+OR+(ti:%22risk%22+OR+(ti:%22risks%22+OR+(ti:%22unintended+consequence%22+OR+(ti:%22unprivileged%22+OR+(ti:%22information-flow+control%22+OR+ti:%22information+flow+control%22))))))))))))))))))))))))))+AND+submittedDate:%22202301010000+TO+202607312359%22&amp;start=1500&amp;max_results=500&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>500</opensearch:itemsPerPage>
+  <opensearch:totalResults>1531</opensearch:totalResults>
+  <opensearch:startIndex>1500</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.10294v2</id>
+    <title>A review of SolarWinds attack on Orion platform using persistent threat agents and techniques for gaining unauthorized access</title>
+    <updated>2023-09-04T16:17:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.10294v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.10294v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper of work examines the SolarWinds attack, designed on Orion Platform security incident. It analyses the persistent threats agents and potential technical attack techniques to gain unauthorized access. In 2020 SolarWinds attack indicates an initial breach disclosure on Orion Platform software by malware distribution on IT and government organizations such as Homeland Security, Microsoft and Intel associated with supply chains leaks consequences from small loopholes in security systems. Hackers increased the number of infected company and businesses networks during the supply-chain attack, hackers were capable to propagate the attack by using a VMware exploit. On the special way they started to target command injections, privilege escalations, and use after free platforms of VMware. In this way, they gained access to Virtual Machines and in the east way pivot other servers. This literature review aim to analyze the security gap regarding to SolarWinds incident on Orion Platform, the impact on industry and financial sectors involving the elements of incident response plan. Therefore, this research paper ensures specifications of proper solutions for possible defense security systems by analyzing a SolarWinds attack case study via system evaluation and monitoring. It concludes with necessary remediation actions on cyber hygiene countermeasures, common vulnerabilities and exposure analysis and solutions.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-20T15:32:28Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Antigoni Kruti</name>
+    </author>
+    <author>
+      <name>Usman Butt</name>
+    </author>
+    <author>
+      <name>Rejwan Bin Sulaiman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.04285v1</id>
+    <title>Flocking control against the malicious agent</title>
+    <updated>2023-08-08T14:26:47Z</updated>
+    <link href="https://arxiv.org/abs/2308.04285v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.04285v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper investigates the flocking control of a swarm with a malicious agent that falsifies its controller parameters to cause collision, division, and escape of agents in the swarm. A novel geometric flocking condition is established by designing the configuration of the malicious agent and its neighbors, under which we propose a hierarchal geometric configuration-based flocking control method. To help detect the malicious agent, a parameter estimate mechanism is also provided. The proposed method can achieve the flocking control goal and meanwhile contain the malicious agent in the swarm without removing it. Experimental result shows the effectiveness of the theoretical result.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-08T14:26:47Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Chencheng Zhang</name>
+    </author>
+    <author>
+      <name>Hao Yang</name>
+    </author>
+    <author>
+      <name>Bin Jiang</name>
+    </author>
+    <author>
+      <name>Ming Cao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.02594v4</id>
+    <title>SMARLA: A Safety Monitoring Approach for Deep Reinforcement Learning Agents</title>
+    <updated>2024-10-22T17:29:53Z</updated>
+    <link href="https://arxiv.org/abs/2308.02594v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.02594v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deep Reinforcement Learning (DRL) has made significant advancements in various fields, such as autonomous driving, healthcare, and robotics, by enabling agents to learn optimal policies through interactions with their environments. However, the application of DRL in safety-critical domains presents challenges, particularly concerning the safety of the learned policies. DRL agents, which are focused on maximizing rewards, may select unsafe actions, leading to safety violations. Runtime safety monitoring is thus essential to ensure the safe operation of these agents, especially in unpredictable and dynamic environments. This paper introduces SMARLA, a black-box safety monitoring approach specifically designed for DRL agents. SMARLA utilizes machine learning to predict safety violations by observing the agent's behavior during execution. The approach is based on Q-values, which reflect the expected reward for taking actions in specific states. SMARLA employs state abstraction to reduce the complexity of the state space, enhancing the predictive capabilities of the monitoring model. Such abstraction enables the early detection of unsafe states, allowing for the implementation of corrective and preventive measures before incidents occur. We quantitatively and qualitatively validated SMARLA on three well-known case studies widely used in DRL research. Empirical results reveal that SMARLA is accurate at predicting safety violations, with a low false positive rate, and can predict violations at an early stage, approximately halfway through the execution of the agent, before violations occur. We also discuss different decision criteria, based on confidence intervals of the predicted violation probabilities, to trigger safety mechanisms aiming at a trade-off between early detection and low false positive rates.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-03T21:08:51Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>in IEEE Transactions on Software Engineering, vol. 51, no. 01, pp. 82-105, Jan. 2025</arxiv:journal_ref>
+    <author>
+      <name>Amirhossein Zolfagharian</name>
+    </author>
+    <author>
+      <name>Manel Abdellatif</name>
+    </author>
+    <author>
+      <name>Lionel C. Briand</name>
+    </author>
+    <author>
+      <name>Ramesh S</name>
+    </author>
+    <arxiv:doi>10.1109/TSE.2024.3491496</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSE.2024.3491496" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.16186v2</id>
+    <title>ESP: Exploiting Symmetry Prior for Multi-Agent Reinforcement Learning</title>
+    <updated>2023-08-09T09:06:22Z</updated>
+    <link href="https://arxiv.org/abs/2307.16186v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.16186v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent reinforcement learning (MARL) has achieved promising results in recent years. However, most existing reinforcement learning methods require a large amount of data for model training. In addition, data-efficient reinforcement learning requires the construction of strong inductive biases, which are ignored in the current MARL approaches. Inspired by the symmetry phenomenon in multi-agent systems, this paper proposes a framework for exploiting prior knowledge by integrating data augmentation and a well-designed consistency loss into the existing MARL methods. In addition, the proposed framework is model-agnostic and can be applied to most of the current MARL algorithms. Experimental tests on multiple challenging tasks demonstrate the effectiveness of the proposed framework. Moreover, the proposed framework is applied to a physical multi-robot testbed to show its superiority.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-30T09:49:05Z</published>
+    <arxiv:comment>Accepted by ECAI 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Xin Yu</name>
+    </author>
+    <author>
+      <name>Rongye Shi</name>
+    </author>
+    <author>
+      <name>Pu Feng</name>
+    </author>
+    <author>
+      <name>Yongkai Tian</name>
+    </author>
+    <author>
+      <name>Jie Luo</name>
+    </author>
+    <author>
+      <name>Wenjun Wu</name>
+    </author>
+    <arxiv:doi>10.3233/FAIA230609</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3233/FAIA230609" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.13778v1</id>
+    <title>Strategic Play By Resource-Bounded Agents in Security Games</title>
+    <updated>2023-07-25T19:34:27Z</updated>
+    <link href="https://arxiv.org/abs/2307.13778v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.13778v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many studies have shown that humans are "predictably irrational": they do not act in a fully rational way, but their deviations from rational behavior are quite systematic. Our goal is to see the extent to which we can explain and justify these deviations as the outcome of rational but resource-bounded agents doing as well as they can, given their limitations. We focus on the well-studied ranger-poacher game, where rangers are trying to protect a number of sites from poaching. We capture the computational limitations by modeling the poacher and the ranger as probabilistic finite automata (PFAs). We show that, with sufficiently large memory, PFAs learn to play the Nash equilibrium (NE) strategies of the game and achieve the NE utility. However, if we restrict the memory, we get more "human-like" behaviors, such as probability matching (i.e., visiting sites in proportion to the probability of a rhino being there), and avoiding sites where there was a bad outcome (e.g., the poacher was caught by the ranger), that we also observed in experiments conducted on Amazon Mechanical Turk. Interestingly, we find that adding human-like behaviors such as probability matching and overweighting significant events (like getting caught) actually improves performance, showing that this seemingly irrational behavior can be quite rational.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-25T19:34:27Z</published>
+    <arxiv:comment>9 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <author>
+      <name>Xinming Liu</name>
+    </author>
+    <author>
+      <name>Joseph Y. Halpern</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.12204v2</id>
+    <title>Adversarial Agents For Attacking Inaudible Voice Activated Devices</title>
+    <updated>2023-07-25T15:16:40Z</updated>
+    <link href="https://arxiv.org/abs/2307.12204v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.12204v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper applies reinforcement learning to novel Internet of Thing configurations. Our analysis of inaudible attacks on voice-activated devices confirms the alarming risk factor of 7.6 out of 10, underlining significant security vulnerabilities scored independently by NIST National Vulnerability Database (NVD). Our baseline network model showcases a scenario in which an attacker uses inaudible voice commands to gain unauthorized access to confidential information on a secured laptop. We simulated many attack scenarios on this baseline network model, revealing the potential for mass exploitation of interconnected devices to discover and own privileged information through physical access without adding new hardware or amplifying device skills. Using Microsoft's CyberBattleSim framework, we evaluated six reinforcement learning algorithms and found that Deep-Q learning with exploitation proved optimal, leading to rapid ownership of all nodes in fewer steps. Our findings underscore the critical need for understanding non-conventional networks and new cybersecurity measures in an ever-expanding digital landscape, particularly those characterized by mobile devices, voice activation, and non-linear microphones susceptible to malicious actors operating stealth attacks in the near-ultrasound or inaudible ranges. By 2024, this new attack surface might encompass more digital voice assistants than people on the planet yet offer fewer remedies than conventional patching or firmware fixes since the inaudible attacks arise inherently from the microphone design and digital signal processing.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-23T02:18:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Forrest McKee</name>
+    </author>
+    <author>
+      <name>David Noever</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.10594v1</id>
+    <title>Exploiting Structure for Optimal Multi-Agent Bayesian Decentralized Estimation</title>
+    <updated>2023-07-20T05:16:33Z</updated>
+    <link href="https://arxiv.org/abs/2307.10594v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.10594v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A key challenge in Bayesian decentralized data fusion is the `rumor propagation' or `double counting' phenomenon, where previously sent data circulates back to its sender. It is often addressed by approximate methods like covariance intersection (CI) which takes a weighted average of the estimates to compute the bound. The problem is that this bound is not tight, i.e. the estimate is often over-conservative. In this paper, we show that by exploiting the probabilistic independence structure in multi-agent decentralized fusion problems a tighter bound can be found using (i) an expansion to the CI algorithm that uses multiple (non-monolithic) weighting factors instead of one (monolithic) factor in the original CI and (ii) a general optimization scheme that is able to compute optimal bounds and fully exploit an arbitrary dependency structure. We compare our methods and show that on a simple problem, they converge to the same solution. We then test our new non-monolithic CI algorithm on a large-scale target tracking simulation and show that it achieves a tighter bound and a more accurate estimate compared to the original monolithic CI.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-20T05:16:33Z</published>
+    <arxiv:comment>4 pages, 4 figures. presented at the Inference and Decision Making for Autonomous Vehicles (IDMAV) RSS 2023 workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Christopher Funk</name>
+    </author>
+    <author>
+      <name>Ofer Dagan</name>
+    </author>
+    <author>
+      <name>Benjamin Noack</name>
+    </author>
+    <author>
+      <name>Nisar R. Ahmed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.08962v2</id>
+    <title>REX: Rapid Exploration and eXploitation for AI Agents</title>
+    <updated>2024-01-26T20:47:11Z</updated>
+    <link href="https://arxiv.org/abs/2307.08962v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.08962v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose an enhanced approach for Rapid Exploration and eXploitation for AI Agents called REX. Existing AutoGPT-style techniques have inherent limitations, such as a heavy reliance on precise descriptions for decision-making, and the lack of a systematic approach to leverage try-and-fail procedures akin to traditional Reinforcement Learning (RL). REX introduces an additional layer of rewards and integrates concepts similar to Upper Confidence Bound (UCB) scores, leading to more robust and efficient AI agent performance. This approach has the advantage of enabling the utilization of offline behaviors from logs and allowing seamless integration with existing foundation models while it does not require any model fine-tuning. Through comparative analysis with existing methods such as Chain-of-Thoughts(CoT) and Reasoning viA Planning(RAP), REX-based methods demonstrate comparable performance and, in certain cases, even surpass the results achieved by these existing techniques. Notably, REX-based methods exhibit remarkable reductions in execution time, enhancing their practical applicability across a diverse set of scenarios.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-18T04:26:33Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Rithesh Murthy</name>
+    </author>
+    <author>
+      <name>Shelby Heinecke</name>
+    </author>
+    <author>
+      <name>Juan Carlos Niebles</name>
+    </author>
+    <author>
+      <name>Zhiwei Liu</name>
+    </author>
+    <author>
+      <name>Le Xue</name>
+    </author>
+    <author>
+      <name>Weiran Yao</name>
+    </author>
+    <author>
+      <name>Yihao Feng</name>
+    </author>
+    <author>
+      <name>Zeyuan Chen</name>
+    </author>
+    <author>
+      <name>Akash Gokul</name>
+    </author>
+    <author>
+      <name>Devansh Arpit</name>
+    </author>
+    <author>
+      <name>Ran Xu</name>
+    </author>
+    <author>
+      <name>Phil Mui</name>
+    </author>
+    <author>
+      <name>Huan Wang</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <author>
+      <name>Silvio Savarese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.07670v1</id>
+    <title>Efficient Adversarial Attacks on Online Multi-agent Reinforcement Learning</title>
+    <updated>2023-07-15T00:38:55Z</updated>
+    <link href="https://arxiv.org/abs/2307.07670v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.07670v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Due to the broad range of applications of multi-agent reinforcement learning (MARL), understanding the effects of adversarial attacks against MARL model is essential for the safe applications of this model. Motivated by this, we investigate the impact of adversarial attacks on MARL. In the considered setup, there is an exogenous attacker who is able to modify the rewards before the agents receive them or manipulate the actions before the environment receives them. The attacker aims to guide each agent into a target policy or maximize the cumulative rewards under some specific reward function chosen by the attacker, while minimizing the amount of manipulation on feedback and action. We first show the limitations of the action poisoning only attacks and the reward poisoning only attacks. We then introduce a mixed attack strategy with both the action poisoning and the reward poisoning. We show that the mixed attack strategy can efficiently attack MARL agents even if the attacker has no prior information about the underlying environment and the agents' algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-15T00:38:55Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Guanlin Liu</name>
+    </author>
+    <author>
+      <name>Lifeng Lai</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.08602v2</id>
+    <title>CaRT: Certified Safety and Robust Tracking in Learning-based Motion Planning for Multi-Agent Systems</title>
+    <updated>2023-08-13T20:36:46Z</updated>
+    <link href="https://arxiv.org/abs/2307.08602v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.08602v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The key innovation of our analytical method, CaRT, lies in establishing a new hierarchical, distributed architecture to guarantee the safety and robustness of a given learning-based motion planning policy. First, in a nominal setting, the analytical form of our CaRT safety filter formally ensures safe maneuvers of nonlinear multi-agent systems, optimally with minimal deviation from the learning-based policy. Second, in off-nominal settings, the analytical form of our CaRT robust filter optimally tracks the certified safe trajectory, generated by the previous layer in the hierarchy, the CaRT safety filter. We show using contraction theory that CaRT guarantees safety and the exponential boundedness of the trajectory tracking error, even under the presence of deterministic and stochastic disturbance. Also, the hierarchical nature of CaRT enables enhancing its robustness for safety just by its superior tracking to the certified safe trajectory, thereby making it suitable for off-nominal scenarios with large disturbances. This is a major distinction from conventional safety function-driven approaches, where the robustness originates from the stability of a safe set, which could pull the system over-conservatively to the interior of the safe set. Our log-barrier formulation in CaRT allows for its distributed implementation in multi-agent settings. We demonstrate the effectiveness of CaRT in several examples of nonlinear motion planning and control problems, including optimal, multi-spacecraft reconfiguration.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T21:51:29Z</published>
+    <arxiv:comment>IEEE Conference on Decision and Control (CDC), Preprint Version, Accepted July, 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Hiroyasu Tsukamoto</name>
+    </author>
+    <author>
+      <name>Benjamin Rivière</name>
+    </author>
+    <author>
+      <name>Changrak Choi</name>
+    </author>
+    <author>
+      <name>Amir Rahmani</name>
+    </author>
+    <author>
+      <name>Soon-Jo Chung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.03220v2</id>
+    <title>Risk-Aware Reward Shaping of Reinforcement Learning Agents for Autonomous Driving</title>
+    <updated>2023-08-25T06:50:38Z</updated>
+    <link href="https://arxiv.org/abs/2306.03220v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.03220v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reinforcement learning (RL) is an effective approach to motion planning in autonomous driving, where an optimal driving policy can be automatically learned using the interaction data with the environment. Nevertheless, the reward function for an RL agent, which is significant to its performance, is challenging to be determined. The conventional work mainly focuses on rewarding safe driving states but does not incorporate the awareness of risky driving behaviors of the vehicles. In this paper, we investigate how to use risk-aware reward shaping to leverage the training and test performance of RL agents in autonomous driving. Based on the essential requirements that prescribe the safety specifications for general autonomous driving in practice, we propose additional reshaped reward terms that encourage exploration and penalize risky driving behaviors. A simulation study in OpenAI Gym indicates the advantage of risk-aware reward shaping for various RL agents. Also, we point out that proximal policy optimization (PPO) is likely to be the best RL method that works with risk-aware reward shaping.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T20:10:36Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Lin-Chi Wu</name>
+    </author>
+    <author>
+      <name>Zengjie Zhang</name>
+    </author>
+    <author>
+      <name>Sofie Haesaert</name>
+    </author>
+    <author>
+      <name>Zhiqiang Ma</name>
+    </author>
+    <author>
+      <name>Zhiyong Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.17246v2</id>
+    <title>NASimEmu: Network Attack Simulator &amp; Emulator for Training Agents Generalizing to Novel Scenarios</title>
+    <updated>2023-08-18T11:32:44Z</updated>
+    <link href="https://arxiv.org/abs/2305.17246v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.17246v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current frameworks for training offensive penetration testing agents with deep reinforcement learning struggle to produce agents that perform well in real-world scenarios, due to the reality gap in simulation-based frameworks and the lack of scalability in emulation-based frameworks. Additionally, existing frameworks often use an unrealistic metric that measures the agents' performance on the training data. NASimEmu, a new framework introduced in this paper, addresses these issues by providing both a simulator and an emulator with a shared interface. This approach allows agents to be trained in simulation and deployed in the emulator, thus verifying the realism of the used abstraction. Our framework promotes the development of general agents that can transfer to novel scenarios unseen during their training. For the simulation part, we adopt an existing simulator NASim and enhance its realism. The emulator is implemented with industry-level tools, such as Vagrant, VirtualBox, and Metasploit. Experiments demonstrate that a simulation-trained agent can be deployed in emulation, and we show how to use the framework to train a general agent that transfers into novel, structurally different scenarios. NASimEmu is available as open-source.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-26T20:19:09Z</published>
+    <arxiv:comment>NASimEmu is available at https://github.com/jaromiru/NASimEmu and the baseline agents at https://github.com/jaromiru/NASimEmu-agents</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jaromír Janisch</name>
+    </author>
+    <author>
+      <name>Tomáš Pevný</name>
+    </author>
+    <author>
+      <name>Viliam Lisý</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15364v4</id>
+    <title>LQG Risk-Sensitive Single-Agent and Major-Minor Mean-Field Game Systems: A Variational Framework</title>
+    <updated>2025-03-26T19:19:28Z</updated>
+    <link href="https://arxiv.org/abs/2305.15364v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15364v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a variational approach to address risk-sensitive optimal control problems with an exponential-of-integral cost functional in a general linear-quadratic-Gaussian (LQG) single-agent setup, offering new insights into such problems. Our analysis leads to the derivation of a nonlinear necessary and sufficient condition of optimality, expressed in terms of martingale processes. Subject to specific conditions, we find an equivalent risk-neutral measure, under which a linear state feedback form can be obtained for the optimal control. It is then shown that the obtained feedback control is consistent with the imposed condition and remains optimal under the original measure. Building upon this development, we (i) propose a variational framework for general LQG risk-sensitive mean-field games (MFGs) and (ii) advance the LQG risk-sensitive MFG theory by incorporating a major agent in the framework. The major agent interacts with a large number of minor agents, and unlike the minor agents, its influence on the system remains significant even with an increasing number of minor agents. We derive the Markovian closed-loop best-response strategies of agents in the limiting case where the number of agents goes to infinity. We establish that the set of obtained best-response strategies yields a Nash equilibrium in the limiting case and an $\varepsilon$-Nash equilibrium in the finite-player case.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.MF" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T17:14:19Z</published>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Hanchao Liu</name>
+    </author>
+    <author>
+      <name>Dena Firoozi</name>
+    </author>
+    <author>
+      <name>Michèle Breton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13467v1</id>
+    <title>Risk-aware Safe Control for Decentralized Multi-agent Systems via Dynamic Responsibility Allocation</title>
+    <updated>2023-05-22T20:21:49Z</updated>
+    <link href="https://arxiv.org/abs/2305.13467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decentralized control schemes are increasingly favored in various domains that involve multi-agent systems due to the need for computational efficiency as well as general applicability to large-scale systems. However, in the absence of an explicit global coordinator, it is hard for distributed agents to determine how to efficiently interact with others. In this paper, we present a risk-aware decentralized control framework that provides guidance on how much relative responsibility share (a percentage) an individual agent should take to avoid collisions with others while moving efficiently without direct communications. We propose a novel Control Barrier Function (CBF)-inspired risk measurement to characterize the aggregate risk agents face from potential collisions under motion uncertainty. We use this measurement to allocate responsibility shares among agents dynamically and develop risk-aware decentralized safe controllers. In this way, we are able to leverage the flexibility of robots with lower risk to improve the motion flexibility for those with higher risk, thus achieving improved collective safety. We demonstrate the validity and efficiency of our proposed approach through two examples: ramp merging in autonomous driving and a multi-agent position-swapping game.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-22T20:21:49Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yiwei Lyu</name>
+    </author>
+    <author>
+      <name>Wenhao Luo</name>
+    </author>
+    <author>
+      <name>John M. Dolan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.05909v1</id>
+    <title>Robust multi-agent coordination via evolutionary generation of auxiliary adversarial attackers</title>
+    <updated>2023-05-10T05:29:47Z</updated>
+    <link href="https://arxiv.org/abs/2305.05909v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.05909v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cooperative multi-agent reinforcement learning (CMARL) has shown to be promising for many real-world applications. Previous works mainly focus on improving coordination ability via solving MARL-specific challenges (e.g., non-stationarity, credit assignment, scalability), but ignore the policy perturbation issue when testing in a different environment. This issue hasn't been considered in problem formulation or efficient algorithm design. To address this issue, we firstly model the problem as a limited policy adversary Dec-POMDP (LPA-Dec-POMDP), where some coordinators from a team might accidentally and unpredictably encounter a limited number of malicious action attacks, but the regular coordinators still strive for the intended goal. Then, we propose Robust Multi-Agent Coordination via Evolutionary Generation of Auxiliary Adversarial Attackers (ROMANCE), which enables the trained policy to encounter diversified and strong auxiliary adversarial attacks during training, thus achieving high robustness under various policy perturbations. Concretely, to avoid the ego-system overfitting to a specific attacker, we maintain a set of attackers, which is optimized to guarantee the attackers high attacking quality and behavior diversity. The goal of quality is to minimize the ego-system coordination effect, and a novel diversity regularizer based on sparse action is applied to diversify the behaviors among attackers. The ego-system is then paired with a population of attackers selected from the maintained attacker set, and alternately trained against the constantly evolving attackers. Extensive experiments on multiple scenarios from SMAC indicate our ROMANCE provides comparable or better robustness and generalization ability than other baselines.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-10T05:29:47Z</published>
+    <arxiv:comment>In: Proceedings of the 37th AAAI Conference on Artificial Intelligence (AAAI'23), 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Lei Yuan</name>
+    </author>
+    <author>
+      <name>Zi-Qian Zhang</name>
+    </author>
+    <author>
+      <name>Ke Xue</name>
+    </author>
+    <author>
+      <name>Hao Yin</name>
+    </author>
+    <author>
+      <name>Feng Chen</name>
+    </author>
+    <author>
+      <name>Cong Guan</name>
+    </author>
+    <author>
+      <name>Li-He Li</name>
+    </author>
+    <author>
+      <name>Chao Qian</name>
+    </author>
+    <author>
+      <name>Yang Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.12408v1</id>
+    <title>Autonomous Intelligent Cyber-defense Agent: Introduction and Overview</title>
+    <updated>2023-04-24T19:38:24Z</updated>
+    <link href="https://arxiv.org/abs/2304.12408v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.12408v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This chapter introduces the concept of Autonomous Intelligent Cyber-defense Agents (AICAs), and briefly explains the importance of this field and the motivation for its emergence. AICA is a software agent that resides on a system, and is responsible for defending the system from cyber compromises and enabling the response and recovery of the system, usually autonomously. The autonomy of the agent is a necessity because of the growing scarcity of human cyber-experts who could defend systems, either remotely or onsite, and because sophisticated malware could degrade or spoof the communications of a system that uses a remote monitoring center. An AICA Reference Architecture has been proposed and defines five main functions: (1) sensing and world state identification, (2) planning and action selection, (3) collaboration and negotiation, (4) action execution and (5) learning and knowledge improvement. The chapter reviews the details of AICA's environment, functions and operations. As AICA is intended to make changes within its environment, there is a risk that an agent's action could harm a friendly computer. This risk must be balanced against the losses that could occur if the agent does not act. The chapter discusses means by which this risk can be managed and how AICA's design features could help build trust among its users.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-24T19:38:24Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Alexander Kott</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.09476v1</id>
+    <title>ANALYSE -- Learning to Attack Cyber-Physical Energy Systems With Intelligent Agents</title>
+    <updated>2023-04-21T11:36:18Z</updated>
+    <link href="https://arxiv.org/abs/2305.09476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.09476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ongoing penetration of energy systems with information and communications technology (ICT) and the introduction of new markets increase the potential for malicious or profit-driven attacks that endanger system stability. To ensure security-of-supply, it is necessary to analyze such attacks and their underlying vulnerabilities, to develop countermeasures and improve system design. We propose ANALYSE, a machine-learning-based software suite to let learning agents autonomously find attacks in cyber-physical energy systems, consisting of the power system, ICT, and energy markets. ANALYSE is a modular, configurable, and self-documenting framework designed to find yet unknown attack types and to reproduce many known attack strategies in cyber-physical energy systems from the scientific literature.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-21T11:36:18Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <arxiv:journal_ref>SoftwareX, Volume 23, July 2023, 101484</arxiv:journal_ref>
+    <author>
+      <name>Thomas Wolgast</name>
+    </author>
+    <author>
+      <name>Nils Wenninghoff</name>
+    </author>
+    <author>
+      <name>Stephan Balduin</name>
+    </author>
+    <author>
+      <name>Eric Veith</name>
+    </author>
+    <author>
+      <name>Bastian Fraune</name>
+    </author>
+    <author>
+      <name>Torben Woltjen</name>
+    </author>
+    <author>
+      <name>Astrid Nieße</name>
+    </author>
+    <arxiv:doi>10.1016/j.softx.2023.101484</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.softx.2023.101484" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.02351v1</id>
+    <title>Constructing and deconstructing bias: modeling privilege and mentorship in agent-based simulations</title>
+    <updated>2023-04-05T10:37:03Z</updated>
+    <link href="https://arxiv.org/abs/2304.02351v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.02351v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bias exists in how we pick leaders, who we perceive as being influential, and who we interact with, not only in society, but in organizational contexts. Drawing from leadership emergence and social influence theories, we investigate potential interventions that support diverse leaders. Using agent-based simulations, we model a collective search process on a fitness landscape. Agents combine individual and social learning, and are represented as a feature vector blending relevant (e.g., individual learning characteristics) and irrelevant (e.g., race or gender) features. Agents use rational principles of learning to estimate feature weights on the basis of performance predictions, which are used to dynamically define social influence in their network. We show how biases arise based on historic privilege, but can be drastically reduced through the use of an intervention (e.g. mentorship). This work provides important insights into the cognitive mechanisms underlying bias construction and deconstruction, while pointing towards real-world interventions to be tested in future empirical work.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-05T10:37:03Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Andria L. Smith</name>
+    </author>
+    <author>
+      <name>Simon Heuschkel</name>
+    </author>
+    <author>
+      <name>Ksenia Keplinger</name>
+    </author>
+    <author>
+      <name>Charley M. Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.02005v1</id>
+    <title>Risk-Aware Distributed Multi-Agent Reinforcement Learning</title>
+    <updated>2023-04-04T17:56:44Z</updated>
+    <link href="https://arxiv.org/abs/2304.02005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.02005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous cyber and cyber-physical systems need to perform decision-making, learning, and control in unknown environments. Such decision-making can be sensitive to multiple factors, including modeling errors, changes in costs, and impacts of events in the tails of probability distributions. Although multi-agent reinforcement learning (MARL) provides a framework for learning behaviors through repeated interactions with the environment by minimizing an average cost, it will not be adequate to overcome the above challenges. In this paper, we develop a distributed MARL approach to solve decision-making problems in unknown environments by learning risk-aware actions. We use the conditional value-at-risk (CVaR) to characterize the cost function that is being minimized, and define a Bellman operator to characterize the value function associated to a given state-action pair. We prove that this operator satisfies a contraction property, and that it converges to the optimal value function. We then propose a distributed MARL algorithm called the CVaR QD-Learning algorithm, and establish that value functions of individual agents reaches consensus. We identify several challenges that arise in the implementation of the CVaR QD-Learning algorithm, and present solutions to overcome these. We evaluate the CVaR QD-Learning algorithm through simulations, and demonstrate the effect of a risk parameter on value functions at consensus.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-04T17:56:44Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Abdullah Al Maruf</name>
+    </author>
+    <author>
+      <name>Luyao Niu</name>
+    </author>
+    <author>
+      <name>Bhaskar Ramasubramanian</name>
+    </author>
+    <author>
+      <name>Andrew Clark</name>
+    </author>
+    <author>
+      <name>Radha Poovendran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.15299v1</id>
+    <title>Resilient Output Consensus Control of Heterogeneous Multi-agent Systems against Byzantine Attacks: A Twin Layer Approach</title>
+    <updated>2023-03-22T18:23:21Z</updated>
+    <link href="https://arxiv.org/abs/2303.15299v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.15299v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the problem of cooperative control of heterogeneous multi-agent systems (MASs) against Byzantine attacks. The agent affected by Byzantine attacks sends different wrong values to all neighbors while applying wrong input signals for itself, which is aggressive and difficult to be defended. Inspired by the concept of Digital Twin, a new hierarchical protocol equipped with a virtual twin layer (TL) is proposed, which decouples the above problems into the defense scheme against Byzantine edge attacks on the TL and the defense scheme against Byzantine node attacks on the cyber-physical layer (CPL). On the TL, we propose a resilient topology reconfiguration strategy by adding a minimum number of key edges to improve network resilience. It is strictly proved that the control strategy is sufficient to achieve asymptotic consensus in finite time with the topology on the TL satisfying strongly $(2f+1)$-robustness. On the CPL, decentralized chattering-free controllers are proposed to guarantee the resilient output consensus for the heterogeneous MASs against Byzantine node attacks. Moreover, the obtained controller shows exponential convergence. The effectiveness and practicality of the theoretical results are verified by numerical examples.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T18:23:21Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Xin Gong</name>
+    </author>
+    <author>
+      <name>Yiwen Liang</name>
+    </author>
+    <author>
+      <name>Yukang Cui</name>
+    </author>
+    <author>
+      <name>Shi Liang</name>
+    </author>
+    <author>
+      <name>Tingwen Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12823v1</id>
+    <title>Data-Driven Leader-following Consensus for Nonlinear Multi-Agent Systems against Composite Attacks: A Twins Layer Approach</title>
+    <updated>2023-03-22T17:20:35Z</updated>
+    <link href="https://arxiv.org/abs/2303.12823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the leader-following consensuses of uncertain and nonlinear multi-agent systems against composite attacks (CAs), including Denial of Service (DoS) attacks and actuation attacks (AAs). A double-layer control framework is formulated, where a digital twin layer (TL) is added beside the traditional cyber-physical layer (CPL), inspired by the recent Digital Twin technology. Consequently, the resilient control task against CAs can be divided into two parts: One is distributed estimation against DoS attacks on the TL and the other is resilient decentralized tracking control against actuation attacks on the CPL. %The data-driven scheme is used to deal with both model non-linearity and model uncertainty, in which only the input and output data of the system are employed throughout the whole control process. First, a distributed observer based on switching estimation law against DoS is designed on TL. Second, a distributed model free adaptive control (DMFAC) protocol based on attack compensation against AAs is designed on CPL. Moreover, the uniformly ultimately bounded convergence of consensus error of the proposed double-layer DMFAC algorithm is strictly proved. Finally, the simulation verifies the effectiveness of the resilient double-layer control scheme.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T17:20:35Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Xin Gong</name>
+    </author>
+    <author>
+      <name>Jintao Peng</name>
+    </author>
+    <author>
+      <name>Dong Yang</name>
+    </author>
+    <author>
+      <name>Zhan Shu</name>
+    </author>
+    <author>
+      <name>Tingwen Huang</name>
+    </author>
+    <author>
+      <name>Yukang Cui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12610v3</id>
+    <title>Distributed Safe Control Design and Probabilistic Safety Verification for Multi-Agent Systems</title>
+    <updated>2025-03-24T10:28:25Z</updated>
+    <link href="https://arxiv.org/abs/2303.12610v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12610v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose distributed iterative algorithms for safe control design and safety verification for networked multi-agent systems. These algorithms rely on distributing a control barrier function (CBF) related quadratic programming (QP) problem assuming the existence of CBFs. The proposed distributed algorithm addresses infeasibility issues of existing schemes via a cooperation mechanism between agents. The resulting control input is guaranteed to be optimal, and satisfies CBF constraints of all agents. Furthermore, a truncated algorithm is proposed to facilitate computational implementation. The performance of the truncated algorithm is evaluated using a distributed safety verification algorithm. The algorithm quantifies safety for multi-agent systems probabilistically by means of CBFs. Both upper and lower bounds on the probability of safety are obtained using the so called scenario approach. Both the scenario sampling and safety verification procedures are fully distributed. The efficacy of our algorithms is demonstrated by an example on multi-robot collision avoidance.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T14:48:48Z</published>
+    <arxiv:comment>manuscript accepted by Automatica</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <arxiv:journal_ref>Automatica, Vol. 179, 2025</arxiv:journal_ref>
+    <author>
+      <name>Han Wang</name>
+    </author>
+    <author>
+      <name>Antonis Papachristodoulou</name>
+    </author>
+    <author>
+      <name>Kostas Margellos</name>
+    </author>
+    <arxiv:doi>10.1016/j.automatica.2025.112393</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.automatica.2025.112393" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.07996v1</id>
+    <title>Mean field game of mutual holding with defaultable agents, and systemic risk</title>
+    <updated>2023-03-14T15:48:33Z</updated>
+    <link href="https://arxiv.org/abs/2303.07996v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.07996v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the possibility of default in the mean field game of mutual holding of Djete and Touzi [11]. This is modeled by introducing absorption at the origin of the equity process. We provide an explicit solution of this mean field game. Moreover, we provide a particle system approximation, and we derive an autonomous equation for the time evolution of the default probability, or equivalently the law of the hitting time of the origin by the equity process. The systemic risk is thus described by the evolution of the default probability.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-fin.RM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-14T15:48:33Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Mao Fabrice Djete</name>
+    </author>
+    <author>
+      <name>Gaoyue Guo</name>
+    </author>
+    <author>
+      <name>Nizar Touzi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.07850v1</id>
+    <title>Learning Adaptable Risk-Sensitive Policies to Coordinate in Multi-Agent General-Sum Games</title>
+    <updated>2023-03-14T12:45:28Z</updated>
+    <link href="https://arxiv.org/abs/2303.07850v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.07850v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In general-sum games, the interaction of self-interested learning agents commonly leads to socially worse outcomes, such as defect-defect in the iterated stag hunt (ISH). Previous works address this challenge by sharing rewards or shaping their opponents' learning process, which require too strong assumptions. In this paper, we demonstrate that agents trained to optimize expected returns are more likely to choose a safe action that leads to guaranteed but lower rewards. However, there typically exists a risky action that leads to higher rewards in the long run only if agents cooperate, e.g., cooperate-cooperate in ISH. To overcome this, we propose using action value distribution to characterize the decision's risk and corresponding potential payoffs. Specifically, we present Adaptable Risk-Sensitive Policy (ARSP). ARSP learns the distributions over agent's return and estimates a dynamic risk-seeking bonus to discover risky coordination strategies. Furthermore, to avoid overfitting training opponents, ARSP learns an auxiliary opponent modeling task to infer opponents' types and dynamically alter corresponding strategies during execution. Empirically, agents trained via ARSP can achieve stable coordination during training without accessing opponent's rewards or learning process, and can adapt to non-cooperative opponents during execution. To the best of our knowledge, it is the first method to learn coordination strategies between agents both in iterated prisoner's dilemma (IPD) and iterated stag hunt (ISH) without shaping opponents or rewards, and can adapt to opponents with distinct strategies during execution. Furthermore, we show that ARSP can be scaled to high-dimensional settings.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-14T12:45:28Z</published>
+    <arxiv:comment>arXiv admin note: substantial text overlap with arXiv:2205.15859</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ziyi Liu</name>
+    </author>
+    <author>
+      <name>Yongchun Fang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.01768v1</id>
+    <title>Toward Risk-based Optimistic Exploration for Cooperative Multi-Agent Reinforcement Learning</title>
+    <updated>2023-03-03T08:17:57Z</updated>
+    <link href="https://arxiv.org/abs/2303.01768v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.01768v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The multi-agent setting is intricate and unpredictable since the behaviors of multiple agents influence one another. To address this environmental uncertainty, distributional reinforcement learning algorithms that incorporate uncertainty via distributional output have been integrated with multi-agent reinforcement learning (MARL) methods, achieving state-of-the-art performance. However, distributional MARL algorithms still rely on the traditional $ε$-greedy, which does not take cooperative strategy into account. In this paper, we present a risk-based exploration that leads to collaboratively optimistic behavior by shifting the sampling region of distribution. Initially, we take expectations from the upper quantiles of state-action values for exploration, which are optimistic actions, and gradually shift the sampling region of quantiles to the full distribution for exploitation. By ensuring that each agent is exposed to the same level of risk, we can force them to take cooperatively optimistic actions. Our method shows remarkable performance in multi-agent settings requiring cooperative exploration based on quantile regression appropriately controlling the level of risk.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-03T08:17:57Z</published>
+    <arxiv:comment>AAMAS2023 camera-ready version. First two authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jihwan Oh</name>
+    </author>
+    <author>
+      <name>Joonkee Kim</name>
+    </author>
+    <author>
+      <name>Minchan Jeong</name>
+    </author>
+    <author>
+      <name>Se-Young Yun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.13851v1</id>
+    <title>Implicit Poisoning Attacks in Two-Agent Reinforcement Learning: Adversarial Policies for Training-Time Attacks</title>
+    <updated>2023-02-27T14:52:15Z</updated>
+    <link href="https://arxiv.org/abs/2302.13851v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.13851v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In targeted poisoning attacks, an attacker manipulates an agent-environment interaction to force the agent into adopting a policy of interest, called target policy. Prior work has primarily focused on attacks that modify standard MDP primitives, such as rewards or transitions. In this paper, we study targeted poisoning attacks in a two-agent setting where an attacker implicitly poisons the effective environment of one of the agents by modifying the policy of its peer. We develop an optimization framework for designing optimal attacks, where the cost of the attack measures how much the solution deviates from the assumed default policy of the peer agent. We further study the computational properties of this optimization framework. Focusing on a tabular setting, we show that in contrast to poisoning attacks based on MDP primitives (transitions and (unbounded) rewards), which are always feasible, it is NP-hard to determine the feasibility of implicit poisoning attacks. We provide characterization results that establish sufficient conditions for the feasibility of the attack problem, as well as an upper and a lower bound on the optimal cost of the attack. We propose two algorithmic approaches for finding an optimal adversarial policy: a model-based approach with tabular policies and a model-free approach with parametric/neural policies. We showcase the efficacy of the proposed algorithms through experiments.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-27T14:52:15Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mohammad Mohammadi</name>
+    </author>
+    <author>
+      <name>Jonathan Nöther</name>
+    </author>
+    <author>
+      <name>Debmalya Mandal</name>
+    </author>
+    <author>
+      <name>Adish Singla</name>
+    </author>
+    <author>
+      <name>Goran Radanovic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.12592v1</id>
+    <title>Securing IoT Communication using Physical Sensor Data -- Graph Layer Security with Federated Multi-Agent Deep Reinforcement Learning</title>
+    <updated>2023-02-24T12:10:23Z</updated>
+    <link href="https://arxiv.org/abs/2302.12592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.12592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Internet-of-Things (IoT) devices are often used to transmit physical sensor data over digital wireless channels. Traditional Physical Layer Security (PLS)-based cryptography approaches rely on accurate channel estimation and information exchange for key generation, which irrevocably ties key quality with digital channel estimation quality. Recently, we proposed a new concept called Graph Layer Security (GLS), where digital keys are derived from physical sensor readings. The sensor readings between legitimate users are correlated through a common background infrastructure environment (e.g., a common water distribution network or electric grid). The challenge for GLS has been how to achieve distributed key generation. This paper presents a Federated multi-agent Deep reinforcement learning-assisted Distributed Key generation scheme (FD2K), which fully exploits the common features of physical dynamics to establish secret key between legitimate users. We present for the first time initial experimental results of GLS with federated learning, achieving considerable security performance in terms of key agreement rate (KAR), and key randomness.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-24T12:10:23Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Liang Wang</name>
+    </author>
+    <author>
+      <name>Zhuangkun Wei</name>
+    </author>
+    <author>
+      <name>Weisi Guo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.03322v3</id>
+    <title>Attacking Cooperative Multi-Agent Reinforcement Learning by Adversarial Minority Influence</title>
+    <updated>2024-07-30T09:59:47Z</updated>
+    <link href="https://arxiv.org/abs/2302.03322v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.03322v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study probes the vulnerabilities of cooperative multi-agent reinforcement learning (c-MARL) under adversarial attacks, a critical determinant of c-MARL's worst-case performance prior to real-world implementation. Current observation-based attacks, constrained by white-box assumptions, overlook c-MARL's complex multi-agent interactions and cooperative objectives, resulting in impractical and limited attack capabilities. To address these shortcomes, we propose Adversarial Minority Influence (AMI), a practical and strong for c-MARL. AMI is a practical black-box attack and can be launched without knowing victim parameters. AMI is also strong by considering the complex multi-agent interaction and the cooperative goal of agents, enabling a single adversarial agent to unilaterally misleads majority victims to form targeted worst-case cooperation. This mirrors minority influence phenomena in social psychology. To achieve maximum deviation in victim policies under complex agent-wise interactions, our unilateral attack aims to characterize and maximize the impact of the adversary on the victims. This is achieved by adapting a unilateral agent-wise relation metric derived from mutual information, thereby mitigating the adverse effects of victim influence on the adversary. To lead the victims into a jointly detrimental scenario, our targeted attack deceives victims into a long-term, cooperatively harmful situation by guiding each victim towards a specific target, determined through a trial-and-error process executed by a reinforcement learning agent. Through AMI, we achieve the first successful attack against real-world robot swarms and effectively fool agents in simulated environments into collectively worst-case scenarios, including Starcraft II and Multi-agent Mujoco. The source code and demonstrations can be found at: https://github.com/DIG-Beihang/AMI.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-07T08:54:37Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Simin Li</name>
+    </author>
+    <author>
+      <name>Jun Guo</name>
+    </author>
+    <author>
+      <name>Jingqiao Xiu</name>
+    </author>
+    <author>
+      <name>Yuwei Zheng</name>
+    </author>
+    <author>
+      <name>Pu Feng</name>
+    </author>
+    <author>
+      <name>Xin Yu</name>
+    </author>
+    <author>
+      <name>Aishan Liu</name>
+    </author>
+    <author>
+      <name>Yaodong Yang</name>
+    </author>
+    <author>
+      <name>Bo An</name>
+    </author>
+    <author>
+      <name>Wenjun Wu</name>
+    </author>
+    <author>
+      <name>Xianglong Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.09689v1</id>
+    <title>Graph Neural Networks for Decentralized Multi-Agent Perimeter Defense</title>
+    <updated>2023-01-23T19:35:59Z</updated>
+    <link href="https://arxiv.org/abs/2301.09689v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.09689v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we study the problem of decentralized multi-agent perimeter defense that asks for computing actions for defenders with local perceptions and communications to maximize the capture of intruders. One major challenge for practical implementations is to make perimeter defense strategies scalable for large-scale problem instances. To this end, we leverage graph neural networks (GNNs) to develop an imitation learning framework that learns a mapping from defenders' local perceptions and their communication graph to their actions. The proposed GNN-based learning network is trained by imitating a centralized expert algorithm such that the learned actions are close to that generated by the expert algorithm. We demonstrate that our proposed network performs closer to the expert algorithm and is superior to other baseline algorithms by capturing more intruders. Our GNN-based network is trained at a small scale and can be generalized to large-scale cases. We run perimeter defense games in scenarios with different team sizes and configurations to demonstrate the performance of the learned network.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-23T19:35:59Z</published>
+    <arxiv:comment>20 pages, 10 figures. Published in Frontiers in Control Engineering 2023. arXiv admin note: substantial text overlap with arXiv:2211.01757</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Elijah S. Lee</name>
+    </author>
+    <author>
+      <name>Lifeng Zhou</name>
+    </author>
+    <author>
+      <name>Alejandro Ribeiro</name>
+    </author>
+    <author>
+      <name>Vijay Kumar</name>
+    </author>
+    <arxiv:doi>10.3389/fcteg.2023.1104745</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fcteg.2023.1104745" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.07823v1</id>
+    <title>Resilient Containment Control of Heterogeneous Multi-Agent Systems Against Unbounded Sensor and Actuator Attacks</title>
+    <updated>2023-01-18T23:38:37Z</updated>
+    <link href="https://arxiv.org/abs/2301.07823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.07823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate local state measurement is important to ensure the reliable operation of distributed multi-agent systems (MAS). Existing fault-tolerant control strategies generally assume the sensor faults to be bounded and uncorrelated. In this paper, we study the ramifications of allowing the sensor attack injections to be unbounded and correlated. These malicious sensor attacks may bypass the conventional attack-detection methods and compromise the cooperative performance and even stability of the distributed networked MAS. Moreover, the attackers may gain access to the actuation computing channels and manipulate the control input commands. To this end, we consider the resilient containment control problem of general linear heterogeneous MAS in the face of correlated and unbounded sensor attacks, as well as general unbounded actuator attacks. We propose an attack-resilient control framework to guarantee the uniform ultimate boundedness of the closed-loop dynamical systems and preserve the bounded containment performance. Compared with existing literature addressing bounded faults and/or disturbances that are unintentionally caused in the sensor and actuator channels, the proposed control protocols are resilient against unknown unbounded attack signals simultaneously injected into sensor and actuator channels, and hence are more practical in the real-world security applications. A numerical example illustrates the efficacy of the proposed result, by highlighting the resilience improvement over the conventional cooperative control method.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-18T23:38:37Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Shan Zuo</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Yichao Wang</name>
+    </author>
+    <arxiv:doi>10.1109/TCNS.2023.3338772</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TCNS.2023.3338772" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.04299v1</id>
+    <title>SoK: Adversarial Machine Learning Attacks and Defences in Multi-Agent Reinforcement Learning</title>
+    <updated>2023-01-11T04:25:00Z</updated>
+    <link href="https://arxiv.org/abs/2301.04299v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.04299v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-Agent Reinforcement Learning (MARL) is vulnerable to Adversarial Machine Learning (AML) attacks and needs adequate defences before it can be used in real world applications. We have conducted a survey into the use of execution-time AML attacks against MARL and the defences against those attacks. We surveyed related work in the application of AML in Deep Reinforcement Learning (DRL) and Multi-Agent Learning (MAL) to inform our analysis of AML for MARL. We propose a novel perspective to understand the manner of perpetrating an AML attack, by defining Attack Vectors. We develop two new frameworks to address a gap in current modelling frameworks, focusing on the means and tempo of an AML attack against MARL, and identify knowledge gaps and future avenues of research.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-11T04:25:00Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maxwell Standen</name>
+    </author>
+    <author>
+      <name>Junae Kim</name>
+    </author>
+    <author>
+      <name>Claudia Szabo</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,366 @@
+{
+  "candidate_unitization": {
+    "exact_one_to_one_dice": 0.27672955974842767,
+    "mapping_counts": {
+      "one_to_one_match": 22,
+      "partial_overlap": 6,
+      "split_or_merge": 6,
+      "unmatched_b_candidate": 27
+    },
+    "paired_exact_candidate_matches": 22,
+    "partial_or_split_merge_records_excluded_from_paired_metrics": 12
+  },
+  "double_qualified_hpat_relation_metrics": {
+    "fields": {
+      "authorization_judgment": {
+        "coder_a_distribution": {
+          "Not established for the injected local-file access/exfiltration objective.": 1,
+          "authorized": 0,
+          "conditional_pending_confirmation": 1,
+          "not_resolved": 1,
+          "unauthorized": 6,
+          "undetermined": 11
+        },
+        "coder_b_distribution": {
+          "Not established for the injected local-file access/exfiltration objective.": 0,
+          "authorized": 1,
+          "conditional_pending_confirmation": 0,
+          "not_resolved": 0,
+          "unauthorized": 6,
+          "undetermined": 13
+        },
+        "cohen_kappa": 0.6380090497737557,
+        "confusion_matrix": {
+          "Not established for the injected local-file access/exfiltration objective.": {
+            "Not established for the injected local-file access/exfiltration objective.": 0,
+            "authorized": 0,
+            "conditional_pending_confirmation": 0,
+            "not_resolved": 0,
+            "unauthorized": 0,
+            "undetermined": 1
+          },
+          "authorized": {
+            "Not established for the injected local-file access/exfiltration objective.": 0,
+            "authorized": 0,
+            "conditional_pending_confirmation": 0,
+            "not_resolved": 0,
+            "unauthorized": 0,
+            "undetermined": 0
+          },
+          "conditional_pending_confirmation": {
+            "Not established for the injected local-file access/exfiltration objective.": 0,
+            "authorized": 0,
+            "conditional_pending_confirmation": 0,
+            "not_resolved": 0,
+            "unauthorized": 1,
+            "undetermined": 0
+          },
+          "not_resolved": {
+            "Not established for the injected local-file access/exfiltration objective.": 0,
+            "authorized": 1,
+            "conditional_pending_confirmation": 0,
+            "not_resolved": 0,
+            "unauthorized": 0,
+            "undetermined": 0
+          },
+          "unauthorized": {
+            "Not established for the injected local-file access/exfiltration objective.": 0,
+            "authorized": 0,
+            "conditional_pending_confirmation": 0,
+            "not_resolved": 0,
+            "unauthorized": 5,
+            "undetermined": 1
+          },
+          "undetermined": {
+            "Not established for the injected local-file access/exfiltration objective.": 0,
+            "authorized": 0,
+            "conditional_pending_confirmation": 0,
+            "not_resolved": 0,
+            "unauthorized": 0,
+            "undetermined": 11
+          }
+        },
+        "gwet_ac1": 0.7754070746771478,
+        "n": 20,
+        "raw_agreement": 0.8
+      },
+      "effect_outcome": {
+        "coder_a_distribution": {
+          "occurred": 4,
+          "unresolved": 16
+        },
+        "coder_b_distribution": {
+          "occurred": 4,
+          "unresolved": 16
+        },
+        "cohen_kappa": 0.6875,
+        "confusion_matrix": {
+          "occurred": {
+            "occurred": 3,
+            "unresolved": 1
+          },
+          "unresolved": {
+            "occurred": 1,
+            "unresolved": 15
+          }
+        },
+        "gwet_ac1": 0.8529411764705884,
+        "n": 20,
+        "raw_agreement": 0.9
+      },
+      "execution_disposition": {
+        "coder_a_distribution": {
+          "attempted_or_simulated": 1,
+          "completed_in_demonstrated_trace": 6,
+          "runtime_completed": 0,
+          "source_reported_test_case": 11,
+          "unresolved": 2
+        },
+        "coder_b_distribution": {
+          "attempted_or_simulated": 0,
+          "completed_in_demonstrated_trace": 0,
+          "runtime_completed": 17,
+          "source_reported_test_case": 0,
+          "unresolved": 3
+        },
+        "cohen_kappa": 0.08629441624365483,
+        "confusion_matrix": {
+          "attempted_or_simulated": {
+            "attempted_or_simulated": 0,
+            "completed_in_demonstrated_trace": 0,
+            "runtime_completed": 0,
+            "source_reported_test_case": 0,
+            "unresolved": 1
+          },
+          "completed_in_demonstrated_trace": {
+            "attempted_or_simulated": 0,
+            "completed_in_demonstrated_trace": 0,
+            "runtime_completed": 6,
+            "source_reported_test_case": 0,
+            "unresolved": 0
+          },
+          "runtime_completed": {
+            "attempted_or_simulated": 0,
+            "completed_in_demonstrated_trace": 0,
+            "runtime_completed": 0,
+            "source_reported_test_case": 0,
+            "unresolved": 0
+          },
+          "source_reported_test_case": {
+            "attempted_or_simulated": 0,
+            "completed_in_demonstrated_trace": 0,
+            "runtime_completed": 11,
+            "source_reported_test_case": 0,
+            "unresolved": 0
+          },
+          "unresolved": {
+            "attempted_or_simulated": 0,
+            "completed_in_demonstrated_trace": 0,
+            "runtime_completed": 0,
+            "source_reported_test_case": 0,
+            "unresolved": 2
+          }
+        },
+        "gwet_ac1": -0.09256449165402122,
+        "n": 20,
+        "raw_agreement": 0.1
+      },
+      "privilege_evidence_status": {
+        "coder_a_distribution": {
+          "Present-direct": 0,
+          "Present-partial": 20
+        },
+        "coder_b_distribution": {
+          "Present-direct": 7,
+          "Present-partial": 13
+        },
+        "cohen_kappa": 0.0,
+        "confusion_matrix": {
+          "Present-direct": {
+            "Present-direct": 0,
+            "Present-partial": 0
+          },
+          "Present-partial": {
+            "Present-direct": 7,
+            "Present-partial": 13
+          }
+        },
+        "gwet_ac1": 0.5079086115992971,
+        "n": 20,
+        "raw_agreement": 0.65
+      }
+    },
+    "n": 20,
+    "scope_note": "Only controlled categorical HPAT fields shared by both record schemas are compared. Free-text substantive fields are preserved without a pseudo-agreement score."
+  },
+  "interpretation_limits": [
+    "Reliability coefficients describe the exact matched denominators.",
+    "Partial and split/merge unitizations are documented separately from same-unit categorical comparisons."
+  ],
+  "paired_candidate_metrics": {
+    "candidate_audit_evidence_status": {
+      "authorization_reporting": {
+        "coder_a_distribution": {
+          "Not reported": 11,
+          "Present-direct": 1,
+          "Present-partial": 10
+        },
+        "coder_b_distribution": {
+          "Not reported": 0,
+          "Present-direct": 9,
+          "Present-partial": 13
+        },
+        "cohen_kappa": -0.3391304347826086,
+        "confusion_matrix": {
+          "Not reported": {
+            "Not reported": 0,
+            "Present-direct": 0,
+            "Present-partial": 11
+          },
+          "Present-direct": {
+            "Not reported": 0,
+            "Present-direct": 0,
+            "Present-partial": 1
+          },
+          "Present-partial": {
+            "Not reported": 0,
+            "Present-direct": 9,
+            "Present-partial": 1
+          }
+        },
+        "gwet_ac1": -0.37602382725241984,
+        "n": 22,
+        "raw_agreement": 0.045454545454545456
+      },
+      "privilege_basis": {
+        "coder_a_distribution": {
+          "Not reported": 2,
+          "Present-direct": 0,
+          "Present-partial": 20
+        },
+        "coder_b_distribution": {
+          "Not reported": 0,
+          "Present-direct": 7,
+          "Present-partial": 15
+        },
+        "cohen_kappa": -0.07608695652173918,
+        "confusion_matrix": {
+          "Not reported": {
+            "Not reported": 0,
+            "Present-direct": 0,
+            "Present-partial": 2
+          },
+          "Present-direct": {
+            "Not reported": 0,
+            "Present-direct": 0,
+            "Present-partial": 0
+          },
+          "Present-partial": {
+            "Not reported": 0,
+            "Present-direct": 7,
+            "Present-partial": 13
+          }
+        },
+        "gwet_ac1": 0.5071561916614811,
+        "n": 22,
+        "raw_agreement": 0.5909090909090909
+      },
+      "technical_permission_reporting": {
+        "coder_a_distribution": {
+          "Not reported": 2,
+          "Present-direct": 0,
+          "Present-partial": 20
+        },
+        "coder_b_distribution": {
+          "Not reported": 0,
+          "Present-direct": 7,
+          "Present-partial": 15
+        },
+        "cohen_kappa": -0.07608695652173918,
+        "confusion_matrix": {
+          "Not reported": {
+            "Not reported": 0,
+            "Present-direct": 0,
+            "Present-partial": 2
+          },
+          "Present-direct": {
+            "Not reported": 0,
+            "Present-direct": 0,
+            "Present-partial": 0
+          },
+          "Present-partial": {
+            "Not reported": 0,
+            "Present-direct": 7,
+            "Present-partial": 13
+          }
+        },
+        "gwet_ac1": 0.5071561916614811,
+        "n": 22,
+        "raw_agreement": 0.5909090909090909
+      }
+    },
+    "hpat_eligibility": {
+      "coder_a_distribution": {
+        "Established": 20,
+        "Not established": 2
+      },
+      "coder_b_distribution": {
+        "Established": 22,
+        "Not established": 0
+      },
+      "cohen_kappa": 0.0,
+      "confusion_matrix": {
+        "Established": {
+          "Established": 20,
+          "Not established": 0
+        },
+        "Not established": {
+          "Established": 2,
+          "Not established": 0
+        }
+      },
+      "gwet_ac1": 0.9004524886877828,
+      "n": 22,
+      "raw_agreement": 0.9090909090909091
+    },
+    "model_mediation": {
+      "coder_a_distribution": {
+        "established": 22
+      },
+      "coder_b_distribution": {
+        "established": 22
+      },
+      "cohen_kappa": null,
+      "confusion_matrix": {
+        "established": {
+          "established": 22
+        }
+      },
+      "gwet_ac1": 1.0,
+      "n": 22,
+      "raw_agreement": 1.0
+    }
+  },
+  "role_adjudication": {
+    "final_status_counts": {
+      "central": 9,
+      "context_only": 5,
+      "not_present": 1,
+      "supporting": 3
+    },
+    "records": 18
+  },
+  "scope": {
+    "coder_b_candidates": 61,
+    "coder_b_hpat_records": 51,
+    "primary_sample_candidates": 98,
+    "primary_sample_studies": 45
+  },
+  "status": "SAMPLE_ADJUDICATION_COMPLETE",
+  "operation_level_adjudication": {
+    "coder_b_candidate_units": 61,
+    "adjudication_records": 61,
+    "status": "COMPLETE_FOR_RELEASED_SAMPLE",
+    "ledger": "reliability/hpat_operation_adjudication_records.csv"
+  }
+}

@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zhC7DRjQupwbDC01DWyUPtnRRa4</id>
+  <title>arXiv Query: search_query=( (ti:"LLM multi-agent" OR abs:"LLM multi-agent" OR ti:"LLM-based multi-agent" OR abs:"LLM-based multi-agent" OR ti:"LLM based multi-agent" OR abs:"LLM based multi-agent" OR ti:"multi-agent LLM" OR abs:"multi-agent LLM" OR ti:"multi agent LLM" OR abs:"multi agent LLM" OR ti:"multi-agent language model" OR abs:"multi-agent language model" OR ti:"multi agent language model" OR abs:"multi agent language model" OR ti:"LLM-MAS" OR abs:"LLM-MAS" OR ti:"agent-to-agent" OR abs:"agent-to-agent" OR ti:"A2A" OR abs:"A2A" OR ti:"inter-agent" OR abs:"inter-agent" OR ti:"agent communication" OR abs:"agent communication" OR ti:"message-based communication" OR abs:"message-based communication" OR ti:"agent collaboration" OR abs:"agent collaboration" OR ti:"multi-agent system" OR abs:"multi-agent system" OR ti:"multi-agent systems" OR abs:"multi-agent systems") AND (ti:"security" OR abs:"security" OR ti:"poisoning" OR abs:"poisoning" OR ti:"propagation" OR abs:"propagation" OR ti:"manipulation" OR abs:"manipulation" OR ti:"collusion" OR abs:"collusion" OR ti:"message attack" OR abs:"message attack" OR ti:"authorization" OR abs:"authorization" OR ti:"leakage" OR abs:"leakage" OR ti:"attack" OR abs:"attack" OR ti:"vulnerability" OR abs:"vulnerability") ) AND submittedDate:"202301010000 TO 202607312359"&amp;id_list=&amp;start=1000&amp;max_results=500</title>
+  <updated>2026-08-14T09:14:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=((ti:%22LLM+multi-agent%22+OR+(abs:%22LLM+multi-agent%22+OR+(ti:%22LLM-based+multi-agent%22+OR+(abs:%22LLM-based+multi-agent%22+OR+(ti:%22LLM+based+multi-agent%22+OR+(abs:%22LLM+based+multi-agent%22+OR+(ti:%22multi-agent+LLM%22+OR+(abs:%22multi-agent+LLM%22+OR+(ti:%22multi+agent+LLM%22+OR+(abs:%22multi+agent+LLM%22+OR+(ti:%22multi-agent+language+model%22+OR+(abs:%22multi-agent+language+model%22+OR+(ti:%22multi+agent+language+model%22+OR+(abs:%22multi+agent+language+model%22+OR+(ti:%22LLM-MAS%22+OR+(abs:%22LLM-MAS%22+OR+(ti:%22agent-to-agent%22+OR+(abs:%22agent-to-agent%22+OR+(ti:%22A2A%22+OR+(abs:%22A2A%22+OR+(ti:%22inter-agent%22+OR+(abs:%22inter-agent%22+OR+(ti:%22agent+communication%22+OR+(abs:%22agent+communication%22+OR+(ti:%22message-based+communication%22+OR+(abs:%22message-based+communication%22+OR+(ti:%22agent+collaboration%22+OR+(abs:%22agent+collaboration%22+OR+(ti:%22multi-agent+system%22+OR+(abs:%22multi-agent+system%22+OR+(ti:%22multi-agent+systems%22+OR+abs:%22multi-agent+systems%22)))))))))))))))))))))))))))))))+AND+(ti:%22security%22+OR+(abs:%22security%22+OR+(ti:%22poisoning%22+OR+(abs:%22poisoning%22+OR+(ti:%22propagation%22+OR+(abs:%22propagation%22+OR+(ti:%22manipulation%22+OR+(abs:%22manipulation%22+OR+(ti:%22collusion%22+OR+(abs:%22collusion%22+OR+(ti:%22message+attack%22+OR+(abs:%22message+attack%22+OR+(ti:%22authorization%22+OR+(abs:%22authorization%22+OR+(ti:%22leakage%22+OR+(abs:%22leakage%22+OR+(ti:%22attack%22+OR+(abs:%22attack%22+OR+(ti:%22vulnerability%22+OR+abs:%22vulnerability%22))))))))))))))))))))+AND+submittedDate:%22202301010000+TO+202607312359%22&amp;start=1000&amp;max_results=500&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>500</opensearch:itemsPerPage>
+  <opensearch:totalResults>1031</opensearch:totalResults>
+  <opensearch:startIndex>1000</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.00078v1</id>
+    <title>On the Limits of Single Anchor Localization: Near-Field vs Far-Field</title>
+    <updated>2023-06-30T18:32:30Z</updated>
+    <link href="https://arxiv.org/abs/2307.00078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.00078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well known that a single anchor can be used to determine the position and orientation of an agent communicating with it. However, it is not clear what information about the anchor or the agent is necessary to perform this localization, especially when the agent is in the near-field of the anchor. Hence, in this paper, to investigate the limits of localizing an agent with some uncertainty in the anchor location, we consider a wireless link consisting of source and destination nodes. More specifically, we present a Fisher information theoretical investigation of the possibility of estimating different combinations of the source and destination's position and orientation from the signal received at the destination. To present a comprehensive study, we perform this Fisher information theoretic investigation under both the near and far field propagation models. One of the key insights is that while the source or destination's $3$D orientation can be jointly estimated with the source or destination's $3$D position in the near-field propagation regime, only the source or destination's $2$D orientation can be jointly estimated with the source or destination's $2$D position in the far-field propagation regime. Also, a simulation of the FIM indicates that in the near-field, we can estimate the source's $3$D orientation angles with no beamforming, but in the far-field, we can not estimate the source's $2$D orientation angles when no beamforming is employed.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-30T18:32:30Z</published>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Don-Roberts Emenonye</name>
+    </author>
+    <author>
+      <name>Harpreet S. Dhillon</name>
+    </author>
+    <author>
+      <name>R. Michael Buehrer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.06715v1</id>
+    <title>FedDec: Peer-to-peer Aided Federated Learning</title>
+    <updated>2023-06-11T16:30:57Z</updated>
+    <link href="https://arxiv.org/abs/2306.06715v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.06715v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Federated learning (FL) has enabled training machine learning models exploiting the data of multiple agents without compromising privacy. However, FL is known to be vulnerable to data heterogeneity, partial device participation, and infrequent communication with the server, which are nonetheless three distinctive characteristics of this framework. While much of the recent literature has tackled these weaknesses using different tools, only a few works have explored the possibility of exploiting inter-agent communication to improve FL's performance. In this work, we present FedDec, an algorithm that interleaves peer-to-peer communication and parameter averaging (similar to decentralized learning in networks) between the local gradient updates of FL. We analyze the convergence of FedDec under the assumptions of non-iid data distribution, partial device participation, and smooth and strongly convex costs, and show that inter-agent communication alleviates the negative impact of infrequent communication rounds with the server by reducing the dependence on the number of local updates $H$ from $O(H^2)$ to $O(H)$. Furthermore, our analysis reveals that the term improved in the bound is multiplied by a constant that depends on the spectrum of the inter-agent communication graph, and that vanishes quickly the more connected the network is. We confirm the predictions of our theory in numerical simulations, where we show that FedDec converges faster than FedAvg, and that the gains are greater as either $H$ or the connectivity of the network increase.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-11T16:30:57Z</published>
+    <arxiv:comment>14 pages, 6 figures in png or pdf format</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Marina Costantini</name>
+    </author>
+    <author>
+      <name>Giovanni Neglia</name>
+    </author>
+    <author>
+      <name>Thrasyvoulos Spyropoulos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.09485v1</id>
+    <title>Enhancing Evacuation Planning through Multi-Agent Simulation and Artificial Intelligence: Understanding Human Behavior in Hazardous Environments</title>
+    <updated>2023-06-11T08:13:42Z</updated>
+    <link href="https://arxiv.org/abs/2307.09485v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.09485v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper focuses on the crucial task of addressing the evacuation of hazardous places, which holds great importance for coordinators, event hosts, and authorities. To facilitate the development of effective solutions, the paper employs Artificial Intelligence (AI) techniques, specifically Multi-Agent Systems (MAS), to construct a simulation model for evacuation. NetLogo is selected as the simulation tool of choice due to its ability to provide a comprehensive understanding of human behaviour in distressing situations within hazardous environments. The primary objective of this paper is to enhance our comprehension of how individuals react and respond during such distressing situations. By leveraging AI and MAS, the simulation model aims to capture the complex dynamics of evacuation scenarios, enabling policymakers and emergency planners to make informed decisions and implement more efficient and effective evacuation strategies. This paper endeavours to contribute to the advancement of evacuation planning and ultimately improve the safety and well-being of individuals in hazardous places</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-11T08:13:42Z</published>
+    <arxiv:comment>21 pages,15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Afnan Alazbah</name>
+    </author>
+    <author>
+      <name>Khalid Fakeeh</name>
+    </author>
+    <author>
+      <name>Osama Rabie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.03553v1</id>
+    <title>An Approach to Solving the Abstraction and Reasoning Corpus (ARC) Challenge</title>
+    <updated>2023-06-06T10:08:12Z</updated>
+    <link href="https://arxiv.org/abs/2306.03553v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.03553v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We utilise the power of Large Language Models (LLMs), in particular GPT4, to be prompt engineered into performing an arbitrary task. Here, we give the model some human priors via text, along with some typical procedures for solving the ARC tasks, and ask it to generate the i) broad description of the input-output relation, ii) detailed steps of the input-output mapping, iii) use the detailed steps to perform manipulation on the test input and derive the test output. The current GPT3.5/GPT4 prompt solves 2 out of 4 tested small ARC challenges (those with small grids of 8x8 and below). With tweaks to the prompt to make it more specific for the use case, it can solve more. We posit that when scaled to a multi-agent system with usage of past memory and equipped with an image interpretation tool via Visual Question Answering, we may actually be able to solve the majority of the ARC challenge</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-06T10:08:12Z</published>
+    <arxiv:comment>14 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Tan John Chong Min</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.03314v1</id>
+    <title>Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents</title>
+    <updated>2023-06-05T23:55:37Z</updated>
+    <link href="https://arxiv.org/abs/2306.03314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.03314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present a novel framework for enhancing the capabilities of large language models (LLMs) by leveraging the power of multi-agent systems. Our framework introduces a collaborative environment where multiple intelligent agent components, each with distinctive attributes and roles, work together to handle complex tasks more efficiently and effectively. We demonstrate the practicality and versatility of our framework through case studies in artificial general intelligence (AGI), specifically focusing on the Auto-GPT and BabyAGI models. We also examine the "Gorilla" model, which integrates external APIs into the LLM. Our framework addresses limitations and challenges such as looping issues, security risks, scalability, system evaluation, and ethical considerations. By modeling various domains such as courtroom simulations and software development scenarios, we showcase the potential applications and benefits of our proposed multi-agent system. Our framework provides an avenue for advancing the capabilities and performance of LLMs through collaboration and knowledge exchange among intelligent agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T23:55:37Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yashar Talebirad</name>
+    </author>
+    <author>
+      <name>Amirhossein Nadiri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.02781v4</id>
+    <title>An Automated Survey of Generative Artificial Intelligence: Large Language Models, Architectures, Protocols, and Applications</title>
+    <updated>2026-04-09T12:47:33Z</updated>
+    <link href="https://arxiv.org/abs/2306.02781v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.02781v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative artificial intelligence, and large language models in particular, have emerged as one of the most transformative paradigms in modern computer science. This automated survey provides an accessible treatment of the field as of early 2026, with a strong focus on the leading model families, deployment protocols, and real-world applications. The core of the survey is devoted to a detailed comparative analysis of the frontier large language models, with particular emphasis on open-weight systems: DeepSeek-V3, DeepSeek-R1, DeepSeek-V3.2, and the forthcoming DeepSeek V4; the Qwen 3 and Qwen 3.5 series; GLM-5; Kimi K2.5; MiniMax M2.5; LLaMA 4; Mistral Large 3; Gemma 3; and Phi-4, alongside proprietary systems including GPT-5.4, Gemini 3.1 Pro, Grok 4.20, and Claude Opus 4.6. For each model, we describe the architectural innovations, training regimes, and empirical performance on current benchmarks and the Chatbot Arena leaderboard. The survey further covers deployment protocols including Retrieval-Augmented Generation, the Model Context Protocol, the Agent-to-Agent protocol, function calling standards, and serving frameworks. We present an extensive review of real-world applications across fifteen industry sectors, from financial services and legal technology to tourism and agriculture, supported by empirical evidence and case studies. This work has been generated by Claude Opus 4.6 (Anthropic) under the supervision and editorial review of the human authors, with the goal of producing updated editions approximately every six months.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-05T11:14:18Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Eduardo C. Garrido-Merchán</name>
+    </author>
+    <author>
+      <name>Álvaro López López</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.01179v1</id>
+    <title>The Benefits of Interaction Constraints in Distributed Autonomous Systems</title>
+    <updated>2023-06-01T22:24:55Z</updated>
+    <link href="https://arxiv.org/abs/2306.01179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.01179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The design of distributed autonomous systems often omits consideration of the underlying network dynamics. Recent works in multi-agent systems and swarm robotics alike have highlighted the impact that the interactions between agents have on the collective behaviours exhibited by the system. In this paper, we seek to highlight the role that the underlying interaction network plays in determining the performance of the collective behaviour of a system, comparing its impact with that of the physical network. We contextualise this by defining a collective learning problem in which agents must reach a consensus about their environment in the presence of noisy information. We show that the physical connectivity of the agents plays a less important role than when an interaction network of limited connectivity is imposed on the system to constrain agent communication. Constraining agent interactions in this way drastically improves the performance of the system in a collective learning context. Additionally, we provide further evidence for the idea that `less is more' when it comes to propagating information in distributed autonomous systems for the purpose of collective learning.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-01T22:24:55Z</published>
+    <arxiv:comment>To appear in the Proceedings of the Distributed Autonomous Robotic Systems 16th International Symposium (2022)</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Michael Crosscombe</name>
+    </author>
+    <author>
+      <name>Jonathan Lawry</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.11374v1</id>
+    <title>Characterizing tradeoffs between teaching via language and demonstrations in multi-agent systems</title>
+    <updated>2023-05-19T01:27:29Z</updated>
+    <link href="https://arxiv.org/abs/2305.11374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.11374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans teach others about the world through language and demonstration. When might one of these modalities be more effective than the other? In this work, we study the factors that modulate the effectiveness of language vs. demonstration using multi-agent systems to model human communication. Specifically, we train neural network agents to teach via language or demonstration in a grounded communication task, manipulating 1) the inherent difficulty of the task and 2) the competence of the teacher. We find that teaching by demonstration is more effective in the simplest settings, but language is more effective as task difficulty increases, due to its ability to generalize more effectively to unseen scenarios. Overall, these results provide converging evidence for a tradeoff between language and demonstration as teaching modalities in humans, and make the novel predictions that demonstration may be optimal for easy tasks, while language enables generalization in more challenging settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-19T01:27:29Z</published>
+    <arxiv:comment>7 pages, 6 figures, to appear in Proceedings of the 45th Annual Conference of the Cognitive Science Society</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dhara Yu</name>
+    </author>
+    <author>
+      <name>Noah D. Goodman</name>
+    </author>
+    <author>
+      <name>Jesse Mu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08957v1</id>
+    <title>Exploration of unknown indoor regions by a swarm of energy-constrained drones</title>
+    <updated>2023-05-15T18:56:35Z</updated>
+    <link href="https://arxiv.org/abs/2305.08957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several distributed algorithms are presented for the exploration of unknown indoor regions by a swarm of flying, energy constrained agents. The agents, which are identical, autonomous, anonymous and oblivious, uniformly cover the region and thus explore it using predefined action rules based on locally sensed information and the energy level of the agents. While flying drones have many advantages in search and rescue scenarios, their main drawback is a high power consumption during flight combined with limited, on-board energy. Furthermore, in these scenarios agent size is severely limited and consequently so are the total weight and capabilities of the agents. The region is modeled as a connected sub-set of a regular grid composed of square cells that the agents enter, over time, via entry points. Some of the agents may settle in unoccupied cells as the exploration progresses. Settled agents conserve energy and become virtual pheromones for the exploration and coverage process, beacons that subsequently aid the remaining, and still exploring, mobile agents. The termination of the coverage process is based on a backward propagating information diffusion scheme. Various algorithmical alternatives are discussed and upper bounds derived and compared to experimental results. Finally, an optimal entry rate that minimizes the total energy consumption is derived for the case of a linear regions.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-15T18:56:35Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2209.05512</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Ori Rappel</name>
+    </author>
+    <author>
+      <name>Joseph Z. Ben-Asher</name>
+    </author>
+    <author>
+      <name>Alfred M. Bruckstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08051v13</id>
+    <title>Prox-DBRO-VR: A Unified Analysis on Byzantine-Resilient Decentralized Stochastic Composite Optimization with Variance Reduction and Non-Asymptotic Convergence Rates</title>
+    <updated>2026-07-13T03:52:08Z</updated>
+    <link href="https://arxiv.org/abs/2305.08051v13" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08051v13" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Decentralized stochastic gradient algorithms efficiently solve large-scale finite-sum optimization problems when all agents in the network are reliable. However, most of these algorithms are not resilient to adverse conditions, such as malfunctioning agents, software bugs, and cyber attacks. This paper aims to handle a class of general composite optimization problems over multi-agent systems (MASs) in the presence of an unknown number of Byzantine agents. Building on a resilient aggregation mechanism and the proximal-gradient mapping method, a Byzantine-resilient decentralized stochastic proximal-gradient algorithmic framework is proposed, dubbed Prox-DBRO-VR, which achieves an optimization and control goal using only local computations and communications. To asymptotically reduce the noise variance arising from local gradient estimation and accelerate the convergence, we incorporate two localized variance-reduced (VR) techniques (SAGA and LSVRG) into Prox-DBRO-VR to design Prox-DBRO-SAGA and Prox-DBRO-LSVRG. By analyzing the contraction relationships among the gradient-learning error, resilient consensus condition, and convergence error in a unified theoretical framework, it is proved that both Prox-DBRO-SAGA and Prox-DBRO-LSVRG, with a well-designed constant (resp., decaying) step-size, converge linearly (resp., sub-linearly) inside an error ball around the optimal solution to the original problem under standard assumptions. A trade-off between convergence accuracy and Byzantine resilience in both linear and sub-linear cases is also characterized. In numerical experiments, the effectiveness and practicability of the proposed algorithms are manifested via resolving a decentralized sparse machine-learning problem under various Byzantine attacks.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-14T03:17:29Z</published>
+    <arxiv:comment>17 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <arxiv:journal_ref>IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2025</arxiv:journal_ref>
+    <author>
+      <name>Jinhui Hu</name>
+    </author>
+    <author>
+      <name>Guo Chen</name>
+    </author>
+    <author>
+      <name>Huaqing Li</name>
+    </author>
+    <author>
+      <name>Xiaoyu Guo</name>
+    </author>
+    <author>
+      <name>Liang Ran</name>
+    </author>
+    <author>
+      <name>Tingwen Huang</name>
+    </author>
+    <arxiv:doi>10.1109/TSMC.2025.3565568</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSMC.2025.3565568" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.01614v1</id>
+    <title>On the Collaborative Object Transportation Using Leader Follower Approach</title>
+    <updated>2023-05-02T17:16:35Z</updated>
+    <link href="https://arxiv.org/abs/2305.01614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.01614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we address the multi-agent collaborative object transportation problem in a partially known environment with obstacles under a specified goal condition. We propose a leader follower approach for two mobile manipulators collaboratively transporting an object along specified desired trajectories. The proposed approach treats the mobile manipulation system as two independent subsystems: a mobile platform and a manipulator arm and uses their kinematics model for trajectory tracking. In this work we considered that the mobile platform is subject to non-holonomic constraints, with a manipulator carrying a rigid load. The desired trajectories of the end points of the load are obtained from Probabilistic RoadMap-based planning approach. Our method combines Proportional Navigation Guidance-based approach with a proposed Stop-and-Sync algorithm to reach sufficiently close to the desired trajectory, the deviation due to the non-holonomic constraints is compensated by the manipulator arm. A leader follower approach for computing inverse kinematics solution for the position of the end-effector of the manipulator arm is proposed to maintain the load rigidity. Further, we compare the proposed approach with other approaches to analyse the efficacy of our algorithm.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-02T17:16:35Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Sumanta Ghosh</name>
+    </author>
+    <author>
+      <name>Subhajit Nath</name>
+    </author>
+    <author>
+      <name>Sarvesh Sortee</name>
+    </author>
+    <author>
+      <name>Lokesh Kumar</name>
+    </author>
+    <author>
+      <name>Titas Bera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.13829v2</id>
+    <title>Controlled density transport using Perron Frobenius generators</title>
+    <updated>2023-09-25T01:54:14Z</updated>
+    <link href="https://arxiv.org/abs/2304.13829v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.13829v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the problem of the transport of a density of states from an initial state distribution to a desired final state distribution through a dynamical system with actuation. In particular, we consider the case where the control signal is a function of time, but not space; that is, the same actuation is applied at every point in the state space. This is motivated by several problems in fluid mechanics, such as mixing and manipulation of a collection of particles by a global control input such as a uniform magnetic field, as well as by more general control problems where a density function describes an uncertainty distribution or a distribution of agents in a multi-agent system. We formulate this problem using the generators of the Perron-Frobenius operator associated with the drift and control vector fields of the system. By considering finite-dimensional approximations of these operators, the density transport problem can be expressed as a control problem for a bilinear system in a high-dimensional, lifted state. With this system, we frame the density control problem as a problem of driving moments of the density function to the moments of a desired density function, where the moments of the density can be expressed as an output which is linear in the lifted state. This output tracking problem for the lifted bilinear system is then solved using differential dynamic programming, an iterative trajectory optimization scheme.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-26T21:12:45Z</published>
+    <arxiv:comment>8 pages, 9 figures, accepted to CDC 2023</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Jake Buzhardt</name>
+    </author>
+    <author>
+      <name>Phanindra Tallapragada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.11084v1</id>
+    <title>Training Automated Defense Strategies Using Graph-based Cyber Attack Simulations</title>
+    <updated>2023-04-17T07:52:00Z</updated>
+    <link href="https://arxiv.org/abs/2304.11084v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.11084v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We implemented and evaluated an automated cyber defense agent. The agent takes security alerts as input and uses reinforcement learning to learn a policy for executing predefined defensive measures. The defender policies were trained in an environment intended to simulate a cyber attack. In the simulation, an attacking agent attempts to capture targets in the environment, while the defender attempts to protect them by enabling defenses. The environment was modeled using attack graphs based on the Meta Attack Language language. We assumed that defensive measures have downtime costs, meaning that the defender agent was penalized for using them. We also assumed that the environment was equipped with an imperfect intrusion detection system that occasionally produces erroneous alerts based on the environment state. To evaluate the setup, we trained the defensive agent with different volumes of intrusion detection system noise. We also trained agents with different attacker strategies and graph sizes. In experiments, the defensive agent using policies trained with reinforcement learning outperformed agents using heuristic policies. Experiments also demonstrated that the policies could generalize across different attacker strategies. However, the performance of the learned policies decreased as the attack graphs increased in size.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-17T07:52:00Z</published>
+    <arxiv:comment>Presented at the Workshop on SOC Operations and Construction (WOSOC) 2023, colocated with NDSS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jakob Nyberg</name>
+    </author>
+    <author>
+      <name>Pontus Johnson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.08018v3</id>
+    <title>Dynamics-Based Algorithm-Level Privacy Preservation for Push-Sum Average Consensus</title>
+    <updated>2024-12-11T05:40:52Z</updated>
+    <link href="https://arxiv.org/abs/2304.08018v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.08018v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the intricate dance of multi-agent systems, achieving average consensus is not just vital--it is the backbone of their functionality. In conventional average consensus algorithms, all agents reach an agreement by individual calculations and sharing information with their respective neighbors. Nevertheless, the information interactions that occur in the communication network may make sensitive information be revealed. In this paper, we develop a new privacy-preserving average consensus method on unbalanced directed networks. Specifically, we ensure privacy preservation by carefully embedding randomness in mixing weights to confuse communications and introducing an extra auxiliary parameter to mask the state-updated rule in several initial iterations. In parallel, we exploit the intrinsic robustness of consensus dynamics to guarantee that the average consensus is precisely achieved. Theoretical results demonstrate that the designed algorithms can converge linearly to the exact average consensus value and can guarantee privacy preservation of agents against both honest-but-curious and eavesdropping attacks. The designed algorithms are fundamentally different compared to differential privacy based algorithms that enable privacy preservation via sacrificing consensus performance. Finally, numerical experiments validate the correctness of the theoretical findings.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-17T06:50:56Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Huqiang Cheng</name>
+    </author>
+    <author>
+      <name>Mengying Xie</name>
+    </author>
+    <author>
+      <name>Xiaowei Yang</name>
+    </author>
+    <author>
+      <name>Qingguo Lü</name>
+    </author>
+    <author>
+      <name>Huaqing Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.17984v1</id>
+    <title>Models as Agents: Optimizing Multi-Step Predictions of Interactive Local Models in Model-Based Multi-Agent Reinforcement Learning</title>
+    <updated>2023-03-31T11:42:04Z</updated>
+    <link href="https://arxiv.org/abs/2303.17984v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.17984v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research in model-based reinforcement learning has made significant progress in recent years. Compared to single-agent settings, the exponential dimension growth of the joint state-action space in multi-agent systems dramatically increases the complexity of the environment dynamics, which makes it infeasible to learn an accurate global model and thus necessitates the use of agent-wise local models. However, during multi-step model rollouts, the prediction of one local model can affect the predictions of other local models in the next step. As a result, local prediction errors can be propagated to other localities and eventually give rise to considerably large global errors. Furthermore, since the models are generally used to predict for multiple steps, simply minimizing one-step prediction errors regardless of their long-term effect on other models may further aggravate the propagation of local errors. To this end, we propose Models as AGents (MAG), a multi-agent model optimization framework that reversely treats the local models as multi-step decision making agents and the current policies as the dynamics during the model rollout process. In this way, the local models are able to consider the multi-step mutual affect between each other before making predictions. Theoretically, we show that the objective of MAG is approximately equivalent to maximizing a lower bound of the true environment return. Experiments on the challenging StarCraft II benchmark demonstrate the effectiveness of MAG.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-31T11:42:04Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Zifan Wu</name>
+    </author>
+    <author>
+      <name>Chao Yu</name>
+    </author>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+    <author>
+      <name>Jianye Hao</name>
+    </author>
+    <author>
+      <name>Hankz Hankui Zhuo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.13326v3</id>
+    <title>Decentralized Adversarial Training over Graphs</title>
+    <updated>2025-05-12T08:53:31Z</updated>
+    <link href="https://arxiv.org/abs/2303.13326v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.13326v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vulnerability of machine learning models to adversarial attacks has been attracting considerable attention in recent years. Most existing studies focus on the behavior of stand-alone single-agent learners. In comparison, this work studies adversarial training over graphs, where individual agents are subjected to perturbations of varied strength levels across space. It is expected that interactions by linked agents, and the heterogeneity of the attack models that are possible over the graph, can help enhance robustness in view of the coordination power of the group. Using a min-max formulation of distributed learning, we develop a decentralized adversarial training framework for multi-agent systems. Specifically, we devise two decentralized adversarial training algorithms by relying on two popular decentralized learning strategies--diffusion and consensus. We analyze the convergence properties of the proposed framework for strongly-convex, convex, and non-convex environments, and illustrate the enhanced robustness to adversarial attacks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-23T15:05:16Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2303.01936</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ying Cao</name>
+    </author>
+    <author>
+      <name>Elsa Rizk</name>
+    </author>
+    <author>
+      <name>Stefan Vlaski</name>
+    </author>
+    <author>
+      <name>Ali H. Sayed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.15299v1</id>
+    <title>Resilient Output Consensus Control of Heterogeneous Multi-agent Systems against Byzantine Attacks: A Twin Layer Approach</title>
+    <updated>2023-03-22T18:23:21Z</updated>
+    <link href="https://arxiv.org/abs/2303.15299v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.15299v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the problem of cooperative control of heterogeneous multi-agent systems (MASs) against Byzantine attacks. The agent affected by Byzantine attacks sends different wrong values to all neighbors while applying wrong input signals for itself, which is aggressive and difficult to be defended. Inspired by the concept of Digital Twin, a new hierarchical protocol equipped with a virtual twin layer (TL) is proposed, which decouples the above problems into the defense scheme against Byzantine edge attacks on the TL and the defense scheme against Byzantine node attacks on the cyber-physical layer (CPL). On the TL, we propose a resilient topology reconfiguration strategy by adding a minimum number of key edges to improve network resilience. It is strictly proved that the control strategy is sufficient to achieve asymptotic consensus in finite time with the topology on the TL satisfying strongly $(2f+1)$-robustness. On the CPL, decentralized chattering-free controllers are proposed to guarantee the resilient output consensus for the heterogeneous MASs against Byzantine node attacks. Moreover, the obtained controller shows exponential convergence. The effectiveness and practicality of the theoretical results are verified by numerical examples.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T18:23:21Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Xin Gong</name>
+    </author>
+    <author>
+      <name>Yiwen Liang</name>
+    </author>
+    <author>
+      <name>Yukang Cui</name>
+    </author>
+    <author>
+      <name>Shi Liang</name>
+    </author>
+    <author>
+      <name>Tingwen Huang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12823v1</id>
+    <title>Data-Driven Leader-following Consensus for Nonlinear Multi-Agent Systems against Composite Attacks: A Twins Layer Approach</title>
+    <updated>2023-03-22T17:20:35Z</updated>
+    <link href="https://arxiv.org/abs/2303.12823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper studies the leader-following consensuses of uncertain and nonlinear multi-agent systems against composite attacks (CAs), including Denial of Service (DoS) attacks and actuation attacks (AAs). A double-layer control framework is formulated, where a digital twin layer (TL) is added beside the traditional cyber-physical layer (CPL), inspired by the recent Digital Twin technology. Consequently, the resilient control task against CAs can be divided into two parts: One is distributed estimation against DoS attacks on the TL and the other is resilient decentralized tracking control against actuation attacks on the CPL. %The data-driven scheme is used to deal with both model non-linearity and model uncertainty, in which only the input and output data of the system are employed throughout the whole control process. First, a distributed observer based on switching estimation law against DoS is designed on TL. Second, a distributed model free adaptive control (DMFAC) protocol based on attack compensation against AAs is designed on CPL. Moreover, the uniformly ultimately bounded convergence of consensus error of the proposed double-layer DMFAC algorithm is strictly proved. Finally, the simulation verifies the effectiveness of the resilient double-layer control scheme.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T17:20:35Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Xin Gong</name>
+    </author>
+    <author>
+      <name>Jintao Peng</name>
+    </author>
+    <author>
+      <name>Dong Yang</name>
+    </author>
+    <author>
+      <name>Zhan Shu</name>
+    </author>
+    <author>
+      <name>Tingwen Huang</name>
+    </author>
+    <author>
+      <name>Yukang Cui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.11800v1</id>
+    <title>RSSI-based Localization with Adaptive Noise Covariance Estimation for Resilient Multi-Agent Formations</title>
+    <updated>2023-03-21T12:34:55Z</updated>
+    <link href="https://arxiv.org/abs/2303.11800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.11800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Typical cooperative multi-agent systems (MASs) exchange information to coordinate their motion in proximity-based control consensus schemes to complete a common objective. However, in the event of faults or cyber attacks to on-board positioning sensors of agents, global control performance may be compromised resulting in a hijacking of the entire MAS. For systems that operate in unknown or landmark-free environments (e.g., open terrain, sea, or air) and also beyond range/proximity sensing of nearby agents, compromised agents lose localization capabilities. To maintain resilience in these scenarios, we propose a method to recover compromised agents by utilizing Received Signal Strength Indication (RSSI) from nearby agents (i.e., mobile landmarks) to provide reliable position measurements for localization. To minimize estimation error: i) a multilateration scheme is proposed to leverage RSSI and position information received from neighboring agents as mobile landmarks and ii) a Kalman filtering method adaptively updates the unknown RSSI-based position measurement covariance matrix at runtime that is robust to unreliable state estimates. The proposed framework is demonstrated with simulations on MAS formations in the presence of faults and cyber attacks to on-board position sensors.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-21T12:34:55Z</published>
+    <arxiv:comment>Accepted to the 2023 IEEE American Control Conference (ACC) and will be presented in San Diego, CA, USA</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Paul J Bonczek</name>
+    </author>
+    <author>
+      <name>Nicola Bezzo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.08171v1</id>
+    <title>Resilient Dynamic Average Consensus based on Trusted agents</title>
+    <updated>2023-03-14T18:40:56Z</updated>
+    <link href="https://arxiv.org/abs/2303.08171v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.08171v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we address the discrete-time dynamic average consensus (DAC) of a multi-agent system in the presence of adversarial attacks. The adversarial attack is considered to be of Byzantine type, which compromises the computation capabilities of the agent and sends arbitrary false data to its neighbours. We assume a few of the agents cannot be compromised by adversaries, which we term trusted agents. We first formally define resilient DAC in the presence of Byzantine adversaries. Then we propose our novel Resilient Dynamic Average Consensus (ResDAC) algorithm that ensures the trusted and ordinary agents achieve resilient DAC in the presence of adversarial agents. The only requirements are that of the trusted agents forming a connected dominating set and the first-order differences of the reference signals being bounded. We do not impose any restriction on the tolerable number of adversarial agents that can be present in the network. We also do not restrict the reference signals to be bounded. Finally, we provide numerical simulations to illustrate the effectiveness of the proposed ResDAC algorithm.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-14T18:40:56Z</published>
+    <arxiv:comment>Initial Draft</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Shamik Bhattacharyya</name>
+    </author>
+    <author>
+      <name>Rachel Kalpana Kalaimani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.01936v1</id>
+    <title>Multi-Agent Adversarial Training Using Diffusion Learning</title>
+    <updated>2023-03-03T14:05:59Z</updated>
+    <link href="https://arxiv.org/abs/2303.01936v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.01936v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work focuses on adversarial learning over graphs. We propose a general adversarial training framework for multi-agent systems using diffusion learning. We analyze the convergence properties of the proposed scheme for convex optimization problems, and illustrate its enhanced robustness to adversarial attacks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-03T14:05:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ying Cao</name>
+    </author>
+    <author>
+      <name>Elsa Rizk</name>
+    </author>
+    <author>
+      <name>Stefan Vlaski</name>
+    </author>
+    <author>
+      <name>Ali H. Sayed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.01379v1</id>
+    <title>Planning and Control of Uncertain Cooperative Mobile Manipulator-Endowed Systems under Temporal-Logic Tasks</title>
+    <updated>2023-03-02T16:03:30Z</updated>
+    <link href="https://arxiv.org/abs/2303.01379v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.01379v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Control and planning of multi-agent systems is an active and increasingly studied topic of research, with many practical applications such as rescue missions, security, surveillance, and transportation. This thesis addresses the planning and control of multi-agent systems under temporal logic tasks. The considered systems concern complex, robotic, manipulator-endowed systems, which can coordinate in order to execute complicated tasks, including object manipulation/transportation. Motivated by real-life scenarios, we take into account high-order dynamics subject to model uncertainties and unknown disturbances. Our approach is based on the integration of tools from the areas of multi-agent systems, intelligent control theory, cooperative object manipulation, discrete abstraction design of multi-agent-object systems, and formal verification. The first part of the thesis is devoted to the design of continuous control protocols for cooperative object manipulation/transportation by multiple robotic agents, and the relation of rigid cooperative manipulation schemes to multi-agent formation. In the second part of the thesis, we develop control schemes for the continuous coordination of multi-agent complex systems with uncertain dynamics, focusing on multi-agent navigation with collision specifications in obstacle-cluttered environments. The third part of the thesis is focused on the planning and control of multi-agent and multi-agent-object systems subject to complex tasks expressed as temporal logic formulas. The fourth and final part of the thesis focuses on several extension schemes for single-agent setups, such as motion planning under timed temporal tasks and asymptotic reference tracking for unknown systems while respecting funnel constraints.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-02T16:03:30Z</published>
+    <arxiv:comment>PhD thesis; also available at http://kth.diva-portal.org/smash/get/diva2:1427745/FULLTEXT01.pdf</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Christos Verginis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.00920v2</id>
+    <title>Beacon-based Distributed Structure Formation in Multi-agent Systems</title>
+    <updated>2023-07-29T02:27:27Z</updated>
+    <link href="https://arxiv.org/abs/2303.00920v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.00920v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous shape and structure formation is an important problem in the domain of large-scale multi-agent systems. In this paper, we propose a 3D structure representation method and a distributed structure formation strategy where settled agents guide free moving agents to a prescribed location to settle in the structure. Agents at the structure formation frontier looking for neighbors to settle act as beacons, generating a surface gradient throughout the formed structure propagated by settled agents. Free-moving agents follow the surface gradient along the formed structure surface to the formation frontier, where they eventually reach the closest beacon and settle to continue the structure formation following a local bidding process. Agent behavior is governed by a finite state machine implementation, along with potential field-based motion control laws. We also discuss appropriate rules for recovering from stagnation points. Simulation experiments are presented to show planar and 3D structure formations with continuous and discontinuous boundary/surfaces, which validate the proposed strategy, followed by a scalability analysis.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-02T02:40:29Z</published>
+    <arxiv:comment>8 pages, 6 figures, accepted for publication in IROS 2023. A link to the simulation videos is provided under the Validation section</arxiv:comment>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Tamzidul Mina</name>
+    </author>
+    <author>
+      <name>Wonse Jo</name>
+    </author>
+    <author>
+      <name>Shyam S. Kannan</name>
+    </author>
+    <author>
+      <name>Byung-Cheol Min</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.14689v1</id>
+    <title>Robust one-shot estimation over shared networks in the presence of denial-of-service attacks</title>
+    <updated>2023-02-28T16:00:03Z</updated>
+    <link href="https://arxiv.org/abs/2302.14689v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.14689v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent systems often communicate over low-power shared wireless networks in unlicensed spectrum, prone to denial-of-service attacks. We consider the following scenario: multiple pairs of agents communicating strategically over shared communication networks in the presence of a jammer who may launch a denial-of-service. We cast this problem as a game between a coordinator who optimizes the transmission and estimation policies jointly and a jammer who optimizes its probability of performing an attack. We consider two cases: point-to-point channels and large-scale networks with a countably infinite number of sensor-receiver pairs. When the jammer proactively attacks the channel, the game is nonconvex from the coordinator's perspective. However, despite the lack of convexity, we construct a saddle point equilibrium solution for any multi-variate Gaussian distribution for the observations. When the jammer is reactive, we obtain an algorithm based on sequential convex optimization, which converges swiftly to first-order Nash-equilibria. Interestingly, blocking the channel is often optimal when the jammer is reactive, even when it is idle, to create ambiguity at the receiver.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-28T16:00:03Z</published>
+    <arxiv:comment>Submitted to IEEE Transactions on Automatic Control</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Xu Zhang</name>
+    </author>
+    <author>
+      <name>Marcos M. Vasconcelos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.12244v4</id>
+    <title>To the Noise and Back: Diffusion for Shared Autonomy</title>
+    <updated>2025-08-27T02:12:36Z</updated>
+    <link href="https://arxiv.org/abs/2302.12244v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.12244v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Shared autonomy is an operational concept in which a user and an autonomous agent collaboratively control a robotic system. It provides a number of advantages over the extremes of full-teleoperation and full-autonomy in many settings. Traditional approaches to shared autonomy rely on knowledge of the environment dynamics, a discrete space of user goals that is known a priori, or knowledge of the user's policy -- assumptions that are unrealistic in many domains. Recent works relax some of these assumptions by formulating shared autonomy with model-free deep reinforcement learning (RL). In particular, they no longer need knowledge of the goal space (e.g., that the goals are discrete or constrained) or environment dynamics. However, they need knowledge of a task-specific reward function to train the policy. Unfortunately, such reward specification can be a difficult and brittle process. On top of that, the formulations inherently rely on human-in-the-loop training, and that necessitates them to prepare a policy that mimics users' behavior. In this paper, we present a new approach to shared autonomy that employs a modulation of the forward and reverse diffusion process of diffusion models. Our approach does not assume known environment dynamics or the space of user goals, and in contrast to previous work, it does not require any reward feedback, nor does it require access to the user's policy during training. Instead, our framework learns a distribution over a space of desired behaviors. It then employs a diffusion model to translate the user's actions to a sample from this distribution. Crucially, we show that it is possible to carry out this process in a manner that preserves the user's control authority. We evaluate our framework on a series of challenging continuous control tasks, and analyze its ability to effectively correct user actions while maintaining their autonomy.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-23T18:58:36Z</published>
+    <arxiv:comment>https://diffusion-for-shared-autonomy.github.io/</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Takuma Yoneda</name>
+    </author>
+    <author>
+      <name>Luzhe Sun</name>
+    </author>
+    <author>
+      <name>Ge Yang</name>
+    </author>
+    <author>
+      <name>Bradly Stadie</name>
+    </author>
+    <author>
+      <name>Matthew Walter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.11491v1</id>
+    <title>A Supervisory Learning Control Framework for Autonomous &amp; Real-time Task Planning for an Underactuated Cooperative Robotic task</title>
+    <updated>2023-02-22T16:59:06Z</updated>
+    <link href="https://arxiv.org/abs/2302.11491v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.11491v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a framework for cooperative manipulation, applied on an underactuated manipulation problem. Two stationary robotic manipulators are required to cooperate in order to reposition an object within their shared work space. Control of multi-agent systems for manipulation tasks cannot rely on individual control strategies with little to no communication between the agents that serve the common objective through swarming. Instead a coordination strategy is required that queries subtasks to the individual agents. We formulate the problem in a Task And Motion Planning (TAMP) setting, while considering a decomposition strategy that allows us to treat the task and motion planning problems separately. We solve the supervisory planning problem offline using deep Reinforcement Learning techniques resulting into a supervisory policy capable of coordinating the two manipulators into a successful execution of the pick-and-place task. Additionally, a benefit of solving the task planning problem offline is the possibility of real-time (re)planning, demonstrating robustness in the event of subtask execution failure or on-the-fly task changes. The framework achieved zero-shot deployment on the real setup with a success rate that is higher than 90%.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-22T16:59:06Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Sander De Witte</name>
+    </author>
+    <author>
+      <name>Tom Lefebvre</name>
+    </author>
+    <author>
+      <name>Thijs Van Hauwermeiren</name>
+    </author>
+    <author>
+      <name>Guillaume Crevecoeur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.01063v2</id>
+    <title>Towards Modelling and Verification of Social Explainable AI</title>
+    <updated>2023-10-19T16:45:13Z</updated>
+    <link href="https://arxiv.org/abs/2302.01063v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.01063v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Social Explainable AI (SAI) is a new direction in artificial intelligence that emphasises decentralisation, transparency, social context, and focus on the human users. SAI research is still at an early stage. Consequently, it concentrates on delivering the intended functionalities, but largely ignores the possibility of unwelcome behaviours due to malicious or erroneous activity. We propose that, in order to capture the breadth of relevant aspects, one can use models and logics of strategic ability, that have been developed in multi-agent systems. Using the STV model checker, we take the first step towards the formal modelling and verification of SAI environments, in particular of their resistance to various types of attacks by compromised AI modules.</summary>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-02T12:48:31Z</published>
+    <arxiv:primary_category term="cs.MA"/>
+    <author>
+      <name>Damian Kurpiewski</name>
+    </author>
+    <author>
+      <name>Wojciech Jamroga</name>
+    </author>
+    <author>
+      <name>Teofil Sidoruk</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.12229v1</id>
+    <title>Path Loss Analysis for Low-Altitude Air-to-Air Millimeter-Wave Channel in Built-Up Area</title>
+    <updated>2023-01-28T15:38:46Z</updated>
+    <link href="https://arxiv.org/abs/2301.12229v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.12229v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Communications between unmanned aerial vehicles (UAVs) play an important role in deploying aerial networks. Although some studies reveal that drone-based air-to-air (A2A) channels are relatively clear and thus can be modeled as free-space propagation, such an assumption may not be applicable to drones flying in low altitudes of built-up environments. In practice, low-altitude A2A channel modeling becomes more challenging in urban scenarios since buildings can obstruct the line-of-sight (LOS) path, and multipaths from buildings lead to additional losses. Therefore, we herein focus on modeling low-altitude A2A channels considering a generic urban deployment, where we introduce the evidence of the small-size first Fresnel zone at the millimeter-wave (mmWave) band to approximately derive the LOS probability. Then, the path loss under different propagation conditions is investigated to obtain an integrated path loss model. In addition, we incorporate the impact of imperfect beam alignment on the path loss, where the relation between path loss fluctuation and beam misalignment level is modeled as an exponential form. Finally, comparisons with the 3GPP model show the effectiveness of the proposed analytical model. Numerical simulations in different environments and heights provide practical deployment guidance for aerial networks.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-28T15:38:46Z</published>
+    <arxiv:comment>6 pages, 6 figures, to appear in IEEE ICC 2023</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Zhuangzhuang Cui</name>
+    </author>
+    <author>
+      <name>Abdul Saboor</name>
+    </author>
+    <author>
+      <name>Achiel Colpaert</name>
+    </author>
+    <author>
+      <name>Sofie Pollin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.07823v1</id>
+    <title>Resilient Containment Control of Heterogeneous Multi-Agent Systems Against Unbounded Sensor and Actuator Attacks</title>
+    <updated>2023-01-18T23:38:37Z</updated>
+    <link href="https://arxiv.org/abs/2301.07823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.07823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate local state measurement is important to ensure the reliable operation of distributed multi-agent systems (MAS). Existing fault-tolerant control strategies generally assume the sensor faults to be bounded and uncorrelated. In this paper, we study the ramifications of allowing the sensor attack injections to be unbounded and correlated. These malicious sensor attacks may bypass the conventional attack-detection methods and compromise the cooperative performance and even stability of the distributed networked MAS. Moreover, the attackers may gain access to the actuation computing channels and manipulate the control input commands. To this end, we consider the resilient containment control problem of general linear heterogeneous MAS in the face of correlated and unbounded sensor attacks, as well as general unbounded actuator attacks. We propose an attack-resilient control framework to guarantee the uniform ultimate boundedness of the closed-loop dynamical systems and preserve the bounded containment performance. Compared with existing literature addressing bounded faults and/or disturbances that are unintentionally caused in the sensor and actuator channels, the proposed control protocols are resilient against unknown unbounded attack signals simultaneously injected into sensor and actuator channels, and hence are more practical in the real-world security applications. A numerical example illustrates the efficacy of the proposed result, by highlighting the resilience improvement over the conventional cooperative control method.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-18T23:38:37Z</published>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Shan Zuo</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <author>
+      <name>Yichao Wang</name>
+    </author>
+    <arxiv:doi>10.1109/TCNS.2023.3338772</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TCNS.2023.3338772" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.05327v1</id>
+    <title>Blind Judgement: Agent-Based Supreme Court Modelling With GPT</title>
+    <updated>2023-01-12T23:07:55Z</updated>
+    <link href="https://arxiv.org/abs/2301.05327v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.05327v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel Transformer-based multi-agent system for simulating the judicial rulings of the 2010-2016 Supreme Court of the United States. We train nine separate models with the respective authored opinions of each supreme justice active ca. 2015 and test the resulting system on 96 real-world cases. We find our system predicts the decisions of the real-world Supreme Court with better-than-random accuracy. We further find a correlation between model accuracy with respect to individual justices and their alignment between legal conservatism &amp; liberalism. Our methods and results hold significance for researchers interested in using language models to simulate politically-charged discourse between multiple agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-12T23:07:55Z</published>
+    <arxiv:comment>To appear in the proceedings of the AAAI-23 Workshop on Creative AI Across Modalities</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sil Hamilton</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.02061v1</id>
+    <title>Distributed Control Strategy for Layered Barrier Coverage of Multi-Agent Systems in Uncertain Environments</title>
+    <updated>2023-01-05T13:33:48Z</updated>
+    <link href="https://arxiv.org/abs/2301.02061v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.02061v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents a distributed multi-layer ring barrier coverage algorithm. In order to achieve single-layer ring barrier coverage, a distributed single-layer ring barrier coverage algorithm that maximises the probability of monitoring is proposed. Considering the security risks of single-layer barrier coverage, a distributed adjustment mechanism between multiple layers of barriers is designed and combined with the single-layer ring barrier coverage algorithm to propose a distributed multi-layer ring barrier coverage algorithm. Furthermore, we present a theoretical analysis of the proposed algorithm to demonstrate its effectiveness and necessity. Finally, our algorithm is verified by numerical simulation and experiment.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-05T13:33:48Z</published>
+    <arxiv:comment>29 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Pengyang Fan</name>
+    </author>
+    <author>
+      <name>Chao Zhai</name>
+    </author>
+  </entry>
+</feed>

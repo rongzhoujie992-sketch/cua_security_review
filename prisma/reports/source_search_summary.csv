@@ -1,0 +1,5 @@
+source,identified_occurrences,query_routes_completed,frozen_artifacts
+Google Scholar,4210,48/48,microqueries; occurrence ledger; run log
+arXiv,13503,17/17,occurrence ledger; run log; raw Atom XML
+ACL Anthology,657,17/17,occurrence ledger; run log; official bulk snapshot
+ICLR official proceedings,1,1/1,venue-check occurrence ledger

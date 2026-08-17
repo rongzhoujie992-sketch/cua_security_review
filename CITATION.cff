@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the associated CUA security survey and this versioned reproducibility package."
+title: "CUA Security Survey Reproducibility Artifact: PRISMA and HPAC/HPAT Coding"
+version: "1.0.0"
+date-released: 2026-08-17
+type: dataset
+authors:
+  - family-names: Rong
+    given-names: Zhoujie
+abstract: "Combined PRISMA reproducibility materials and manual HPAC/HPAT source-coding records for a computer-use-agent security survey."

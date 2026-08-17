@@ -1,0 +1,13 @@
+{
+  "study_count": 226,
+  "candidate_operation_count": 501,
+  "candidate_audit_decision_count": 4550,
+  "qualified_hpat_count": 282,
+  "hpat_positive_study_count": 91,
+  "hpat_relation_decision_count": 2538,
+  "evidence_artifact_count": 1927,
+  "control_record_count": 46,
+  "cross_transition_relation_count": 25,
+  "role_study_count": 91,
+  "role_record_count": 273
+}

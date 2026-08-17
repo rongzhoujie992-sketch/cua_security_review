@@ -1,0 +1,29 @@
+digraph PRISMA {
+  graph [rankdir=TB, bgcolor="white", pad="0.2", nodesep="0.55", ranksep="0.45"];
+  node [shape=box, style="rounded", fontname="Arial", fontsize=10, margin="0.14,0.10"];
+  edge [fontname="Arial", fontsize=9];
+
+  A [label="Records identified\nn = 18,371"];
+  B [label="Duplicate occurrences removed\nn = 8,281"];
+  C [label="Records after global deduplication\nn = 10,090"];
+  D [label="Records screened\nn = 10,087"];
+  E [label="Retained report records\nn = 466"];
+  F [label="Alternate report versions consolidated\nn = 87"];
+  G [label="Reports sought for retrieval\nn = 379"];
+  H [label="Reports assessed for eligibility\nn = 378"];
+  I [label="Studies entering final review\nn = 285"];
+  J [label="Main CUA corpus\nn = 222 studies", penwidth=2];
+
+  X0 [label="Other pre-screening removals\nn = 3"];
+  X1 [label="Screening exclusions\nn = 9,621"];
+  X2 [label="Reports not retrieved\nn = 1"];
+  X3 [label="Full-text stage removals\nn = 93\n10 version resolutions + 83 initial exclusions"];
+  X4 [label="Final review exclusions\nn = 63"];
+
+  A -> B -> C -> D -> E -> F -> G -> H -> I -> J;
+  C -> X0;
+  D -> X1;
+  G -> X2;
+  H -> X3;
+  I -> X4;
+}

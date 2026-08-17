@@ -1,0 +1,4 @@
+reason_code,count,definition
+AUTHOR-E01-REDUNDANT,45,"Relevant to the review, but did not add a distinct evidence function beyond a stronger or more directly aligned representative source retained for the same synthesis role."
+AUTHOR-E02-SCOPE,14,"After full-paper review, the study did not fit the final CUA-security scope or a required bounded adjacent/contextual evidence role."
+AUTHOR-E03-EVIDENCE,4,The source did not meet the evidence maturity or technical-support threshold required for final inclusion.

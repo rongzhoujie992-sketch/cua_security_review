@@ -1,0 +1,695 @@
+﻿record_id,report_family_id,title,publication_tier,admissibility_decision,admissibility_basis
+REC-08206,RF-0001,A Comparative Evaluation of AI Agent Security Guardrails,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00511,RF-0002,"A comprehensive survey of agents for computer use: Foundations, challenges, and future directions",OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03174,RF-0002,"A Comprehensive Survey of Agents for Computer Use: Foundations, Challenges, and Future Directions",OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01472,RF-0003,A First Measurement Study on Authentication Security in Real-World Remote MCP Servers,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01284,RF-0004,"A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02415,RF-0005,A Functionality-Grounded Benchmark for Evaluating Web Agents in {E}-commerce Domains,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03046,RF-0005,A Functionality-Grounded Benchmark for Evaluating Web Agents in E-commerce Domains,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03332,RF-0006,(A)I Sees What You Don't: Exploiting New Attack Surfaces in Third-Party Mobile Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01379,RF-0007,A large-scale evolvable dataset for model context protocol ecosystem and security analysis,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-04262,RF-0007,A Large-Scale Evolvable Dataset for Model Context Protocol Ecosystem and Security Analysis,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03649,RF-0008,A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-05522,RF-0009,A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01412,RF-0010,"A Secure Accountability Framework for Multi-Modal Agent Systems: Detecting, Mitigating, and Auditing Data-Poisoning Attacks via Model Context Protocol (MCP) …",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01851,RF-0011,A Security Analysis of the OpenClaw AI Agent Framework,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01089,RF-0012,"A Survey of LLM-Driven AI Agent Communication: Protocols, Security Risks, and Defense Countermeasures",PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00903,RF-0013,A Survey on Benchmarks of LLM-based GUI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00198,RF-0014,A Survey on GUI Agents with Foundation Models Enhanced by Reinforcement Learning,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-00214,RF-0015,A Survey on (M)LLM-Based GUI Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00108,RF-0016,A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01373,RF-0017,"A Systematic Security Analysis of Model Context Protocol: Vulnerabilities, Exploits, and Mitigations",OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-07314,RF-0018,A Systematic Security Evaluation of OpenClaw and Its Variants,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-00040,RF-0019,A Systematization of Security Vulnerabilities in Computer Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07459,RF-0020,A Trajectory-Based Safety Audit of Clawdbot (OpenClaw),PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01476,RF-0021,"A2A Routing Service with MCP Integration: Bridging Security, Auditability, and Governance in AI Agent Systems",OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01817,RF-0022,A2AS: Agentic AI Runtime Security and Self-Defense,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02347,RF-0023,A3: Android Agent Arena for Mobile {GUI} Agents with Essential-State Procedural Evaluation,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03179,RF-0023,A3: Android Agent Arena for Mobile GUI Agents with Essential-State Procedural Evaluation,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-04453,RF-0024,ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03448,RF-0025,"Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01008,RF-0026,Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on {LLM} Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03693,RF-0026,Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01037,RF-0027,Adaptive Evaluation of Out-of-Band Defenses Against Prompt Injection in LLM Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00132,RF-0028,Adaptive Vision-Language Model Routing for Computer Use Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-03578,RF-0029,AdapTools: Adaptive Tool-based Indirect Prompt Injection Attacks on Agentic LLMs,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03107,RF-0030,AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03200,RF-0031,AdvAgent: Controllable Blackbox Red-teaming on Web Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07380,RF-0032,AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03568,RF-0033,Agent Privilege Separation in OpenClaw: A Structural Defense Against Prompt Injection,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-03208,RF-0034,Agent S: An Open Agentic Framework that Uses Computers Like a Human,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07871,RF-0035,Agent-SafetyBench: Evaluating the Safety of LLM Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01090,RF-0036,Agent security bench (asb): Formalizing and benchmarking attacks and defenses in llm-based agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03709,RF-0036,Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07335,RF-0037,Agent-Sentry: Bounding LLM Agents via Execution Provenance,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02142,RF-0038,"Agent Skill Security: Threat Models, Attacks, Defenses, and Evaluation",PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03601,RF-0039,Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01052,RF-0040,AgentArmor: Enforcing Program Analysis on Agent Runtime Trace to Defend Against Prompt Injection,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01659,RF-0041,Agentauditor: Human-level safety and security evaluation for llm agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07815,RF-0041,AgentAuditor: Human-Level Safety and Security Evaluation for LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01111,RF-0042,AGENTCON: PRACTICAL ATTACKS ON GENERALIST WEB AGENTS VIA IMPERCEPTIBLE MANIPULATION,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00994,RF-0043,Agentdam: Privacy leakage evaluation for autonomous web agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03158,RF-0043,AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07515,RF-0044,AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01034,RF-0045,Agentdojo: A dynamic environment to evaluate prompt injection attacks and defenses for llm agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03710,RF-0045,AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01046,RF-0046,AgentForensics: Exploring the Real-Time Prompt Injection Detection and Forensics Threats in LLM Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03881,RF-0047,AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01345,RF-0048,AgentGuard: Repurposing Agentic Orchestrator for Safety Evaluation of Tool Orchestration,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_BOUNDARY_HIGH_EVIDENCE
+REC-02151,RF-0049,AgentGuardian: Learning Access Control Policies to Govern AI Agent Behavior,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-08910,RF-0050,AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00042,RF-0051,AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00018,RF-0052,AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03648,RF-0053,Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01635,RF-0054,AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03803,RF-0055,AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01193,RF-0056,AgentRAE: Remote Action Execution through Notification-based Visual Backdoors against Screenshots-based Mobile GUI Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01244,RF-0057,AgenTRIM: Tool Risk Mitigation for Agentic AI,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01744,RF-0058,Agents Under Siege: Breaking Pragmatic Multi-Agent {LLM} Systems with Optimized Prompt Attacks,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01590,RF-0059,AgentSafe: Safeguarding Large Language Model-based Multi-agent Systems via Hierarchical Data Management,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01045,RF-0060,"AgentSecBench: Measuring Prompt Injection, Privacy Leakage, and Tool-Use Integrity in LLM Agents",PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-00010,RF-0061,Agentsentinel: An end-to-end and real-time security defense framework for computer-use agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03027,RF-0061,AgentSentinel: An End-to-End and Real-Time Security Defense Framework for Computer-Use Agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01014,RF-0062,AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics and Context Purification,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03897,RF-0063,AgentTrap: Measuring Runtime Trust Failures in Third-Party Agent Skills,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04170,RF-0064,AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00793,RF-0065,AgentTypo: Adaptive Typographic Prompt Injection Attacks against Black-box Multimodal Agents,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-02554,RF-0066,{AGENTVIGIL}: Automatic Black-Box Red-teaming for Indirect Prompt Injection against {LLM} Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03681,RF-0067,AgentVigil: Generic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03535,RF-0068,AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-07334,RF-0069,AgentWall: A Runtime Safety Layer for Local AI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01066,RF-0070,AgentWatcher: A Rule-based Prompt Injection Monitor,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01505,RF-0071,AIP: Agent Identity Protocol for Verifiable Delegation Across MCP and A2A,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03539,RF-0072,An AI Agent Execution Environment to Safeguard User Data,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00583,RF-0073,Androidworld: A dynamic benchmarking environment for autonomous agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03232,RF-0073,AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01212,RF-0074,Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-00217,RF-0075,AppAgent-Claw: CLI Is All You Need for GUI Automation,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00544,RF-0076,Appagent: Multimodal agents as smartphone users,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03434,RF-0076,AppAgent: Multimodal Agents as Smartphone Users,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00194,RF-0077,Appagent-pro: A proactive gui agent system for multidomain information integration and user assistance,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03041,RF-0077,AppAgent-Pro: A Proactive GUI Agent System for Multidomain Information Integration and User Assistance,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-00567,RF-0078,AppAgent v2: Advanced Agent for Flexible Mobile Interactions,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03163,RF-0079,AppAgentX: Evolving GUI Agents as Proficient Smartphone Users,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01029,RF-0080,Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01709,RF-0081,Architecture Matters for Multi-Agent Security,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00210,RF-0082,Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-00050,RF-0083,"""Are We Done Yet?"": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents",WORKSHOP,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01146,RF-0084,Argus: Defending against multimodal indirect prompt injection via steering instruction-following behavior,STRONG_ADJACENT_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09940,RF-0084,ARGUS: Defending Against Multimodal Indirect Prompt Injection via Steering Instruction-Following Behavior,STRONG_ADJACENT_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01071,RF-0085,ARGUS: Defending LLM Agents Against Context-Aware Prompt Injection,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-09548,RF-0086,Argus: Reorchestrating Static Analysis via a Multi-Agent Ensemble for Full-Chain Security Vulnerability Detection,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01068,RF-0087,"Ariadne: Adaptive, Human-in-the-Loop Defense for AI Agents against Indirect Prompt Injection",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03512,RF-0088,ASPI: Seeking Ambiguity Clarification Amplifies Prompt Injection Vulnerability in LLM Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01044,RF-0089,Assessing Automated Prompt Injection Attacks in Agentic Environments,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-09553,RF-0090,ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01872,RF-0091,"Attack the messages, not the agents: A multi-round adaptive stealthy tampering framework for llm-mas",PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05454,RF-0091,"Attack the Messages, Not the Agents: A Multi-round Adaptive Stealthy Tampering Framework for LLM-MAS",PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00259,RF-0092,Attacking multimodal os agents with malicious image patches,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02597,RF-0093,Attacking Vision-Language Computer Agents via Pop-ups,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03190,RF-0093,Attacking Vision-Language Computer Agents via Pop-ups,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02923,RF-0094,Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01018,RF-0095,AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05394,RF-0096,Audit the Whisper: Detecting Steganographic Collusion in Multi-Agent LLMs,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01490,RF-0097,Auditing MCP Servers for Over-Privileged Tool Capabilities,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01478,RF-0098,"Auditing, Mitigating, and Ensuring Accountability for Poisoning Attacks in Multi-modal Agent Systems Using MCP Servers",OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-05857,RF-0099,AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01773,RF-0100,AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03437,RF-0101,AutoDroid: LLM-powered Task Automation in Android,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03182,RF-0102,AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-06073,RF-0103,Autonomous Intelligent Agents for Natural-Language-Driven Web Execution with Integrated Security Assurance,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01641,RF-0104,{B}ackdoor{A}gent: A Unified Framework for Backdoor Attacks on {LLM}-based Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03743,RF-0104,BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03805,RF-0105,BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03551,RF-0106,BadSkill: Backdoor Attacks on Agent Skills via Model-in-Skill Poisoning,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01162,RF-0107,Before It Persists: Write-Time Defense for Multimodal Agent Memory,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-10032,RF-0108,Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00906,RF-0109,Benchmarking and Improving GUI Agents in High-Dynamic Environments,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-01512,RF-0110,Benchmarking MCP Vulnerability Detection from a Paired Evaluation Perspective,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-02442,RF-0111,Benchmarking Web Agent Safety under {E}-commerce Deceptive Interfaces,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-02776,RF-0111,Benchmarking Web Agent Safety under E-commerce Deceptive Interfaces,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03861,RF-0112,"Benign in Isolation, Harmful in Composition: Security Risks in Agent Skill Ecosystems",PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01241,RF-0113,Beyond Detection: Autonomous Anomaly Remediation for MCP Against Tool Poisoning Attacks,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01295,RF-0114,Beyond the protocol: Unveiling attack vectors in the model context protocol (mcp) ecosystem,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-04046,RF-0114,Beyond the Protocol: Unveiling Attack Vectors in the Model Context Protocol (MCP) Ecosystem,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-01451,RF-0115,BiasAgent: Exploiting Agent Bias for Preference Manipulation Attacks on Model Context Protocol,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01627,RF-0116,Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT),PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01195,RF-0117,"Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System",PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-01725,RF-0118,{B}lind{G}uard: Safeguarding {LLM}-based Multi-Agent Systems under Unknown Attacks,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03659,RF-0118,BlindGuard: Safeguarding LLM-based Multi-Agent Systems under Unknown Attacks,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-00069,RF-0119,BraveGuard: From Open-World Threats to Safer Computer-Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02054,RF-0120,Breaking and Fixing Defenses Against Control Flow Hijacking in Multi-Agent Systems,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04002,RF-0120,Breaking and Fixing Defenses Against Control-Flow Hijacking in Multi-Agent Systems,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01157,RF-0121,Breaking GUI agent Actions: Realistic Adversarial Attacks on Multimodal LLMs,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-02524,RF-0122,Breaking {R}e{A}ct Agents: Foot-in-the-Door Attack Will Get You In,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03703,RF-0122,Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01099,RF-0123,Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00375,RF-0124,BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00338,RF-0125,"Building Browser Agents: Architecture, Security, and Practical Solutions",PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00006,RF-0126,{C}-World: A Computer Use Agent Environment Creator,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-02900,RF-0126,C-World: A Computer Use Agent Environment Creator,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-02067,RF-0127,CAGE: Certified Authorization under Typed-Return Uncertainty for Tool-Using Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00021,RF-0128,CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02603,RF-0129,Can Indirect Prompt Injection Attacks Be Detected and Removed?,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03694,RF-0129,Can Indirect Prompt Injection Attacks Be Detected and Removed?,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01527,RF-0130,Can Model Internals Detect MCP Tool Poisoning That Text Analysis Cannot?,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01912,RF-0131,Capability Gates Are Not Authorization: Confused-Deputy Failures in LLM Agent Frameworks,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00036,RF-0132,Capable but Careless: Do Computer-Use Agents Follow Contextual Integrity?,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01225,RF-0133,CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-03544,RF-0134,CapSeal: Capability-Sealed Secret Mediation for Secure Agent Execution,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01532,RF-0135,CASCADE: A Cascaded Hybrid Defense Architecture for Prompt Injection Detection in MCP-Based Systems,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01042,RF-0136,Cascading Instruction Influence Indirect Prompt Injection in Hierarchical Multi-Agent Systems,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03588,RF-0137,CausalArmor: Efficient Indirect Prompt Injection Guardrails via Causal Attribution,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01221,RF-0138,Caution for the Environment: Multimodal {LLM} Agents are Susceptible to Environmental Distractions,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03220,RF-0138,Caution for the Environment: Multimodal LLM Agents are Susceptible to Environmental Distractions,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00337,RF-0139,ceLLMate: Sandboxing Browser AI Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01523,RF-0140,ChainWatch: A Kill Chain-Aligned Sequential Detection Framework for Multi-Step Attacks in MCP-Based AI Agent Systems,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01120,RF-0141,Chameleon: Adaptive Adversarial Agents for Scaling-Based Visual Prompt Injection in Multimodal AI Systems,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-00186,RF-0142,Characterizing Unintended Consequences in Human-GUI Agent Collaboration for Web Browsing,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01199,RF-0143,Characterizing Unintended Consequences of GUI Agents For Web Browsing,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03644,RF-0144,ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01070,RF-0145,[CITATION] A Hybrid Defense Against Prompt Injection in LLM Agents: Evaluating Security Efficacy and Computational Performance Trade-offs,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01196,RF-0146,[CITATION] AdapAction: Adaptive Target Action Backdoor Attack against GUI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01223,RF-0147,[CITATION] AdapAction: Adaptive Target Action Backdoor Attack against GUI Agents Supplementary Material,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01395,RF-0148,[CITATION] Fuzzing-based Security Vulnerability Detection Method in Model Context Protocol (MCP) Environments,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01445,RF-0149,[CITATION] Fuzzing-based Security Vulnerability Detection Method in Model Context Protocol (MCP) Environments (모델 컨텍스트 프로토콜 (MCP) 환경에서 퍼징 기반 …,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01424,RF-0150,[CITATION] Security Vulnerability Patterns of Model Context Protocol Implementations via Static Analysis,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03575,RF-0151,Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in OpenClaw Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-01015,RF-0152,ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03905,RF-0153,ClawGuard: Out-of-Band Detection of LLM Agent Workflow Hijacking via EM Side Channel,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-07332,RF-0154,"ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents Through Skills, Plugins, and Watchers",PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01100,RF-0155,"ClawSafety: ""Safe"" LLMs, Unsafe Agents",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02818,RF-0156,ClawTrap: A MITM-Based Red-Teaming Framework for Real-World OpenClaw Security Evaluation,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00100,RF-0157,Coact-1: Computer-using multi-agent system with coding actions,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03056,RF-0157,CoAct-1: Computer-using Multi-Agent System with Coding Actions,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00013,RF-0158,Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04731,RF-0159,Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03756,RF-0160,Collaborative Shadows: Distributed Backdoor Attacks in LLM-Based Multi-Agent Systems,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-05243,RF-0161,Colosseum: Auditing Collusion in Cooperative Multi-Agent Systems,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03635,RF-0162,CommandSans: Securing AI Agents with Surgical Precision Prompt Sanitization,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00351,RF-0163,Communication-Efficient Safety Coordination for Large Populations of LLM Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00024,RF-0164,Comparing Human Oversight Strategies for Computer-Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00003,RF-0165,Computer agent arena: Toward human-centric evaluation and analysis of computer-use agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01296,RF-0166,Confused Deputy Attack Against Model Context Protocol,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01873,RF-0167,Conjunctive Prompt Attacks in Multi-Agent {LLM} Systems,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-05145,RF-0167,Conjunctive Prompt Attacks in Multi-Agent LLM Systems,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01305,RF-0168,Context injection vulnerabilities and resource exploitation attacks in model context protocol,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00400,RF-0169,Context manipulation attacks : Web agents are susceptible to corrupted memory,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07367,RF-0170,Context Matters: Repository-Aware Security Analysis of the Agent Skill Ecosystem,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-00965,RF-0171,Contextual agent security: A policy for every purpose,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-06553,RF-0171,Contextual Agent Security: A Policy for Every Purpose,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01163,RF-0172,CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01903,RF-0173,{CORBA}: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05583,RF-0173,CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07145,RF-0174,Counterfactual Trace Auditing of LLM Agent Skills,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-08750,RF-0175,CRAKEN: Cybersecurity LLM Agent with Knowledge-Based Execution,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02984,RF-0176,Cross-Modal Content Optimization for Steering Web Agent Preferences,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-05787,RF-0177,Cryptographically verifiable authorization for autonomous AI agents: A falsifiable hypothesis and proof-of-concept,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00076,RF-0178,CUAAudit: Meta-Evaluation of Vision-Language Models as Auditors of Autonomous Computer-Use Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00099,RF-0179,CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01005,RF-0180,Dark patterns meet gui agents: Llm agent susceptibility to manipulative interfaces and the role of human oversight,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03024,RF-0180,Dark Patterns Meet GUI Agents: LLM Agent Susceptibility to Manipulative Interfaces and the Role of Human Oversight,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02909,RF-0181,DECEPTICON: How Dark Patterns Manipulate Web Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-10023,RF-0182,Defending Against Indirect Prompt Injection Attacks With Spotlighting,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03629,RF-0183,Defending Against Prompt Injection with DataFilter,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01874,RF-0184,Defending LLM-based Multi-Agent Systems Against Cooperative Attacks with Sentence-Level Rectification,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01036,RF-0185,Defense Against Indirect Prompt Injection via Tool Result Parsing,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01899,RF-0186,Demonstrations of Integrity Attacks in Multi-Agent Systems,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01536,RF-0187,"Description-Code Inconsistency in Real-world MCP Servers: Measurement, Detection, and Security Implications",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01450,RF-0188,Desmascarando Vulnerabilidades: Uma Investigação Formal sobre o Impacto dos Fatores Humanos no Model Context Protocol,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-05179,RF-0189,Detecting Multi-Agent Collusion Through Multi-Agent Interpretability,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-09938,RF-0190,Detecting Prompt Injection Attacks Against Application Using Classifiers,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03226,RF-0191,Dissecting Adversarial Robustness of Multimodal LM Agents,WORKSHOP,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01630,RF-0192,Do Agents Dream of False Memories? Black-box Visual Attacks on Long-term Memory in Multimodal AI Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00115,RF-0193,"Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark, a Coding-Domain Cross-Reference, and a Reproducibility Audit of Recent Red-Teaming",PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01509,RF-0194,Don't believe everything you read: Understanding and Measuring MCP Behavior under Misleading Tool Descriptions,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-02419,RF-0195,Don{'}t Click That: Teaching Web Agents to Resist Deceptive Interfaces,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-02755,RF-0195,Don't Click That: Teaching Web Agents to Resist Deceptive Interfaces,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-05211,RF-0196,Don't Let the Claw Grip Your Hand: A Security Analysis and Defense Framework for OpenClaw,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03673,RF-0197,DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01105,RF-0198,Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-09638,RF-0199,DualGauge: Automated Joint Security-Functionality Benchmarking of Specification-Only Code Generation by LLMs and Coding Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03858,RF-0200,Dynamic Malicious Skills in Agentic AI,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-02913,RF-0201,EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-03090,RF-0202,EconWebArena: Benchmarking Autonomous Agents on Economic Tasks in Realistic Web Environments,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-02205,RF-0203,EE-MCP: Self-Evolving MCP-GUI Agents via Automated Environment Generation and Experience Learning,PREPRINT_UNDER_REVIEW,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-03212,RF-0204,EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03935,RF-0205,"""Elementary, My Dear Watson."" Detecting Malicious Skills via Neuro-Symbolic Reasoning across Heterogeneous Artifacts",PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-02806,RF-0206,Emergence WebVoyager: Toward Consistent and Transparent Evaluation of (Web) Agents in The Wild,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-07194,RF-0207,Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-00923,RF-0208,EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_FOUNDATION_SUBSTANTIVE_EVIDENCE
+REC-01191,RF-0209,Environmental Injection Attacks against GUI Agents in Realistic Dynamic Environments,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-02684,RF-0210,ENVS: Environment-Native Verified Search for Long-Horizon GUI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-01413,RF-0211,Etdi: Mitigating tool squatting and rug pull attacks in model context protocol (mcp) by using oauth-enhanced tool definitions and policy-based access control,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-04268,RF-0211,ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by using OAuth-Enhanced Tool Definitions and Policy-Based Access Control,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-00939,RF-0212,{EVA}: Evolving Semantic Adversaries for Red-Teaming {GUI} Agents Against Environmental Injection Attacks,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03121,RF-0212,EVA: Evolving Semantic Adversaries for Red-Teaming GUI Agents Against Environmental Injection Attacks,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-00279,RF-0213,Evaluating the robustness of multimodal agents against active environmental injection attacks,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03308,RF-0213,Evaluating the Robustness of Multimodal Agents Against Active Environmental Injection Attacks,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-10081,RF-0214,Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01935,RF-0215,Execution-Witness Binding: Proof-Carrying Authorization for LLM Agent Runtimes,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00054,RF-0216,Fara-1.5: Scalable Learning Environments for Computer Use Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-10002,RF-0217,FATH: Authentication-based Test-time Defense against Indirect Prompt Injection Attacks,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03824,RF-0218,FAVA: Formal Authorization for Verified Agents with Evidence-Backed Permission Graphs,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-09419,RF-0219,Fidelity Is Not Safety: Gently-Compressed LLMs Pass Every Data-Free Quality Guard Yet Invent Procedure Steps in Agentic Execution,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-05594,RF-0220,Firewalls to Secure Dynamic LLM Agentic Networks,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01500,RF-0221,FlowGuard: From Signals to Evidence for MCP Security Detection,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-02986,RF-0222,FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-01575,RF-0223,Forensic Trajectory Signatures for Agent Memory Poisoning Detection,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-10036,RF-0224,Formalizing and Benchmarking Prompt Injection Attacks and Defenses,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09144,RF-0225,FORTIS: Benchmarking Over-Privilege in Agent Skills,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-05864,RF-0226,From Anatomy to Smells: An Empirical Study of SKILL.md in Agent Skills,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01662,RF-0227,From Assistant to Double Agent: Formalizing and Benchmarking Attacks on OpenClaw for Personalized Local AI Agent,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07298,RF-0228,From Governance Norms to Enforceable Controls: A Layered Translation Method for Runtime Guardrails in Agentic AI,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03670,RF-0229,From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI Agents Workflows,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-10038,RF-0230,From Prompt Injections to SQL Injection Attacks: How Protected is Your LLM-Integrated Web Application?,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01642,RF-0231,From Storage to Steering: Memory Control Flow Attacks on LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00255,RF-0232,From Tool Calls to Governed Autonomy: Agent OS and ECF for Auditable Agent Deployment,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01484,RF-0233,From Tool Connection to Execution Control: Benchmarking Security Invariants in MCP-Style Agent Runtimes,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01563,RF-0234,From Untrusted Input to Trusted Memory: A Systematic Study of Memory Poisoning Attacks in LLM Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01721,RF-0235,{G}-Safeguard: A Topology-Guided Security Lens and Treatment on {LLM}-based Multi-agent Systems,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03695,RF-0235,G-Safeguard: A Topology-Guided Security Lens and Treatment on LLM-based Multi-agent Systems,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00173,RF-0236,GA: A Comprehensive Survey on LLM-based GUI Agent,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02963,RF-0237,Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-01187,RF-0238,GhostEI-Bench: Do Mobile Agent Resilience to Environmental Injection in Dynamic On-Device Environments?,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03299,RF-0239,GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01638,RF-0240,"Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01929,RF-0241,GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01932,RF-0242,Guardagent: safeguard LLM agents via knowledge-enabled reasoning,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05523,RF-0243,GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-06178,RF-0244,"Guardrails Beat Guidance: A Large-Scale Study of Rules, Skills, and Persistent Configuration for Coding Agents",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00113,RF-0245,Gui-360: A comprehensive dataset and benchmark for computer-using agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00118,RF-0245,GUI-360$^\circ$: A Comprehensive Dataset and Benchmark for Computer-Using Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00162,RF-0246,{GUI} Agents: A Survey,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03183,RF-0246,GUI Agents: A Survey,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00149,RF-0247,GUI Agents with Foundation Models: A Comprehensive Survey,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-01219,RF-0248,GUIGuard-Bench: Toward a General Evaluation for Privacy-Preserving GUI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00032,RF-0249,Hackworld: Evaluating computer-use agents on exploiting web application vulnerabilities,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02971,RF-0249,HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02782,RF-0250,"HalluClear: Diagnosing, Evaluating and Mitigating Hallucinations in GUI Agents",PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-01107,RF-0251,HarmonyGuard: Toward Safety and Utility in Web Agents via Adaptive Policy Enhancement and Dual-Objective Optimization,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-01189,RF-0252,Hidden ghost hand: Unveiling backdoor vulnerabilities in mllm-powered mobile gui agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03120,RF-0252,Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM-Powered Mobile GUI Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01562,RF-0253,Hidden in Memory: Sleeper Memory Poisoning in LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09466,RF-0254,Hidden in Plain Sight: Benchmarking Agent Safety Against Decomposition Attacks with DECOMPBENCH,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01567,RF-0255,Hijacking Agent Memory: Stealthy Trojan Attacks Through Conversational Interaction,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00914,RF-0256,Hijacking jarvis: Benchmarking mobile gui agents against unprivileged third parties,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00391,RF-0257,How dark patterns manipulate web agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01810,RF-0258,How Should Your Agent Talk to Mine? Measuring the Utility–Security Frontier of Cross-Boundary Agentic Delegation,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00957,RF-0259,How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00866,RF-0260,How Your Credentials Are Leaked by LLM Agent Skills: An Empirical Study,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-01304,RF-0261,[HTML] ARES: Securing Agents for Computer Use Through Endpoint Resource Mediation and Behavioral Guardrails,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01243,RF-0262,[HTML] Beyond Tool Poisoning: Attack Surfaces of Malicious Remote MCP Servers Across LLM Platforms,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01366,RF-0263,[HTML] Model context protocol threat modeling and analysis of vulnerabilities to prompt injection with tool poisoning,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01048,RF-0264,"[HTML] Prompt injection attacks on agentic coding assistants: A systematic analysis of vulnerabilities in skills, tools, and protocol ecosystems",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01132,RF-0265,[HTML] PromptSentinel-X: A Leakage-Aware and Context-Aware Framework for Prompt-Injection Detection in Large Language Model-Powered Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00995,RF-0266,Human-Guided Harm Recovery for Computer Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02661,RF-0267,HyMobileAgent: Data-Environment Co-Scaling for Efficient GUI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-02718,RF-0268,"""I Strongly Suspect This Website Is a Scam"": Benchmarking PII Leakage and Detection without Defense in Autonomous Web Agents",PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-03764,RF-0269,IAG: Input-aware Backdoor Attack on VLM-based Visual Grounding,STRONG_ADJACENT_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01019,RF-0270,ICON: Indirect Prompt Injection Defense for Agents based on Inference-Time Correction,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01129,RF-0271,If you're waiting for a sign... that might not be it! Mitigating Trust Boundary Confusion from Visual Injections on Vision-Language Agentic Systems,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-06300,RF-0272,ILION: Deterministic Pre-Execution Safety Gates for Agentic AI Systems,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_BOUNDARY_HIGH_EVIDENCE
+REC-01203,RF-0273,In-Context Defense in Computer Agents: An Empirical Study,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01038,RF-0274,"Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?",PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01748,RF-0275,INFA-Guard: Mitigating Malicious Propagation via Infection-Aware Safeguarding in LLM-Based Multi-Agent Systems,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01513,RF-0276,InfrastructureSentinel: Policy enforced guardrails for secure MCP-driven infrastructure agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01028,RF-0277,{I}njec{A}gent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03713,RF-0277,InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01676,RF-0278,Injection-Execution Dissociation: A Mechanistic Evaluation of Persistent Memory Attacks and Defenses in Stateful LLM Agents,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01283,RF-0279,Intent-Governed Tool Authorization for AI Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01303,RF-0280,IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00432,RF-0281,Investigating the impact of dark patterns on llm-based web agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02964,RF-0281,Investigating the Impact of Dark Patterns on LLM-Based Web Agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01897,RF-0282,IP Leakage Attacks Targeting LLM-Based Multi-Agent Systems,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-03518,RF-0283,IPI-proxy: An Intercepting Proxy for Red-Teaming Web-Browsing AI Agents Against Indirect Prompt Injection,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01013,RF-0284,{IPIG}uard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in {LLM} Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03654,RF-0284,IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01679,RF-0285,Isolated but Exposed: Persistence-Based Memory Extraction Attack on LLM Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-02908,RF-0286,It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00110,RF-0287,{JARVIS} or Ultron? A Survey on the Safety and Security Threats of Computer-Using Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-00037,RF-0288,Just do it!? computer-use agents exhibit blind goal-directedness,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02988,RF-0288,Just Do It!? Computer-Use Agents Exhibit Blind Goal-Directedness,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00163,RF-0289,Large Language Model-Brained GUI Agents: A Survey,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-01202,RF-0290,Lasm: Layer-wise scaling mechanism for defending pop-up attack on gui agents,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-03065,RF-0290,LaSM: Layer-wise Scaling Mechanism for Defending Pop-up Attack on GUI Agents,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-01348,RF-0291,Les Dissonances: Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09980,RF-0292,Lessons from Defending Gemini Against Indirect Prompt Injections,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03508,RF-0293,LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01881,RF-0294,Llm-based multi-agents system attack via continuous optimization with discrete efficient search,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00598,RF-0295,LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-09976,RF-0296,LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01051,RF-0297,Log-to-leak: Prompt injection attacks on tool-using LLM agents via model context protocol,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00897,RF-0298,LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02709,RF-0299,MacArena: Benchmarking Computer Use Agents on an Online macOS Environment,WORKSHOP,EXCLUDE,WORKSHOP_OR_NONCORE_EVIDENCE
+REC-00220,RF-0300,macosworld: A multilingual interactive benchmark for gui agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03094,RF-0300,macOSWorld: A Multilingual Interactive Benchmark for GUI Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03667,RF-0301,MAD-Spear: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03488,RF-0302,MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01242,RF-0303,MalTool: Malicious Tool Attacks on LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00430,RF-0304,Manipulating LLM Web Agents with Indirect Prompt Injection Attack via HTML Accessibility Tree,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01116,RF-0305,Manipulating multimodal agents via cross-modal prompt injection,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01207,RF-0306,MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-06091,RF-0307,MATRA: Modeling the Attack Surface of Agentic AI Systems -- OpenClaw Case Study,WORKSHOP,EXCLUDE,WORKSHOP_OR_NONCORE_EVIDENCE
+REC-01428,RF-0308,{MCIP}: Protecting {MCP} Safety via Model Contextual Integrity Protocol,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04272,RF-0308,MCIP: Protecting MCP Safety via Model Contextual Integrity Protocol,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01389,RF-0309,MCP-DPT: A Defense-Placement Taxonomy and Coverage Analysis for Model Context Protocol Security,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01414,RF-0310,{MCP}-Guard: A Multi-Stage Defense-in-Depth Framework for Securing Model Context Protocol in Agentic {AI},PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03658,RF-0310,MCP-Guard: A Multi-Stage Defense-in-Depth Framework for Securing Model Context Protocol in Agentic AI,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01463,RF-0311,MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01239,RF-0312,MCP-ITP: An Automated Framework for Implicit Tool Poisoning in MCP,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01479,RF-0313,MCP Pitfall Lab: Exposing Developer Pitfalls in MCP Tool Server Security under Multi-Vector Attacks,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01385,RF-0314,MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01438,RF-0314,MCP safety audit: LLMs with the model context protocol allow major security exploits,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01496,RF-0315,MCP-safetybench: A benchmark for safety evaluation of large language models with real-world MCP servers,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04226,RF-0315,MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01547,RF-0316,MCP-SandboxScan: WASM-based Secure Execution and Runtime Analysis for MCP Tools,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01400,RF-0317,MCP-Scanner: Detecting Security Risks in Model Context Protocol Systems,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01260,RF-0318,Mcp security bench (msb): Benchmarking attacks against model context protocol in llm agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03631,RF-0318,MCP Security Bench (MSB): Benchmarking Attacks Against Model Context Protocol in LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01306,RF-0319,MCPGuard : Automatically Detecting Vulnerabilities in MCP Servers,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01392,RF-0320,MCPSecBench: A Systematic Security Benchmark and Playground for Testing Model Context Protocols,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01383,RF-0321,MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04026,RF-0322,MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01237,RF-0323,Mcptox: A benchmark for tool poisoning on real-world mcp servers,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00049,RF-0324,"MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents",PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_FOUNDATION_SUBSTANTIVE_EVIDENCE
+REC-00106,RF-0325,Measuring Harmfulness of Computer-Using Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01010,RF-0326,MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01577,RF-0327,MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01573,RF-0328,MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01608,RF-0329,Memory injection attacks on LLM agents via query-only interaction,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04771,RF-0329,Memory Injection Attacks on LLM Agents via Query-Only Interaction,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01555,RF-0330,Memory poisoning and secure multi-agent systems,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01554,RF-0331,Memory Poisoning Attack and Defense on Memory Based LLM-Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01636,RF-0332,Memory poisoning attacks on retrieval-augmented Large Language Model agents via deceptive semantic reasoning,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01667,RF-0333,Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01558,RF-0334,MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01561,RF-0335,MemPoison: Uncovering Persistent Memory Threats and Structural Blind Spots in LLM Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01599,RF-0336,MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01589,RF-0337,MemShield: A Three-Tier Retrieval-Time Defense Against Coordinated Memory Poisoning in LLM Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01565,RF-0338,MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01197,RF-0339,Mind the Gap: Action Rebinding Attacks against Android GUI Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00136,RF-0340,Mind the web: The security of web use agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09726,RF-0340,Mind the Web: The Security of Web Use Agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01238,RF-0341,MindGuard: Intrinsic Decision Inspection for Securing LLM Agents Against Metadata Poisoning,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01530,RF-0342,"Mindguard: Tracking, detecting, and attributing mcp tool poisoning attack via decision dependence graph",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00258,RF-0343,MIP against agent: Malicious image patches hijacking multimodal OS agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03157,RF-0343,MIP against Agent: Malicious Image Patches Hijacking Multimodal OS Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09906,RF-0344,MIPIAD: Multilingual Indirect Prompt Injection Attack Defense with Qwen -- TF-IDF Hybrid and Meta-Ensemble Learning,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_BOUNDARY_HIGH_EVIDENCE
+REC-01133,RF-0345,MIRAGE: Context-Aware Prompt Injection against Mobile GUI Agents via User-Generated Content,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01119,RF-0346,MIRAGE: Stealthy Visual Prompt Injection for Vulnerability Detection in Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01150,RF-0347,MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_BOUNDARY_HIGH_EVIDENCE
+REC-03618,RF-0348,Mitigating Indirect Prompt Injection via Instruction-Following Intent Analysis,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01208,RF-0349,MMPro: A Decoupled Perception-Thinking-Execution Framework for Secure GUI Agent,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-00876,RF-0350,Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_FOUNDATION_FULLTEXT_CONFIRMATION
+REC-02792,RF-0351,Mobile GUI Agent Privacy Personalization with Trajectory Induced Preference Optimization,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00193,RF-0352,Mobile GUI Agents under Real-world Threats: Are We There Yet?,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-00828,RF-0353,Mobilesafetybench: Evaluating safety of autonomous agents in mobile device control,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03419,RF-0353,MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01364,RF-0354,"Model context protocol (mcp): Landscape, security threats, and future research directions",OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04280,RF-0354,"Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions",OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03559,RF-0355,Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09445,RF-0356,MOSAIC: Knowledge-Guided CLI Command Composition Attack in LLM Coding Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01439,RF-0357,Mpma: Preference manipulation attack against model context protocol,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04274,RF-0357,MPMA: Preference Manipulation Attack Against Model Context Protocol,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02185,RF-0358,Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00973,RF-0359,Multi-Agent Systems Execute Arbitrary Malicious Code,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01027,RF-0360,MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02100,RF-0361,NEXUS: Structured Runtime Safety for Tool-Using LLM Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00336,RF-0362,NNetNav: Unsupervised Learning of Browser Agents Through Environment Interaction in the Wild,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-01646,RF-0363,No Attacker Needed: Unintentional Cross-User Contamination in Shared-State LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01016,RF-0364,Not what you've signed up for: Compromising real-world llm-integrated applications with indirect prompt injection,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-10043,RF-0364,Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03615,RF-0365,ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-02800,RF-0366,OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_FOUNDATION_SUBSTANTIVE_EVIDENCE
+REC-00372,RF-0367,On the Suitability of LLM-Driven Agents for Dark Pattern Audits,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-08695,RF-0368,OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01361,RF-0369,OpenClaw in the Wild: Security Analysis of Autonomous Agents,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01334,RF-0370,"OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05090,RF-0371,OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-07292,RF-0372,OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00685,RF-0373,OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03197,RF-0374,"OpenWebVoyager: Building Multimodal Web Agents via Iterative Real-World Exploration, Feedback and Optimization",PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00233,RF-0375,"{OS} Agents: A Survey on {MLLM}-based Agents for Computer, Phone and Browser Use",PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00189,RF-0376,OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-00046,RF-0377,Os-harm: A benchmark for measuring safety of computer use agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03083,RF-0377,OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00092,RF-0378,OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00140,RF-0379,{OS}-Sentinel: Towards Safety-Enhanced Mobile {GUI} Agents via Hybrid Validation in Realistic Workflows,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02955,RF-0379,OS-Sentinel: Towards Safety-Enhanced Mobile GUI Agents via Hybrid Validation in Realistic Workflows,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00248,RF-0380,"OS-SPEAR: A Toolkit for the Safety, Performance,Efficiency, and Robustness Analysis of OS Agents",PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-02694,RF-0381,OSGuard: A Benchmark for Safety in Computer-Use Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00060,RF-0382,OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks,PREPRINT_OR_UNKNOWN,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-03320,RF-0383,OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00053,RF-0384,Osworld-mcp: Benchmarking mcp tool invocation in computer-use agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02954,RF-0384,OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03604,RF-0385,Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05032,RF-0386,Overlaying Governance: A Compositional Authorization Framework for Delegation and Scope in Agentic AI,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01483,RF-0387,Parasites in the toolchain: A large-scale analysis of attacks on the MCP ecosystem,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-04250,RF-0387,Parasites in the Toolchain: A Large-Scale Analysis of Attacks on the MCP Ecosystem,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-06117,RF-0388,Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01963,RF-0389,PAuth - Precise Task-Scoped Authorization For Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01011,RF-0390,[PDF] AGENTVIGIL: Automatic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents.,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01466,RF-0391,[PDF] AI MCP Servers in Cybersecurity: Emerging Attack Vectors and Mitigation Strategies,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01677,RF-0392,[PDF] An RL Framework for Persistent Memory Attacks on LLM Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01918,RF-0393,[PDF] Authority-Conditioned Evaluation of LLM Agents: Measuring Utility and Safety Under User-Delegated Tool Authority,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01059,RF-0394,[PDF] Automated Prompt Injection Attacks Against LLM Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00894,RF-0395,[PDF] Benchmarking Vulnerabilities in LLM-based Computer-Use Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02052,RF-0396,[PDF] Deterministic Architectural Safety for Enterprise AI Agents: A Runtime Enforcement Framework,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00347,RF-0397,[PDF] DynamicWebArena: Evaluating Browser Agents in Evolving Full-Stack Environments,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00416,RF-0398,[PDF] From the Wild Web to the ZOO: A Realistic Environment for Evaluating Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01058,RF-0399,[PDF] Measuring Indirect Prompt Injection in Autonomous Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00445,RF-0400,[PDF] Quantifying web agents-a survey on web agent performance and efficiency,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01420,RF-0401,[PDF] Security Analysis of Agentic Communication Protocols: Model Context Protocol (MCP) and Agent-to-Agent (A2A),PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01188,RF-0402,[PDF] The obvious invisible threat: Llm-powered gui agents' vulnerability to fine-print injections,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-00058,RF-0403,"[PDF] Toward Trustworthy Computer-Use Agents: Risk Propagation, Evaluation Gaps, and Human Governance",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02029,RF-0404,[PDF] Type-State Authorization for LLM Tool Schemas: A Formal Model with Noninterference Guarantees,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00704,RF-0405,[PDF] Web Agents and Benchmarks-A Survey Focusing on Algorithmic Strategies and Performance Ratings,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02924,RF-0406,Permission Manifests for Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00283,RF-0407,Phi-Ground Tech Report: Advancing Perception in GUI Grounding,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03599,RF-0408,PINA: Prompt Injection Attack against Navigation Agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-01890,RF-0409,PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03550,RF-0410,PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03771,RF-0411,"Poison Once, Control Anywhere: Clean-Text Visual Backdoors in VLM-based Mobile Agents",PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-01556,RF-0412,"Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents",PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00984,RF-0413,Preference Redirection via Attention Concentration: An Attack on Computer Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02666,RF-0414,Prismata: Confining Cross-Site Prompt Injection in Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00339,RF-0415,Privacy Practices of Browser Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-00756,RF-0416,Privweb: unobtrusive and content-aware privacy protection for web agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03021,RF-0416,PrivWeb: Unobtrusive and Content-aware Privacy Protection For Web Agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-01961,RF-0417,ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-01267,RF-0418,Progent: Securing AI Agents with Privilege Control,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00976,RF-0419,ProjGuard: Safety Monitoring for Computer-Use Agents via Low-Dimensional Projections,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-02749,RF-0419,ProjGuard: Safety Monitoring for Computer-Use Agents via Low-Dimensional Projections,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-10042,RF-0420,Prompt Injection attack against LLM-integrated Applications,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01056,RF-0421,Prompt Injection Attack to Tool Selection in LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03597,RF-0422,"Prompt Injection Attacks on Agentic Coding Assistants: A Systematic Analysis of Vulnerabilities in Skills, Tools, and Protocol Ecosystems",PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03691,RF-0423,Prompt Injection Detection and Mitigation via AI Multi-Agent NLP Frameworks,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01707,RF-0424,"Prompt Injection Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03600,RF-0424,"Prompt Injection Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03452,RF-0425,PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents through Policy-Violation Concept Analysis,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-02625,RF-0426,{R}-Judge: Benchmarking Safety Risk Awareness for {LLM} Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07931,RF-0426,R-Judge: Benchmarking Safety Risk Awareness for LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00895,RF-0427,Real: Benchmarking autonomous agents on deterministic simulations of real websites,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03404,RF-0427,REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01209,RF-0428,Realistic environmental injection attacks on gui agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03521,RF-0429,Red-Teaming Agent Execution Contexts: Open-World Security Evaluation on OpenClaw,WORKSHOP,EXCLUDE,WORKSHOP_OR_NONCORE_EVIDENCE
+REC-01326,RF-0430,Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01727,RF-0431,Red-Teaming {LLM} Multi-Agent Systems via Communication Attacks,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05582,RF-0431,Red-Teaming LLM Multi-Agent Systems via Communication Attacks,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00089,RF-0432,Redteamcua: Realistic adversarial testing of computer-use agents in hybrid web-os environments,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03106,RF-0432,RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00332,RF-0433,Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00996,RF-0434,Reliable weak-to-strong monitoring of llm agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03040,RF-0434,Reliable Weak-to-Strong Monitoring of LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00966,RF-0435,Rethinking Defense for Computer-Use Agents: Context Deception Attacks are Simple to Defend,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01465,RF-0436,Rethinking MCP Security: A Large-Scale Study of Runtime MCP Servers and Security Scanner Reliability,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-00101,RF-0437,Riosworld: Benchmarking the risk of multimodal computer-use agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00109,RF-0437,RiOSWorld: Benchmarking the risk of multimodal computer-use agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03100,RF-0437,RiOSWorld: Benchmarking the Risk of Multimodal Computer-Use Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03696,RF-0438,RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02044,RF-0439,Runtime Security for Agentic Systems A Practical Two-Plane Approach for OpenClaw-Class Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03866,RF-0440,Runtime Skill Audit: Targeted Runtime Probing for Agent Skill Security,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03159,RF-0441,SafeArena: Evaluating the Safety of Autonomous Web Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-07209,RF-0442,Safeguarding LLM Agents from Misalignment through Provenance Analysis,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-02871,RF-0443,SafePred: A Predictive Guardrail for Computer-Using Agents via World Models,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02391,RF-0444,Safety Sidecar: Reflection-Driven Runtime Control for Safer Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01818,RF-0445,SAGA: A Security Architecture for Governing AI Agentic Systems,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02041,RF-0446,"Same Action, Different Justification: Path-Based Authorization for Irreversible Agent Actions",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00930,RF-0447,ScaleWoB: Guiding GUI Agents with Coding Agents via Large-Scale Environmental Synthesis,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_FOUNDATION_SUBSTANTIVE_EVIDENCE
+REC-09435,RF-0448,ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_BOUNDARY_HIGH_EVIDENCE
+REC-03144,RF-0449,ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02995,RF-0450,SCUBA: Salesforce Computer Use Benchmark,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05688,RF-0451,Secret Collusion among AI Agents: Multi-Agent Deception via Steganography,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00027,RF-0452,Secure and Efficient Access Control for Computer-Use Agents via Context Space,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02362,RF-0453,{S}ecure{W}eb{A}rena: A Holistic Security Evaluation Benchmark for {LVLM}-based Web Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-02976,RF-0453,SecureWebArena: A Holistic Security Evaluation Benchmark for LVLM-based Web Agents,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03623,RF-0454,Securing AI Agents Against Prompt Injection Attacks,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03677,RF-0455,Securing AI Agents with Information-Flow Control,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00071,RF-0456,Securing Computer-Use Agents: A Unified Architecture-Lifecycle Framework for Deployment-Grounded Reliability,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01578,RF-0457,"Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-00367,RF-0458,"Securing LLM Powered AI Browsers Against Prompt Injection: A Comprehensive Survey, Threat Taxonomy, and Defense Framework",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-05364,RF-0459,Securing Multi-Agent Systems Against Corruptions via Node Contribution Backpropagation,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01452,RF-0460,Securing the Model Context Protocol: Defending LLMs against tool poisoning and adversarial attacks,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01248,RF-0461,Securing the Tool Layer: A Threat Taxonomy and Runtime Defense Framework for Model Context Protocol Deployments,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01805,RF-0462,Security analysis of agentic AI communication protocols: A comparative evaluation,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05354,RF-0462,Security Analysis of Agentic AI Communication Protocols: A Comparative Evaluation,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04424,RF-0463,Security Attack and Defense Strategies for Autonomous Agent Frameworks: A Layered Review with OpenClaw as a Case Study,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01394,RF-0464,Security Defense Mechanisms in Model Context Protocol Implementations: A Systematic Literature Review,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-03478,RF-0465,Security Engineering of OpenClaw: Analyzing Attack Surface Expansion and Trust-Boundary Violations,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01276,RF-0466,Security of internet of agents: Attacks and countermeasures,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-08763,RF-0466,Security of Internet of Agents: Attacks and Countermeasures,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01344,RF-0467,"Security of OpenClaw Agents: Fundamentals, Attacks, and Countermeasures",PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00961,RF-0468,Security of Vision-Language Model Agents Against Prompt Injection: From Text-Only Tool Calling to Visual Computer-Use,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02014,RF-0469,Security Risks in Tool-Enabled AI Agents: A Systematic Analysis of Privileged Execution Environments,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01477,RF-0470,"Security Threat Modeling for Emerging AI-Agent Protocols: A Comparative Analysis of MCP, A2A, Agora, and ANP",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03854,RF-0471,Seeing Is Not Screening: Multimodal Hidden Instruction Attacks on Agent Skill Scanners,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01206,RF-0472,SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01251,RF-0473,Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-06131,RF-0474,Semia: Auditing Agent Skills via Constraint-Guided Representation Synthesis,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-05372,RF-0475,SentinelNet: Safeguarding Multi-Agent Collaboration Through Credit-Based Dynamic Threat Detection,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01262,RF-0476,ShareLock: A Stealthy Multi-Tool Threshold Poisoning Attack Against MCP,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-03406,RF-0477,ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01021,RF-0478,[Short Paper] Forensic Analysis of Indirect Prompt Injection Attacks on LLM Agents,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-03616,RF-0479,SIEVE: Selective Integrity Verification and Escalation for Defending LLM Agents against Indirect Prompt Injection,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-01026,RF-0480,Silent Egress: When Implicit Prompt Injection Makes LLM Agents Leak Without a Trace,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01033,RF-0481,Simple Prompt Injection Attacks Can Leak Personal Data Observed by LLM Agents During Task Execution,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE_CORRECTED
+REC-01092,RF-0482,Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01286,RF-0483,Skill poisoning: Attack taxonomies and defense architectures for composable agent skill ecosystems in ai-driven cyber-physical systems,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03827,RF-0484,SkillGate: Cost Efficient Runtime Malicious Skill File Detection in Coding Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-02019,RF-0485,SkillGuard: A Permission-Centric Framework for Agent Skill Security,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01222,RF-0486,SkillHarness: Harnessing Safe Skills for Computer-Use Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-03480,RF-0487,SkillMutator: Benchmarking and Defending Language-and-Code Cross-modal Attacks on LLM Agent Skills,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01788,RF-0488,SkillProbe: Security Auditing for Emerging Agent Skill Marketplaces via Multi-Agent Collaboration,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03845,RF-0489,Skills Are Not Islands: Measuring Dependency and Risk in Agent Skill Supply Chains,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-08253,RF-0490,SkillSieve: A Hierarchical Triage Framework for Detecting Malicious AI Agent Skills,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-09560,RF-0491,SkillTester: Benchmarking Utility and Security of Agent Skills,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01217,RF-0492,SkillTrojan: Backdoor Attacks on Skill-Based Agent Systems,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01654,RF-0493,SkillVetBench: LLM-as-Judge for Multi-Dimensional Security Risk Evaluation in Open-Source LLM Agent Skills,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01194,RF-0494,SlowBA: An efficiency backdoor attack towards VLM-based GUI agents,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-01582,RF-0495,SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00964,RF-0496,SnapGuard: Lightweight Prompt Injection Detection for Screenshot-Based Web Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01663,RF-0497,SpAIware: Uncovering a novel artificial intelligence attack vector through persistent memory in LLM applications and agents,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-04462,RF-0498,"Springdrift: An Auditable Persistent Runtime for LLM Agents with Case-Based Memory, Normative Safety, and Ambient Self-Perception",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03209,RF-0499,ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01594,RF-0500,State Contamination in Memory-Augmented LLM Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-09525,RF-0501,Structured Security Auditing and Robustness Enhancement for Untrusted Agent Skills,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01917,RF-0502,SudoBench: A Contextual Authorization Benchmark for LLM Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01557,RF-0503,SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00157,RF-0504,Susbench: An online benchmark for evaluating dark pattern susceptibility of computer-use agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02974,RF-0504,SusBench: An Online Benchmark for Evaluating Dark Pattern Susceptibility of Computer-Use Agents,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-10012,RF-0505,System-Level Defense against Indirect Prompt Injection Attacks: An Information Flow Control Perspective,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01192,RF-0506,"Systematic Categorization, Construction and Evaluation of New Attacks against Multi-modal Mobile GUI Agents",PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-01631,RF-0507,Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00402,RF-0508,Taming Various Privilege Escalation in LLM-Based Agent Systems: A Mandatory Access Control Framework,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02070,RF-0509,TClone: Low-Latency Forking of Live GUI Environments for Computer-Use Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,FOUNDATION_NOT_NECESSARY_OR_MATURE
+REC-00968,RF-0510,Temporal UI State Inconsistency in Desktop GUI Agents: Formalizing and Defending Against TOCTOU Attacks on Computer-Use Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01875,RF-0511,$\textit{Agents Under Siege}$: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00017,RF-0512,The Art of Building Verifiers for Computer Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-04408,RF-0513,The Authorization-Execution Gap Is a Major Safety and Security Problem in Open-World Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-04132,RF-0514,"The Balkanization of Execution-Security Research for AI Coding Agents: Isolation, Access Control, and Time-of-Check-to-Time-of-Use Vulnerabilities",PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00065,RF-0515,The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00364,RF-0516,The Cognitive Firewall:Securing Browser Based AI Agents Against Indirect Prompt Injection Via Hybrid Edge Cloud Defense,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00348,RF-0517,The Dangers of Indirect Prompt Injection Attacks on {LLM}-based Autonomous Web Navigation Agents: A Demonstration,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00983,RF-0518,The Granularity Mismatch in Agent Security: Argument-Level Provenance Solves Enforcement and Isolates the LLM Reasoning Bottleneck,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01039,RF-0519,The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01566,RF-0520,The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03140,RF-0521,The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00761,RF-0522,The Obvious Invisible Threat: Vulnerabilities of LLM-Powered GUI Agents to Adversarial UI Manipulations in Web Interaction Tasks,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-00972,RF-0523,The Perception Gap: A Survey of VLM Robustness Defenses for Computer-Use Agent Safety,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01009,RF-0524,The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in {LLM} Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03698,RF-0524,The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-05534,RF-0525,The Traitors: Deception and Trust in Multi-Agent Language Model Simulations,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01729,RF-0526,The trust paradox in llm-based multi-agent systems: When collaboration becomes a security vulnerability,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-05366,RF-0526,The Trust Paradox in LLM-Based Multi-Agent Systems: When Collaboration Becomes a Security Vulnerability,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-05897,RF-0527,The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_BOUNDARY_HIGH_EVIDENCE
+REC-00979,RF-0528,Think Twice Before You Act: Protecting LLM Agents Against Tool Description Poisoning via Isolated Planning,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-01067,RF-0529,To protect the LLM agent against the prompt injection attack with polymorphic prompt,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03674,RF-0529,To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-04310,RF-0530,Token-Flow Firewall: Semantic Runtime Auditing for Persistent AI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-03439,RF-0531,Tool Specifications Matter: Uncovering and Mitigating Safety Risks in AI Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-01321,RF-0532,ToolGuardian: Declarative Security for AI Agent-Tool Interactions,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02396,RF-0533,{T}ool{S}afe: Enhancing Tool Invocation Safety of {LLM}-based agents via Proactive Step-level Guardrail and Feedback,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-03603,RF-0533,ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL
+REC-00884,RF-0534,Toward a Human-Centered Evaluation Framework for Trustworthy LLM-Powered GUI Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00406,RF-0535,"Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01118,RF-0536,Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Injection Attacks,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-01706,RF-0537,"Towards Secure Agent Skills: Architecture, Threat Taxonomy, and Security Analysis",PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00170,RF-0538,Towards Trustworthy GUI Agents: A Survey,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01473,RF-0539,Tracing MCP Security Vulnerabilities: Constructing and Analyzing an MCP Security Vulnerability Dataset,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-01761,RF-0540,TrinityGuard: A Unified Framework for Safeguarding Multi-Agent Systems,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01487,RF-0541,Trivial Trojans: How Minimal MCP Servers Enable Cross-Tool Exfiltration of Sensitive Data,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03562,RF-0542,Trojan's Whisper: Stealthy Manipulation of OpenClaw through Injected Bootstrapped Guidance,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-01049,RF-0543,TrojanTools: Adaptive Indirect Prompt Injection on LLM Agents via Malicious Tool-Calling,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-09432,RF-0544,Trust but Verify? Uncovering the Security Debt of Autonomous Coding Agents,WORKSHOP,EXCLUDE,WORKSHOP_OR_NONCORE_EVIDENCE
+REC-00960,RF-0545,"Typed Slot Policies for Prompt-Injection Defense in Computer-Use Agents, and Why the Attribution Signal Is Faithful",PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00022,RF-0546,UI-CUBE: Enterprise-Grade Computer Use Agent Benchmarking Beyond Task Accuracy to Operational Reliability,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02855,RF-0547,UI-Oceanus: Scaling GUI Agents with Synthetic Environmental Dynamics,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_FOUNDATION_SUBSTANTIVE_EVIDENCE
+REC-03567,RF-0548,Uncovering Security Threats and Architecting Defenses in Autonomous Agents: A Case Study of OpenClaw,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01979,RF-0549,Unsafer in Many Turns: Benchmarking and Defending Multi-Turn Safety Risks in Tool-Using Agents,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_BOUNDARY_HIGH_EVIDENCE
+REC-00990,RF-0550,Untrusted Content Masking for Web Agents with Security Guarantees,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-05085,RF-0551,Verifiable Agentic Infrastructure: Proof-Derived Authorization for Sovereign AI Systems,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-00134,RF-0552,VerificAgent: Domain-Specific Memory Verification for Scalable Oversight of Aligned Computer-Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00174,RF-0553,Verisafe agent: Safeguarding mobile gui agent via logic-based action verification,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03153,RF-0553,VeriSafe Agent: Safeguarding Mobile GUI Agent via Logic-based Action Verification,OTHER_FORMAL_PEER_REVIEWED,RETAIN,OTHER_FORMAL_PEER_REVIEWED
+REC-03198,RF-0554,VideoWebArena: Evaluating Long Context Multimodal Agents with Video Understanding Web Tasks,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00989,RF-0555,VIPER-MCP: Detecting and Exploiting Taint-Style Vulnerabilities in Model Context Protocol Servers,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-00112,RF-0556,Visual Confused Deputy: Exploiting and Defending Perception Failures in Computer-Using Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01190,RF-0557,VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation,STRONG_ADJACENT_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00534,RF-0558,{V}isual{W}eb{A}rena: Evaluating Multimodal Agents on Realistic Visual Web Tasks,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03260,RF-0558,VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00083,RF-0559,Vpi-bench: Visual prompt injection attacks for computer-use agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03098,RF-0559,VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01125,RF-0560,WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00959,RF-0561,WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-00642,RF-0562,Wasp: Benchmarking web agent security against prompt injection attacks,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03135,RF-0562,WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01294,RF-0563,We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00075,RF-0564,Weathering the CUA Storm: Mapping Security Threats in the Rapid Rise of Computer Use Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00063,RF-0565,"WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02791,RF-0566,WebAgentGuard: A Reasoning-Driven Guard Model for Detecting Prompt Injection Attacks in Web Agents,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_DIRECT_SUBSTANTIVE_EVIDENCE
+REC-03438,RF-0567,WebArena: A Realistic Web Environment for Building Autonomous Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03227,RF-0568,WebCanvas: Benchmarking Web Agents in Online Environments,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_FOUNDATION_SUBSTANTIVE_EVIDENCE
+REC-00436,RF-0569,WebCloak: Characterizing and mitigating threats from LLM-driven web agents as intelligent scrapers,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-03063,RF-0570,WebGuard: Building a Generalizable Guardrail for Web Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-02561,RF-0571,{W}eb{I}nject: Prompt Injection Attack to Web Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03130,RF-0571,WebInject: Prompt Injection Attack to Web Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01319,RF-0572,WebMCP Tool Surface Poisoning: Runtime Manipulation Attacks on LLM Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01227,RF-0573,WebPII: Benchmarking Visual PII Detection for Computer-Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00958,RF-0574,WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00385,RF-0575,WebSP-Eval: Evaluating Web Agents on Website Security and Privacy Tasks,STRONG_ADJACENT_FORMAL,RETAIN,STRONG_ADJACENT_FORMAL
+REC-02895,RF-0576,WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02757,RF-0577,WebTrap: Stealthy Mid-Task Hijacking of Browser Agents During Navigation,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-02641,RF-0578,{W}eb{V}oyager: Building an End-to-End Web Agent with Large Multimodal Models,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03259,RF-0578,WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-07974,RF-0579,What Can Be Enforced? A Theory of Certified Runtime Safety for Tool-Using Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-02212,RF-0580,What Can This Skill Safely Undo? Rollback-Oriented Auditability for Agent Skills,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00031,RF-0581,"""What Did It Actually Do?"": Understanding Risk Awareness and Traceability for Computer-Use Agents",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01047,RF-0582,What Did You Do Behind My Back?! Covert Indirect Prompt Injection on Tool-Using LLM Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00901,RF-0583,When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01560,RF-0584,When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-00963,RF-0585,When AUC 0.998 Is Not Enough: A Candidate Evaluation Protocol for Hidden-State Probes of Indirect Prompt Injection in Multimodal Computer-Use Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-00967,RF-0586,When Benign Inputs Lead to Severe Harms: Eliciting Unsafe Unintended Behaviors of Computer-Use Agents,PREPRINT_UNDER_REVIEW,EXCLUDE,PREPRINT_DIRECT_EVIDENCE_INSUFFICIENT
+REC-01613,RF-0587,When Claws Remember but Do Not Tell: Stealthy Memory Injection in Persistent Personal Agents,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-09710,RF-0588,When Developer Aid Becomes Security Debt: A Systematic Analysis of Insecure Behaviors in LLM Coding Agents,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-04337,RF-0589,When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense,PREPRINT_UNDER_REVIEW,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01288,RF-0590,"When MCP Servers Attack: Taxonomy, Feasibility, and Mitigation",PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_ADJACENT_FULLTEXT_CONFIRMATION
+REC-07038,RF-0591,When Safe Skills Collide: Measuring Compositional Risk in Agent Skill Ecosystems,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01240,RF-0592,When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents,OTHER_FORMAL_PEER_REVIEWED,UNCLEAR,FORMAL_PEER_REVIEWED_SCOPE_CONFIRMATION
+REC-03594,RF-0593,Whispers of Wealth: Red-Teaming Google's Agent Payments Protocol via Prompt Injection,PREPRINT_OR_UNKNOWN,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-03626,RF-0594,Who Grants the Agent Power? Defending Against Instruction Injection via Task-Centric Access Control,OTHER_FORMAL_PEER_REVIEWED,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02696,RF-0595,Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents,PREPRINT_OR_UNKNOWN,UNCLEAR,PREPRINT_DIRECT_FULLTEXT_CONFIRMATION
+REC-02084,RF-0596,Who Tests the Testers? Systematic Enumeration and Coverage Audit of LLM Agent Tool Call Safety,PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-00241,RF-0597,Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-02771,RF-0598,WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments,PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_FOUNDATION_SUBSTANTIVE_EVIDENCE
+REC-03248,RF-0599,WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?,PREPRINT_UNDER_REVIEW,UNCLEAR,PREPRINT_FOUNDATION_FULLTEXT_CONFIRMATION
+REC-00788,RF-0600,Workflow Centric Analysis and Optimization of Indirect Prompt Injection Attacks Against Agentic Large Language Models,PREPRINT_OR_UNKNOWN,EXCLUDE,BOUNDARY_EVIDENCE_INSUFFICIENT
+REC-00205,RF-0601,WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point,PREPRINT_OR_UNKNOWN,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01258,RF-0602,Your agent may misevolve: Emergent risks in self-evolving llm agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-08592,RF-0602,Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents,PRIORITY_CORE_FORMAL,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01568,RF-0603,Your Agent's Memories Are Not Its Own: Forged Reasoning Attacks on LLM Agent Memory and Defenses,PREPRINT_UNDER_REVIEW,EXCLUDE,ADJACENT_PREPRINT_EVIDENCE_OR_LINKAGE_INSUFFICIENT
+REC-01263,RF-0604,"Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw",PREPRINT_UNDER_REVIEW,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-03645,RF-0605,"""Your AI, My Shell"": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors",PREPRINT_OR_UNKNOWN,RETAIN,PREPRINT_ADJACENT_SUBSTANTIVE_EVIDENCE
+REC-01640,RF-0606,Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections,WORKSHOP,RETAIN,VERIFIED_FULLTEXT_EVIDENCE
+REC-01055,RF-0481,[PDF] BENCHMARKING PROMPT-INJECTION ATTACKS ON TOOL-INTEGRATED LLM AGENTS WITH EXTER,PREPRINT_OR_REJECTED_SUBMISSION,RETAIN,ALTERNATE_REPORT_OF_RETAINED_STUDY
+REC-10090,RF-S001,LongHorizonUI: A Unified Framework for Robust Long-Horizon Task Automation of GUI Agent,PRIORITY_CORE_FORMAL,RETAIN,PRIORITY_CORE_FORMAL_CUA_FOUNDATION

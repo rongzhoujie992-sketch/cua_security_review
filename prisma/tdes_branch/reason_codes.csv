@@ -1,0 +1,7 @@
+Code,Definition
+CORE_REEXTRACT,Already in main corpus corpus; deployment fields re-extracted; not a new TDES addition.
+CHAPTER_FIT_NONREDUNDANT,Directly matches a predefined RQ4/Section 5 deployment-evidence gap and adds a non-redundant evidence function.
+ARGUMENT_REDUNDANT,"Relevant, but does not add a distinct source-native claim needed by the final Section 5 argument relative to retained evidence."
+OUTSIDE_FINAL_THEME,"Relevant adjacent evidence, but its main contribution falls outside the deployment-condition claims actually synthesized in final Section 5."
+POST_CUTOFF,After the review cutoff and not required for the same-cutoff supplement.
+PROVIDER_REDUNDANT,Eligible official deployment documentation that adds breadth rather than a distinct mechanism/configuration claim required by final Section 5.

@@ -1,0 +1,36 @@
+{
+  "release": "1.0",
+  "release_date": "2026-08-15",
+  "main_systematic_cua_corpus": {
+    "studies_included": 222,
+    "records_identified": 18371,
+    "reports_assessed_for_eligibility": 378,
+    "final_review_input": 285,
+    "final_review_exclusions": 63
+  },
+  "foundational_security_branch": {
+    "identification_occurrences": 126,
+    "unique_records_screened": 47,
+    "reports_assessed": 22,
+    "sources_included": 12
+  },
+  "tdes_branch": {
+    "academic_items_handled": 24,
+    "main_corpus_reextracts": 8,
+    "additional_academic_candidates_assessed": 16,
+    "supplementary_academic_sources_selected": 4,
+    "official_document_locators_inspected": 23,
+    "official_documents_selected": 5,
+    "supplementary_sources_selected_total": 9,
+    "provider_families_reviewed": 12
+  },
+  "unique_source_accounting": {
+    "main_cua_studies": 222,
+    "foundational_sources": 12,
+    "tdes_supplementary_academic_sources": 4,
+    "tdes_official_documents": 5,
+    "tdes_main_corpus_reextracts_additive": 0,
+    "final_unique_evidence_source_base": 243
+  },
+  "unit_note": "243 is a source/evidence-base count, not a study count. The systematic main corpus remains 222 studies."
+}

@@ -1,0 +1,10 @@
+metric,count
+records_identified,18371
+duplicate_occurrences_removed,8281
+records_after_global_deduplication,10090
+records_removed_before_screening,3
+records_screened,10087
+records_excluded,9621
+retained_report_records_before_version_consolidation,466
+alternate_report_versions_consolidated,87
+preferred_reports_sought_for_retrieval,379

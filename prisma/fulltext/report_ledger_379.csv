@@ -1,0 +1,380 @@
+report_family_id,title,preferred_report_family_id,study_id,report_status,study_status,review_role,exclusion_or_resolution_reason
+RF-0002,"A comprehensive survey of agents for computer use: Foundations, challenges, and future directions",RF-0002,STUDY-001,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0003,A First Measurement Study on Authentication Security in Real-World Remote MCP Servers,RF-0003,STUDY-002,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0004,"A Formal Security Framework for MCP-Based AI Agents: Threat Taxonomy, Verification Models, and Defense Mechanisms",RF-0004,STUDY-003,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0005,A Functionality-Grounded Benchmark for Evaluating Web Agents in {E}-commerce Domains,RF-0005,STUDY-004,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0007,A large-scale evolvable dataset for model context protocol ecosystem and security analysis,RF-0007,STUDY-005,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0008,A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks,RF-0008,STUDY-006,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_USED_OR_TOO_REMOTE
+RF-0015,A Survey on (M)LLM-Based GUI Agents,RF-0015,STUDY-007,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0016,A Survey on the Safety and Security Threats of Computer-Using Agents: JARVIS or Ultron?,RF-0287,STUDY-170,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0017,"A Systematic Security Analysis of Model Context Protocol: Vulnerabilities, Exploits, and Mitigations",RF-0017,STUDY-008,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0018,A Systematic Security Evaluation of OpenClaw and Its Variants,RF-0018,STUDY-009,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0019,A Systematization of Security Vulnerabilities in Computer Use Agents,RF-0019,STUDY-010,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0021,"A2A Routing Service with MCP Integration: Bridging Security, Auditability, and Governance in AI Agent Systems",RF-0021,STUDY-011,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0023,A3: Android Agent Arena for Mobile {GUI} Agents with Essential-State Procedural Evaluation,RF-0023,STUDY-012,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0026,Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on {LLM} Agents,RF-0026,STUDY-013,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0030,AdInject: Real-World Black-Box Attacks on Web Agents via Advertising Delivery,RF-0030,STUDY-014,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0031,AdvAgent: Controllable Blackbox Red-teaming on Web Agents,RF-0031,STUDY-015,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0032,AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents,RF-0032,STUDY-016,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0033,Agent Privilege Separation in OpenClaw: A Structural Defense Against Prompt Injection,RF-0033,STUDY-017,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0034,Agent S: An Open Agentic Framework that Uses Computers Like a Human,RF-0034,STUDY-018,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0035,Agent-SafetyBench: Evaluating the Safety of LLM Agents,RF-0035,STUDY-019,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0036,Agent security bench (asb): Formalizing and benchmarking attacks and defenses in llm-based agents,RF-0036,STUDY-020,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0037,Agent-Sentry: Bounding LLM Agents via Execution Provenance,RF-0037,STUDY-021,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0038,"Agent Skill Security: Threat Models, Attacks, Defenses, and Evaluation",RF-0038,STUDY-022,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0039,Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale,RF-0039,STUDY-023,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0041,Agentauditor: Human-level safety and security evaluation for llm agents,RF-0041,STUDY-024,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0043,Agentdam: Privacy leakage evaluation for autonomous web agents,RF-0043,STUDY-025,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0044,AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security,RF-0044,STUDY-026,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0045,Agentdojo: A dynamic environment to evaluate prompt injection attacks and defenses for llm agents,RF-0045,STUDY-027,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0048,AgentGuard: Repurposing Agentic Orchestrator for Safety Evaluation of Tool Orchestration,RF-0048,STUDY-028,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0050,AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents,RF-0050,STUDY-029,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0051,AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents,RF-0051,STUDY-030,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0052,AgentHijack: Benchmarking Computer Use Agent Robustness to Common Environment Corruptions,RF-0052,STUDY-031,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0054,AgentLAB: Benchmarking LLM Agents against Long-Horizon Attacks,RF-0054,STUDY-032,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0055,AgentPoison: Red-teaming LLM Agents via Poisoning Memory or Knowledge Bases,RF-0055,STUDY-033,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0056,AgentRAE: Remote Action Execution through Notification-based Visual Backdoors against Screenshots-based Mobile GUI Agents,RF-0056,STUDY-034,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0057,AgenTRIM: Tool Risk Mitigation for Agentic AI,RF-0057,STUDY-035,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0058,Agents Under Siege: Breaking Pragmatic Multi-Agent {LLM} Systems with Optimized Prompt Attacks,RF-0058,STUDY-036,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0060,"AgentSecBench: Measuring Prompt Injection, Privacy Leakage, and Tool-Use Integrity in LLM Agents",RF-0060,STUDY-037,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0061,Agentsentinel: An end-to-end and real-time security defense framework for computer-use agents,RF-0061,STUDY-038,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0062,AgentSentry: Mitigating Indirect Prompt Injection in LLM Agents via Temporal Causal Diagnostics and Context Purification,RF-0062,STUDY-039,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0063,AgentTrap: Measuring Runtime Trust Failures in Third-Party Agent Skills,RF-0063,STUDY-040,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0065,AgentTypo: Adaptive Typographic Prompt Injection Attacks against Black-box Multimodal Agents,RF-0065,STUDY-041,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0066,{AGENTVIGIL}: Automatic Black-Box Red-teaming for Indirect Prompt Injection against {LLM} Agents,RF-0066,STUDY-042,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0067,AgentVigil: Generic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents,RF-0066,STUDY-042,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,ADJACENT_MECHANISM,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0070,AgentWatcher: A Rule-based Prompt Injection Monitor,RF-0070,STUDY-043,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0071,AIP: Agent Identity Protocol for Verifiable Delegation Across MCP and A2A,RF-0071,STUDY-044,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0073,Androidworld: A dynamic benchmarking environment for autonomous agents,RF-0073,STUDY-045,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0074,Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible,RF-0074,STUDY-046,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0076,Appagent: Multimodal agents as smartphone users,RF-0076,STUDY-047,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0077,Appagent-pro: A proactive gui agent system for multidomain information integration and user assistance,RF-0077,STUDY-048,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CAPABILITY_NO_REQUIRED_REVIEW_ROLE
+RF-0080,Architecting Secure AI Agents: Perspectives on System-Level Defenses Against Indirect Prompt Injection Attacks,RF-0080,STUDY-049,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0081,Architecture Matters for Multi-Agent Security,RF-0081,STUDY-050,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0082,Are GUI Agents Focused Enough? Automated Distraction via Semantic-level UI Element Injection,RF-0082,STUDY-051,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0083,"\Are We Done Yet?\"": A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents""",RF-0083,STUDY-052,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0084,Argus: Defending against multimodal indirect prompt injection via steering instruction-following behavior,RF-0084,STUDY-053,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0088,ASPI: Seeking Ambiguity Clarification Amplifies Prompt Injection Vulnerability in LLM Agents,RF-0088,STUDY-054,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0089,Assessing Automated Prompt Injection Attacks in Agentic Environments,RF-0089,STUDY-055,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0090,ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis,RF-0090,STUDY-056,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0091,"Attack the messages, not the agents: A multi-round adaptive stealthy tampering framework for llm-mas",RF-0091,STUDY-057,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0093,Attacking Vision-Language Computer Agents via Pop-ups,RF-0093,STUDY-058,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0094,Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs,RF-0094,STUDY-059,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0095,AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations,RF-0095,STUDY-060,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0098,"Auditing, Mitigating, and Ensuring Accountability for Poisoning Attacks in Multi-modal Agent Systems Using MCP Servers",RF-0098,STUDY-061,REPORT_NOT_RETRIEVED,REPORT_NOT_RETRIEVED,,REPORT_NOT_RETRIEVED
+RF-0101,AutoDroid: LLM-powered Task Automation in Android,RF-0101,STUDY-062,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0104,{B}ackdoor{A}gent: A Unified Framework for Backdoor Attacks on {LLM}-based Agents,RF-0104,STUDY-063,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0105,BadAgent: Inserting and Activating Backdoor Attacks in LLM Agents,RF-0105,STUDY-064,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0108,Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models,RF-0108,STUDY-065,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0110,Benchmarking MCP Vulnerability Detection from a Paired Evaluation Perspective,RF-0110,STUDY-066,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0111,Benchmarking Web Agent Safety under {E}-commerce Deceptive Interfaces,RF-0111,STUDY-067,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0113,Beyond Detection: Autonomous Anomaly Remediation for MCP Against Tool Poisoning Attacks,RF-0113,STUDY-068,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0114,Beyond the protocol: Unveiling attack vectors in the model context protocol (mcp) ecosystem,RF-0114,STUDY-069,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0115,BiasAgent: Exploiting Agent Bias for Preference Manipulation Attacks on Model Context Protocol,RF-0115,STUDY-070,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0117,"Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System",RF-0117,STUDY-071,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0118,{B}lind{G}uard: Safeguarding {LLM}-based Multi-Agent Systems under Unknown Attacks,RF-0118,STUDY-072,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0119,BraveGuard: From Open-World Threats to Safer Computer-Use Agents,RF-0119,STUDY-073,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0120,Breaking and Fixing Defenses Against Control Flow Hijacking in Multi-Agent Systems,RF-0120,STUDY-074,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0121,Breaking GUI agent Actions: Realistic Adversarial Attacks on Multimodal LLMs,RF-0121,STUDY-075,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0122,Breaking {R}e{A}ct Agents: Foot-in-the-Door Attack Will Get You In,RF-0122,STUDY-076,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0123,Breaking the Protocol: Security Analysis of the Model Context Protocol Specification and Prompt Injection Vulnerabilities in Tool-Integrated LLM Agents,RF-0123,STUDY-077,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0124,BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents,RF-0124,STUDY-078,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0126,{C}-World: A Computer Use Agent Environment Creator,RF-0126,STUDY-079,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CAPABILITY_NO_REQUIRED_REVIEW_ROLE
+RF-0128,CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents,RF-0128,STUDY-080,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0129,Can Indirect Prompt Injection Attacks Be Detected and Removed?,RF-0129,STUDY-081,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0132,Capable but Careless: Do Computer-Use Agents Follow Contextual Integrity?,RF-0132,STUDY-082,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0133,CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents,RF-0133,STUDY-083,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0137,CausalArmor: Efficient Indirect Prompt Injection Guardrails via Causal Attribution,RF-0137,STUDY-084,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0138,Caution for the Environment: Multimodal {LLM} Agents are Susceptible to Environmental Distractions,RF-0138,STUDY-085,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0139,ceLLMate: Sandboxing Browser AI Agents,RF-0139,STUDY-086,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0141,Chameleon: Adaptive Adversarial Agents for Scaling-Based Visual Prompt Injection in Multimodal AI Systems,RF-0141,STUDY-087,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_USED_OR_TOO_REMOTE
+RF-0143,Characterizing Unintended Consequences of GUI Agents For Web Browsing,RF-0143,STUDY-088,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0144,ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents,RF-0144,STUDY-089,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0151,Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in OpenClaw Agents,RF-0151,STUDY-090,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0152,ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection,RF-0152,STUDY-091,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0154,"ClawKeeper: Comprehensive Safety Protection for OpenClaw Agents Through Skills, Plugins, and Watchers",RF-0154,STUDY-092,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0155,"ClawSafety: ""Safe"" LLMs, Unsafe Agents",RF-0155,STUDY-093,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0156,ClawTrap: A MITM-Based Red-Teaming Framework for Real-World OpenClaw Security Evaluation,RF-0156,STUDY-094,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0157,Coact-1: Computer-using multi-agent system with coding actions,RF-0157,STUDY-095,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0158,Code Agent can be an End-to-end System Hacker: Benchmarking Real-world Threats of Computer-use Agent,RF-0158,STUDY-096,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0159,Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control,RF-0159,STUDY-097,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0160,Collaborative Shadows: Distributed Backdoor Attacks in LLM-Based Multi-Agent Systems,RF-0160,STUDY-098,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0162,CommandSans: Securing AI Agents with Surgical Precision Prompt Sanitization,RF-0162,STUDY-099,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0164,Comparing Human Oversight Strategies for Computer-Use Agents,RF-0164,STUDY-100,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0165,Computer agent arena: Toward human-centric evaluation and analysis of computer-use agents,RF-0165,STUDY-101,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0166,Confused Deputy Attack Against Model Context Protocol,RF-0166,STUDY-102,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0167,Conjunctive Prompt Attacks in Multi-Agent {LLM} Systems,RF-0167,STUDY-103,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0169,Context manipulation attacks : Web agents are susceptible to corrupted memory,RF-0169,STUDY-104,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0170,Context Matters: Repository-Aware Security Analysis of the Agent Skill Ecosystem,RF-0170,STUDY-105,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0171,Contextual agent security: A policy for every purpose,RF-0171,STUDY-106,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0172,CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation,RF-0172,STUDY-107,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0173,{CORBA}: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models,RF-0173,STUDY-108,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0178,CUAAudit: Meta-Evaluation of Vision-Language Models as Auditors of Autonomous Computer-Use Agents,RF-0178,STUDY-109,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0179,CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent,RF-0179,STUDY-110,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0180,Dark patterns meet gui agents: Llm agent susceptibility to manipulative interfaces and the role of human oversight,RF-0180,STUDY-111,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0181,DECEPTICON: How Dark Patterns Manipulate Web Agents,RF-0257,STUDY-153,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,DIRECT_SECURITY,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0183,Defending Against Prompt Injection with DataFilter,RF-0183,STUDY-112,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0185,Defense Against Indirect Prompt Injection via Tool Result Parsing,RF-0185,STUDY-113,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0187,"Description-Code Inconsistency in Real-world MCP Servers: Measurement, Detection, and Security Implications",RF-0187,STUDY-114,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0191,Dissecting Adversarial Robustness of Multimodal LM Agents,RF-0191,STUDY-115,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0194,Don't believe everything you read: Understanding and Measuring MCP Behavior under Misleading Tool Descriptions,RF-0194,STUDY-116,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0195,Don{'}t Click That: Teaching Web Agents to Resist Deceptive Interfaces,RF-0195,STUDY-117,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0196,Don't Let the Claw Grip Your Hand: A Security Analysis and Defense Framework for OpenClaw,RF-0196,STUDY-118,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0197,DRIFT: Dynamic Rule-Based Defense with Injection Isolation for Securing LLM Agents,RF-0197,STUDY-119,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0201,EchoTrail-GUI: Building Actionable Memory for GUI Agents via Critic-Guided Self-Exploration,RF-0201,STUDY-120,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0204,EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage,RF-0204,STUDY-121,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0207,Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios,RF-0207,STUDY-122,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0208,EntWorld: A Holistic Environment and Benchmark for Verifiable Enterprise GUI Agents,RF-0208,STUDY-123,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0211,Etdi: Mitigating tool squatting and rug pull attacks in model context protocol (mcp) by using oauth-enhanced tool definitions and policy-based access control,RF-0211,STUDY-124,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0212,{EVA}: Evolving Semantic Adversaries for Red-Teaming {GUI} Agents Against Environmental Injection Attacks,RF-0212,STUDY-125,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0213,Evaluating the robustness of multimodal agents against active environmental injection attacks,RF-0213,STUDY-126,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0214,Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory,RF-0214,STUDY-127,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0218,FAVA: Formal Authorization for Verified Agents with Evidence-Backed Permission Graphs,RF-0218,STUDY-128,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0220,Firewalls to Secure Dynamic LLM Agentic Networks,RF-0220,STUDY-129,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0221,FlowGuard: From Signals to Evidence for MCP Security Detection,RF-0221,STUDY-130,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0222,FocusAgent: Simple Yet Effective Ways of Trimming the Large Context of Web Agents,RF-0222,STUDY-131,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0224,Formalizing and Benchmarking Prompt Injection Attacks and Defenses,RF-0224,STUDY-132,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0227,From Assistant to Double Agent: Formalizing and Benchmarking Attacks on OpenClaw for Personalized Local AI Agent,RF-0227,STUDY-133,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0229,From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI Agents Workflows,RF-0229,STUDY-134,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0230,From Prompt Injections to SQL Injection Attacks: How Protected is Your LLM-Integrated Web Application?,RF-0230,STUDY-135,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0231,From Storage to Steering: Memory Control Flow Attacks on LLM Agents,RF-0231,STUDY-136,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0233,From Tool Connection to Execution Control: Benchmarking Security Invariants in MCP-Style Agent Runtimes,RF-0233,STUDY-137,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0235,{G}-Safeguard: A Topology-Guided Security Lens and Treatment on {LLM}-based Multi-agent Systems,RF-0235,STUDY-138,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0237,Genesis: Evolving Attack Strategies for LLM Web Agent Red-Teaming,RF-0237,STUDY-139,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0238,GhostEI-Bench: Do Mobile Agent Resilience to Environmental Injection in Dynamic On-Device Environments?,RF-0238,STUDY-140,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0239,GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?,RF-0238,STUDY-140,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,DIRECT_SECURITY,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0240,"Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework",RF-0240,STUDY-141,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0241,GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning,RF-0241,STUDY-142,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0242,Guardagent: safeguard LLM agents via knowledge-enabled reasoning,RF-0241,STUDY-142,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,ADJACENT_MECHANISM,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0243,GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling,RF-0243,STUDY-143,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0245,Gui-360: A comprehensive dataset and benchmark for computer-using agents,RF-0245,STUDY-144,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0246,{GUI} Agents: A Survey,RF-0246,STUDY-145,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0249,Hackworld: Evaluating computer-use agents on exploiting web application vulnerabilities,RF-0249,STUDY-146,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0250,"HalluClear: Diagnosing, Evaluating and Mitigating Hallucinations in GUI Agents",RF-0250,STUDY-147,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0251,HarmonyGuard: Toward Safety and Utility in Web Agents via Adaptive Policy Enhancement and Dual-Objective Optimization,RF-0251,STUDY-148,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0252,Hidden ghost hand: Unveiling backdoor vulnerabilities in mllm-powered mobile gui agents,RF-0252,STUDY-149,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0253,Hidden in Memory: Sleeper Memory Poisoning in LLM Agents,RF-0253,STUDY-150,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0254,Hidden in Plain Sight: Benchmarking Agent Safety Against Decomposition Attacks with DECOMPBENCH,RF-0254,STUDY-151,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0256,Hijacking JARVIS: Benchmarking Mobile GUI Agents against Unprivileged Third Parties,RF-0256,STUDY-152,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0257,How dark patterns manipulate web agents,RF-0257,STUDY-153,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0259,How Vulnerable Are AI Agents to Indirect Prompt Injections? Insights from a Large-Scale Public Competition,RF-0259,STUDY-154,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0260,How Your Credentials Are Leaked by LLM Agent Skills: An Empirical Study,RF-0260,STUDY-155,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0266,Human-Guided Harm Recovery for Computer Use Agents,RF-0266,STUDY-156,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0269,IAG: Input-aware Backdoor Attack on VLM-based Visual Grounding,RF-0269,STUDY-157,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0271,If you're waiting for a sign... that might not be it! Mitigating Trust Boundary Confusion from Visual Injections on Vision-Language Agentic Systems,RF-0271,STUDY-158,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-NO_CUA_OR_ADJACENT_RELEVANCE
+RF-0272,ILION: Deterministic Pre-Execution Safety Gates for Agentic AI Systems,RF-0272,STUDY-159,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0273,In-Context Defense in Computer Agents: An Empirical Study,RF-0273,STUDY-160,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0274,"Indirect Prompt Injections: Are Firewalls All You Need, or Stronger Benchmarks?",RF-0274,STUDY-161,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0276,InfrastructureSentinel: Policy enforced guardrails for secure MCP-driven infrastructure agents,RF-0276,STUDY-162,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0277,{I}njec{A}gent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents,RF-0277,STUDY-163,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0278,Injection-Execution Dissociation: A Mechanistic Evaluation of Persistent Memory Attacks and Defenses in Stateful LLM Agents,RF-0278,STUDY-164,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0281,Investigating the impact of dark patterns on llm-based web agents,RF-0281,STUDY-165,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0282,IP Leakage Attacks Targeting LLM-Based Multi-Agent Systems,RF-0282,STUDY-166,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0283,IPI-proxy: An Intercepting Proxy for Red-Teaming Web-Browsing AI Agents Against Indirect Prompt Injection,RF-0283,STUDY-167,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0284,{IPIG}uard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in {LLM} Agents,RF-0284,STUDY-168,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0286,It's a TRAP! Task-Redirecting Agent Persuasion Benchmark for Web Agents,RF-0286,STUDY-169,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0287,{JARVIS} or Ultron? A Survey on the Safety and Security Threats of Computer-Using Agents,RF-0287,STUDY-170,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0288,Just do it!? computer-use agents exhibit blind goal-directedness,RF-0288,STUDY-171,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0290,Lasm: Layer-wise scaling mechanism for defending pop-up attack on gui agents,RF-0290,STUDY-172,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0291,Les Dissonances: Cross-Tool Harvesting and Polluting in Pool-of-Tools Empowered LLM Agents,RF-0291,STUDY-173,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0293,LivePI: More Realistic Benchmarking of Agents Against Indirect Prompt Injection,RF-0293,STUDY-174,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0294,Llm-based multi-agents system attack via continuous optimization with discrete efficient search,RF-0294,STUDY-175,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0295,LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects,RF-0295,STUDY-176,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0296,LLMail-Inject: A Dataset from a Realistic Adaptive Prompt Injection Challenge,RF-0296,STUDY-177,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0298,LPS-Bench: Benchmarking Safety Awareness of Computer-Use Agents in Long-Horizon Planning under Benign and Adversarial Scenarios,RF-0298,STUDY-178,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0300,macosworld: A multilingual interactive benchmark for gui agents,RF-0300,STUDY-179,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0301,MAD-Spear: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems,RF-0301,STUDY-180,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_USED_OR_TOO_REMOTE
+RF-0302,MalSkillBench: A Runtime-Verified Benchmark of Malicious Agent Skills,RF-0302,STUDY-181,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0303,MalTool: Malicious Tool Attacks on LLM Agents,RF-0303,STUDY-182,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0305,Manipulating multimodal agents via cross-modal prompt injection,RF-0305,STUDY-183,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0306,MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution,RF-0306,STUDY-184,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0308,{MCIP}: Protecting {MCP} Safety via Model Contextual Integrity Protocol,RF-0308,STUDY-185,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0310,{MCP}-Guard: A Multi-Stage Defense-in-Depth Framework for Securing Model Context Protocol in Agentic {AI},RF-0310,STUDY-186,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0311,MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System,RF-0311,STUDY-187,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0312,MCP-ITP: An Automated Framework for Implicit Tool Poisoning in MCP,RF-0312,STUDY-188,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0313,MCP Pitfall Lab: Exposing Developer Pitfalls in MCP Tool Server Security under Multi-Vector Attacks,RF-0313,STUDY-189,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0314,MCP Safety Audit: LLMs with the Model Context Protocol Allow Major Security Exploits,RF-0314,STUDY-190,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0315,MCP-safetybench: A benchmark for safety evaluation of large language models with real-world MCP servers,RF-0315,STUDY-191,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0317,MCP-Scanner: Detecting Security Risks in Model Context Protocol Systems,RF-0317,STUDY-192,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0318,Mcp security bench (msb): Benchmarking attacks against model context protocol in llm agents,RF-0318,STUDY-193,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0319,MCPGuard : Automatically Detecting Vulnerabilities in MCP Servers,RF-0319,STUDY-194,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0320,MCPSecBench: A Systematic Security Benchmark and Playground for Testing Model Context Protocols,RF-0320,STUDY-195,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0321,MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in Model Context Protocol Agents,RF-0321,STUDY-196,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0322,MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers,RF-0323,STUDY-197,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,ADJACENT_MECHANISM,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0323,Mcptox: A benchmark for tool poisoning on real-world mcp servers,RF-0323,STUDY-197,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0324,"MCPWorld: A Unified Benchmarking Testbed for API, GUI, and Hybrid Computer Use Agents",RF-0324,STUDY-198,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0325,Measuring Harmfulness of Computer-Using Agents,RF-0325,STUDY-199,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0326,MELON: Provable Defense Against Indirect Prompt Injection Attacks in AI Agents,RF-0326,STUDY-200,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0328,MemMorph: Tool Hijacking in LLM Agents via Memory Poisoning,RF-0328,STUDY-201,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0329,Memory injection attacks on LLM agents via query-only interaction,RF-0329,STUDY-202,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0331,Memory Poisoning Attack and Defense on Memory Based LLM-Agents,RF-0331,STUDY-203,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0332,Memory poisoning attacks on retrieval-augmented Large Language Model agents via deceptive semantic reasoning,RF-0332,STUDY-204,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0334,MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval,RF-0334,STUDY-205,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0336,MEMSAD: Gradient-Coupled Anomaly Detection for Memory Poisoning in Retrieval-Augmented Agents,RF-0336,STUDY-206,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0338,MemVenom: Triggered Poisoning of Multimodal Memories in Web Agents,RF-0338,STUDY-207,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0339,Mind the Gap: Action Rebinding Attacks against Android GUI Agents,RF-0339,STUDY-208,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0340,Mind the web: The security of web use agents,RF-0340,STUDY-209,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0341,MindGuard: Intrinsic Decision Inspection for Securing LLM Agents Against Metadata Poisoning,RF-0341,STUDY-210,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0343,MIP against agent: Malicious image patches hijacking multimodal OS agents,RF-0343,STUDY-211,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0344,MIPIAD: Multilingual Indirect Prompt Injection Attack Defense with Qwen -- TF-IDF Hybrid and Meta-Ensemble Learning,RF-0344,STUDY-212,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0347,MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction,RF-0347,STUDY-213,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0348,Mitigating Indirect Prompt Injection via Instruction-Following Intent Analysis,RF-0348,STUDY-214,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0349,MMPro: A Decoupled Perception-Thinking-Execution Framework for Secure GUI Agent,RF-0349,STUDY-215,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0350,Mobile-Bench-v2: A More Realistic and Comprehensive Benchmark for VLM-based Mobile Agents,RF-0350,STUDY-216,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0352,Mobile GUI Agents under Real-world Threats: Are We There Yet?,RF-0352,STUDY-217,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0353,Mobilesafetybench: Evaluating safety of autonomous agents in mobile device control,RF-0353,STUDY-218,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0354,"Model context protocol (mcp): Landscape, security threats, and future research directions",RF-0354,STUDY-219,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0355,Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning,RF-0355,STUDY-220,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0357,Mpma: Preference manipulation attack against model context protocol,RF-0357,STUDY-221,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0359,Multi-Agent Systems Execute Arbitrary Malicious Code,RF-0359,STUDY-222,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0360,MUZZLE: Adaptive Agentic Red-Teaming of Web Agents Against Indirect Prompt Injection Attacks,RF-0360,STUDY-223,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0363,No Attacker Needed: Unintentional Cross-User Contamination in Shared-State LLM Agents,RF-0363,STUDY-224,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0364,Not what you've signed up for: Compromising real-world llm-integrated applications with indirect prompt injection,RF-0364,STUDY-225,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0365,ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data,RF-0365,STUDY-226,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0366,OmniGUI: Benchmarking GUI Agents in Omni-Modal Smartphone Environments,RF-0366,STUDY-227,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0368,OpenAgentSafety: A Comprehensive Framework for Evaluating Real-World AI Agent Safety,RF-0368,STUDY-228,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0369,OpenClaw in the Wild: Security Analysis of Autonomous Agents,RF-0369,STUDY-229,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0370,"OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents",RF-0370,STUDY-230,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0373,OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills,RF-0373,STUDY-231,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0375,"{OS} Agents: A Survey on {MLLM}-based Agents for Computer, Phone and Browser Use",RF-0375,STUDY-232,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0376,OS Agents: A Survey on MLLM-based Agents for General Computing Devices Use,RF-0375,STUDY-232,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0377,Os-harm: A benchmark for measuring safety of computer use agents,RF-0377,STUDY-233,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0378,OS-Marathon: Benchmarking Computer-Use Agents on Long-Horizon Repetitive Tasks,RF-0378,STUDY-234,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0379,{OS}-Sentinel: Towards Safety-Enhanced Mobile {GUI} Agents via Hybrid Validation in Realistic Workflows,RF-0379,STUDY-235,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0380,"OS-SPEAR: A Toolkit for the Safety, Performance,Efficiency, and Robustness Analysis of OS Agents",RF-0380,STUDY-236,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0381,OSGuard: A Benchmark for Safety in Computer-Use Agents,RF-0381,STUDY-237,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0383,OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments,RF-0383,STUDY-238,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0384,Osworld-mcp: Benchmarking mcp tool invocation in computer-use agents,RF-0384,STUDY-239,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0385,Overcoming the Retrieval Barrier: Indirect Prompt Injection in the Wild for LLM Systems,RF-0385,STUDY-240,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0387,Parasites in the toolchain: A large-scale analysis of attacks on the MCP ecosystem,RF-0387,STUDY-241,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0390,[PDF] AGENTVIGIL: Automatic Black-Box Red-teaming for Indirect Prompt Injection against LLM Agents.,RF-0066,STUDY-042,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,ADJACENT_MECHANISM,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0402,[PDF] The obvious invisible threat: Llm-powered gui agents' vulnerability to fine-print injections,RF-0522,STUDY-308,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,DIRECT_SECURITY,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0407,Phi-Ground Tech Report: Advancing Perception in GUI Grounding,RF-0407,STUDY-242,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0408,PINA: Prompt Injection Attack against Navigation Agents,RF-0408,STUDY-243,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-NO_CUA_OR_ADJACENT_RELEVANCE
+RF-0410,PlanGuard: Defending Agents against Indirect Prompt Injection via Planning-based Consistency Verification,RF-0410,STUDY-244,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0411,"Poison Once, Control Anywhere: Clean-Text Visual Backdoors in VLM-based Mobile Agents",RF-0411,STUDY-245,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0413,Preference Redirection via Attention Concentration: An Attack on Computer Use Agents,RF-0413,STUDY-246,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0415,Privacy Practices of Browser Agents,RF-0415,STUDY-247,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0416,Privweb: unobtrusive and content-aware privacy protection for web agents,RF-0416,STUDY-248,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0417,ProbGuard: Proactive Runtime Monitoring for LLM Agent Safety via Probabilistic Prediction,RF-0417,STUDY-249,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_USED_OR_TOO_REMOTE
+RF-0418,Progent: Securing AI Agents with Privilege Control,RF-0418,STUDY-250,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0419,ProjGuard: Safety Monitoring for Computer-Use Agents via Low-Dimensional Projections,RF-0419,STUDY-251,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0421,Prompt Injection Attack to Tool Selection in LLM Agents,RF-0421,STUDY-252,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0424,"Prompt Injection Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",RF-0424,STUDY-253,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_USED_OR_TOO_REMOTE
+RF-0425,PVDetector: Detecting Prompt Injection Attacks on Purpose-Specific LLM Agents through Policy-Violation Concept Analysis,RF-0425,STUDY-254,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_USED_OR_TOO_REMOTE
+RF-0426,{R}-Judge: Benchmarking Safety Risk Awareness for {LLM} Agents,RF-0426,STUDY-255,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0427,Real: Benchmarking autonomous agents on deterministic simulations of real websites,RF-0427,STUDY-256,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0430,Red-Teaming Coding Agents from a Tool-Invocation Perspective: An Empirical Security Assessment,RF-0430,STUDY-257,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0431,Red-Teaming {LLM} Multi-Agent Systems via Communication Attacks,RF-0431,STUDY-258,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0432,Redteamcua: Realistic adversarial testing of computer-use agents in hybrid web-os environments,RF-0432,STUDY-259,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0433,Refusal-Trained LLMs Are Easily Jailbroken As Browser Agents,RF-0433,STUDY-260,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0434,Reliable weak-to-strong monitoring of llm agents,RF-0434,STUDY-261,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0436,Rethinking MCP Security: A Large-Scale Study of Runtime MCP Servers and Security Scanner Reliability,RF-0436,STUDY-262,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0437,Riosworld: Benchmarking the risk of multimodal computer-use agents,RF-0437,STUDY-263,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0438,RTBAS: Defending LLM Agents Against Prompt Injection and Privacy Leakage,RF-0438,STUDY-264,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0441,SafeArena: Evaluating the Safety of Autonomous Web Agents,RF-0441,STUDY-265,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0442,Safeguarding LLM Agents from Misalignment through Provenance Analysis,RF-0442,STUDY-266,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0443,SafePred: A Predictive Guardrail for Computer-Using Agents via World Models,RF-0443,STUDY-267,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0444,Safety Sidecar: Reflection-Driven Runtime Control for Safer Agents,RF-0444,STUDY-268,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0445,SAGA: A Security Architecture for Governing AI Agentic Systems,RF-0445,STUDY-269,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0447,ScaleWoB: Guiding GUI Agents with Coding Agents via Large-Scale Environmental Synthesis,RF-0447,STUDY-270,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CAPABILITY_NO_REQUIRED_REVIEW_ROLE
+RF-0448,ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents,RF-0448,STUDY-271,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0449,ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use,RF-0449,STUDY-272,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0450,SCUBA: Salesforce Computer Use Benchmark,RF-0450,STUDY-273,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0451,Secret Collusion among AI Agents: Multi-Agent Deception via Steganography,RF-0451,STUDY-274,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0452,Secure and Efficient Access Control for Computer-Use Agents via Context Space,RF-0452,STUDY-275,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0453,{S}ecure{W}eb{A}rena: A Holistic Security Evaluation Benchmark for {LVLM}-based Web Agents,RF-0453,STUDY-276,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0454,Securing AI Agents Against Prompt Injection Attacks,RF-0454,STUDY-277,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0455,Securing AI Agents with Information-Flow Control,RF-0455,STUDY-278,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0456,Securing Computer-Use Agents: A Unified Architecture-Lifecycle Framework for Deployment-Grounded Reliability,RF-0456,STUDY-279,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0457,"Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",RF-0457,STUDY-280,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0459,Securing Multi-Agent Systems Against Corruptions via Node Contribution Backpropagation,RF-0459,STUDY-281,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0461,Securing the Tool Layer: A Threat Taxonomy and Runtime Defense Framework for Model Context Protocol Deployments,RF-0461,STUDY-282,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0462,Security analysis of agentic AI communication protocols: A comparative evaluation,RF-0462,STUDY-283,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0464,Security Defense Mechanisms in Model Context Protocol Implementations: A Systematic Literature Review,RF-0464,STUDY-284,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0466,Security of internet of agents: Attacks and countermeasures,RF-0466,STUDY-285,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0470,"Security Threat Modeling for Emerging AI-Agent Protocols: A Comparative Analysis of MCP, A2A, Agora, and ANP",RF-0470,STUDY-286,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0471,Seeing Is Not Screening: Multimodal Hidden Instruction Attacks on Agent Skill Scanners,RF-0471,STUDY-287,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0473,Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation,RF-0473,STUDY-288,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0475,SentinelNet: Safeguarding Multi-Agent Collaboration Through Credit-Based Dynamic Threat Detection,RF-0475,STUDY-289,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0476,ShareLock: A Stealthy Multi-Tool Threshold Poisoning Attack Against MCP,RF-0476,STUDY-290,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0477,ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning,RF-0477,STUDY-291,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0478,[Short Paper] Forensic Analysis of Indirect Prompt Injection Attacks on LLM Agents,RF-0478,STUDY-292,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0479,SIEVE: Selective Integrity Verification and Escalation for Defending LLM Agents against Indirect Prompt Injection,RF-0479,STUDY-293,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0481,Simple Prompt Injection Attacks Can Leak Personal Data Observed by LLM Agents During Task Execution,RF-0481,STUDY-294,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0482,Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks,RF-0482,STUDY-295,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0485,SkillGuard: A Permission-Centric Framework for Agent Skill Security,RF-0485,STUDY-296,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0490,SkillSieve: A Hierarchical Triage Framework for Detecting Malicious AI Agent Skills,RF-0490,STUDY-297,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0494,SlowBA: An efficiency backdoor attack towards VLM-based GUI agents,RF-0494,STUDY-298,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0497,SpAIware: Uncovering a novel artificial intelligence attack vector through persistent memory in LLM applications and agents,RF-0497,STUDY-299,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0504,Susbench: An online benchmark for evaluating dark pattern susceptibility of computer-use agents,RF-0504,STUDY-300,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0506,"Systematic Categorization, Construction and Evaluation of New Attacks against Multi-modal Mobile GUI Agents",RF-0506,STUDY-301,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0508,Taming Various Privilege Escalation in LLM-Based Agent Systems: A Mandatory Access Control Framework,RF-0508,STUDY-302,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0512,The Art of Building Verifiers for Computer Use Agents,RF-0512,STUDY-303,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0515,The Blind Spot of Agent Safety: How Benign User Instructions Expose Critical Vulnerabilities in Computer-Use Agents,RF-0515,STUDY-304,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0516,The Cognitive Firewall:Securing Browser Based AI Agents Against Indirect Prompt Injection Via Hybrid Edge Cloud Defense,RF-0516,STUDY-305,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0517,The Dangers of Indirect Prompt Injection Attacks on {LLM}-based Autonomous Web Navigation Agents: A Demonstration,RF-0517,STUDY-306,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0519,The Landscape of Prompt Injection Threats in LLM Agents: From Taxonomy to Analysis,RF-0519,STUDY-307,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0521,The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections,RF-0522,STUDY-308,REPORT_SUPERSEDED_BY_PREFERRED_VERSION,INCLUDE_REVIEW,DIRECT_SECURITY,REPORT_SUPERSEDED_BY_PREFERRED_VERSION
+RF-0522,The Obvious Invisible Threat: Vulnerabilities of LLM-Powered GUI Agents to Adversarial UI Manipulations in Web Interaction Tasks,RF-0522,STUDY-308,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0524,The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in {LLM} Agents,RF-0524,STUDY-309,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0526,The trust paradox in llm-based multi-agent systems: When collaboration becomes a security vulnerability,RF-0526,STUDY-310,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0527,The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems,RF-0527,STUDY-311,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0528,Think Twice Before You Act: Protecting LLM Agents Against Tool Description Poisoning via Isolated Planning,RF-0528,STUDY-312,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0529,To protect the LLM agent against the prompt injection attack with polymorphic prompt,RF-0529,STUDY-313,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0533,{T}ool{S}afe: Enhancing Tool Invocation Safety of {LLM}-based agents via Proactive Step-level Guardrail and Feedback,RF-0533,STUDY-314,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0535,"Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation",RF-0535,STUDY-315,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0536,Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Injection Attacks,RF-0536,STUDY-316,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_LINK_NOT_DIRECT_ENOUGH
+RF-0538,Towards Trustworthy GUI Agents: A Survey,RF-0538,STUDY-317,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_BACKGROUND,
+RF-0539,Tracing MCP Security Vulnerabilities: Constructing and Analyzing an MCP Security Vulnerability Dataset,RF-0539,STUDY-318,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0540,TrinityGuard: A Unified Framework for Safeguarding Multi-Agent Systems,RF-0540,STUDY-319,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0541,Trivial Trojans: How Minimal MCP Servers Enable Cross-Tool Exfiltration of Sensitive Data,RF-0541,STUDY-320,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0542,Trojan's Whisper: Stealthy Manipulation of OpenClaw through Injected Bootstrapped Guidance,RF-0542,STUDY-321,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0546,UI-CUBE: Enterprise-Grade Computer Use Agent Benchmarking Beyond Task Accuracy to Operational Reliability,RF-0546,STUDY-322,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0547,UI-Oceanus: Scaling GUI Agents with Synthetic Environmental Dynamics,RF-0547,STUDY-323,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CAPABILITY_NO_REQUIRED_REVIEW_ROLE
+RF-0548,Uncovering Security Threats and Architecting Defenses in Autonomous Agents: A Case Study of OpenClaw,RF-0548,STUDY-324,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0549,Unsafer in Many Turns: Benchmarking and Defending Multi-Turn Safety Risks in Tool-Using Agents,RF-0549,STUDY-325,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0551,Verifiable Agentic Infrastructure: Proof-Derived Authorization for Sovereign AI Systems,RF-0551,STUDY-326,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0552,VerificAgent: Domain-Specific Memory Verification for Scalable Oversight of Aligned Computer-Use Agents,RF-0552,STUDY-327,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0553,Verisafe agent: Safeguarding mobile gui agent via logic-based action verification,RF-0553,STUDY-328,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0555,VIPER-MCP: Detecting and Exploiting Taint-Style Vulnerabilities in Model Context Protocol Servers,RF-0555,STUDY-329,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0556,Visual Confused Deputy: Exploiting and Defending Perception Failures in Computer-Using Agents,RF-0556,STUDY-330,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0557,VisualTrap: A Stealthy Backdoor Attack on GUI Agents via Visual Grounding Manipulation,RF-0557,STUDY-331,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0558,{V}isual{W}eb{A}rena: Evaluating Multimodal Agents on Realistic Visual Web Tasks,RF-0558,STUDY-332,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0559,Vpi-bench: Visual prompt injection attacks for computer-use agents,RF-0559,STUDY-333,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0560,WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents,RF-0560,STUDY-334,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0561,WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections,RF-0561,STUDY-335,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0562,Wasp: Benchmarking web agent security against prompt injection attacks,RF-0562,STUDY-336,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0563,We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems,RF-0563,STUDY-337,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0565,"WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",RF-0565,STUDY-338,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0566,WebAgentGuard: A Reasoning-Driven Guard Model for Detecting Prompt Injection Attacks in Web Agents,RF-0566,STUDY-339,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0567,WebArena: A Realistic Web Environment for Building Autonomous Agents,RF-0567,STUDY-340,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0568,WebCanvas: Benchmarking Web Agents in Online Environments,RF-0568,STUDY-341,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0569,WebCloak: Characterizing and mitigating threats from LLM-driven web agents as intelligent scrapers,RF-0569,STUDY-342,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0570,WebGuard: Building a Generalizable Guardrail for Web Agents,RF-0570,STUDY-343,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-DIRECT_PREPRINT_EVIDENCE_OR_INCREMENTAL_VALUE_NOT_SUFFICIENT
+RF-0571,{W}eb{I}nject: Prompt Injection Attack to Web Agents,RF-0571,STUDY-344,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0572,WebMCP Tool Surface Poisoning: Runtime Manipulation Attacks on LLM Agents,RF-0572,STUDY-345,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0573,WebPII: Benchmarking Visual PII Detection for Computer-Use Agents,RF-0573,STUDY-346,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0574,WebSentinel: Detecting and Localizing Prompt Injection Attacks for Web Agents,RF-0574,STUDY-347,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0575,WebSP-Eval: Evaluating Web Agents on Website Security and Privacy Tasks,RF-0575,STUDY-348,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0576,WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents,RF-0576,STUDY-349,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0577,WebTrap: Stealthy Mid-Task Hijacking of Browser Agents During Navigation,RF-0577,STUDY-350,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0578,{W}eb{V}oyager: Building an End-to-End Web Agent with Large Multimodal Models,RF-0578,STUDY-351,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0581,"""What Did It Actually Do?"": Understanding Risk Awareness and Traceability for Computer-Use Agents",RF-0581,STUDY-352,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0583,When Actions Go Off-Task: Detecting and Correcting Misaligned Actions in Computer-Use Agents,RF-0583,STUDY-353,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0587,When Claws Remember but Do Not Tell: Stealthy Memory Injection in Persistent Personal Agents,RF-0587,STUDY-354,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0589,When Does Belief-Based Agent Memory Help? Reliability-Conditional Updating and Provenance-Capped Poisoning Defense,RF-0589,STUDY-355,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0590,"When MCP Servers Attack: Taxonomy, Feasibility, and Mitigation",RF-0590,STUDY-356,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-ADJACENT_OR_PREPRINT_EVIDENCE_THRESHOLD_NOT_MET
+RF-0592,When the Manual Lies: A Realistic Benchmark to Evaluate MCP Poisoning Attacks for LLM Agents,RF-0592,STUDY-357,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0594,Who Grants the Agent Power? Defending Against Instruction Injection via Task-Centric Access Control,RF-0594,STUDY-358,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0595,Who Pays the Price? Stakeholder-Centric Prompt Injection Benchmarking for Real-world Web Agents,RF-0595,STUDY-359,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0596,Who Tests the Testers? Systematic Enumeration and Coverage Audit of LLM Agent Tool Call Safety,RF-0596,STUDY-360,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0597,Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale,RF-0597,STUDY-361,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0598,WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments,RF-0598,STUDY-362,FULLTEXT_EXCLUDED_STUDY,EXCLUDE_REVIEW,,E-CONTEXTUAL_PREMISE_NOT_NECESSARY
+RF-0599,WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?,RF-0599,STUDY-363,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0601,WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point,RF-0601,STUDY-364,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,
+RF-0602,Your agent may misevolve: Emergent risks in self-evolving llm agents,RF-0602,STUDY-365,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0604,"Your Agent, Their Asset: A Real-World Safety Analysis of OpenClaw",RF-0604,STUDY-366,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,DIRECT_SECURITY,
+RF-0605,"""Your AI, My Shell"": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors",RF-0605,STUDY-367,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-0606,Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections,RF-0606,STUDY-368,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,ADJACENT_MECHANISM,
+RF-S001,LongHorizonUI: A Unified Framework for Robust Long-Horizon Task Automation of GUI Agent,RF-S001,STUDY-369,REPORT_INCLUDED_AS_PREFERRED,INCLUDE_REVIEW,CONTEXTUAL_CAPABILITY,

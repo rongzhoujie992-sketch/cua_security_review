@@ -1,0 +1,144 @@
+{
+  "branch_name": "Targeted foundational/classical security-source route",
+  "branch_type": "Other methods / targeted foundational security-source search",
+  "execution_date": "2026-08-01",
+  "timezone": "+08:00",
+  "formal_queries": [
+    {
+      "query_id": "PILOT-0",
+      "route": "Exploratory web search (not counted)",
+      "foundation_family": "Multiple",
+      "exact_query_string": "Combined exploratory search across reference monitor, least privilege/capabilities, confused deputy/delegation, and confinement/information flow.",
+      "returned_card_count": "",
+      "counted_in_identification": "No"
+    },
+    {
+      "query_id": "QF01",
+      "route": "Web search",
+      "foundation_family": "Reference monitor and complete mediation",
+      "exact_query_string": "\"reference monitor\" \"complete mediation\" Anderson Saltzer Schroeder foundational computer security",
+      "returned_card_count": 11,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF02",
+      "route": "Web search",
+      "foundation_family": "Least privilege and capability systems",
+      "exact_query_string": "\"Programming semantics for multiprogrammed computations\" capability least privilege Dennis Van Horn foundational",
+      "returned_card_count": 8,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF03",
+      "route": "Web search",
+      "foundation_family": "Confused deputy and delegation",
+      "exact_query_string": "\"The confused deputy\" delegation \"A calculus for access control in distributed systems\" foundational",
+      "returned_card_count": 10,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF04",
+      "route": "Web search",
+      "foundation_family": "Information-flow control and confinement",
+      "exact_query_string": "\"A note on the confinement problem\" \"A lattice model of secure information flow\" foundational",
+      "returned_card_count": 11,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF05",
+      "route": "Web search",
+      "foundation_family": "UCON and ABAC",
+      "exact_query_string": "\"UCONABC usage control model\" \"Guide to Attribute Based Access Control\" ABAC contextual ongoing authorization",
+      "returned_card_count": 10,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF05B",
+      "route": "Web search",
+      "foundation_family": "NIST ABAC source verification",
+      "exact_query_string": "site:nist.gov \"Guide to Attribute Based Access Control\" SP 800-162",
+      "returned_card_count": 15,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF06",
+      "route": "Web search",
+      "foundation_family": "Provenance and logging",
+      "exact_query_string": "\"Provenance-aware storage systems\" \"Guide to Computer Security Log Management\" foundational audit provenance",
+      "returned_card_count": 11,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF06B",
+      "route": "Web search",
+      "foundation_family": "USENIX provenance source verification",
+      "exact_query_string": "site:usenix.org \"Provenance-aware storage systems\"",
+      "returned_card_count": 26,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "QF07",
+      "route": "Web search",
+      "foundation_family": "Recovery, restoration, and validation",
+      "exact_query_string": "\"Guide for Cybersecurity Event Recovery\" restoration validation NIST SP 800-184 foundational recovery",
+      "returned_card_count": 12,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "SEED",
+      "route": "Other methods: targeted seed route",
+      "foundation_family": "Seven foundational families",
+      "exact_query_string": "Twelve candidate classical security references identified during preliminary conceptual scoping.",
+      "returned_card_count": 12,
+      "counted_in_identification": "Yes"
+    },
+    {
+      "query_id": "VR01",
+      "route": "Source verification",
+      "foundation_family": "Source identity/full text",
+      "exact_query_string": "\"The Confused Deputy\" Norm Hardy pdf",
+      "returned_card_count": "",
+      "counted_in_identification": "No"
+    },
+    {
+      "query_id": "VR02",
+      "route": "Source verification",
+      "foundation_family": "Source identity/full text",
+      "exact_query_string": "site:dspace.mit.edu \"Programming semantics for multiprogrammed computations\" PDF",
+      "returned_card_count": "",
+      "counted_in_identification": "No"
+    },
+    {
+      "query_id": "VR03",
+      "route": "Source verification",
+      "foundation_family": "Source identity/full text",
+      "exact_query_string": "Saltzer Schroeder protection of information in computer systems PDF complete mediation least privilege",
+      "returned_card_count": "",
+      "counted_in_identification": "No"
+    },
+    {
+      "query_id": "VR04",
+      "route": "Source verification",
+      "foundation_family": "Source identity/full text",
+      "exact_query_string": "10.1145/54289.871709 The confused deputy ACM",
+      "returned_card_count": "",
+      "counted_in_identification": "No"
+    },
+    {
+      "query_id": "VR05",
+      "route": "Source verification",
+      "foundation_family": "Source identity/full text",
+      "exact_query_string": "Computer Security Technology Planning Study Volume I Anderson PDF reference monitor",
+      "returned_card_count": "",
+      "counted_in_identification": "No"
+    }
+  ],
+  "counting_rule": "Count captured result cards and seed records as occurrences; deduplicate to canonical works by DOI/report identity, exact normalized title, and version relationship.",
+  "main_corpus_rule": "Do not add foundational theory sources to the final 222-study main CUA corpus; retain them as a separate evidence route.",
+  "limitations": [
+    "Search-card counts are not search-engine total-hit counts.",
+    "The branch is targeted and theory-family driven, not an exhaustive history-of-security bibliography.",
+    "Selection was performed by the author; no independent second screener was used.",
+    "Only included sources received local full-text hashing and exact locator verification in this package."
+  ]
+}

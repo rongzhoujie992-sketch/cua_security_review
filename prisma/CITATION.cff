@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you cite this repository or the associated CUA security survey, please cite the associated CUA security survey."
+title: "CUA Security Review PRISMA Reproducibility Repository"
+type: dataset
+authors:
+  - family-names: Rong
+    given-names: Zhoujie
+date-released: 2026-08-15
+version: "1.0"

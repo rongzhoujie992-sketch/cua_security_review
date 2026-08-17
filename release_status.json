@@ -1,0 +1,14 @@
+{
+  "artifact_version": "1.0.0",
+  "publication_status": "READY_FOR_REPOSITORY_PUBLICATION",
+  "prisma_main_systematic_studies": 222,
+  "prisma_foundational_sources": 12,
+  "prisma_tdes_academic_sources": 4,
+  "prisma_tdes_official_documents": 5,
+  "coding_canonical_studies": 226,
+  "coding_candidate_operations": 501,
+  "coding_qualified_hpat": 282,
+  "coding_hpat_positive_studies": 91,
+  "coding_reliability_sample_studies": 45,
+  "integration_alignment_rows": 226
+}

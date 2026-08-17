@@ -1,0 +1,1013 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8CNrL/kfkzfenXb8XVnBHdUOrJU</id>
+  <title>arXiv Query: search_query=( (ti:"computer-use agent" OR abs:"computer-use agent" OR ti:"computer-using agent" OR abs:"computer-using agent" OR ti:"computer use agent" OR abs:"computer use agent" OR ti:"GUI agent" OR abs:"GUI agent" OR ti:"OS agent" OR abs:"OS agent" OR ti:"web agent" OR abs:"web agent" OR ti:"browser agent" OR abs:"browser agent" OR ti:"tool-using agent" OR abs:"tool-using agent" OR ti:"tool-integrated agent" OR abs:"tool-integrated agent" OR ti:"LLM agent" OR abs:"LLM agent" OR ti:"language model agent" OR abs:"language model agent" OR ti:"AI agent" OR abs:"AI agent" OR ti:"agentic AI" OR abs:"agentic AI" OR ti:"autonomous agent" OR abs:"autonomous agent") AND (ti:"containment" OR abs:"containment" OR ti:"recovery" OR abs:"recovery" OR ti:"rollback" OR abs:"rollback" OR ti:"restoration" OR abs:"restoration" OR ti:"revocation" OR abs:"revocation" OR ti:"checkpoint" OR abs:"checkpoint" OR ti:"recoverability" OR abs:"recoverability" OR ti:"execution halt" OR abs:"execution halt" OR ti:"action correction" OR abs:"action correction" OR ti:"human oversight" OR abs:"human oversight" OR ti:"human handoff" OR abs:"human handoff" OR ti:"human takeover" OR abs:"human takeover") ) AND submittedDate:"202301010000 TO 202607312359"&amp;id_list=&amp;start=1000&amp;max_results=500</title>
+  <updated>2026-08-14T09:19:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=((ti:%22computer-use+agent%22+OR+(abs:%22computer-use+agent%22+OR+(ti:%22computer-using+agent%22+OR+(abs:%22computer-using+agent%22+OR+(ti:%22computer+use+agent%22+OR+(abs:%22computer+use+agent%22+OR+(ti:%22GUI+agent%22+OR+(abs:%22GUI+agent%22+OR+(ti:%22OS+agent%22+OR+(abs:%22OS+agent%22+OR+(ti:%22web+agent%22+OR+(abs:%22web+agent%22+OR+(ti:%22browser+agent%22+OR+(abs:%22browser+agent%22+OR+(ti:%22tool-using+agent%22+OR+(abs:%22tool-using+agent%22+OR+(ti:%22tool-integrated+agent%22+OR+(abs:%22tool-integrated+agent%22+OR+(ti:%22LLM+agent%22+OR+(abs:%22LLM+agent%22+OR+(ti:%22language+model+agent%22+OR+(abs:%22language+model+agent%22+OR+(ti:%22AI+agent%22+OR+(abs:%22AI+agent%22+OR+(ti:%22agentic+AI%22+OR+(abs:%22agentic+AI%22+OR+(ti:%22autonomous+agent%22+OR+abs:%22autonomous+agent%22)))))))))))))))))))))))))))+AND+(ti:%22containment%22+OR+(abs:%22containment%22+OR+(ti:%22recovery%22+OR+(abs:%22recovery%22+OR+(ti:%22rollback%22+OR+(abs:%22rollback%22+OR+(ti:%22restoration%22+OR+(abs:%22restoration%22+OR+(ti:%22revocation%22+OR+(abs:%22revocation%22+OR+(ti:%22checkpoint%22+OR+(abs:%22checkpoint%22+OR+(ti:%22recoverability%22+OR+(abs:%22recoverability%22+OR+(ti:%22execution+halt%22+OR+(abs:%22execution+halt%22+OR+(ti:%22action+correction%22+OR+(abs:%22action+correction%22+OR+(ti:%22human+oversight%22+OR+(abs:%22human+oversight%22+OR+(ti:%22human+handoff%22+OR+(abs:%22human+handoff%22+OR+(ti:%22human+takeover%22+OR+abs:%22human+takeover%22))))))))))))))))))))))))+AND+submittedDate:%22202301010000+TO+202607312359%22&amp;start=1000&amp;max_results=500&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>500</opensearch:itemsPerPage>
+  <opensearch:totalResults>1031</opensearch:totalResults>
+  <opensearch:startIndex>1000</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.12993v2</id>
+    <title>ChemMiner: A Large Language Model Agent System for Chemical Literature Data Mining</title>
+    <updated>2025-06-30T08:19:19Z</updated>
+    <link href="https://arxiv.org/abs/2402.12993v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.12993v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of AI-assisted chemical synthesis tools requires comprehensive datasets covering diverse reaction types, yet current high-throughput experimental (HTE) approaches are expensive and limited in scope. Chemical literature represents a vast, underexplored data source containing thousands of reactions published annually. However, extracting reaction information from literature faces significant challenges including varied writing styles, complex coreference relationships, and multimodal information presentation. This paper proposes ChemMiner, a novel end-to-end framework leveraging multiple agents powered by large language models (LLMs) to extract high-fidelity chemical data from literature. ChemMiner incorporates three specialized agents: a text analysis agent for coreference mapping, a multimodal agent for non-textual information extraction, and a synthesis analysis agent for data generation. Furthermore, we developed a comprehensive benchmark with expert-annotated chemical literature to evaluate both extraction efficiency and precision. Experimental results demonstrate reaction identification rates comparable to human chemists while significantly reducing processing time, with high accuracy, recall, and F1 scores. Our open-sourced benchmark facilitates future research in chemical literature data mining.</summary>
+    <category term="cs.IR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-20T13:21:46Z</published>
+    <arxiv:primary_category term="cs.IR"/>
+    <author>
+      <name>Kexin Chen</name>
+    </author>
+    <author>
+      <name>Yuyang Du</name>
+    </author>
+    <author>
+      <name>Junyou Li</name>
+    </author>
+    <author>
+      <name>Hanqun Cao</name>
+    </author>
+    <author>
+      <name>Menghao Guo</name>
+    </author>
+    <author>
+      <name>Xilin Dang</name>
+    </author>
+    <author>
+      <name>Lanqing Li</name>
+    </author>
+    <author>
+      <name>Jiezhong Qiu</name>
+    </author>
+    <author>
+      <name>Pheng Ann Heng</name>
+    </author>
+    <author>
+      <name>Guangyong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.12741v2</id>
+    <title>MuLan: Multimodal-LLM Agent for Progressive and Interactive Multi-Object Diffusion</title>
+    <updated>2024-05-24T15:56:58Z</updated>
+    <link href="https://arxiv.org/abs/2402.12741v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.12741v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Existing text-to-image models still struggle to generate images of multiple objects, especially in handling their spatial positions, relative sizes, overlapping, and attribute bindings. To efficiently address these challenges, we develop a training-free Multimodal-LLM agent (MuLan), as a human painter, that can progressively generate multi-object with intricate planning and feedback control. MuLan harnesses a large language model (LLM) to decompose a prompt to a sequence of sub-tasks, each generating only one object by stable diffusion, conditioned on previously generated objects. Unlike existing LLM-grounded methods, MuLan only produces a high-level plan at the beginning while the exact size and location of each object are determined upon each sub-task by an LLM and attention guidance. Moreover, MuLan adopts a vision-language model (VLM) to provide feedback to the image generated in each sub-task and control the diffusion model to re-generate the image if it violates the original prompt. Hence, each model in every step of MuLan only needs to address an easy sub-task it is specialized for. The multi-step process also allows human users to monitor the generation process and make preferred changes at any intermediate step via text prompts, thereby improving the human-AI collaboration experience. We collect 200 prompts containing multi-objects with spatial relationships and attribute bindings from different benchmarks to evaluate MuLan. The results demonstrate the superiority of MuLan in generating multiple objects over baselines and its creativity when collaborating with human users. The code is available at https://github.com/measure-infinity/mulan-code.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-20T06:14:30Z</published>
+    <arxiv:comment>Added the application to human-agent interaction; added discussion with concurrent work</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sen Li</name>
+    </author>
+    <author>
+      <name>Ruochen Wang</name>
+    </author>
+    <author>
+      <name>Cho-Jui Hsieh</name>
+    </author>
+    <author>
+      <name>Minhao Cheng</name>
+    </author>
+    <author>
+      <name>Tianyi Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.08837v1</id>
+    <title>Learning to Generate Context-Sensitive Backchannel Smiles for Embodied AI Agents with Applications in Mental Health Dialogues</title>
+    <updated>2024-02-13T22:47:22Z</updated>
+    <link href="https://arxiv.org/abs/2402.08837v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.08837v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Addressing the critical shortage of mental health resources for effective screening, diagnosis, and treatment remains a significant challenge. This scarcity underscores the need for innovative solutions, particularly in enhancing the accessibility and efficacy of therapeutic support. Embodied agents with advanced interactive capabilities emerge as a promising and cost-effective supplement to traditional caregiving methods. Crucial to these agents' effectiveness is their ability to simulate non-verbal behaviors, like backchannels, that are pivotal in establishing rapport and understanding in therapeutic contexts but remain under-explored. To improve the rapport-building capabilities of embodied agents we annotated backchannel smiles in videos of intimate face-to-face conversations over topics such as mental health, illness, and relationships. We hypothesized that both speaker and listener behaviors affect the duration and intensity of backchannel smiles. Using cues from speech prosody and language along with the demographics of the speaker and listener, we found them to contain significant predictors of the intensity of backchannel smiles. Based on our findings, we introduce backchannel smile production in embodied agents as a generation problem. Our attention-based generative model suggests that listener information offers performance improvements over the baseline speaker-centric generation approach. Conditioned generation using the significant predictors of smile intensity provides statistically significant improvements in empirical measures of generation quality. Our user study by transferring generated smiles to an embodied agent suggests that agent with backchannel smiles is perceived to be more human-like and is an attractive alternative for non-personal conversations over agent without backchannel smiles.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-13T22:47:22Z</published>
+    <arxiv:comment>Accepted to the Machine Learning for Cognitive and Mental Health Workshop at AAAI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Maneesh Bilalpur</name>
+    </author>
+    <author>
+      <name>Mert Inan</name>
+    </author>
+    <author>
+      <name>Dorsa Zeinali</name>
+    </author>
+    <author>
+      <name>Jeffrey F. Cohn</name>
+    </author>
+    <author>
+      <name>Malihe Alikhani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.08567v2</id>
+    <title>Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast</title>
+    <updated>2024-06-03T14:15:03Z</updated>
+    <link href="https://arxiv.org/abs/2402.08567v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.08567v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A multimodal large language model (MLLM) agent can receive instructions, capture images, retrieve histories from memory, and decide which tools to use. Nonetheless, red-teaming efforts have revealed that adversarial images/prompts can jailbreak an MLLM and cause unaligned behaviors. In this work, we report an even more severe safety issue in multi-agent environments, referred to as infectious jailbreak. It entails the adversary simply jailbreaking a single agent, and without any further intervention from the adversary, (almost) all agents will become infected exponentially fast and exhibit harmful behaviors. To validate the feasibility of infectious jailbreak, we simulate multi-agent environments containing up to one million LLaVA-1.5 agents, and employ randomized pair-wise chat as a proof-of-concept instantiation for multi-agent interaction. Our results show that feeding an (infectious) adversarial image into the memory of any randomly chosen agent is sufficient to achieve infectious jailbreak. Finally, we derive a simple principle for determining whether a defense mechanism can provably restrain the spread of infectious jailbreak, but how to design a practical defense that meets this principle remains an open question to investigate. Our project page is available at https://sail-sg.github.io/Agent-Smith/.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-13T16:06:17Z</published>
+    <arxiv:comment>ICML 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiangming Gu</name>
+    </author>
+    <author>
+      <name>Xiaosen Zheng</name>
+    </author>
+    <author>
+      <name>Tianyu Pang</name>
+    </author>
+    <author>
+      <name>Chao Du</name>
+    </author>
+    <author>
+      <name>Qian Liu</name>
+    </author>
+    <author>
+      <name>Ye Wang</name>
+    </author>
+    <author>
+      <name>Jing Jiang</name>
+    </author>
+    <author>
+      <name>Min Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.17459v1</id>
+    <title>A Preliminary Study on Using Large Language Models in Software Pentesting</title>
+    <updated>2024-01-30T21:42:59Z</updated>
+    <link href="https://arxiv.org/abs/2401.17459v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.17459v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLM) are perceived to offer promising potentials for automating security tasks, such as those found in security operation centers (SOCs). As a first step towards evaluating this perceived potential, we investigate the use of LLMs in software pentesting, where the main task is to automatically identify software security vulnerabilities in source code. We hypothesize that an LLM-based AI agent can be improved over time for a specific security task as human operators interact with it. Such improvement can be made, as a first step, by engineering prompts fed to the LLM based on the responses produced, to include relevant contexts and structures so that the model provides more accurate results. Such engineering efforts become sustainable if the prompts that are engineered to produce better results on current tasks, also produce better results on future unknown tasks. To examine this hypothesis, we utilize the OWASP Benchmark Project 1.2 which contains 2,740 hand-crafted source code test cases containing various types of vulnerabilities. We divide the test cases into training and testing data, where we engineer the prompts based on the training data (only), and evaluate the final system on the testing data. We compare the AI agent's performance on the testing data against the performance of the agent without the prompt engineering. We also compare the AI agent's results against those from SonarQube, a widely used static code analyzer for security testing. We built and tested multiple versions of the AI agent using different off-the-shelf LLMs -- Google's Gemini-pro, as well as OpenAI's GPT-3.5-Turbo and GPT-4-Turbo (with both chat completion and assistant APIs). The results show that using LLMs is a viable approach to build an AI agent for software pentesting that can improve through repeated use and prompt engineering.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-30T21:42:59Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Kumar Shashwat</name>
+    </author>
+    <author>
+      <name>Francis Hahn</name>
+    </author>
+    <author>
+      <name>Xinming Ou</name>
+    </author>
+    <author>
+      <name>Dmitry Goldgof</name>
+    </author>
+    <author>
+      <name>Lawrence Hall</name>
+    </author>
+    <author>
+      <name>Jay Ligatti</name>
+    </author>
+    <author>
+      <name>S. Raj Rajgopalan</name>
+    </author>
+    <author>
+      <name>Armin Ziaie Tabari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.15688v2</id>
+    <title>Divide and Conquer: Language Models can Plan and Self-Correct for Compositional Text-to-Image Generation</title>
+    <updated>2024-01-30T13:05:13Z</updated>
+    <link href="https://arxiv.org/abs/2401.15688v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.15688v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite significant advancements in text-to-image models for generating high-quality images, these methods still struggle to ensure the controllability of text prompts over images in the context of complex text prompts, especially when it comes to retaining object attributes and relationships. In this paper, we propose CompAgent, a training-free approach for compositional text-to-image generation, with a large language model (LLM) agent as its core. The fundamental idea underlying CompAgent is premised on a divide-and-conquer methodology. Given a complex text prompt containing multiple concepts including objects, attributes, and relationships, the LLM agent initially decomposes it, which entails the extraction of individual objects, their associated attributes, and the prediction of a coherent scene layout. These individual objects can then be independently conquered. Subsequently, the agent performs reasoning by analyzing the text, plans and employs the tools to compose these isolated objects. The verification and human feedback mechanism is finally incorporated into our agent to further correct the potential attribute errors and refine the generated images. Guided by the LLM agent, we propose a tuning-free multi-concept customization model and a layout-to-image generation model as the tools for concept composition, and a local image editing method as the tool to interact with the agent for verification. The scene layout controls the image generation process among these tools to prevent confusion among multiple objects. Extensive experiments demonstrate the superiority of our approach for compositional text-to-image generation: CompAgent achieves more than 10\% improvement on T2I-CompBench, a comprehensive benchmark for open-world compositional T2I generation. The extension to various related tasks also illustrates the flexibility of our CompAgent for potential applications.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-28T16:18:39Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Zhenyu Wang</name>
+    </author>
+    <author>
+      <name>Enze Xie</name>
+    </author>
+    <author>
+      <name>Aoxue Li</name>
+    </author>
+    <author>
+      <name>Zhongdao Wang</name>
+    </author>
+    <author>
+      <name>Xihui Liu</name>
+    </author>
+    <author>
+      <name>Zhenguo Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.02851v2</id>
+    <title>Natural Language Programming in Medicine: Administering Evidence Based Clinical Workflows with Autonomous Agents Powered by Generative Large Language Models</title>
+    <updated>2024-08-22T07:49:39Z</updated>
+    <link href="https://arxiv.org/abs/2401.02851v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.02851v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative Large Language Models (LLMs) hold significant promise in healthcare, demonstrating capabilities such as passing medical licensing exams and providing clinical knowledge. However, their current use as information retrieval tools is limited by challenges like data staleness, resource demands, and occasional generation of incorrect information. This study assessed the potential of LLMs to function as autonomous agents in a simulated tertiary care medical center, using real-world clinical cases across multiple specialties. Both proprietary and open-source LLMs were evaluated, with Retrieval Augmented Generation (RAG) enhancing contextual relevance. Proprietary models, particularly GPT-4, generally outperformed open-source models, showing improved guideline adherence and more accurate responses with RAG. The manual evaluation by expert clinicians was crucial in validating models' outputs, underscoring the importance of human oversight in LLM operation. Further, the study emphasizes Natural Language Programming (NLP) as the appropriate paradigm for modifying model behavior, allowing for precise adjustments through tailored prompts and real-world interactions. This approach highlights the potential of LLMs to significantly enhance and supplement clinical decision-making, while also emphasizing the value of continuous expert involvement and the flexibility of NLP to ensure their reliability and effectiveness in healthcare settings.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-05T15:09:57Z</published>
+    <arxiv:comment>Figures: 5, Tables: 3</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Akhil Vaid</name>
+    </author>
+    <author>
+      <name>Joshua Lampert</name>
+    </author>
+    <author>
+      <name>Juhee Lee</name>
+    </author>
+    <author>
+      <name>Ashwin Sawant</name>
+    </author>
+    <author>
+      <name>Donald Apakama</name>
+    </author>
+    <author>
+      <name>Ankit Sakhuja</name>
+    </author>
+    <author>
+      <name>Ali Soroush</name>
+    </author>
+    <author>
+      <name>Sarah Bick</name>
+    </author>
+    <author>
+      <name>Ethan Abbott</name>
+    </author>
+    <author>
+      <name>Hernando Gomez</name>
+    </author>
+    <author>
+      <name>Michael Hadley</name>
+    </author>
+    <author>
+      <name>Denise Lee</name>
+    </author>
+    <author>
+      <name>Isotta Landi</name>
+    </author>
+    <author>
+      <name>Son Q Duong</name>
+    </author>
+    <author>
+      <name>Nicole Bussola</name>
+    </author>
+    <author>
+      <name>Ismail Nabeel</name>
+    </author>
+    <author>
+      <name>Silke Muehlstedt</name>
+    </author>
+    <author>
+      <name>Silke Muehlstedt</name>
+    </author>
+    <author>
+      <name>Robert Freeman</name>
+    </author>
+    <author>
+      <name>Patricia Kovatch</name>
+    </author>
+    <author>
+      <name>Brendan Carr</name>
+    </author>
+    <author>
+      <name>Fei Wang</name>
+    </author>
+    <author>
+      <name>Benjamin Glicksberg</name>
+    </author>
+    <author>
+      <name>Edgar Argulian</name>
+    </author>
+    <author>
+      <name>Stamatios Lerakis</name>
+    </author>
+    <author>
+      <name>Rohan Khera</name>
+    </author>
+    <author>
+      <name>David L. Reich</name>
+    </author>
+    <author>
+      <name>Monica Kraft</name>
+    </author>
+    <author>
+      <name>Alexander Charney</name>
+    </author>
+    <author>
+      <name>Girish Nadkarni</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.17642v1</id>
+    <title>Research on the Laws of Multimodal Perception and Cognition from a Cross-cultural Perspective -- Taking Overseas Chinese Gardens as an Example</title>
+    <updated>2023-12-29T15:13:23Z</updated>
+    <link href="https://arxiv.org/abs/2312.17642v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.17642v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study aims to explore the complex relationship between perceptual and cognitive interactions in multimodal data analysis,with a specific emphasis on spatial experience design in overseas Chinese gardens. It is found that evaluation content and images on social media can reflect individuals' concerns and sentiment responses, providing a rich data base for cognitive research that contains both sentimental and image-based cognitive information. Leveraging deep learning techniques, we analyze textual and visual data from social media, thereby unveiling the relationship between people's perceptions and sentiment cognition within the context of overseas Chinese gardens. In addition, our study introduces a multi-agent system (MAS)alongside AI agents. Each agent explores the laws of aesthetic cognition through chat scene simulation combined with web search. This study goes beyond the traditional approach of translating perceptions into sentiment scores, allowing for an extension of the research methodology in terms of directly analyzing texts and digging deeper into opinion data. This study provides new perspectives for understanding aesthetic experience and its impact on architecture and landscape design across diverse cultural contexts, which is an essential contribution to the field of cultural communication and aesthetic understanding.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-29T15:13:23Z</published>
+    <arxiv:comment>16 figures,1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Ran Chen</name>
+    </author>
+    <author>
+      <name>Xueqi Yao</name>
+    </author>
+    <author>
+      <name>Jing Zhao</name>
+    </author>
+    <author>
+      <name>Shuhan Xu</name>
+    </author>
+    <author>
+      <name>Sirui Zhang</name>
+    </author>
+    <author>
+      <name>Yijun Mao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.15820v1</id>
+    <title>WebVLN: Vision-and-Language Navigation on Websites</title>
+    <updated>2023-12-25T22:13:26Z</updated>
+    <link href="https://arxiv.org/abs/2312.15820v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.15820v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-and-Language Navigation (VLN) task aims to enable AI agents to accurately understand and follow natural language instructions to navigate through real-world environments, ultimately reaching specific target locations. We recognise a promising opportunity to extend VLN to a comparable navigation task that holds substantial significance in our daily lives, albeit within the virtual realm: navigating websites on the Internet. This paper proposes a new task named Vision-and-Language Navigation on Websites (WebVLN), where we use question-based instructions to train an agent, emulating how users naturally browse websites. Unlike the existing VLN task that only pays attention to vision and instruction (language), the WebVLN agent further considers underlying web-specific content like HTML, which could not be seen on the rendered web pages yet contains rich visual and textual information. Toward this goal, we contribute a dataset, WebVLN-v1, and introduce a novel approach called Website-aware VLN Network (WebVLN-Net), which is built upon the foundation of state-of-the-art VLN techniques. Experimental results show that WebVLN-Net outperforms current VLN and web-related navigation methods. We believe that the introduction of the new WebVLN task and its dataset will establish a new dimension within the VLN domain and contribute to the broader vision-and-language research community. The code is available at: https://github.com/WebVLN/WebVLN.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-25T22:13:26Z</published>
+    <arxiv:comment>Accepted by AAAI2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Qi Chen</name>
+    </author>
+    <author>
+      <name>Dileepa Pitawela</name>
+    </author>
+    <author>
+      <name>Chongyang Zhao</name>
+    </author>
+    <author>
+      <name>Gengze Zhou</name>
+    </author>
+    <author>
+      <name>Hsiang-Ting Chen</name>
+    </author>
+    <author>
+      <name>Qi Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.15339v1</id>
+    <title>MaDi: Learning to Mask Distractions for Generalization in Visual Deep Reinforcement Learning</title>
+    <updated>2023-12-23T20:11:05Z</updated>
+    <link href="https://arxiv.org/abs/2312.15339v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.15339v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The visual world provides an abundance of information, but many input pixels received by agents often contain distracting stimuli. Autonomous agents need the ability to distinguish useful information from task-irrelevant perceptions, enabling them to generalize to unseen environments with new distractions. Existing works approach this problem using data augmentation or large auxiliary networks with additional loss functions. We introduce MaDi, a novel algorithm that learns to mask distractions by the reward signal only. In MaDi, the conventional actor-critic structure of deep reinforcement learning agents is complemented by a small third sibling, the Masker. This lightweight neural network generates a mask to determine what the actor and critic will receive, such that they can focus on learning the task. The masks are created dynamically, depending on the current input. We run experiments on the DeepMind Control Generalization Benchmark, the Distracting Control Suite, and a real UR5 Robotic Arm. Our algorithm improves the agent's focus with useful masks, while its efficient Masker network only adds 0.2% more parameters to the original structure, in contrast to previous work. MaDi consistently achieves generalization results better than or competitive to state-of-the-art methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-23T20:11:05Z</published>
+    <arxiv:comment>Accepted as full-paper (oral) at AAMAS 2024. Code is available at https://github.com/bramgrooten/mask-distractions and see our 40-second video at https://youtu.be/2oImF0h1k48</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Bram Grooten</name>
+    </author>
+    <author>
+      <name>Tristan Tomilin</name>
+    </author>
+    <author>
+      <name>Gautham Vasan</name>
+    </author>
+    <author>
+      <name>Matthew E. Taylor</name>
+    </author>
+    <author>
+      <name>A. Rupam Mahmood</name>
+    </author>
+    <author>
+      <name>Meng Fang</name>
+    </author>
+    <author>
+      <name>Mykola Pechenizkiy</name>
+    </author>
+    <author>
+      <name>Decebal Constantin Mocanu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.17728v1</id>
+    <title>Know your audience</title>
+    <updated>2023-11-29T15:34:55Z</updated>
+    <link href="https://arxiv.org/abs/2311.17728v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.17728v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Distributed function computation is the problem, for a networked system of $n$ autonomous agents, to collectively compute the value $f(v_1, \ldots, v_n)$ of some input values, each initially private to one agent in the network. Here, we study and organize results pertaining to distributed function computation in anonymous networks, both for the static and the dynamic case, under a communication model of directed and synchronous message exchanges, but with varying assumptions in the degree of awareness or control that a single agent has over its outneighbors.
+  Our main argument is three-fold. First, in the "blind broadcast" model, where in each round an agent merely casts out a unique message without any knowledge or control over its addressees, the computable functions are those that only depend on the set of the input values, but not on their multiplicities or relative frequencies in the input. Second, in contrast, when we assume either that a) in each round, the agents know how many outneighbors they have; b) all communications links in the network are bidirectional; or c) the agents may address each of their outneighbors individually, then the set of computable functions grows to contain all functions that depend on the relative frequencies of each value in the input - such as the average - but not on their multiplicities - thus, not the sum. Third, however, if one or several agents are distinguished as leaders, or if the cardinality of the network is known, then under any of the above three assumptions it becomes possible to recover the complete multiset of the input values, and thus compute any function of the distributed input as long as it is invariant under permutation of its arguments. In the case of dynamic networks, we also discuss the impact of multiple connectivity assumptions.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T15:34:55Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Bernadette Charron-Bost</name>
+    </author>
+    <author>
+      <name>Patrick Lambein-Monette</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.15596v2</id>
+    <title>EgoThink: Evaluating First-Person Perspective Thinking Capability of Vision-Language Models</title>
+    <updated>2024-03-28T11:35:55Z</updated>
+    <link href="https://arxiv.org/abs/2311.15596v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.15596v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-language models (VLMs) have recently shown promising results in traditional downstream tasks. Evaluation studies have emerged to assess their abilities, with the majority focusing on the third-person perspective, and only a few addressing specific tasks from the first-person perspective. However, the capability of VLMs to "think" from a first-person perspective, a crucial attribute for advancing autonomous agents and robotics, remains largely unexplored. To bridge this research gap, we introduce EgoThink, a novel visual question-answering benchmark that encompasses six core capabilities with twelve detailed dimensions. The benchmark is constructed using selected clips from egocentric videos, with manually annotated question-answer pairs containing first-person information. To comprehensively assess VLMs, we evaluate eighteen popular VLMs on EgoThink. Moreover, given the open-ended format of the answers, we use GPT-4 as the automatic judge to compute single-answer grading. Experimental results indicate that although GPT-4V leads in numerous dimensions, all evaluated VLMs still possess considerable potential for improvement in first-person perspective tasks. Meanwhile, enlarging the number of trainable parameters has the most significant impact on model performance on EgoThink. In conclusion, EgoThink serves as a valuable addition to existing evaluation benchmarks for VLMs, providing an indispensable resource for future research in the realm of embodied artificial intelligence and robotics.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-27T07:44:25Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Sijie Cheng</name>
+    </author>
+    <author>
+      <name>Zhicheng Guo</name>
+    </author>
+    <author>
+      <name>Jingwen Wu</name>
+    </author>
+    <author>
+      <name>Kechen Fang</name>
+    </author>
+    <author>
+      <name>Peng Li</name>
+    </author>
+    <author>
+      <name>Huaping Liu</name>
+    </author>
+    <author>
+      <name>Yang Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.01918v1</id>
+    <title>Large Language Models Illuminate a Progressive Pathway to Artificial Healthcare Assistant: A Review</title>
+    <updated>2023-11-03T13:51:36Z</updated>
+    <link href="https://arxiv.org/abs/2311.01918v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.01918v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the rapid development of artificial intelligence, large language models (LLMs) have shown promising capabilities in mimicking human-level language comprehension and reasoning. This has sparked significant interest in applying LLMs to enhance various aspects of healthcare, ranging from medical education to clinical decision support. However, medicine involves multifaceted data modalities and nuanced reasoning skills, presenting challenges for integrating LLMs. This paper provides a comprehensive review on the applications and implications of LLMs in medicine. It begins by examining the fundamental applications of general-purpose and specialized LLMs, demonstrating their utilities in knowledge retrieval, research support, clinical workflow automation, and diagnostic assistance. Recognizing the inherent multimodality of medicine, the review then focuses on multimodal LLMs, investigating their ability to process diverse data types like medical imaging and EHRs to augment diagnostic accuracy. To address LLMs' limitations regarding personalization and complex clinical reasoning, the paper explores the emerging development of LLM-powered autonomous agents for healthcare. Furthermore, it summarizes the evaluation methodologies for assessing LLMs' reliability and safety in medical contexts. Overall, this review offers an extensive analysis on the transformative potential of LLMs in modern medicine. It also highlights the pivotal need for continuous optimizations and ethical oversight before these models can be effectively integrated into clinical practice. Visit https://github.com/mingze-yuan/Awesome-LLM-Healthcare for an accompanying GitHub repository containing latest papers.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-03T13:51:36Z</published>
+    <arxiv:comment>24 pages, 1 figure, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mingze Yuan</name>
+    </author>
+    <author>
+      <name>Peng Bao</name>
+    </author>
+    <author>
+      <name>Jiajia Yuan</name>
+    </author>
+    <author>
+      <name>Yunhao Shen</name>
+    </author>
+    <author>
+      <name>Zifan Chen</name>
+    </author>
+    <author>
+      <name>Yi Xie</name>
+    </author>
+    <author>
+      <name>Jie Zhao</name>
+    </author>
+    <author>
+      <name>Yang Chen</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Lin Shen</name>
+    </author>
+    <author>
+      <name>Bin Dong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.17567v1</id>
+    <title>Skill-Mix: a Flexible and Expandable Family of Evaluations for AI models</title>
+    <updated>2023-10-26T16:55:05Z</updated>
+    <link href="https://arxiv.org/abs/2310.17567v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.17567v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With LLMs shifting their role from statistical modeling of language to serving as general-purpose AI agents, how should LLM evaluations change? Arguably, a key ability of an AI agent is to flexibly combine, as needed, the basic skills it has learned. The capability to combine skills plays an important role in (human) pedagogy and also in a paper on emergence phenomena (Arora &amp; Goyal, 2023).
+  This work introduces Skill-Mix, a new evaluation to measure ability to combine skills. Using a list of $N$ skills the evaluator repeatedly picks random subsets of $k$ skills and asks the LLM to produce text combining that subset of skills. Since the number of subsets grows like $N^k$, for even modest $k$ this evaluation will, with high probability, require the LLM to produce text significantly different from any text in the training set. The paper develops a methodology for (a) designing and administering such an evaluation, and (b) automatic grading (plus spot-checking by humans) of the results using GPT-4 as well as the open LLaMA-2 70B model.
+  Administering a version of to popular chatbots gave results that, while generally in line with prior expectations, contained surprises. Sizeable differences exist among model capabilities that are not captured by their ranking on popular LLM leaderboards ("cramming for the leaderboard"). Furthermore, simple probability calculations indicate that GPT-4's reasonable performance on $k=5$ is suggestive of going beyond "stochastic parrot" behavior (Bender et al., 2021), i.e., it combines skills in ways that it had not seen during training.
+  We sketch how the methodology can lead to a Skill-Mix based eco-system of open evaluations for AI capabilities of future models.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-26T16:55:05Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dingli Yu</name>
+    </author>
+    <author>
+      <name>Simran Kaur</name>
+    </author>
+    <author>
+      <name>Arushi Gupta</name>
+    </author>
+    <author>
+      <name>Jonah Brown-Cohen</name>
+    </author>
+    <author>
+      <name>Anirudh Goyal</name>
+    </author>
+    <author>
+      <name>Sanjeev Arora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.13289v2</id>
+    <title>SALMONN: Towards Generic Hearing Abilities for Large Language Models</title>
+    <updated>2024-04-08T06:12:52Z</updated>
+    <link href="https://arxiv.org/abs/2310.13289v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.13289v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hearing is arguably an essential ability of artificial intelligence (AI) agents in the physical world, which refers to the perception and understanding of general auditory information consisting of at least three types of sounds: speech, audio events, and music. In this paper, we propose SALMONN, a speech audio language music open neural network, built by integrating a pre-trained text-based large language model (LLM) with speech and audio encoders into a single multimodal model. SALMONN enables the LLM to directly process and understand general audio inputs and achieve competitive performances on a number of speech and audio tasks used in training, such as automatic speech recognition and translation, auditory-information-based question answering, emotion recognition, speaker verification, and music and audio captioning etc. SALMONN also has a diverse set of emergent abilities unseen in the training, which includes but is not limited to speech translation to untrained languages, speech-based slot filling, spoken-query-based question answering, audio-based storytelling, and speech audio co-reasoning etc. The presence of cross-modal emergent abilities is studied, and a novel few-shot activation tuning approach is proposed to activate such abilities. To our knowledge, SALMONN is the first model of its type and can be regarded as a step towards AI with generic hearing abilities. The source code, model checkpoints and data are available at https://github.com/bytedance/SALMONN.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-20T05:41:57Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Changli Tang</name>
+    </author>
+    <author>
+      <name>Wenyi Yu</name>
+    </author>
+    <author>
+      <name>Guangzhi Sun</name>
+    </author>
+    <author>
+      <name>Xianzhao Chen</name>
+    </author>
+    <author>
+      <name>Tian Tan</name>
+    </author>
+    <author>
+      <name>Wei Li</name>
+    </author>
+    <author>
+      <name>Lu Lu</name>
+    </author>
+    <author>
+      <name>Zejun Ma</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.12823v2</id>
+    <title>AgentTuning: Enabling Generalized Agent Abilities for LLMs</title>
+    <updated>2023-10-22T16:19:16Z</updated>
+    <link href="https://arxiv.org/abs/2310.12823v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.12823v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Open large language models (LLMs) with great performance in various tasks have significantly advanced the development of LLMs. However, they are far inferior to commercial models such as ChatGPT and GPT-4 when acting as agents to tackle complex tasks in the real world. These agent tasks employ LLMs as the central controller responsible for planning, memorization, and tool utilization, necessitating both fine-grained prompting methods and robust LLMs to achieve satisfactory performance. Though many prompting methods have been proposed to complete particular agent tasks, there is lack of research focusing on improving the agent capabilities of LLMs themselves without compromising their general abilities. In this work, we present AgentTuning, a simple and general method to enhance the agent abilities of LLMs while maintaining their general LLM capabilities. We construct AgentInstruct, a lightweight instruction-tuning dataset containing high-quality interaction trajectories. We employ a hybrid instruction-tuning strategy by combining AgentInstruct with open-source instructions from general domains. AgentTuning is used to instruction-tune the Llama 2 series, resulting in AgentLM. Our evaluations show that AgentTuning enables LLMs' agent capabilities without compromising general abilities. The AgentLM-70B is comparable to GPT-3.5-turbo on unseen agent tasks, demonstrating generalized agent capabilities. We open source the AgentInstruct and AgentLM-7B, 13B, and 70B models at https://github.com/THUDM/AgentTuning, serving open and powerful alternatives to commercial LLMs for agent tasks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-19T15:19:53Z</published>
+    <arxiv:comment>31 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Aohan Zeng</name>
+    </author>
+    <author>
+      <name>Mingdao Liu</name>
+    </author>
+    <author>
+      <name>Rui Lu</name>
+    </author>
+    <author>
+      <name>Bowen Wang</name>
+    </author>
+    <author>
+      <name>Xiao Liu</name>
+    </author>
+    <author>
+      <name>Yuxiao Dong</name>
+    </author>
+    <author>
+      <name>Jie Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.02003v6</id>
+    <title>L2MAC: Large Language Model Automatic Computer for Extensive Code Generation</title>
+    <updated>2025-06-27T17:28:14Z</updated>
+    <link href="https://arxiv.org/abs/2310.02003v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.02003v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformer-based large language models (LLMs) are constrained by the fixed context window of the underlying transformer architecture, hindering their ability to produce long and coherent outputs. Memory-augmented LLMs are a promising solution, but current approaches cannot handle long output generation tasks since they (1) only focus on reading memory and reduce its evolution to the concatenation of new memories or (2) use very specialized memories that cannot adapt to other domains. This paper presents L2MAC, the first practical LLM-based general-purpose stored-program automatic computer (von Neumann architecture) framework, an LLM-based multi-agent system, for long and consistent output generation. Its memory has two components: the instruction registry, which is populated with a prompt program to solve the user-given task, and a file store, which will contain the final and intermediate outputs. Each instruction in turn is executed by a separate LLM agent, whose context is managed by a control unit capable of precise memory reading and writing to ensure effective interaction with the file store. These components enable L2MAC to generate extensive outputs, bypassing the constraints of the finite context window while producing outputs that fulfill a complex user-specified task. We empirically demonstrate that L2MAC achieves state-of-the-art performance in generating large codebases for system design tasks, significantly outperforming other coding methods in implementing the detailed user-specified task; we show that L2MAC works for general-purpose extensive text-based tasks, such as writing an entire book; and we provide valuable insights into L2MAC's performance improvement over existing methods.</summary>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.PL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T16:55:19Z</published>
+    <arxiv:comment>Published in The Twelfth International Conference on Learning Representations (ICLR), 2024. Copyright 2023 by the author(s)</arxiv:comment>
+    <arxiv:primary_category term="cs.SE"/>
+    <author>
+      <name>Samuel Holt</name>
+    </author>
+    <author>
+      <name>Max Ruiz Luyten</name>
+    </author>
+    <author>
+      <name>Mihaela van der Schaar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.12826v1</id>
+    <title>LiveChat: Video Comment Generation from Audio-Visual Multimodal Contexts</title>
+    <updated>2023-10-01T02:35:58Z</updated>
+    <link href="https://arxiv.org/abs/2311.12826v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.12826v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Live commenting on video, a popular feature of live streaming platforms, enables viewers to engage with the content and share their comments, reactions, opinions, or questions with the streamer or other viewers while watching the video or live stream. It presents a challenging testbed for AI agents, which involves the simultaneous understanding of audio-visual multimodal contexts from live streams and the ability to interact with human viewers through dialogue. As existing live streaming-based comments datasets contain limited categories and lack a diversity, we create a large-scale audio-visual multimodal dialogue dataset to facilitate the development of live commenting technologies. The data is collected from Twitch, with 11 different categories and 575 streamers for a total of 438 hours of video and 3.2 million comments. Moreover, we propose a novel multimodal generation model capable of generating live comments that align with the temporal and spatial events within the video, as well as with the ongoing multimodal dialogue context. Our initial results have demonstrated the effectiveness of the proposed model, providing a robust foundation for further research and practical applications in the field of live video interaction.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-01T02:35:58Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Julien Lalanne</name>
+    </author>
+    <author>
+      <name>Raphael Bournet</name>
+    </author>
+    <author>
+      <name>Yi Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.15225v3</id>
+    <title>From DDMs to DNNs: Using process data and models of decision-making to improve human-AI interactions</title>
+    <updated>2025-07-23T11:02:12Z</updated>
+    <link href="https://arxiv.org/abs/2308.15225v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.15225v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Over the past decades, cognitive neuroscientists and behavioral economists have recognized the value of describing the process of decision making in detail and modeling the emergence of decisions over time. For example, the time it takes to decide can reveal more about an agent's true hidden preferences than only the decision itself. Similarly, data that track the ongoing decision process such as eye movements or neural recordings contain critical information that can be exploited, even if no decision is made. Here, we argue that artificial intelligence (AI) research would benefit from a stronger focus on insights about how decisions emerge over time and incorporate related process data to improve AI predictions in general and human-AI interactions in particular. First, we introduce a highly established computational framework that assumes decisions to emerge from the noisy accumulation of evidence, and we present related empirical work in psychology, neuroscience, and economics. Next, we discuss to what extent current approaches in multi-agent AI do or do not incorporate process data and models of decision making. Finally, we outline how a more principled inclusion of the evidence-accumulation framework into the training and use of AI can help to improve human-AI interactions in the future.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-29T11:27:22Z</published>
+    <arxiv:comment>Review paper, 17 pages, 2 figure</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>Decision, Vol 11(4), Oct 2024, 468-480</arxiv:journal_ref>
+    <author>
+      <name>Mrugsen Nagsen Gopnarayan</name>
+    </author>
+    <author>
+      <name>Jaan Aru</name>
+    </author>
+    <author>
+      <name>Sebastian Gluth</name>
+    </author>
+    <arxiv:doi>10.1037/dec0000239</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1037/dec0000239" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12503v2</id>
+    <title>CGMI: Configurable General Multi-Agent Interaction Framework</title>
+    <updated>2023-08-28T05:44:39Z</updated>
+    <link href="https://arxiv.org/abs/2308.12503v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12503v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benefiting from the powerful capabilities of large language models (LLMs), agents based on LLMs have shown the potential to address domain-specific tasks and emulate human behaviors. However, the content generated by these agents remains somewhat superficial, owing to their limited domain expertise and the absence of an effective cognitive architecture. To address this, we present the Configurable General Multi-Agent Interaction (CGMI) framework, designed to replicate human interactions in real-world scenarios. Specifically, we propose a tree-structured methodology for the assignment, detection, and maintenance of agent personality. Additionally, we designed a cognitive architecture equipped with a skill library based on the ACT* model, which contains memory, reflection, and planning modules. We have also integrated general agents to augment the virtual environment's realism. Using the CGMI framework, we simulated numerous classroom interactions between teacher and students. The experiments indicate that aspects such as the teaching methodology, curriculum, and student performance closely mirror real classroom settings. We will open source our work.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-24T02:03:29Z</published>
+    <arxiv:comment>11 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shi Jinxin</name>
+    </author>
+    <author>
+      <name>Zhao Jiabao</name>
+    </author>
+    <author>
+      <name>Wang Yilei</name>
+    </author>
+    <author>
+      <name>Wu Xingjiao</name>
+    </author>
+    <author>
+      <name>Li Jiawen</name>
+    </author>
+    <author>
+      <name>He Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12194v2</id>
+    <title>Inferring Human Intentions from Predicted Action Probabilities</title>
+    <updated>2024-03-25T16:19:01Z</updated>
+    <link href="https://arxiv.org/abs/2308.12194v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12194v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting the next action that a human is most likely to perform is key to human-AI collaboration and has consequently attracted increasing research interests in recent years. An important factor for next action prediction are human intentions: If the AI agent knows the intention it can predict future actions and plan collaboration more effectively. Existing Bayesian methods for this task struggle with complex visual input while deep neural network (DNN) based methods do not provide uncertainty quantifications. In this work we combine both approaches for the first time and show that the predicted next action probabilities contain information that can be used to infer the underlying intention. We propose a two-step approach to human intention prediction: While a DNN predicts the probabilities of the next action, MCMC-based Bayesian inference is used to infer the underlying intention from these predictions. This approach not only allows for independent design of the DNN architecture but also the subsequently fast, design-independent inference of human intentions. We evaluate our method using a series of experiments on the Watch-And-Help (WAH) and a keyboard and mouse interaction dataset. Our results show that our approach can accurately predict human intentions from observed actions and the implicit information contained in next action probabilities. Furthermore, we show that our approach can predict the correct intention even if only few actions have been observed.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-23T15:35:02Z</published>
+    <arxiv:comment>Accepted by Workshop on Theory of Mind in Human-AI Interaction at CHI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Lei Shi</name>
+    </author>
+    <author>
+      <name>Paul-Christian Bürkner</name>
+    </author>
+    <author>
+      <name>Andreas Bulling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.09905v1</id>
+    <title>PyTAG: Challenges and Opportunities for Reinforcement Learning in Tabletop Games</title>
+    <updated>2023-07-19T11:08:59Z</updated>
+    <link href="https://arxiv.org/abs/2307.09905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.09905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Game AI research has made important breakthroughs using Reinforcement Learning (RL). Despite this, RL for modern tabletop games has gained little to no attention, even when they offer a range of unique challenges compared to video games. To bridge this gap, we introduce PyTAG, a Python API for interacting with the Tabletop Games framework (TAG). TAG contains a growing set of more than 20 modern tabletop games, with a common API for AI agents. We present techniques for training RL agents in these games and introduce baseline results after training Proximal Policy Optimisation algorithms on a subset of games. Finally, we discuss the unique challenges complex modern tabletop games provide, now open to RL research through PyTAG.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-19T11:08:59Z</published>
+    <arxiv:comment>Accepted for Publication in: IEEE Conference on Games (2023)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Martin Balla</name>
+    </author>
+    <author>
+      <name>George E. M. Long</name>
+    </author>
+    <author>
+      <name>Dominik Jeurissen</name>
+    </author>
+    <author>
+      <name>James Goodman</name>
+    </author>
+    <author>
+      <name>Raluca D. Gaina</name>
+    </author>
+    <author>
+      <name>Diego Perez-Liebana</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.11335v4</id>
+    <title>Surfer: Progressive Reasoning with World Models for Robotic Manipulation</title>
+    <updated>2024-03-20T13:18:18Z</updated>
+    <link href="https://arxiv.org/abs/2306.11335v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.11335v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Considering how to make the model accurately understand and follow natural language instructions and perform actions consistent with world knowledge is a key challenge in robot manipulation. This mainly includes human fuzzy instruction reasoning and the following of physical knowledge. Therefore, the embodied intelligence agent must have the ability to model world knowledge from training data. However, most existing vision and language robot manipulation methods mainly operate in less realistic simulator and language settings and lack explicit modeling of world knowledge. To bridge this gap, we introduce a novel and simple robot manipulation framework, called Surfer. It is based on the world model, treats robot manipulation as a state transfer of the visual scene, and decouples it into two parts: action and scene. Then, the generalization ability of the model on new instructions and new scenes is enhanced by explicit modeling of the action and scene prediction in multi-modal information. In addition to the framework, we also built a robot manipulation simulator that supports full physics execution based on the MuJoCo physics engine. It can automatically generate demonstration training data and test data, effectively reducing labor costs. To conduct a comprehensive and systematic evaluation of the robot manipulation model in terms of language understanding and physical execution, we also created a robotic manipulation benchmark with progressive reasoning tasks, called SeaWave. It contains 4 levels of progressive reasoning tasks and can provide a standardized testing platform for embedded AI agents in multi-modal environments. On average, Surfer achieved a success rate of 54.74% on the defined four levels of manipulation tasks, exceeding the best baseline performance of 47.64%.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-20T07:06:04Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Pengzhen Ren</name>
+    </author>
+    <author>
+      <name>Kaidong Zhang</name>
+    </author>
+    <author>
+      <name>Hetao Zheng</name>
+    </author>
+    <author>
+      <name>Zixuan Li</name>
+    </author>
+    <author>
+      <name>Yuhang Wen</name>
+    </author>
+    <author>
+      <name>Fengda Zhu</name>
+    </author>
+    <author>
+      <name>Mas Ma</name>
+    </author>
+    <author>
+      <name>Xiaodan Liang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.11128v2</id>
+    <title>CAMMARL: Conformal Action Modeling in Multi Agent Reinforcement Learning</title>
+    <updated>2024-02-09T01:06:17Z</updated>
+    <link href="https://arxiv.org/abs/2306.11128v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.11128v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Before taking actions in an environment with more than one intelligent agent, an autonomous agent may benefit from reasoning about the other agents and utilizing a notion of a guarantee or confidence about the behavior of the system. In this article, we propose a novel multi-agent reinforcement learning (MARL) algorithm CAMMARL, which involves modeling the actions of other agents in different situations in the form of confident sets, i.e., sets containing their true actions with a high probability. We then use these estimates to inform an agent's decision-making. For estimating such sets, we use the concept of conformal predictions, by means of which, we not only obtain an estimate of the most probable outcome but get to quantify the operable uncertainty as well. For instance, we can predict a set that provably covers the true predictions with high probabilities (e.g., 95%). Through several experiments in two fully cooperative multi-agent tasks, we show that CAMMARL elevates the capabilities of an autonomous agent in MARL by modeling conformal prediction sets over the behavior of other agents in the environment and utilizing such estimates to enhance its policy learning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-19T19:03:53Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nikunj Gupta</name>
+    </author>
+    <author>
+      <name>Somjit Nath</name>
+    </author>
+    <author>
+      <name>Samira Ebrahimi Kahou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.06770v4</id>
+    <title>Improving Knowledge Extraction from LLMs for Task Learning through Agent Analysis</title>
+    <updated>2024-02-20T14:34:14Z</updated>
+    <link href="https://arxiv.org/abs/2306.06770v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.06770v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) offer significant promise as a knowledge source for task learning. Prompt engineering has been shown to be effective for eliciting knowledge from an LLM, but alone it is insufficient for acquiring relevant, situationally grounded knowledge for an embodied agent learning novel tasks. We describe a cognitive-agent approach, STARS, that extends and complements prompt engineering, mitigating its limitations and thus enabling an agent to acquire new task knowledge matched to its native language capabilities, embodiment, environment, and user preferences. The STARS approach is to increase the response space of LLMs and deploy general strategies, embedded within the autonomous agent, to evaluate, repair, and select among candidate responses produced by the LLM. We describe the approach and experiments that show how an agent, by retrieving and evaluating a breadth of responses from the LLM, can achieve 77-94% task completion in one-shot learning without user oversight. The approach achieves 100% task completion when human oversight (such as an indication of preference) is provided. Further, the type of oversight largely shifts from explicit, natural language instruction to simple confirmation/discomfirmation of high-quality responses that have been vetted by the agent before presentation to a user.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-11T20:50:14Z</published>
+    <arxiv:comment>7 pages, 8 figures, 3 tables, bibliography, appendix (34 pages total). Accepted to AAAI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>James R. Kirk</name>
+    </author>
+    <author>
+      <name>Robert E. Wray</name>
+    </author>
+    <author>
+      <name>Peter Lindes</name>
+    </author>
+    <author>
+      <name>John E. Laird</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.14721v4</id>
+    <title>Towards autonomous system: flexible modular production system enhanced with large language model agents</title>
+    <updated>2023-07-24T09:49:55Z</updated>
+    <link href="https://arxiv.org/abs/2304.14721v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.14721v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we present a novel framework that combines large language models (LLMs), digital twins and industrial automation system to enable intelligent planning and control of production processes. We retrofit the automation system for a modular production facility and create executable control interfaces of fine-granular functionalities and coarse-granular skills. Low-level functionalities are executed by automation components, and high-level skills are performed by automation modules. Subsequently, a digital twin system is developed, registering these interfaces and containing additional descriptive information about the production system. Based on the retrofitted automation system and the created digital twins, LLM-agents are designed to interpret descriptive information in the digital twins and control the physical system through service interfaces. These LLM-agents serve as intelligent agents on different levels within an automation system, enabling autonomous planning and control of flexible production. Given a task instruction as input, the LLM-agents orchestrate a sequence of atomic functionalities and skills to accomplish the task. We demonstrate how our implemented prototype can handle un-predefined tasks, plan a production process, and execute the operations. This research highlights the potential of integrating LLMs into industrial automation systems in the context of smart factory for more agile, flexible, and adaptive production processes, while it also underscores the critical insights and limitations for future work. Demos at: https://github.com/YuchenXia/GPT4IndustrialAutomation</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-28T09:42:18Z</published>
+    <arxiv:comment>This is the pre-print draft manuscript. The peer-reviewed version will be published exclusively by IEEE after the conference, which is set to take place from September 12th to 15th, 2023. We've made several improvements to the final version of the paper based on valuable feedback and suggestions from other researchers</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <arxiv:journal_ref>2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA)</arxiv:journal_ref>
+    <author>
+      <name>Yuchen Xia</name>
+    </author>
+    <author>
+      <name>Manthan Shenoy</name>
+    </author>
+    <author>
+      <name>Nasser Jazdi</name>
+    </author>
+    <author>
+      <name>Michael Weyrich</name>
+    </author>
+    <arxiv:doi>10.1109/ETFA54631.2023.10275362</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ETFA54631.2023.10275362" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.01029v3</id>
+    <title>Domain Generalization for Crop Segmentation with Standardized Ensemble Knowledge Distillation</title>
+    <updated>2024-04-14T14:53:32Z</updated>
+    <link href="https://arxiv.org/abs/2304.01029v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.01029v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, precision agriculture has gradually oriented farming closer to automation processes to support all the activities related to field management. Service robotics plays a predominant role in this evolution by deploying autonomous agents that can navigate fields while performing tasks such as monitoring, spraying, and harvesting without human intervention. To execute these precise actions, mobile robots need a real-time perception system that understands their surroundings and identifies their targets in the wild. Existing methods, however, often fall short in generalizing to new crops and environmental conditions. This limit is critical for practical applications where labeled samples are rarely available. In this paper, we investigate the problem of crop segmentation and propose a novel approach to enhance domain generalization using knowledge distillation. In the proposed framework, we transfer knowledge from a standardized ensemble of models individually trained on source domains to a student model that can adapt to unseen realistic scenarios. To support the proposed method, we present a synthetic multi-domain dataset for crop segmentation containing plants of variegate species and covering different terrain styles, weather conditions, and light scenarios for more than 70,000 samples. We demonstrate significant improvements in performance over state-of-the-art methods and superior sim-to-real generalization. Our approach provides a promising solution for domain generalization in crop segmentation and has the potential to enhance a wide variety of agriculture applications.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-03T14:28:29Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Simone Angarano</name>
+    </author>
+    <author>
+      <name>Mauro Martini</name>
+    </author>
+    <author>
+      <name>Alessandro Navone</name>
+    </author>
+    <author>
+      <name>Marcello Chiaberge</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.05584v1</id>
+    <title>SOCIALGYM 2.0: Simulator for Multi-Agent Social Robot Navigation in Shared Human Spaces</title>
+    <updated>2023-03-09T21:21:05Z</updated>
+    <link href="https://arxiv.org/abs/2303.05584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.05584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present SocialGym 2, a multi-agent navigation simulator for social robot research. Our simulator models multiple autonomous agents, replicating real-world dynamics in complex environments, including doorways, hallways, intersections, and roundabouts. Unlike traditional simulators that concentrate on single robots with basic kinematic constraints in open spaces, SocialGym 2 employs multi-agent reinforcement learning (MARL) to develop optimal navigation policies for multiple robots with diverse, dynamic constraints in complex environments. Built on the PettingZoo MARL library and Stable Baselines3 API, SocialGym 2 offers an accessible python interface that integrates with a navigation stack through ROS messaging. SocialGym 2 can be easily installed and is packaged in a docker container, and it provides the capability to swap and evaluate different MARL algorithms, as well as customize observation and reward functions. We also provide scripts to allow users to create their own environments and have conducted benchmarks using various social navigation algorithms, reporting a broad range of social navigation metrics. Projected hosted at: https://amrl.cs.utexas.edu/social_gym/index.html</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-09T21:21:05Z</published>
+    <arxiv:comment>Submitted to RSS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Zayne Sprague</name>
+    </author>
+    <author>
+      <name>Rohan Chandra</name>
+    </author>
+    <author>
+      <name>Jarrett Holtz</name>
+    </author>
+    <author>
+      <name>Joydeep Biswas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.04141v1</id>
+    <title>Toward Defining a Domain Complexity Measure Across Domains</title>
+    <updated>2023-03-07T18:56:50Z</updated>
+    <link href="https://arxiv.org/abs/2303.04141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.04141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial Intelligence (AI) systems planned for deployment in real-world applications frequently are researched and developed in closed simulation environments where all variables are controlled and known to the simulator or labeled benchmark datasets are used. Transition from these simulators, testbeds, and benchmark datasets to more open-world domains poses significant challenges to AI systems, including significant increases in the complexity of the domain and the inclusion of real-world novelties; the open-world environment contains numerous out-of-distribution elements that are not part in the AI systems' training set. Here, we propose a path to a general, domain-independent measure of domain complexity level. We distinguish two aspects of domain complexity: intrinsic and extrinsic. The intrinsic domain complexity is the complexity that exists by itself without any action or interaction from an AI agent performing a task on that domain. This is an agent-independent aspect of the domain complexity. The extrinsic domain complexity is agent- and task-dependent. Intrinsic and extrinsic elements combined capture the overall complexity of the domain. We frame the components that define and impact domain complexity levels in a domain-independent light. Domain-independent measures of complexity could enable quantitative predictions of the difficulty posed to AI systems when transitioning from one testbed or environment to another, when facing out-of-distribution data in open-world tasks, and when navigating the rapidly expanding solution and search spaces encountered in open-world domains.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-07T18:56:50Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Katarina Doctor</name>
+    </author>
+    <author>
+      <name>Christine Task</name>
+    </author>
+    <author>
+      <name>Eric Kildebeck</name>
+    </author>
+    <author>
+      <name>Mayank Kejriwal</name>
+    </author>
+    <author>
+      <name>Lawrence Holder</name>
+    </author>
+    <author>
+      <name>Russell Leong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.02265v4</id>
+    <title>Learning to Influence Human Behavior with Offline Reinforcement Learning</title>
+    <updated>2023-10-27T20:26:10Z</updated>
+    <link href="https://arxiv.org/abs/2303.02265v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.02265v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When interacting with people, AI agents do not just influence the state of the world -- they also influence the actions people take in response to the agent, and even their underlying intentions and strategies. Accounting for and leveraging this influence has mostly been studied in settings where it is sufficient to assume that human behavior is near-optimal: competitive games, or general-sum settings like autonomous driving alongside human drivers. Instead, we focus on influence in settings where there is a need to capture human suboptimality. For instance, imagine a collaborative task in which, due either to cognitive biases or lack of information, people do not perform very well -- how could an agent influence them towards more optimal behavior? Assuming near-optimal human behavior will not work here, and so the agent needs to learn from real human data. But experimenting online with humans is potentially unsafe, and creating a high-fidelity simulator of the environment is often impractical. Hence, we focus on learning from an offline dataset of human-human interactions. Our observation is that offline reinforcement learning (RL) can learn to effectively influence suboptimal humans by extending and combining elements of observed human-human behavior. We demonstrate that offline RL can solve two challenges with effective influence. First, we show that by learning from a dataset of suboptimal human-human interaction on a variety of tasks -- none of which contains examples of successful influence -- an agent can learn influence strategies to steer humans towards better performance even on new tasks. Second, we show that by also modeling and conditioning on human behavior, offline RL can learn to affect not just the human's actions but also their underlying strategy, and adapt to changes in their strategy.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-03T23:41:55Z</published>
+    <arxiv:comment>Published at NeurIPS 2023; 13 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Joey Hong</name>
+    </author>
+    <author>
+      <name>Sergey Levine</name>
+    </author>
+    <author>
+      <name>Anca Dragan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.10067v1</id>
+    <title>Intrinsic Motivation in Model-based Reinforcement Learning: A Brief Review</title>
+    <updated>2023-01-24T15:13:02Z</updated>
+    <link href="https://arxiv.org/abs/2301.10067v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.10067v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The reinforcement learning research area contains a wide range of methods for solving the problems of intelligent agent control. Despite the progress that has been made, the task of creating a highly autonomous agent is still a significant challenge. One potential solution to this problem is intrinsic motivation, a concept derived from developmental psychology. This review considers the existing methods for determining intrinsic motivation based on the world model obtained by the agent. We propose a systematic approach to current research in this field, which consists of three categories of methods, distinguished by the way they utilize a world model in the agent's components: complementary intrinsic reward, exploration policy, and intrinsically motivated goals. The proposed unified framework describes the architecture of agents using a world model and intrinsic motivation to improve learning. The potential for developing new techniques in this area of research is also examined.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-24T15:13:02Z</published>
+    <arxiv:comment>13 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Artem Latyshev</name>
+    </author>
+    <author>
+      <name>Aleksandr I. Panov</name>
+    </author>
+  </entry>
+</feed>

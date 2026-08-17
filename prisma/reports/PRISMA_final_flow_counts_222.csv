@@ -1,0 +1,17 @@
+stage,count,unit,status
+Records identified,18371,occurrence,FINAL
+Duplicate occurrences removed before screening,8281,occurrence,FINAL
+Records after global deduplication,10090,record,FINAL
+Records removed before screening for other reasons,3,record,FINAL
+Records screened,10087,record,FINAL
+Records excluded at title/abstract + admissibility screening,9621,record,FINAL
+Retained report records before pre-retrieval version consolidation,466,report,FINAL
+Alternate report versions consolidated before retrieval,87,report,FINAL
+Preferred reports sought for retrieval,379,report,FINAL
+Reports not retrieved,1,report,FINAL
+Reports assessed for eligibility,378,report,FINAL
+Duplicate/superseded report versions resolved at full text,10,report,FINAL
+Initial substantive full-text exclusions,83,study,FINAL
+Studies entering final review,285,study,FINAL
+Studies excluded after final review,63,study,FINAL
+Studies included in final review corpus,222,study,FINAL

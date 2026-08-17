@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="1160" viewBox="0 0 1020 1160">
+  <title>PRISMA flow for the final main CUA corpus</title>
+  <desc>Main CUA search flow from 18,371 identified records to 222 studies, with exclusions shown in right-side boxes.</desc>
+  <style>
+    text { font-family: Arial, 'Helvetica Neue', 'Microsoft YaHei', sans-serif; fill: #111827; }
+    .node { fill: #ffffff; stroke: #9ca3af; stroke-width: 1.5; }
+    .exclude { fill: #fff7f7; stroke: #d99a9a; stroke-width: 1.5; }
+    .final { fill: #eff6ff; stroke: #2563eb; stroke-width: 2; }
+    .label { font-size: 14px; text-anchor: middle; }
+    .count { font-size: 14px; font-weight: 600; text-anchor: middle; }
+    .small { font-size: 12px; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1020" height="1160" fill="#ffffff"/>
+  <rect class="node" x="120" y="24" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="51.0">Records identified</text>
+  <text class="count" x="320.0" y="73.0">n = 18,371</text>
+  <rect class="node" x="120" y="132" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="159.0">Duplicate occurrences removed</text>
+  <text class="count" x="320.0" y="181.0">n = 8,281</text>
+  <line x1="320.0" y1="88" x2="320.0" y2="132" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="node" x="120" y="240" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="267.0">Records after global deduplication</text>
+  <text class="count" x="320.0" y="289.0">n = 10,090</text>
+  <line x1="320.0" y1="196" x2="320.0" y2="240" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="node" x="120" y="348" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="375.0">Records screened</text>
+  <text class="count" x="320.0" y="397.0">n = 10,087</text>
+  <line x1="320.0" y1="304" x2="320.0" y2="348" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="node" x="120" y="456" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="483.0">Retained report records</text>
+  <text class="count" x="320.0" y="505.0">n = 466</text>
+  <line x1="320.0" y1="412" x2="320.0" y2="456" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="node" x="120" y="564" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="591.0">Alternate report versions consolidated</text>
+  <text class="count" x="320.0" y="613.0">n = 87</text>
+  <line x1="320.0" y1="520" x2="320.0" y2="564" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="node" x="120" y="672" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="699.0">Reports sought for retrieval</text>
+  <text class="count" x="320.0" y="721.0">n = 379</text>
+  <line x1="320.0" y1="628" x2="320.0" y2="672" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="node" x="120" y="780" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="807.0">Reports assessed for eligibility</text>
+  <text class="count" x="320.0" y="829.0">n = 378</text>
+  <line x1="320.0" y1="736" x2="320.0" y2="780" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="node" x="120" y="900" width="400" height="64" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="927.0">Studies entering final review</text>
+  <text class="count" x="320.0" y="949.0">n = 285</text>
+  <line x1="320.0" y1="844" x2="320.0" y2="900" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="final" x="120" y="1028" width="400" height="74" rx="8" ry="8"/>
+  <text class="label" x="320.0" y="1060.0">Main CUA corpus</text>
+  <text class="count" x="320.0" y="1082.0">n = 222 studies</text>
+  <line x1="320.0" y1="964" x2="320.0" y2="1028" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="exclude" x="625" y="240" width="350" height="64" rx="8" ry="8"/>
+  <text class="label" x="800.0" y="267.0">Other pre-screening removals</text>
+  <text class="count" x="800.0" y="289.0">n = 3</text>
+  <line x1="520" y1="272.0" x2="625" y2="272.0" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="exclude" x="625" y="348" width="350" height="64" rx="8" ry="8"/>
+  <text class="label" x="800.0" y="375.0">Screening exclusions</text>
+  <text class="count" x="800.0" y="397.0">n = 9,621</text>
+  <line x1="520" y1="380.0" x2="625" y2="380.0" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="exclude" x="625" y="672" width="350" height="64" rx="8" ry="8"/>
+  <text class="label" x="800.0" y="699.0">Reports not retrieved</text>
+  <text class="count" x="800.0" y="721.0">n = 1</text>
+  <line x1="520" y1="704.0" x2="625" y2="704.0" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="exclude" x="625" y="767" width="350" height="90" rx="8" ry="8"/>
+  <text class="label" x="800.0" y="789.0">Full-text stage removals</text>
+  <text class="count" x="800.0" y="809.0">n = 93</text>
+  <text class="small" x="800.0" y="829.0">10 version resolutions + 83 initial exclusions</text>
+  <line x1="520" y1="812.0" x2="625" y2="812.0" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+  <rect class="exclude" x="625" y="900" width="350" height="64" rx="8" ry="8"/>
+  <text class="label" x="800.0" y="927.0">Final review exclusions</text>
+  <text class="count" x="800.0" y="949.0">n = 63</text>
+  <line x1="520" y1="932.0" x2="625" y2="932.0" stroke="#64748b" stroke-width="1.7" marker-end="url(#arrow)"/>
+</svg>

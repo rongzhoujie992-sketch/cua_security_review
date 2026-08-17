@@ -1,0 +1,26 @@
+﻿code,decision,definition
+TA-I01,INCLUDE_TA,"Direct CUA security, safety, evaluation, threat, privacy, authorization, or safeguard evidence."
+TA-I02,INCLUDE_TA,"Necessary broad CUA environment, benchmark, survey, or system foundation."
+TA-I03,INCLUDE_TA,"MCP or tool-protocol security, attack, measurement, or control evidence with executable-use relevance."
+TA-I04,INCLUDE_TA,Tool/skill invocation security evidence with explicit agent execution relevance.
+TA-I05,INCLUDE_TA,"Prompt-injection evidence with an executable agent, tool, Web, browser, email, or application context."
+TA-I06,INCLUDE_TA,"Agent-memory persistence, poisoning, extraction, contamination, or recovery evidence."
+TA-I07,INCLUDE_TA,"Multi-agent communication, delegation, shared-state, collusion, propagation, or control security evidence."
+TA-I08,INCLUDE_TA,"Authorization, permission, information-flow, provenance, delegation, or runtime-control evidence."
+TA-I09,INCLUDE_TA,Security/safety evaluation or safeguard evidence with explicit executable-agent relevance.
+TA-I90,INCLUDE_TA,"Record-level adjudication confirmed a direct CUA, specific executable-use security mechanism, or necessary CUA foundation."
+TA-I91,INCLUDE_TA,Boundary review confirmed direct or operationally adjacent CUA-security relevance missed by deterministic triage.
+TA-U01,UNCLEAR,Plausible CUA or operationally adjacent relevance; full text is required to confirm scope/evidence role.
+TA-U02,UNCLEAR,Strong title-level scope signal but abstract metadata is unavailable; retain for report-level assessment.
+TA-U90,UNCLEAR,Boundary record with plausible foundational or adjacent CUA-security relevance requiring full-text confirmation.
+TA-U91,UNCLEAR,Boundary review found plausible direct or operationally adjacent relevance requiring full-text confirmation.
+TA-E01,EXCLUDE_TA,Unrelated application/domain record without a relevant CUA execution setting.
+TA-E02,EXCLUDE_TA,Model/application security without an executable-agent or CUA mechanism.
+TA-E03,EXCLUDE_TA,General agent security/safety without a directly relevant executable-use mechanism.
+TA-E04,EXCLUDE_TA,Capability/method work without a necessary CUA-security or foundational evidence role.
+TA-E05,EXCLUDE_TA,Narrow capability/environment benchmark not required as a general CUA foundation.
+TA-E06,EXCLUDE_TA,Insufficient scholarly/technical evidence role at title/abstract stage.
+TA-E07,EXCLUDE_TA,Outside the frozen CUA-security scope or lacks a sufficiently specific evidence contribution.
+TA-EQ,EXCLUDE_TA,Excluded by the scholarly-admissibility/evidence-quality gate after title/abstract relevance screening.
+TA-IQ,INCLUDE_TA,Retained after the scholarly-admissibility/evidence-quality gate.
+TA-FOUNDATION,INCLUDE_TA,Retained as a necessary foundational/contextual CUA source after quality review.

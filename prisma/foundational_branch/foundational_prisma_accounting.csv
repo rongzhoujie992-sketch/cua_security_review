@@ -1,0 +1,13 @@
+stage,count,unit,note
+Web-search result cards captured,114,occurrence,Formal QF01–QF07/QF05B/QF06B result cards; not engine total hits.
+Targeted seed sources,12,occurrence,Targeted seed route; independently screened.
+Total identification occurrences,126,occurrence,114 + 12.
+Duplicate/version/mirror occurrences removed,79,occurrence,126 - 47.
+Unique records screened,47,record,Canonical identities after dedup/version consolidation.
+Title/abstract exclusions,25,record,"Secondary/tertiary, mirror/metadata, product documentation, or later application."
+Reports sought,22,report,12 retained foundations + 10 plausible alternatives/versions.
+Reports not retrieved,0,report,All sought reports or official full-text representations were obtained.
+Reports assessed,22,report,22 - 0.
+Full-text exclusions,10,report/study,"Secondary synthesis, derivative summary, superseded draft/version, or nonessential modern extension."
+Foundational sources included,12,source,Independent outcome; not predetermined by seed status.
+Effect on main CUA corpus,0,study,The final 222-study main CUA corpus is unchanged; foundational sources are a separate evidence route.

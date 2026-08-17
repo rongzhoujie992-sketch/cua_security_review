@@ -1,0 +1,13 @@
+﻿stage,count,unit,note
+Academic records reviewed in the executed search,23,academic item,8 final-main-corpus re-extractions + 15 targeted-search candidates
+Additional seed-source academic record,1,academic item,Authenticated Delegation and Authorized AI Agents
+Total academic items handled,24,academic item,23 records reviewed in the executed search + 1 additional seed source
+Main-corpus studies revisited for RQ4 re-extraction,8,study,Already counted in the final 222-study main corpus; no additive source count
+Additional academic candidates assessed,16,academic source,15 targeted-search + 1 additional seed source
+Academic candidates not selected,12,academic source,"Redundant, less direct, outside final theme, or post-cutoff"
+Supplementary academic sources selected,4,academic source,Selected for RQ4 deployment evidence; all four reconciled to records already identified by the main search
+Provider families reviewed,12,provider family,Bounded purposive provider review
+Official deployment-document locators inspected,23,document locator,Official deployment documentation
+Official deployment documents not selected,18,official document,Relevant but redundant or less directly aligned with final Section 5 evidence functions
+Official deployment documents selected,5,official document,Microsoft ×2; AWS ×2; Anthropic ×1
+Total supplementary TDES sources selected,9,source,4 academic + 5 official; not a main-corpus study count
