@@ -3,8 +3,8 @@ influence,282,137,91,0,54,0
 authorization,282,46,136,0,6,0
 technical_permission,282,11,270,0,1,0
 operation_execution,282,108,174,0,0,0
-external_effect,282,25,157,0,82,18
+external_effect,282,26,157,0,81,18
 resulting_state,282,27,107,0,144,4
 technical_attribution,282,14,257,0,11,0
-containment,282,1,11,0,264,6
+containment,282,0,11,0,265,6
 recovery,282,0,11,0,264,7

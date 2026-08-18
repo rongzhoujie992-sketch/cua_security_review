@@ -1,7 +1,7 @@
 {
   "artifact_name": "HPAC/HPAT v3.1.2 Coding Artifact",
-  "artifact_version": "0.5.0",
-  "release_date": "2026-08-16",
+  "artifact_version": "0.5.2",
+  "release_date": "2026-08-18",
   "codebook_version": "3.1.2",
   "coding_method": "manual_source_review",
   "canonical_study_count": 226,

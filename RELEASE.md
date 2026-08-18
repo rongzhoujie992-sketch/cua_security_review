@@ -1,5 +1,13 @@
 # Release Notes
 
+## v1.0.2 (2026-08-18)
+
+This superseding release embeds HPAC/HPAT coding artifact `0.5.2`. It corrects the S-050 guarded forwarding transition so that pre-effect denial is recorded as Operation Constraint rather than post-effect Containment. The PRISMA component, corpus alignment, review denominators, and coding populations are unchanged.
+
+## v1.0.1 (2026-08-17)
+
+This superseding release embeds HPAC/HPAT coding artifact `0.5.1`. It corrects three source-grounded relation-status records; the PRISMA component, corpus alignment, review denominators, and coding populations are unchanged.
+
 ## v1.0.0 (2026-08-17)
 
 This release combines two previously validated public components:
