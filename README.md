@@ -12,7 +12,7 @@ This versioned repository combines the reproducibility materials for the CUA sec
 
 The PRISMA main systematic corpus contains 222 studies. It is accompanied by 12 foundational security sources, 4 supplementary TDES academic sources, and 5 official deployment documents. These supplementary routes are source counts and are outside the 222-study denominator.
 
-The coding component contains 226 study records: the 222 main-corpus studies plus the four selected TDES academic sources (`[235]`--`[238]`). Foundational sources and official deployment documents are not part of the HPAT coding population.
+The coding component contains 226 study records: the 222 main-corpus studies plus four selected TDES academic sources identified by stable artifact IDs in `integration/corpus_alignment.csv`. Foundational sources and official deployment documents are not part of the HPAT coding population.
 
 The released coding state contains 501 candidate operations and 282 qualified High-Privilege Action Transitions (HPATs) across 91 HPAT-positive studies. Candidate operations are diagnostic eligibility records; qualified HPATs are the atomic units for HPAC synthesis. The reliability directory reports the bounded paired samples and adjudication records supplied with the coding release.
 

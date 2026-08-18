@@ -1,5 +1,7 @@
 # TDES evidence-use boundary
 
-TDES provides supplementary deployment evidence for Section 5. Its four academic sources and five official deployment documents are outside the 222-study main corpus.
+TDES provides supplementary evidence on deployment conditions. Its four academic sources and five official deployment documents are outside the 222-study main corpus.
 
-The eight re-extracted main-corpus studies remain included in the 222-study total; re-extraction adds no study or source count.
+The eight re-extracted main-corpus studies remain within the 222-study total. Re-extraction adds no study or source count.
+
+Official deployment documents are used as source-reported configuration evidence. They do not support prevalence or effectiveness estimates.

@@ -74,14 +74,19 @@ def main() -> int:
     if {row["source_key"] for row in main_rows} != {row["study_id"] for row in prisma}:
         errors.append("main alignment does not cover the PRISMA included-study ledger exactly")
 
-    expected_tdes = {"S-223": "[235]", "S-224": "[236]", "S-225": "[237]", "S-226": "[238]"}
+    expected_tdes = {
+        "S-223": "TDES-ACA-001",
+        "S-224": "TDES-ACA-002",
+        "S-225": "TDES-ACA-003",
+        "S-226": "TDES-ACA-004",
+    }
     if len(tdes_rows) != 4:
         errors.append("TDES academic alignment must contain exactly four records")
     for row in tdes_rows:
-        if expected_tdes.get(row["coding_study_id"]) != row["source_reference_label"]:
+        if expected_tdes.get(row["coding_study_id"]) != row["source_key"]:
             errors.append(f"unexpected TDES mapping for {row['coding_study_id']}")
-    selected_labels = {row["Reference label"] for row in tdes if row["Class"] == "Academic"}
-    if {row["source_reference_label"] for row in tdes_rows} != selected_labels:
+    selected_ids = {row["Source ID"] for row in tdes if row["Class"] == "Academic"}
+    if {row["source_key"] for row in tdes_rows} != selected_ids:
         errors.append("TDES alignment does not cover the four selected academic sources")
 
     if manifest["prisma"]["main_systematic_studies"] != 222:

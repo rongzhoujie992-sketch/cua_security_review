@@ -96,7 +96,7 @@ screening/              title/abstract screening, quality gate, and report-famil
 fulltext/               retrieval, report-version resolution, and full-text eligibility
 author_adjudication/    final decisions for the 285 studies entering final review
 foundational_branch/    targeted 12-source classical/theoretical security route
-tdes_branch/            targeted RQ4 deployment-evidence supplement
+tdes_branch/            targeted deployment-evidence supplement
 protocol/               eligibility, deduplication, and selection-process methods
 reports/                PRISMA, PRISMA-S, exclusion, and integrated source accounting
 figures/                main PRISMA flow and integrated evidence-route map

@@ -4,7 +4,7 @@
 
 `S-001` through `S-222` are the coding records for the 222-study PRISMA main systematic corpus. Each maps to one and only one `STUDY-*` row in `prisma/fulltext/final_included_studies_222.csv`.
 
-`S-223` through `S-226` are the four selected supplementary TDES academic sources and map to reference labels `[235]` through `[238]`. They are outside the main systematic denominator but are included in the coding population because they were selected for the same source-grounded HPAT analysis.
+`S-223` through `S-226` are the four selected supplementary TDES academic sources. They map to stable artifact IDs `TDES-ACA-001` through `TDES-ACA-004`, independent of manuscript bibliography numbering. They are outside the main systematic denominator but are included in the coding population because they were selected for source-grounded HPAT analysis.
 
 The 12 foundational sources and 5 official deployment documents remain in the PRISMA component only. They are not coding-study records and are not mapped to HPAT transitions.
 

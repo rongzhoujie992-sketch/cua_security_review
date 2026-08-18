@@ -2,7 +2,7 @@
 Final main CUA corpus,222,study,YES,Systematic review corpus
 Foundational/classical security branch,12,source,YES,Separate theoretical/authoritative evidence route
 TDES main-corpus re-extractions,8,study,NO,Already included within the 222-study main corpus
-TDES supplementary academic sources,4,academic source,YES,Outside final main corpus; selected for RQ4 deployment evidence
+TDES supplementary academic sources,4,academic source,YES,Outside final main corpus; selected for supplementary deployment evidence
 TDES official deployment documents,5,official document,YES,Official deployment-document evidence; outside main corpus
 TDES supplementary sources total,9,source,YES,4 academic + 5 official
 Final unique evidence/source base,243,source,TOTAL,222 + 12 + 4 + 5

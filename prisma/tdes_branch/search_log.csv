@@ -1,30 +1,30 @@
 Date,Branch,Platform/source restriction,Exact query,Family,Outcome,Limitation
-2026-08-14,D1,Web search → arXiv primary source,site:arxiv.org computer use agents human oversight approval confirmation arxiv 2026,Human oversight,Returned primary results reviewed,Total hit count not exposed consistently by search engine
-2026-08-14,D1,Web search → arXiv primary source,site:arxiv.org computer use agent security latency overhead utility sandbox permission 2026,Overhead / utility / isolation,Returned primary results reviewed,"Bounded supplement, not exhaustive bibliometrics"
-2026-08-14,D1,Web search → arXiv primary source,site:arxiv.org MCP authentication OAuth security servers agent 2026,Authentication / OAuth,Returned primary results reviewed,Adjacent mechanism screened for chapter fit
-2026-08-14,D1,Web search → arXiv primary source,site:arxiv.org agent skills supply chain credential leakage malicious skills 2026,Credentials / supply chain,Returned primary results reviewed,Adjacent executable-skill evidence screened for chapter fit
-2026-08-14,D1,Web search → arXiv primary source,"""Overseeing Agents Without Constant Oversight""",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
-2026-08-14,D1,Web search → arXiv primary source,"""MirrorGuard"" computer-use agents",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
-2026-08-14,D1,Web search → arXiv primary source,"""TEE-Backed Isolation"" computer-use agents",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
-2026-08-14,D1,Web search → arXiv primary source,"""Authentication Security"" ""Remote MCP Servers""",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
-2026-08-14,D1,Web search → arXiv primary source,"""Credential Leakage"" ""LLM Agent Skills""",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
-2026-08-14,D1,Web search → arXiv primary source,"""Malicious Agent Skills in the Wild""",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
-2026-08-14,D1,Web search → arXiv primary source,"""Skills Are Not Islands"" agent",Follow-up / saturation,Exact-source follow-up,Cutoff-dependent source
-2026-08-14,D1,Web search → arXiv primary source,"""Under the Hood of SKILL.md""",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
-2026-08-14,D1,Web search → arXiv primary source,"""What You Approve Is What Executes""",Human approval integrity,Adjacent source screened,Not direct CUA
-2026-08-14,D1,Web search → arXiv primary source,"""Oversight Has a Capacity""",Oversight fatigue model,Modeling source screened,Indirect evidence
-2026-08-14,D1,Web search → arXiv primary source,"""AIR: Improving Agent Safety through Incident Response""",Recovery / incident response,Adjacent source screened,Not direct CUA
-2026-08-14,D1,Web search → arXiv primary source,"""ACRFence"" rollback agents",Rollback semantics,Adjacent source screened,Not direct CUA
-2026-08-14,D1,Web search → arXiv primary source,"""From Faulty Memories to Corrected Actions""",Post-cutoff recovery,Post-cutoff source screened,Excluded from same-cutoff supplement
-2026-08-14,D2,Official provider web domains,OpenAI agents required approvals sandbox tracing,OpenAI,Official sources inspected,Provider sample bounded
-2026-08-14,D2,Official provider web domains,Anthropic Claude Code sandboxing permission prompts,Anthropic,Official source inspected,Internal usage metric ≠ controlled effectiveness
-2026-08-14,D2,Official provider web domains,Microsoft Copilot Studio computer use credentials human supervision,Microsoft,Official sources inspected,Human supervision explicitly probabilistic
-2026-08-14,D2,Official provider web domains,AWS Bedrock AgentCore runtime security credentials microVM,AWS,Official sources inspected,Isolation coexists with credential exposure
-2026-08-14,D2,Official provider web domains,Google Cloud Agent Engine agent identity OAuth least privilege,Google Cloud,Official sources inspected,Configuration evidence
-2026-08-14,D2,Official provider web domains,Salesforce Agentforce confirmation required OAuth credentials,Salesforce,Official sources inspected,Configuration evidence
-2026-08-14,D2,Official provider web domains,IBM watsonx Orchestrate security control center credentials,IBM,Official sources inspected,Configuration evidence
-2026-08-14,D2,Official provider web domains,ServiceNow Now Assist AI agent access control governance logs,ServiceNow,Official sources inspected,Configuration/governance evidence
-2026-08-14,D2,Official provider web domains,GitHub Copilot agent sandbox credentials MCP enterprise policy,GitHub,Official sources inspected,Configuration evidence
-2026-08-14,D2,Official provider web domains,Atlassian Rovo MCP permissions OAuth audit activity,Atlassian,Official sources inspected,Configuration/logging evidence
-2026-08-14,D2,Official provider web domains,UiPath agents governance trust minimal permissions human in loop,UiPath,Official sources inspected,Normative product guidance
-2026-08-14,D2,Official provider web domains,Oracle AI Agent Studio human approval external REST permission roles,Oracle,Official sources inspected,Configuration evidence
+2026-08-14,D1,Web search -> arXiv primary source,site:arxiv.org computer use agents human oversight approval confirmation arxiv 2026,Human oversight,Returned primary results reviewed,Total hit count not exposed consistently by search engine
+2026-08-14,D1,Web search -> arXiv primary source,site:arxiv.org computer use agent security latency overhead utility sandbox permission 2026,Overhead / utility / isolation,Returned primary results reviewed,Bounded supplement not exhaustive bibliometrics
+2026-08-14,D1,Web search -> arXiv primary source,site:arxiv.org MCP authentication OAuth security servers agent 2026,Authentication / OAuth,Returned primary results reviewed,Adjacent mechanism assessed for supplementary scope
+2026-08-14,D1,Web search -> arXiv primary source,site:arxiv.org agent skills supply chain credential leakage malicious skills 2026,Credentials / supply chain,Returned primary results reviewed,Adjacent executable-skill evidence assessed for supplementary scope
+2026-08-14,D1,Web search -> arXiv primary source,"Overseeing Agents Without Constant Oversight",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
+2026-08-14,D1,Web search -> arXiv primary source,"MirrorGuard" computer-use agents,Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
+2026-08-14,D1,Web search -> arXiv primary source,"TEE-Backed Isolation" computer-use agents,Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
+2026-08-14,D1,Web search -> arXiv primary source,"Authentication Security" "Remote MCP Servers",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
+2026-08-14,D1,Web search -> arXiv primary source,"Credential Leakage" "LLM Agent Skills",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
+2026-08-14,D1,Web search -> arXiv primary source,"Malicious Agent Skills in the Wild",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
+2026-08-14,D1,Web search -> arXiv primary source,"Skills Are Not Islands" agent,Follow-up / saturation,Exact-source follow-up,Cutoff-dependent source
+2026-08-14,D1,Web search -> arXiv primary source,"Under the Hood of SKILL.md",Follow-up / saturation,Exact-source follow-up,Seed-cluster follow-up
+2026-08-14,D1,Web search -> arXiv primary source,"What You Approve Is What Executes",Human approval integrity,Adjacent source screened,Not direct CUA
+2026-08-14,D1,Web search -> arXiv primary source,"Oversight Has a Capacity",Oversight fatigue model,Modeling source screened,Indirect evidence
+2026-08-14,D1,Web search -> arXiv primary source,"AIR: Improving Agent Safety through Incident Response",Recovery / incident response,Adjacent source screened,Not direct CUA
+2026-08-14,D1,Web search -> arXiv primary source,"ACRFence" rollback agents,Rollback semantics,Adjacent source screened,Not direct CUA
+2026-08-14,D1,Web search -> arXiv primary source,"From Faulty Memories to Corrected Actions",Post-cutoff recovery,Post-cutoff source screened,Excluded from same-cutoff supplement
+2026-08-14,D2,Official deployment-document web domains,OpenAI agents required approvals sandbox tracing,OpenAI,Official sources inspected,Provider sample bounded
+2026-08-14,D2,Official deployment-document web domains,Anthropic Claude Code sandboxing permission prompts,Anthropic,Official source inspected,Internal usage metric not controlled effectiveness
+2026-08-14,D2,Official deployment-document web domains,Microsoft Copilot Studio computer use credentials human supervision,Microsoft,Official sources inspected,Human supervision explicitly probabilistic
+2026-08-14,D2,Official deployment-document web domains,AWS Bedrock AgentCore runtime security credentials microVM,AWS,Official sources inspected,Isolation coexists with credential exposure
+2026-08-14,D2,Official deployment-document web domains,Google Cloud Agent Engine agent identity OAuth least privilege,Google Cloud,Official sources inspected,Configuration evidence
+2026-08-14,D2,Official deployment-document web domains,Salesforce Agentforce confirmation required OAuth credentials,Salesforce,Official sources inspected,Configuration evidence
+2026-08-14,D2,Official deployment-document web domains,IBM watsonx Orchestrate security control center credentials,IBM,Official sources inspected,Configuration evidence
+2026-08-14,D2,Official deployment-document web domains,ServiceNow Now Assist AI agent access control governance logs,ServiceNow,Official sources inspected,Configuration evidence
+2026-08-14,D2,Official deployment-document web domains,GitHub Copilot agent sandbox credentials MCP enterprise policy,GitHub,Official sources inspected,Configuration evidence
+2026-08-14,D2,Official deployment-document web domains,Atlassian Rovo MCP permissions OAuth audit activity,Atlassian,Official sources inspected,Configuration/logging evidence
+2026-08-14,D2,Official deployment-document web domains,UiPath agents governance trust minimal permissions human in loop,UiPath,Official sources inspected,Normative product guidance
+2026-08-14,D2,Official deployment-document web domains,Oracle AI Agent Studio human approval external REST permission roles,Oracle,Official sources inspected,Configuration evidence

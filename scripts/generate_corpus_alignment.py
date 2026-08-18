@@ -24,11 +24,11 @@ MANUAL_MAIN = {
     "S-085": "STUDY-208",
     "S-115": "STUDY-257",
 }
-TDES_LABELS = {
-    "S-223": "[235]",
-    "S-224": "[236]",
-    "S-225": "[237]",
-    "S-226": "[238]",
+TDES_SOURCE_IDS = {
+    "S-223": "TDES-ACA-001",
+    "S-224": "TDES-ACA-002",
+    "S-225": "TDES-ACA-003",
+    "S-226": "TDES-ACA-004",
 }
 
 
@@ -52,15 +52,15 @@ def main() -> None:
     by_title: dict[str, list[dict[str, str]]] = {}
     for row in prisma:
         by_title.setdefault(norm(row["title"]), []).append(row)
-    tdes_by_label = {row["Reference label"]: row for row in tdes}
+    tdes_by_id = {row["Source ID"]: row for row in tdes}
 
     rows: list[dict[str, str]] = []
     unresolved: list[tuple[str, str, int]] = []
     for study in coding:
         coding_id = study["study_id"]
-        if coding_id in TDES_LABELS:
-            label = TDES_LABELS[coding_id]
-            source = tdes_by_label[label]
+        if coding_id in TDES_SOURCE_IDS:
+            source_id = TDES_SOURCE_IDS[coding_id]
+            source = tdes_by_id[source_id]
             rows.append(
                 {
                     "coding_study_id": coding_id,
@@ -68,11 +68,10 @@ def main() -> None:
                     "coding_year": study["year"],
                     "coding_source_url": study["canonical_source_url"],
                     "corpus_scope": "tdes_supplementary_academic",
-                    "source_key": f"TDES-{label.strip('[]')}",
-                    "source_reference_label": label,
+                    "source_key": source_id,
                     "source_title": source["Source"],
                     "source_year": study["year"],
-                    "mapping_method": "explicit_tdes_reference_mapping",
+                    "mapping_method": "explicit_tdes_source_mapping",
                     "mapping_note": "Supplementary academic source; outside the 222-study main-corpus denominator.",
                 }
             )
@@ -99,7 +98,6 @@ def main() -> None:
                 "coding_source_url": study["canonical_source_url"],
                 "corpus_scope": "main_systematic_cua_corpus",
                 "source_key": target["study_id"],
-                "source_reference_label": "",
                 "source_title": target["title"],
                 "source_year": target["year"],
                 "mapping_method": method,
