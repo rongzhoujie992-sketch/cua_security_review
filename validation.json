@@ -1,0 +1,69 @@
+{
+  "semantic_status": "COMPLETE",
+  "structural_status": "PASSED",
+  "codebook_version": "3.3.0",
+  "codebook_sha256": "f320835347c528b156fad58dd02dbc0c917a9d13cf6886c1e4a663e510d605af",
+  "counts": {
+    "studies": 226,
+    "prisma_main_corpus_studies": 222,
+    "supplementary_tdes_academic_sources": 4,
+    "matching_groups": 1034,
+    "candidates": 1031,
+    "eligibility_rows": 1031,
+    "hpats": 246,
+    "relations": 2214,
+    "expected_relations": 2214,
+    "evidence_artifacts": 1606
+  },
+  "eligibility_distribution": {
+    "Not established": 708,
+    "Established": 246,
+    "Indeterminate": 77
+  },
+  "relation_status_distribution": {
+    "Present-direct": 831,
+    "Present-partial": 775,
+    "Not reported": 576,
+    "Not applicable": 28,
+    "Absent-explicit": 4
+  },
+  "study_counts": {
+    "studies_with_hpats": 68,
+    "studies_in_corpus": 226
+  },
+  "component_counts": {
+    "prisma_files": 136,
+    "integration_files": 2,
+    "release_files_excluding_root_manifest": 164
+  },
+  "checks": {
+    "candidate_ids_unique": true,
+    "hpat_ids_unique": true,
+    "artifact_ids_unique": true,
+    "relation_keys_unique": true,
+    "nine_relations_per_hpat": true,
+    "positive_relation_artifacts_closed": true,
+    "locators_and_reasons_complete": true,
+    "coding_component_inventory_preserved": true,
+    "root_manifest_covers_all_release_files": true,
+    "codebook_hash_correct": true,
+    "portable_source_locators": true,
+    "no_local_filesystem_paths": true
+    ,"prisma_component_validation": true,
+    "integration_crosswalk_226": true,
+    "prisma_main_corpus_matches_222": true
+  },
+  "included_components": [
+    "README.md",
+    "codebook/",
+    "data/",
+    "integration/",
+    "integration_validation.json",
+    "prisma/",
+    "provenance/",
+    "reliability/",
+    "validation.json"
+  ],
+  "errors": [],
+  "manifest_entry_count": 164
+}

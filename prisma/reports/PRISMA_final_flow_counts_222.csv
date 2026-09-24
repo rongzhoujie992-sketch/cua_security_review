@@ -1,5 +1,5 @@
 stage,count,unit,status
-Records identified,18371,occurrence,FINAL
+Captured search occurrences identified,18371,occurrence,FINAL
 Duplicate occurrences removed before screening,8281,occurrence,FINAL
 Records after global deduplication,10090,record,FINAL
 Records removed before screening for other reasons,3,record,FINAL

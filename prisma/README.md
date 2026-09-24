@@ -8,9 +8,13 @@ This repository publishes the reproducibility materials for a systematic review 
 
 ## Main systematic CUA corpus
 
+The identification-stage counts below are captured search occurrences from the
+executed search records, not exhaustive raw-hit totals from every search
+platform.
+
 | Stage | Count |
 |---|---:|
-| Records identified | 18,371 |
+| Captured search occurrences identified | 18,371 |
 | Duplicate occurrences removed | 8,281 |
 | Records after global deduplication | 10,090 |
 | Other removals before screening | 3 |

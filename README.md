@@ -1,38 +1,46 @@
-# CUA Security Survey Reproducibility Artifact
+# CUA Security Review Reproducibility Artifact
 
-This versioned repository combines the reproducibility materials for the CUA security review and its HPAC/HPAT source-coding analysis. The two components remain internally separate so that review-flow counts, source counts, and coding populations cannot be confused.
+This repository contains the machine-readable coding data and documentation for
+the CUA security review. It is intended for independent inspection and
+reproduction of the reported coding and synthesis.
 
-## Components
+## Scope
 
-- `prisma/` contains the PRISMA/PRISMA-S search, screening, report-family resolution, full-text eligibility, foundational route, and TDES supplementary evidence materials.
-- `coding/` contains the HPAC/HPAT v3.1.2 manual codebook, public study and operation records, evidence ledger, contribution-role records, and bounded independent-coder comparison records.
-- `integration/` contains the one-to-one crosswalk between the coding study records and the PRISMA evidence records.
+- Codebook: HPAC/HPAT v3.3.0
+- PRISMA main systematic corpus: 222 studies.
+- Coding population: 226 studies, comprising the 222 main-corpus studies plus 4 supplementary TDES academic sources.
+- Matching groups: 1,034
+- Candidate records: 1,031
+- Eligibility: 246 Established, 77 Indeterminate, 708 Not established
+- Qualified HPATs: 246
+- Relation records: 2,214 (9 relations per qualified HPAT)
+- Evidence artifacts: 1,606
+- Studies with qualified HPATs: 68
 
-## Population boundaries
+## Contents
 
-The PRISMA main systematic corpus contains 222 studies. It is accompanied by 12 foundational security sources, 4 supplementary TDES academic sources, and 5 official deployment documents. These supplementary routes are source counts and are outside the 222-study denominator.
+- `data/`: Candidate, eligibility, HPAT, relation, and evidence ledgers.
+- `prisma/`: search, screening, eligibility, PRISMA flow, and supplementary-source records.
+- `integration/`: crosswalk linking the 226 coding studies to the 222-study main corpus and 4 supplementary TDES academic sources.
+- `provenance/`: coder matching and adjudication records.
+- `reliability/`: coder-comparison tables and reliability diagnostics.
+- `codebook/`: the coding manual used for the final projection.
+- `validation.json`: release counts and structural checks.
 
-The coding component contains 226 study records: the 222 main-corpus studies plus four selected TDES academic sources identified by stable artifact IDs in `integration/corpus_alignment.csv`. Foundational sources and official deployment documents are not part of the HPAT coding population.
+Source locators use portable identifiers such as `source://S-001.txt` and the
+corresponding page, section, figure, table, or line information. Source papers
+are not redistributed in this artifact; the study identifiers and locators are
+provided so that reviewers can trace records to the cited source corpus.
 
-The released coding state contains 501 candidate operations and 282 qualified High-Privilege Action Transitions (HPATs) across 91 HPAT-positive studies. Candidate operations are diagnostic eligibility records; qualified HPATs are the atomic units for HPAC synthesis. The reliability directory reports the bounded paired samples and adjudication records supplied with the coding release.
+The PRISMA flow ends at 222 studies. Four additional TDES academic sources
+(`S-223`–`S-226`) are reported as a supplementary route and are included in the
+226-study coding population; they are not added to the PRISMA main-corpus
+denominator. The 12 foundational sources and 5 official deployment documents
+are separate supplementary sources and are not part of the coding population.
 
-Coder roles and name variants are documented in `coding/README.md` and `coding/reliability/README.md`.
+The package's semantic projection and structural checks are complete; the
+validation file records the checks and their results.
 
-## Reproduce the release checks
-
-From the repository root:
-
-```text
-python scripts/validate_release.py
-```
-
-The top-level validator runs both child validators, verifies the 226-row crosswalk, checks the population boundaries, scans top-level public metadata for local paths and process-only disclosures, and verifies `MANIFEST.sha256`.
-
-To regenerate the crosswalk from the released child tables:
-
-```text
-python scripts/generate_corpus_alignment.py
-python scripts/validate_release.py
-```
-
-The reviewed-paper PDFs are not redistributed. Consult the notices in each component for licensing and third-party material terms.
+Run `python scripts/validate_release.py` from the repository root to validate
+the public release manifest and core count contracts. The PRISMA component can
+also be validated independently with `python prisma/scripts/validate_release.py`.

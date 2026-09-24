@@ -1,0 +1,24 @@
+{
+  "status": "PASSED",
+  "prisma_source_release": "CUA_SECURITY_REVIEW_REPRODUCIBILITY_ARTIFACT_v1.2.0_20260825",
+  "prisma_main_corpus_studies": 222,
+  "supplementary_tdes_academic_sources": 4,
+  "coding_population_studies": 226,
+  "tdes_study_ids": ["S-223", "S-224", "S-225", "S-226"],
+  "prisma_component_validation": "PASSED",
+  "coding_component_counts_unchanged": {
+    "candidates": 1031,
+    "hpats": 246,
+    "relations": 2214,
+    "evidence_artifacts": 1606
+  },
+  "crosswalk_validation": {
+    "rows": 226,
+    "main_corpus_rows": 222,
+    "supplementary_tdes_rows": 4,
+    "one_row_per_coding_study": true
+  },
+  "public_path_scan": "PASSED",
+  "semantic_coding_records_modified": false,
+  "prisma_counts_modified": false
+}

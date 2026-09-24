@@ -1,8 +1,10 @@
-# Component Terms
+# Copyright and permitted access
 
-This combined repository preserves the terms supplied with its two components.
+This repository is provided for inspection and verification of the review
+methods and coding materials reported in the associated paper. No license is
+granted to copy, redistribute, modify, or republish author-created materials
+without the copyright holder's prior written permission.
 
-- `prisma/` is publicly available for inspection and verification under the notices in that component. It does not grant a blanket open license for its author-created materials or for third-party content.
-- `coding/` retains the licenses supplied in that component, including its data and code notices.
-
-Third-party papers, websites, and source documents are not redistributed. Their titles, identifiers, and public locators are included only to support verification of the review and coding records.
+Third-party papers, metadata, abstracts, identifiers, and source locators
+remain subject to their respective rights and terms. Reviewed-paper full texts
+are not redistributed.

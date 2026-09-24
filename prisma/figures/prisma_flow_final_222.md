@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TD
-  A["Records identified<br/>n = 18,371"] --> B["Duplicate occurrences removed<br/>n = 8,281"]
+  A["Captured search occurrences identified<br/>n = 18,371"] --> B["Duplicate occurrences removed<br/>n = 8,281"]
   B --> C["Records after global deduplication<br/>n = 10,090"]
   C --> D["Records screened<br/>n = 10,087"]
   C --> X0["Other pre-screening removals<br/>n = 3"]
