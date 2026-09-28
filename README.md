@@ -38,9 +38,6 @@ The PRISMA flow ends at 222 studies. Four additional TDES academic sources
 denominator. The 12 foundational sources and 5 official deployment documents
 are separate supplementary sources and are not part of the coding population.
 
-The package's semantic projection and structural checks are complete; the
-validation file records the checks and their results.
-
 Run `python scripts/validate_release.py` from the repository root to validate
 the public release manifest and core count contracts. The PRISMA component can
 also be validated independently with `python prisma/scripts/validate_release.py`.

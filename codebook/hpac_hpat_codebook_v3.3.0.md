@@ -1,20 +1,17 @@
 # HPAC/HPAT Codebook v3.3.0
 
 Version: 3.3.0
-Status: Complete manual candidate for independent coding review; data release not yet authorized
 Date: 2026-09-18
 Scope: final frozen computer-use-agent security review corpus
 Coding population: the final frozen CUA review corpus. Foundational security sources supply conceptual provenance and are excluded from the transition and HPAT denominators unless separately admitted as corpus studies under the frozen inclusion protocol.
-Version 3.3.0 is the consolidated operational rule set for the next independent coding pass. It
+Version 3.3.0 is the operational rule set used for the coding records in this release. It
 retains the agreed HPAC/HPAT concepts, the Q4/Q5 privilege boundary, the nine relation names, the
 evidence-status vocabulary, the population definitions, and the separation of historical records.
 It reorganizes the definitions, Candidate lifecycle, unitization rules, and decision interfaces so
 that the coding path follows one explicit sequence.
 
-This version does not retroactively relabel any v3.2.3 or earlier record. Existing data products
-remain labeled by the rule set under which they were produced. Both coders must independently apply
-this version before their records can be compared or reported as v3.3.0 results. Prior labels,
-disagreement queues, and final ledgers are not substitutes for source review.
+Records produced under earlier versions remain labeled by their original rule set; their provenance
+is retained where applicable. Current release records use this version.
 
 ## 1. Scope and Coding Workflow
 
