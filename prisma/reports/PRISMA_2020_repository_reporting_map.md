@@ -10,7 +10,7 @@ This repository documents the literature-search and study-selection records for 
 | 8 Selection process | `protocol/selection_process.md`; screening/full-text/final-review ledgers | Reported |
 | 16a Study selection | `reports/PRISMA_final_flow_counts_222.csv`; `figures/prisma_flow_final_222.svg`; included/excluded ledgers | Reported |
 | 16b Excluded studies that may appear eligible | `fulltext/fulltext_excluded_studies_83.csv`; `author_adjudication/AUTHOR_DROPPED_63.csv`; controlled reason codebooks | Reported |
-| 27 Availability of data/code/materials | repository ledgers, scripts, manifests, and checksums | Reported in repository |
+| 27 Availability of data/code/materials | repository ledgers and validation scripts | Reported in repository |
 
 ## Flow-accounting check
 

@@ -1211,11 +1211,11 @@ A verified effect does not retroactively establish authorization, technical perm
 ### Pass 0: freeze source packets and review scope
 
 Freeze the canonical study list, `source_packet_id` values, stable source locators, study IDs,
-`review_scope_id` and version, input manifest, and codebook version before a coding pass. Both coders
+`review_scope_id` and version, declared source inventory, and codebook version before a coding pass. Both coders
 must receive the same declared review scope and source packets. For a full-corpus pass, each coder
 covers every study in that scope, including studies with no Candidate Operation; record such cases in
 the Study completion metadata. Before coding a source, verify its canonical identifier and local
-full-text identity against the frozen source manifest or crosswalk. Record unavailable or unresolved
+full-text identity against the frozen source inventory or crosswalk. Record unavailable or unresolved
 material explicitly; do not silently substitute a different version or PDF. Do not skip or select
 records based on prior labels, disagreement status, expected analytical value, or a likely HPAT outcome.
 
@@ -1392,7 +1392,6 @@ source_packet_id
 review_scope_id
 review_scope_version
 review_scope_complete
-input_manifest_sha256
 study_title
 stable_source_id
 canonical_version
@@ -1421,7 +1420,6 @@ Conditional or maintained fields:
 current_reference_number
 version_relationship
 publication_date
-pdf_sha256
 source_native_metrics[]
 boundary_note
 final_adoption_status
@@ -1430,10 +1428,10 @@ unavailable_material_reason
 
 The review-scope fields are Study-level completion and provenance metadata. `source_packet_id` names
 the fixed source bundle; `review_scope_id` and `review_scope_version` identify the declared set of
-studies and locations; `review_scope_complete` records whether that scope was fully reviewed; and
-`input_manifest_sha256` identifies the frozen input manifest used by the pass. When the scope is not
-complete, `unavailable_material_reason` records the missing or unresolved material and locator. These
-fields do not create Candidate judgments and must not be copied into a Candidate as scientific values.
+studies and locations; `review_scope_complete` records whether that scope was fully reviewed. When
+the scope is not complete, `unavailable_material_reason` records the missing or unresolved material
+and locator. These fields do not create Candidate judgments and must not be copied into a Candidate
+as scientific values.
 
 `review_scope_complete` uses `true`, `false`, or `indeterminate`. Use `true` only when every declared
 study and source location in the scope was reviewed or its status was explicitly recorded; use `false`
@@ -1598,7 +1596,7 @@ empirical_chain_id
 review_status
 ~~~
 
-Equivalent fields in a derived view must retain exact mappings in the manifest. An HPAT is created
+Equivalent fields in a derived view must retain exact mappings in the released records. An HPAT is created
 only after the Candidate Operation passes all eligibility gates. It inherits the Candidate's
 Candidate boundary and is the only atomic transition record in the framework. Relation evidence
 does not create a second HPAT for the same Candidate. Core identity and eligibility fields are
@@ -2009,7 +2007,7 @@ Any relation with substantial Partial coverage must publish the composition of `
 
 These checks govern package completeness and release. They do not replace source-grounded coding decisions in Sections 2-6.
 Validation has two layers. Deterministic checks enforce controlled values, required fields, derived
-projections, references, multiplicity, version, and manifest contracts when the required records are
+projections, references, multiplicity, version, and source-record contracts when the required records are
 provided. Semantic review flags identify obligations that still require reading the source, including
 unitization, split/merge, duplicate reporting, same-scenario alignment, and aggregate handling. A
 passing deterministic check never proves that a Candidate boundary or semantic judgment is correct.
@@ -2017,7 +2015,7 @@ passing deterministic check never proves that a Candidate boundary or semantic j
 
 ### Public artifact requirements
 
-Subject to safety review, the public coding projection contains the formal codebook, study and candidate records, qualified HPAT records, source-linked evidence, transition-field decisions, control records, cross-transition relations, a validation script, and a deterministic manifest. It excludes source PDFs and non-public safety-sensitive material.
+Subject to safety review, the public coding projection contains the formal codebook, study and candidate records, qualified HPAT records, source-linked evidence, transition-field decisions, control records, cross-transition relations, and a validation script. It excludes source PDFs and non-public safety-sensitive material.
 
 The README describes the released record scope, evidence limits, and validation command. It does not claim to reproduce a source judgment beyond the evidence and decision records that are released.
 
@@ -2027,7 +2025,7 @@ Before a coding release is complete, verify:
 
 - every included study has a stable public source URL or a documented availability status;
 - every supplied Study record identifies the frozen `source_packet_id`, `review_scope_id`,
-  `review_scope_version`, `review_scope_complete`, and `input_manifest_sha256`; an incomplete scope
+  `review_scope_version`, and `review_scope_complete`; an incomplete scope
   has an `unavailable_material_reason`;
 - candidate discovery is exhaustive within the stated source units;
 - every Candidate has a real source unit or locator, a legal `source_native_atomicity` value, and a recorded
@@ -2081,7 +2079,7 @@ Before a coding release is complete, verify:
 - aggregate numerators and denominators retain source-native units;
 - derived tables and figures are generated from records rather than hand-edited;
 - coder identity and codebook version are recorded where the public schema carries them;
-- manifest hashes and validation outputs are deterministic under a frozen release date.
+- validation outputs are deterministic under a frozen release date.
 
 ### Release statement
 
@@ -2094,7 +2092,7 @@ unitization and aggregate rules while retaining the v3.2.3 Q4/Q5 and nine-relati
 
 This manual changes no historical record. Existing ledgers remain labeled by their actual coding
 version. It may be distributed for independent coding after the project owner confirms the manual
-and its version hash. A data package may claim v3.3.0 only after both coders independently apply the
+and its version. A data package may claim v3.3.0 only after both coders independently apply the
 manual to the declared reassessment scope, comparison and source adjudication are complete,
 unitization coverage is reported, validators pass, and a separately versioned data release is
 generated.

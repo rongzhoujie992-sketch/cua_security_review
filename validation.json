@@ -2,7 +2,6 @@
   "semantic_status": "COMPLETE",
   "structural_status": "PASSED",
   "codebook_version": "3.3.0",
-  "codebook_sha256": "f320835347c528b156fad58dd02dbc0c917a9d13cf6886c1e4a663e510d605af",
   "counts": {
     "studies": 226,
     "prisma_main_corpus_studies": 222,
@@ -32,9 +31,8 @@
     "studies_in_corpus": 226
   },
   "component_counts": {
-    "prisma_files": 136,
-    "integration_files": 2,
-    "release_files_excluding_root_manifest": 164
+    "prisma_files": 134,
+    "integration_files": 2
   },
   "checks": {
     "candidate_ids_unique": true,
@@ -45,11 +43,9 @@
     "positive_relation_artifacts_closed": true,
     "locators_and_reasons_complete": true,
     "coding_component_inventory_preserved": true,
-    "root_manifest_covers_all_release_files": true,
-    "codebook_hash_correct": true,
     "portable_source_locators": true,
-    "no_local_filesystem_paths": true
-    ,"prisma_component_validation": true,
+    "no_local_filesystem_paths": true,
+    "prisma_component_validation": true,
     "integration_crosswalk_226": true,
     "prisma_main_corpus_matches_222": true
   },
@@ -64,6 +60,5 @@
     "reliability/",
     "validation.json"
   ],
-  "errors": [],
-  "manifest_entry_count": 164
+  "errors": []
 }

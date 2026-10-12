@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import csv, json, hashlib
+import csv, json
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -35,16 +35,6 @@ assert j["tdes_branch"]["main_corpus_reextracts"] == 8
 assert j["unique_source_accounting"]["tdes_main_corpus_reextracts_additive"] == 0
 assert j["unique_source_accounting"]["final_unique_evidence_source_base"] == 243
 assert 222 + 12 + 4 + 5 == 243
-
-manifest = ROOT / "MANIFEST.sha256"
-if manifest.exists():
-    for line in manifest.read_text(encoding="utf-8").splitlines():
-        if not line.strip():
-            continue
-        expected, rel = line.split("  ", 1)
-        p = ROOT / rel
-        assert p.exists(), rel
-        assert hashlib.sha256(p.read_bytes()).hexdigest() == expected, rel
 
 print("RELEASE VALIDATION: PASS")
 print("Main PRISMA: 18,371 -> 10,090 -> 10,087 -> 466 -> 379 -> 378 -> 285 -> 222")
