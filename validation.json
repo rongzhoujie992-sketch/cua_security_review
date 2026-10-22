@@ -3,62 +3,46 @@
   "structural_status": "PASSED",
   "codebook_version": "3.3.0",
   "counts": {
-    "studies": 226,
+    "studies": 260,
     "prisma_main_corpus_studies": 222,
-    "supplementary_tdes_academic_sources": 4,
-    "matching_groups": 1034,
-    "candidates": 1031,
-    "eligibility_rows": 1031,
-    "hpats": 246,
-    "relations": 2214,
-    "expected_relations": 2214,
-    "evidence_artifacts": 1606
+    "supplementary_tdes_sources": 9,
+    "supplementary_foundational_sources": 12,
+    "supplementary_post_cutoff_studies": 34,
+    "evidence_source_base": 277,
+    "candidates": 1238,
+    "eligibility_rows": 1238,
+    "hpats": 288,
+    "relations": 2592,
+    "expected_relations": 2592,
+    "evidence_artifacts": 1826
   },
-  "eligibility_distribution": {
-    "Not established": 708,
-    "Established": 246,
-    "Indeterminate": 77
+  "coding_population": {
+    "main_226_study_release": 226,
+    "post_cutoff_added": 34,
+    "unified": 260
   },
-  "relation_status_distribution": {
-    "Present-direct": 831,
-    "Present-partial": 775,
-    "Not reported": 576,
-    "Not applicable": 28,
-    "Absent-explicit": 4
-  },
-  "study_counts": {
-    "studies_with_hpats": 68,
-    "studies_in_corpus": 226
-  },
-  "component_counts": {
-    "prisma_files": 134,
-    "integration_files": 2
+  "reliability_boundary": {
+    "main_release": "Existing reliability files retain the original 226-study denominator.",
+    "post_cutoff": "Supplementary reliability remains source-layered and is not pooled with the main denominator."
   },
   "checks": {
     "candidate_ids_unique": true,
     "hpat_ids_unique": true,
-    "artifact_ids_unique": true,
     "relation_keys_unique": true,
     "nine_relations_per_hpat": true,
     "positive_relation_artifacts_closed": true,
     "locators_and_reasons_complete": true,
-    "coding_component_inventory_preserved": true,
-    "portable_source_locators": true,
+    "supplementary_route_rows": true,
     "no_local_filesystem_paths": true,
-    "prisma_component_validation": true,
-    "integration_crosswalk_226": true,
-    "prisma_main_corpus_matches_222": true
+    "all_hpat_relation_targets_exist": true,
+    "all_relation_artifacts_exist": true
   },
-  "included_components": [
-    "README.md",
-    "codebook/",
-    "data/",
-    "integration/",
-    "integration_validation.json",
-    "prisma/",
-    "provenance/",
-    "reliability/",
-    "validation.json"
-  ],
+  "source_route": {
+    "foundational_classical": 12,
+    "tdes": 9,
+    "post_cutoff": 34,
+    "total_supplementary": 55,
+    "overall_evidence_source_base": 277
+  },
   "errors": []
 }
