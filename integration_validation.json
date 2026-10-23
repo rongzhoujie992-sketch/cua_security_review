@@ -1,6 +1,6 @@
 {
   "status": "PASSED",
-  "prisma_source_release": "CUA_SECURITY_REVIEW_REPRODUCIBILITY_ARTIFACT_v1.2.0_20260825",
+  "prisma_source_component_release": "CUA_SECURITY_REVIEW_REPRODUCIBILITY_ARTIFACT_v1.2.0_20260825",
   "prisma_main_corpus_studies": 222,
   "existing_coding_population_studies": 226,
   "post_cutoff_added_studies": 34,

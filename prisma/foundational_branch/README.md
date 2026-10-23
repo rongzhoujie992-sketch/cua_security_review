@@ -20,6 +20,9 @@ The 12 foundational sources are not included in the 222-study main-corpus denomi
 - Main CUA corpus: 222 studies
 - Foundational/classical security sources: 12 sources
 - TDES supplementary sources: 9 sources
-- **Total unique evidence/source base: 243 sources**
+- **PRISMA-component evidence/source base: 243 sources**
+
+The unified root release adds 34 post-cutoff study sources and reports 277
+sources overall.
 
 Full-text PDFs are not redistributed in this public repository; the branch publishes source metadata, locators, accounting, and verification information.

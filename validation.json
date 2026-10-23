@@ -12,6 +12,7 @@
     "candidates": 1238,
     "eligibility_rows": 1238,
     "hpats": 288,
+    "qualified_hpat_studies": 80,
     "relations": 2592,
     "expected_relations": 2592,
     "evidence_artifacts": 1826
@@ -29,6 +30,7 @@
     "candidate_ids_unique": true,
     "eligibility_ids_unique_and_aligned": true,
     "hpat_ids_unique": true,
+    "artifact_ids_unique": true,
     "hpat_candidate_ids_resolve": true,
     "supplementary_hpat_candidate_keys_resolve": true,
     "supplementary_hpat_operation_provenance_present": true,
