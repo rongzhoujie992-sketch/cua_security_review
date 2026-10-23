@@ -15,7 +15,7 @@ reproduction of the reported coding and synthesis.
 - Relation records: 2,592 (9 relations per qualified HPAT)
 - Evidence artifacts: 1,826
 - Supplementary evidence route: 55 sources (12 foundational/classical, 9 TDES, 34 post-cutoff)
-- Studies with qualified HPATs: 68
+- Studies with qualified HPATs: 80 (68 from the existing release and 12 from the post-cutoff supplement)
 
 ## Contents
 
