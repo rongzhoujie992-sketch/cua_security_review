@@ -8,20 +8,20 @@ reproduction of the reported coding and synthesis.
 
 - Codebook: HPAC/HPAT v3.3.0
 - PRISMA main systematic corpus: 222 studies.
-- Coding population: 226 studies, comprising the 222 main-corpus studies plus 4 supplementary TDES academic sources.
-- Matching groups: 1,034
-- Candidate records: 1,031
-- Eligibility: 246 Established, 77 Indeterminate, 708 Not established
-- Qualified HPATs: 246
-- Relation records: 2,214 (9 relations per qualified HPAT)
-- Evidence artifacts: 1,606
-- Studies with qualified HPATs: 68
+- Coding population: 260 studies, comprising the existing 226-study coding release plus 34 post-cutoff supplementary studies.
+- Candidate records: 1,238
+- Eligibility rows: 1,238
+- Qualified HPATs: 288
+- Relation records: 2,592 (9 relations per qualified HPAT)
+- Evidence artifacts: 1,826
+- Supplementary evidence route: 55 sources (12 foundational/classical, 9 TDES, 34 post-cutoff)
+- Studies with qualified HPATs: 80 (68 from the existing release and 12 from the post-cutoff supplement)
 
 ## Contents
 
 - `data/`: Candidate, eligibility, HPAT, relation, and evidence ledgers.
 - `prisma/`: search, screening, eligibility, PRISMA flow, and supplementary-source records.
-- `integration/`: crosswalk linking the 226 coding studies to the 222-study main corpus and 4 supplementary TDES academic sources.
+- `integration/`: coding crosswalks and the unified supplementary evidence route.
 - `provenance/`: coder matching and adjudication records.
 - `reliability/`: coder-comparison tables and reliability diagnostics.
 - `codebook/`: the coding manual used for the final projection.
@@ -32,11 +32,19 @@ corresponding page, section, figure, table, or line information. Source papers
 are not redistributed in this artifact; the study identifiers and locators are
 provided so that reviewers can trace records to the cited source corpus.
 
-The PRISMA flow ends at 222 studies. Four additional TDES academic sources
-(`S-223`–`S-226`) are reported as a supplementary route and are included in the
-226-study coding population; they are not added to the PRISMA main-corpus
-denominator. The 12 foundational sources and 5 official deployment documents
-are separate supplementary sources and are not part of the coding population.
+In the unified ledgers, an HPAT's `candidate_operation_id` links to its public
+Candidate record. For supplementary rows, `canonical_unit_id` is the source
+package's corresponding Candidate key and is also retained as
+`canonical_group_id`; `adjudicated_operation_id` and
+`source_candidate_operation_ids` preserve operation-level provenance.
+
+The PRISMA main flow remains 222 studies. The coding population is 260 studies:
+the existing 226-study coding release plus 34 post-cutoff selected studies.
+Foundational/classical sources, TDES sources, and post-cutoff studies are
+listed together in `integration/supplementary_evidence_route.csv`. The 12
+foundational sources and 5 official deployment documents remain source-route
+evidence and are not Candidate/HPAT coding units. Reliability denominators
+remain separated between the original main release and the supplementary run.
 
 Run `python scripts/validate_release.py` from the repository root to validate
 the public release counts and core count contracts. The PRISMA component can

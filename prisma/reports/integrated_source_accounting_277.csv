@@ -1,0 +1,6 @@
+component,count,unit,additive_to_unique_source_base,note
+Final main CUA corpus,222,study,YES,Systematic review corpus
+Foundational/classical security branch,12,source,YES,Separate theoretical/authoritative evidence route
+TDES supplementary sources,9,source,YES,Additive to the 222-study main corpus; the 4 academic sources are included in the 226-study coding population
+Post-cutoff supplementary studies,34,study,YES,Dedup34 selected source route
+Final unique evidence/source base,277,source,TOTAL,222 + 12 + 9 + 34

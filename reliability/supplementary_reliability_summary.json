@@ -1,0 +1,16 @@
+{
+  "scope": "34 post-cutoff supplementary studies",
+  "codebook_version": "3.3.0",
+  "strict_one_to_one_pairs": 67,
+  "mapping_rows": 208,
+  "non_one_to_one_rows_excluded_from_reliability": 141,
+  "fields": {
+    "q2_gate": {"nonmissing": 67, "agreement": 0.970149, "cohen_kappa": 0.651042},
+    "q3_gate": {"nonmissing": 67, "agreement": 0.940299, "cohen_kappa": 0.0},
+    "q4_gate": {"nonmissing": 67, "agreement": 0.820896, "cohen_kappa": 0.428165},
+    "q5_gate": {"nonmissing": 67, "agreement": 0.552239, "cohen_kappa": 0.13474},
+    "hpat_eligibility": {"nonmissing": 67, "agreement": 0.80597, "cohen_kappa": 0.362838}
+  },
+  "relation_reliability": "not estimated as ordinary reliability; relation rows are adjudicated on the 42-HPAT derived population",
+  "boundary": "These values are not pooled with the original 226-study reliability denominator."
+}
