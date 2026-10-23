@@ -76,45 +76,39 @@ def main() -> None:
     candidate_ids = {r["final_candidate_id"] for r in candidates}
     eligibility_ids = {r["final_candidate_id"] for r in eligibility}
     hpat_candidate_ids = {r["candidate_operation_id"] for r in hpats}
-    candidate_operation_ids = set(candidate_ids)
-    for row in candidates:
-        for field in (
-            "first_candidate_operation_ids", "second_candidate_operation_ids",
-            "first_candidate_operation_id", "second_candidate_operation_id",
-            "source_parent_candidate_operation_ids",
-        ):
-            for value in (row.get(field, "") or "").replace("||", ";").split(";"):
-                value = value.strip()
-                if value:
-                    candidate_operation_ids.add(value)
     supplementary_candidate_ids = {
         r["final_candidate_id"] for r in candidates if r["final_candidate_id"].startswith("SUP-")
     }
     supplementary_hpats = [r for r in hpats if r["hpat_id"].startswith("HPAT-SUP-")]
+    candidate_by_id = {r["final_candidate_id"]: r for r in candidates}
+
+    def source_operation_ids(candidate: dict[str, str]) -> set[str]:
+        return {
+            value.strip()
+            for field in (
+                "first_candidate_operation_ids", "second_candidate_operation_ids",
+                "first_candidate_operation_id", "second_candidate_operation_id",
+            )
+            for value in (candidate.get(field, "") or "").replace("||", ";").split(";")
+            if value.strip()
+        }
     route_counts = Counter(r["source_type"] for r in route)
     route_study_ids = {r["coding_study_id"] for r in route if r["coding_study_id"]}
     checks = {
         "candidate_ids_unique": len(candidate_ids) == len(candidates),
         "eligibility_ids_unique_and_aligned": len(eligibility_ids) == len(eligibility) and eligibility_ids == candidate_ids,
         "hpat_ids_unique": len(hpat_ids) == len(hpats),
-        "hpat_candidate_operation_ids_resolve": all(
-            all(value.strip() in candidate_operation_ids for value in row["candidate_operation_id"].split(";"))
-            for row in hpats
-        ),
-        "supplementary_hpat_operation_ids_not_canonical_units": not any(
-            value.strip().startswith("SUP-")
-            for row in supplementary_hpats
-            for value in row["candidate_operation_id"].split(";")
-            if value.strip()
-        ),
+        "hpat_candidate_ids_resolve": hpat_candidate_ids <= candidate_ids,
         "supplementary_hpat_candidate_keys_resolve": all(
-            r.get("canonical_group_id") in supplementary_candidate_ids
+            r["candidate_operation_id"] in supplementary_candidate_ids
+            and r.get("canonical_group_id") == r["candidate_operation_id"]
             for r in supplementary_hpats
         ),
         "supplementary_hpat_operation_provenance_present": all(
             r.get("adjudicated_operation_id")
             and r.get("source_candidate_operation_ids")
-            and all(value.strip() in candidate_operation_ids for value in r["adjudicated_operation_id"].split(";"))
+            and set(r["adjudicated_operation_id"].split(";"))
+            <= source_operation_ids(candidate_by_id.get(r.get("canonical_group_id", ""), {}))
             for r in supplementary_hpats
         ),
         "relation_keys_unique": len(relation_keys) == len(relations),

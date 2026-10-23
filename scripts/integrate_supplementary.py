@@ -136,9 +136,7 @@ def main() -> None:
         eligibility.append(out)
 
     hpat_aliases = {
-        # This field is the HPAT's source/adjudicated operation identifier.
-        # The canonical grouping key is projected independently below.
-        "candidate_operation_id": "adjudicated_operation_id",
+        "candidate_operation_id": "canonical_unit_id",
         "source_candidate_operation_ids": "candidate_operation_ids", "canonical_group_id": "canonical_unit_id",
         "review_status": "relation_status",
         "final_eligibility": "eligibility_status", "coder": "adjudicator",
