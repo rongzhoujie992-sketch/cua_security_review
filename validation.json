@@ -27,15 +27,20 @@
   },
   "checks": {
     "candidate_ids_unique": true,
+    "eligibility_ids_unique_and_aligned": true,
     "hpat_ids_unique": true,
+    "hpat_candidate_ids_resolve": true,
     "relation_keys_unique": true,
     "nine_relations_per_hpat": true,
     "positive_relation_artifacts_closed": true,
-    "locators_and_reasons_complete": true,
+    "all_artifact_relation_references_resolve": true,
+    "candidate_locator_reason_complete": true,
+    "eligibility_locator_complete": true,
+    "relation_locator_reason_complete": true,
+    "artifact_locator_excerpt_complete": true,
     "supplementary_route_rows": true,
     "no_local_filesystem_paths": true,
-    "all_hpat_relation_targets_exist": true,
-    "all_relation_artifacts_exist": true
+    "all_hpat_relation_targets_exist": true
   },
   "source_route": {
     "foundational_classical": 12,
