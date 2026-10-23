@@ -136,7 +136,9 @@ def main() -> None:
         eligibility.append(out)
 
     hpat_aliases = {
-        "candidate_operation_id": "canonical_unit_id",
+        # This field is the HPAT's source/adjudicated operation identifier.
+        # The canonical grouping key is projected independently below.
+        "candidate_operation_id": "adjudicated_operation_id",
         "source_candidate_operation_ids": "candidate_operation_ids", "canonical_group_id": "canonical_unit_id",
         "review_status": "relation_status",
         "final_eligibility": "eligibility_status", "coder": "adjudicator",
@@ -144,6 +146,12 @@ def main() -> None:
     }
     for row in sup_hpats:
         out = project_row(row, hpat_fields, hpat_aliases)
+        if not out["source_candidate_operation_ids"]:
+            out["source_candidate_operation_ids"] = (
+                row.get("candidate_operation_ids", "")
+                or row.get("second_candidate_operation_ids", "")
+                or row.get("adjudicated_operation_id", "")
+            )
         match = match_by_unit.get(row["canonical_unit_id"], {})
         out["source_text_path"] = source_text_path(match.get("source_locator", ""))
         out["source_hpat_id"] = ""

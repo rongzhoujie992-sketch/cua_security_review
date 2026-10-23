@@ -32,6 +32,11 @@ corresponding page, section, figure, table, or line information. Source papers
 are not redistributed in this artifact; the study identifiers and locators are
 provided so that reviewers can trace records to the cited source corpus.
 
+In the unified ledgers, `canonical_group_id` identifies the adjudicated public
+Candidate unit. An HPAT's `candidate_operation_id` identifies the selected
+source/adjudicated operation; `adjudicated_operation_id` and
+`source_candidate_operation_ids` preserve its operation-level provenance.
+
 The PRISMA main flow remains 222 studies. The coding population is 260 studies:
 the existing 226-study coding release plus 34 post-cutoff selected studies.
 Foundational/classical sources, TDES sources, and post-cutoff studies are

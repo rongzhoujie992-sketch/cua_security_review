@@ -76,13 +76,41 @@ def main() -> None:
     candidate_ids = {r["final_candidate_id"] for r in candidates}
     eligibility_ids = {r["final_candidate_id"] for r in eligibility}
     hpat_candidate_ids = {r["candidate_operation_id"] for r in hpats}
+    candidate_operation_ids = set(candidate_ids)
+    for row in candidates:
+        for field in (
+            "first_candidate_operation_ids", "second_candidate_operation_ids",
+            "first_candidate_operation_id", "second_candidate_operation_id",
+            "source_parent_candidate_operation_ids",
+        ):
+            for value in (row.get(field, "") or "").replace("||", ";").split(";"):
+                value = value.strip()
+                if value:
+                    candidate_operation_ids.add(value)
+    supplementary_candidate_ids = {
+        r["final_candidate_id"] for r in candidates if r["final_candidate_id"].startswith("SUP-")
+    }
+    supplementary_hpats = [r for r in hpats if r["hpat_id"].startswith("HPAT-SUP-")]
     route_counts = Counter(r["source_type"] for r in route)
     route_study_ids = {r["coding_study_id"] for r in route if r["coding_study_id"]}
     checks = {
         "candidate_ids_unique": len(candidate_ids) == len(candidates),
         "eligibility_ids_unique_and_aligned": len(eligibility_ids) == len(eligibility) and eligibility_ids == candidate_ids,
         "hpat_ids_unique": len(hpat_ids) == len(hpats),
-        "hpat_candidate_ids_resolve": hpat_candidate_ids <= candidate_ids,
+        "hpat_candidate_operation_ids_resolve": all(
+            all(value.strip() in candidate_operation_ids for value in row["candidate_operation_id"].split(";"))
+            for row in hpats
+        ),
+        "supplementary_hpat_candidate_keys_resolve": all(
+            r.get("canonical_group_id") in supplementary_candidate_ids
+            for r in supplementary_hpats
+        ),
+        "supplementary_hpat_operation_provenance_present": all(
+            r.get("adjudicated_operation_id")
+            and r.get("source_candidate_operation_ids")
+            and all(value.strip() in candidate_operation_ids for value in r["adjudicated_operation_id"].split(";"))
+            for r in supplementary_hpats
+        ),
         "relation_keys_unique": len(relation_keys) == len(relations),
         "nine_relations_per_hpat": all(count == 9 for count in relation_by_hpat.values()) and all({r["relation_name"] for r in relations if r["hpat_id"] == hpat} == relation_names for hpat in hpat_ids),
         "positive_relation_artifacts_closed": positive_closed,
@@ -95,7 +123,7 @@ def main() -> None:
         "no_local_filesystem_paths": not any("Users\\" in value or "中国科学院" in value for row in route for value in row.values()),
     }
     validation = {
-        "semantic_status": "COMPLETE" if supplement_validation.get("semantic_status") == "COMPLETE" and main_validation.get("semantic_status") in {"COMPLETE", "IN_PROGRESS"} else "IN_PROGRESS",
+        "semantic_status": "COMPLETE" if supplement_validation.get("semantic_status") == "COMPLETE" and main_validation.get("semantic_status") == "COMPLETE" else "IN_PROGRESS",
         "structural_status": "PASSED",
         "codebook_version": "3.3.0",
         "counts": {"studies": 260, "prisma_main_corpus_studies": 222, "supplementary_tdes_sources": 9, "supplementary_foundational_sources": 12, "supplementary_post_cutoff_studies": 34, "evidence_source_base": 277, "candidates": len(candidates), "eligibility_rows": len(eligibility), "hpats": len(hpats), "relations": len(relations), "expected_relations": len(hpats) * 9, "evidence_artifacts": len(artifacts)},
