@@ -89,7 +89,9 @@ TDES contributes **9 supplementary sources** (4 academic + 5 official deployment
 | TDES official deployment documents | 5 sources |
 | **Final unique evidence/source base** | **243 sources** |
 
-**243 is a source count, not a study count. The systematic main corpus remains 222 studies.**
+This 243-source count belongs to the PRISMA component: 222 main-corpus studies,
+12 foundational sources, and 9 TDES sources. The unified root release adds 34
+post-cutoff study sources and reports 277 sources overall.
 
 ## Repository structure
 

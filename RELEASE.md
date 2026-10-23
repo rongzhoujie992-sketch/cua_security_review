@@ -1,17 +1,22 @@
-# Release 2.0.0
+# Release 2.1.0
 
-This release contains the PRISMA reproducibility materials and the unified
-HPAC/HPAT v3.3.0 coding data for the CUA security review.
+Released 2026-10-23. This release contains the PRISMA reproducibility materials
+and the unified HPAC/HPAT v3.3.0 coding data for the CUA security review.
 
 - Main systematic corpus: 222 studies
-- Coding population: 260 studies (226 main-release studies plus 34 post-cutoff supplementary studies)
+- Existing coding population: 226 studies (222 main-corpus studies plus 4 selected TDES academic sources)
+- Post-cutoff supplement: 34 studies
+- Unified coding population: 260 studies
 - Candidate records: 1,238
-- Qualified HPATs: 288
+- Qualified HPATs: 288 across 80 studies
 - Relation records: 2,592
 - Evidence artifacts: 1,826
 - Supplementary evidence route: 55 sources (12 foundational/classical, 9 TDES, 34 post-cutoff)
+- Unified evidence/source base: 277 sources
 
-The 222-study PRISMA denominator is unchanged. Reliability files retain their
+The PRISMA component's own source accounting is 243 (222 main studies, 12
+foundational sources, and 9 TDES sources). The unified release adds 34
+post-cutoff study sources, giving 277 overall. Reliability files retain their
 source-layered denominators; supplementary reliability is not pooled with the
 original 226-study reliability population.
 

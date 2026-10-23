@@ -1,21 +1,20 @@
 # CUA Security Review Reproducibility Artifact
 
 This repository contains the machine-readable coding data and documentation for
-the CUA security review. It is intended for independent inspection and
-reproduction of the reported coding and synthesis.
+the CUA security review.
 
-## Scope
+## Scope and counts
 
 - Codebook: HPAC/HPAT v3.3.0
-- PRISMA main systematic corpus: 222 studies.
-- Coding population: 260 studies, comprising the existing 226-study coding release plus 34 post-cutoff supplementary studies.
-- Candidate records: 1,238
-- Eligibility rows: 1,238
-- Qualified HPATs: 288
-- Relation records: 2,592 (9 relations per qualified HPAT)
+- PRISMA systematic corpus: 222 studies
+- Existing coding population: 226 studies (222 PRISMA studies plus 4 selected TDES academic sources)
+- Post-cutoff supplement: 34 studies
+- Unified coding population: 260 studies
+- Candidate and eligibility rows: 1,238 each
+- Qualified HPATs: 288 across 80 studies
+- Relation records: 2,592 (9 per HPAT)
 - Evidence artifacts: 1,826
-- Supplementary evidence route: 55 sources (12 foundational/classical, 9 TDES, 34 post-cutoff)
-- Studies with qualified HPATs: 80 (68 from the existing release and 12 from the post-cutoff supplement)
+- Unified evidence/source base: 277 sources (222 main-corpus studies, 12 foundational sources, 9 TDES sources, and 34 post-cutoff studies)
 
 ## Contents
 
@@ -27,25 +26,27 @@ reproduction of the reported coding and synthesis.
 - `codebook/`: the coding manual used for the final projection.
 - `validation.json`: release counts and structural checks.
 
-Source locators use portable identifiers such as `source://S-001.txt` and the
-corresponding page, section, figure, table, or line information. Source papers
-are not redistributed in this artifact; the study identifiers and locators are
-provided so that reviewers can trace records to the cited source corpus.
+Source locators use portable identifiers such as `source://S-001.txt` together
+with page, section, figure, table, or line information. Reviewed-paper full
+texts are not redistributed; the identifiers and locators support source
+tracing.
 
-In the unified ledgers, an HPAT's `candidate_operation_id` links to its public
-Candidate record. For supplementary rows, `canonical_unit_id` is the source
-package's corresponding Candidate key and is also retained as
-`canonical_group_id`; `adjudicated_operation_id` and
-`source_candidate_operation_ids` preserve operation-level provenance.
+An HPAT's `candidate_operation_id` resolves to a public Candidate record. For
+supplementary rows, `canonical_unit_id` and `canonical_group_id` identify the
+source unit, while `adjudicated_operation_id` and
+`source_candidate_operation_ids` retain operation-level provenance.
 
-The PRISMA main flow remains 222 studies. The coding population is 260 studies:
-the existing 226-study coding release plus 34 post-cutoff selected studies.
-Foundational/classical sources, TDES sources, and post-cutoff studies are
-listed together in `integration/supplementary_evidence_route.csv`. The 12
-foundational sources and 5 official deployment documents remain source-route
-evidence and are not Candidate/HPAT coding units. Reliability denominators
-remain separated between the original main release and the supplementary run.
+The complete supplementary route is recorded in
+`integration/supplementary_evidence_route.csv`. Foundational sources and
+official deployment documents are source-route materials; the coding ledgers
+contain the selected academic and post-cutoff study records. The original and
+supplementary reliability denominators remain separate.
+
+The PRISMA subpackage reports its own 243-source accounting (222 main studies,
+12 foundational sources, and 9 TDES sources). The unified root release adds the
+34 post-cutoff study sources and therefore reports 277 sources overall.
 
 Run `python scripts/validate_release.py` from the repository root to validate
-the public release counts and core count contracts. The PRISMA component can
-also be validated independently with `python prisma/scripts/validate_release.py`.
+the unified release. The PRISMA component can be validated independently with
+`python prisma/scripts/validate_release.py`; its 243-source result is limited
+to that component and is not the unified total.
