@@ -101,6 +101,12 @@ def main() -> None:
             all(value.strip() in candidate_operation_ids for value in row["candidate_operation_id"].split(";"))
             for row in hpats
         ),
+        "supplementary_hpat_operation_ids_not_canonical_units": not any(
+            value.strip().startswith("SUP-")
+            for row in supplementary_hpats
+            for value in row["candidate_operation_id"].split(";")
+            if value.strip()
+        ),
         "supplementary_hpat_candidate_keys_resolve": all(
             r.get("canonical_group_id") in supplementary_candidate_ids
             for r in supplementary_hpats
