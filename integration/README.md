@@ -8,12 +8,12 @@ route is recorded separately in `supplementary_evidence_route.csv`.
 
 `S-223` through `S-226` are the four selected supplementary TDES academic sources. They map to stable artifact IDs `TDES-ACA-001` through `TDES-ACA-004`, independent of manuscript bibliography numbering. They are outside the main systematic denominator but are included in the coding population because they were selected for source-grounded HPAT analysis.
 
-The unified supplementary route contains 12 foundational/classical sources, 9
-TDES sources, and 34 post-cutoff selected studies. Foundational and official
-deployment documents remain source-route materials; they are not mapped to
-Candidate or HPAT transitions. The resulting unified evidence/source base is
-277. The PRISMA component's separate accounting is 243 because it predates the
-34 post-cutoff route.
+The unified supplementary route contains 12 foundational/classical source
+records, 9 TDES source records, and 34 post-cutoff study sources. Foundational
+and official deployment documents remain source-route materials; they are not
+mapped to Candidate or HPAT transitions. The resulting unified evidence/source
+base is 277 source records. The PRISMA component's separate accounting is 243
+because it predates the 34 post-cutoff route.
 
 Mapping methods are recorded per row, with explicit identity reconciliations
 and normalized-title matches where applicable.

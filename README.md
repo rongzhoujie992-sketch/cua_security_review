@@ -14,7 +14,7 @@ the CUA security review.
 - Qualified HPATs: 288 across 80 studies
 - Relation records: 2,592 (9 per HPAT)
 - Evidence artifacts: 1,826
-- Unified evidence/source base: 277 sources (222 main-corpus studies, 12 foundational sources, 9 TDES sources, and 34 post-cutoff studies)
+- Unified evidence/source base: 277 source records (222 main-corpus study sources, 12 foundational sources, 9 TDES source records, and 34 post-cutoff study sources)
 
 ## Contents
 
@@ -46,7 +46,7 @@ The PRISMA subpackage reports its own 243-source accounting (222 main studies,
 12 foundational sources, and 9 TDES sources). The unified root release adds the
 34 post-cutoff study sources and therefore reports 277 sources overall.
 
-Run `python scripts/validate_release.py` from the repository root to validate
-the unified release. The PRISMA component can be validated independently with
-`python prisma/scripts/validate_release.py`; its 243-source result is limited
-to that component and is not the unified total.
+Run `python scripts/validate_release.py` from the repository root to recompute
+the unified ledger counts and structural checks. The PRISMA component can be
+validated independently with `python prisma/scripts/validate_release.py`; its
+243-source result is limited to that component and is not the unified total.

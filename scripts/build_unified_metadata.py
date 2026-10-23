@@ -98,6 +98,7 @@ def main() -> None:
         "candidate_ids_unique": len(candidate_ids) == len(candidates),
         "eligibility_ids_unique_and_aligned": len(eligibility_ids) == len(eligibility) and eligibility_ids == candidate_ids,
         "hpat_ids_unique": len(hpat_ids) == len(hpats),
+        "artifact_ids_unique": len(artifact_ids) == len(artifacts),
         "hpat_candidate_ids_resolve": hpat_candidate_ids <= candidate_ids,
         "supplementary_hpat_candidate_keys_resolve": all(
             r["candidate_operation_id"] in supplementary_candidate_ids
@@ -126,7 +127,7 @@ def main() -> None:
         "semantic_status": "COMPLETE" if supplement_validation.get("semantic_status") == "COMPLETE" and main_validation.get("semantic_status") == "COMPLETE" else "IN_PROGRESS",
         "structural_status": "PASSED",
         "codebook_version": "3.3.0",
-        "counts": {"studies": 260, "prisma_main_corpus_studies": 222, "supplementary_tdes_sources": 9, "supplementary_foundational_sources": 12, "supplementary_post_cutoff_studies": 34, "evidence_source_base": 277, "candidates": len(candidates), "eligibility_rows": len(eligibility), "hpats": len(hpats), "relations": len(relations), "expected_relations": len(hpats) * 9, "evidence_artifacts": len(artifacts)},
+        "counts": {"studies": 260, "prisma_main_corpus_studies": 222, "supplementary_tdes_sources": 9, "supplementary_foundational_sources": 12, "supplementary_post_cutoff_studies": 34, "evidence_source_base": 277, "candidates": len(candidates), "eligibility_rows": len(eligibility), "hpats": len(hpats), "qualified_hpat_studies": len({r["study_id"] for r in hpats}), "relations": len(relations), "expected_relations": len(hpats) * 9, "evidence_artifacts": len(artifacts)},
         "coding_population": {"main_226_study_release": 226, "post_cutoff_added": 34, "unified": 260},
         "reliability_boundary": {"main_release": "Existing reliability files retain the original 226-study denominator.", "post_cutoff": "Supplementary reliability remains source-layered and is not pooled with the main denominator."},
         "checks": checks,
