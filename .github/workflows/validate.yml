@@ -12,4 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: python scripts/validate_release.py
+      - name: Validate unified release
+        run: python scripts/validate_release.py
+      - name: Validate PRISMA component
+        run: python prisma/scripts/validate_release.py

@@ -1,10 +1,10 @@
-# CUA Security Review — PRISMA Reproducibility Repository
+# CUA Security Review — PRISMA Component
 
 **Public release:** 1.0  
 **Release date:** 2026-08-15  
 **Main-search eligibility cutoff:** 2026-07-31 inclusive
 
-This repository publishes the reproducibility materials for a systematic review of computer-use-agent (CUA) security. It separates the **main systematic CUA corpus** from two supplementary evidence routes so that study counts and source counts remain explicit.
+This directory contains the PRISMA reproducibility records within the unified CUA security review artifact. It separates the **main systematic CUA corpus** from two supplementary evidence routes so that study counts and source counts remain explicit.
 
 ## Main systematic CUA corpus
 
@@ -130,11 +130,13 @@ The final review included 222 studies and excluded 63. See `protocol/selection_p
 
 ## Reproducibility
 
-Run:
+From the repository root, run:
 
 ```bash
-python scripts/validate_release.py
+python prisma/scripts/validate_release.py
 ```
+
+This validates the PRISMA component's 243-source accounting; the unified release validator is `python scripts/validate_release.py`.
 
 The repository does not redistribute reviewed-paper full-text PDFs. See `THIRD_PARTY_NOTICE.md`.
 

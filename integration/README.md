@@ -15,5 +15,7 @@ mapped to Candidate or HPAT transitions. The resulting unified evidence/source
 base is 277 source records. The PRISMA component's separate accounting is 243
 because it predates the 34 post-cutoff route.
 
+For the 34 post-cutoff studies, `public_source_url` points to the cited arXiv, DOI, or publisher record; `source_locator` preserves the original internal evidence cue. Full-text PDFs are not redistributed.
+
 Mapping methods are recorded per row, with explicit identity reconciliations
 and normalized-title matches where applicable.
