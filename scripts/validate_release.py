@@ -58,6 +58,14 @@ for row in relation_rows:
             )):
                 positive_relation_artifacts_closed = False
 
+post_cutoff_rows = [row for row in route_rows if row["source_type"] == "post_cutoff_study"]
+assert all(row.get("public_source_url", "").startswith("https://") for row in post_cutoff_rows), (
+    "Every post-cutoff study must provide a public scholarly source URL"
+)
+assert all(not row.get("public_source_url", "") for row in route_rows if row["source_type"] != "post_cutoff_study"), (
+    "Only post-cutoff academic sources have been publicly indexed in this release"
+)
+
 post_cutoff_count = route_counts["post_cutoff_study"]
 main_coding_count = len(alignment_rows)
 actual_counts = {
