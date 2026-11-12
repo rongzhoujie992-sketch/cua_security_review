@@ -1,10 +1,10 @@
-# CUA Security Review — PRISMA Reproducibility Repository
+# Search and study selection
 
-**Public release:** 1.0  
-**Release date:** 2026-08-15  
 **Main-search eligibility cutoff:** 2026-07-31 inclusive
 
-This repository publishes the reproducibility materials for a systematic review of computer-use-agent (CUA) security. It separates the **main systematic CUA corpus** from two supplementary evidence routes so that study counts and source counts remain explicit.
+This component contains the search and selection records for the CUA security
+review. The main systematic corpus and the supplementary evidence routes
+retain their respective study and source denominators.
 
 ## Main systematic CUA corpus
 
@@ -31,16 +31,6 @@ platform.
 | Studies excluded after final review | 63 |
 | **Studies included in the final main CUA corpus** | **222** |
 
-```text
-18,371 - 8,281 = 10,090
-10,090 - 3 = 10,087
-10,087 - 9,621 = 466
-466 - 87 = 379
-379 - 1 = 378
-378 - 10 - 83 = 285
-285 - 63 = 222
-```
-
 ## Supplementary evidence routes
 
 ### Foundational / classical security route
@@ -56,28 +46,11 @@ These sources establish classical security concepts and remain outside the 222-s
 
 ### TDES — targeted deployment-evidence supplement
 
-Academic route:
-
-```text
-23 academic records reviewed in the executed search
-+ 1 additional seed-source academic record
-= 24 academic items handled
-
-8 main-corpus studies re-extracted only (no additive count)
-16 additional academic candidates assessed
-→ 12 not selected
-→ 4 supplementary academic sources selected
-```
-
-Official deployment documents route:
-
-```text
-12 provider families reviewed
-→ 23 official deployment-document locators inspected
-→ 5 official deployment documents selected
-```
-
-TDES contributes **9 supplementary sources** (4 academic + 5 official deployment documents) outside the main-corpus study count.
+TDES contributes **9 supplementary sources**: 4 academic sources and 5
+official deployment documents. Eight main-corpus studies were also
+re-extracted for deployment evidence without adding to the source count.
+See [tdes_branch/README.md](tdes_branch/README.md) for selection methods,
+route counts, and evidence scope.
 
 ## Final source accounting
 
@@ -87,11 +60,13 @@ TDES contributes **9 supplementary sources** (4 academic + 5 official deployment
 | Foundational/classical security route | 12 sources |
 | TDES supplementary academic sources | 4 sources |
 | TDES official deployment documents | 5 sources |
-| **Final unique evidence/source base** | **243 sources** |
+| Post-cutoff supplementary studies | 34 studies |
+| **Final unique evidence/source base** | **277 sources** |
 
-This 243-source count belongs to the PRISMA component: 222 main-corpus studies,
-12 foundational sources, and 9 TDES sources. The unified root release adds 34
-post-cutoff study sources and reports 277 sources overall.
+The post-cutoff sources are recorded in the
+[supplementary evidence route](../integration/supplementary_evidence_route.csv).
+The eight TDES main-corpus re-extractions are already included in the 222 studies
+and do not add to this total.
 
 ## Repository structure
 
@@ -104,8 +79,8 @@ author_adjudication/    final decisions for the 285 studies entering final revie
 foundational_branch/    targeted 12-source classical/theoretical security route
 tdes_branch/            targeted deployment-evidence supplement
 protocol/               eligibility, deduplication, and selection-process methods
-reports/                PRISMA, PRISMA-S, exclusion, and integrated source accounting
-figures/                main PRISMA flow and integrated evidence-route map
+reports/                flow counts, exclusion summaries, and source accounting
+figures/                combined main-search and supplementary evidence-route flow (PDF)
 scripts/                 reconstruction/validation utilities
 docs/                    data dictionary
 ```
@@ -114,30 +89,34 @@ docs/                    data dictionary
 
 - `fulltext/final_included_studies_222.csv`
 - `fulltext/fulltext_excluded_studies_83.csv`
-- `author_adjudication/AUTHOR_DROPPED_63.csv`
+- `author_adjudication/AUTHOR_ADJUDICATION_285.csv`
 - `foundational_branch/foundational_sources_12.csv`
 - `tdes_branch/selected_sources_9.csv`
 - `reports/PRISMA_final_flow_counts_222.csv`
-- `reports/PRISMA_2020_repository_reporting_map.md`
-- `reports/PRISMA-S_reporting_map.md`
-- `reports/integrated_source_accounting_243.csv`
-- `figures/prisma_flow_final_222.svg`
-- `figures/integrated_evidence_routes_243.svg`
-
-## Final review
-
-The final review included 222 studies and excluded 63. See `protocol/selection_process.md` and `author_adjudication/`.
+- [Search and selection methods](protocol/selection_process.md)
+- `reports/integrated_source_accounting_277.csv`
+- [Combined search and evidence-route flow](figures/prisma_flow.pdf)
 
 ## Reproducibility
 
-Run:
+From the repository root, run:
 
 ```bash
-python scripts/validate_release.py
+python prisma/scripts/validate_release.py
 ```
 
-The repository does not redistribute reviewed-paper full-text PDFs. See `THIRD_PARTY_NOTICE.md`.
+To reproduce the captured occurrence ledger and deduplication mappings in memory,
+run `python prisma/scripts/build_occurrence_ledger.py` and
+`python prisma/scripts/rebuild_dedup.py`. Both compare against the published
+tables without writing additional files.
+
+The complete screening decisions are in
+`screening/title_abstract_screening_decisions.csv`, including the input
+bibliographic fields and exclusion reasons.
 
 ## Copyright and permitted access
 
-This repository is publicly accessible solely to permit inspection and verification of the review methods and materials reported in the associated paper. The author-created repository materials are not released under an open license; see `COPYRIGHT_NOTICE.md`. Third-party materials remain subject to their respective rights and terms.
+Citation and usage terms apply to the unified repository; see
+[CITATION.cff](../CITATION.cff),
+[COPYRIGHT_NOTICE.md](../COPYRIGHT_NOTICE.md), and
+[THIRD_PARTY_NOTICE.md](../THIRD_PARTY_NOTICE.md).

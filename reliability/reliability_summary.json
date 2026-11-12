@@ -13,13 +13,9 @@
   "relation_mapping": "second relation hpat_id -> final hpat_transition_records.hpat_id -> candidate_operation_id",
   "relations": {
     "Influence": {
-      "all_strict_pair_relation_rows": 568,
-      "comparable_denominator_both_relation_records": 106,
-      "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
       "agreements": 52,
       "agreement_rate": 0.49056603773584906,
-      "cohens_kappa": 0.24165341812400634,
+      "cohens_kappa": 0.24165341812400637,
       "first_distribution": {
         "Present-direct": 56,
         "Present-partial": 40,
@@ -31,16 +27,16 @@
         "Present-partial": 52,
         "Not reported": 16,
         "Not applicable": 12
-      }
-    },
-    "Authorization": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "Authorization": {
       "agreements": 64,
       "agreement_rate": 0.6037735849056604,
-      "cohens_kappa": 0.3497882284212063,
+      "cohens_kappa": 0.3497882284212064,
       "first_distribution": {
         "Present-direct": 60,
         "Not reported": 33,
@@ -51,16 +47,16 @@
         "Present-direct": 54,
         "Not reported": 25,
         "Present-partial": 27
-      }
-    },
-    "Technical Permission": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "Technical Permission": {
       "agreements": 48,
       "agreement_rate": 0.4528301886792453,
-      "cohens_kappa": 0.13833216538192014,
+      "cohens_kappa": 0.1383321653819201,
       "first_distribution": {
         "Present-direct": 31,
         "Present-partial": 74,
@@ -70,13 +66,13 @@
         "Present-direct": 48,
         "Not reported": 23,
         "Present-partial": 35
-      }
-    },
-    "Operation Execution": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "Operation Execution": {
       "agreements": 78,
       "agreement_rate": 0.7358490566037735,
       "cohens_kappa": 0.3869035323280314,
@@ -88,16 +84,16 @@
         "Present-direct": 32,
         "Not reported": 3,
         "Present-partial": 71
-      }
-    },
-    "External Effect": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "External Effect": {
       "agreements": 70,
       "agreement_rate": 0.660377358490566,
-      "cohens_kappa": 0.4432448205427487,
+      "cohens_kappa": 0.4432448205427488,
       "first_distribution": {
         "Present-direct": 26,
         "Present-partial": 64,
@@ -109,16 +105,16 @@
         "Not reported": 18,
         "Present-partial": 53,
         "Not applicable": 5
-      }
-    },
-    "Resulting State": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "Resulting State": {
       "agreements": 55,
       "agreement_rate": 0.5188679245283019,
-      "cohens_kappa": 0.259046052631579,
+      "cohens_kappa": 0.2590460526315789,
       "first_distribution": {
         "Present-partial": 65,
         "Present-direct": 21,
@@ -130,16 +126,16 @@
         "Present-partial": 49,
         "Not reported": 23,
         "Not applicable": 7
-      }
-    },
-    "Technical Attribution": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "Technical Attribution": {
       "agreements": 80,
       "agreement_rate": 0.7547169811320755,
-      "cohens_kappa": 0.022695035460993454,
+      "cohens_kappa": 0.02269503546099291,
       "first_distribution": {
         "Present-partial": 92,
         "Present-direct": 5,
@@ -149,13 +145,13 @@
         "Present-partial": 90,
         "Not reported": 14,
         "Present-direct": 2
-      }
-    },
-    "Containment": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "Containment": {
       "agreements": 101,
       "agreement_rate": 0.9528301886792453,
       "cohens_kappa": 0.7521047708138447,
@@ -169,13 +165,13 @@
         "Not reported": 94,
         "Not applicable": 10,
         "Present-direct": 2
-      }
-    },
-    "Recovery": {
+      },
       "all_strict_pair_relation_rows": 568,
       "comparable_denominator_both_relation_records": 106,
       "missing_first_relation_records": 398,
-      "missing_second_relation_records": 389,
+      "missing_second_relation_records": 389
+    },
+    "Recovery": {
       "agreements": 99,
       "agreement_rate": 0.9339622641509434,
       "cohens_kappa": 0.6516431924882629,
@@ -189,7 +185,11 @@
         "Not applicable": 10,
         "Present-direct": 1,
         "Present-partial": 1
-      }
+      },
+      "all_strict_pair_relation_rows": 568,
+      "comparable_denominator_both_relation_records": 106,
+      "missing_first_relation_records": 398,
+      "missing_second_relation_records": 389
     }
   },
   "q1_q5": {
@@ -197,19 +197,20 @@
       "denominator": 568,
       "agreements": 568,
       "agreement_rate": 1.0,
-      "cohens_kappa": 1.0,
+      "cohens_kappa": null,
       "first_distribution": {
         "Established": 568
       },
       "second_distribution": {
         "Established": 568
-      }
+      },
+      "kappa_not_estimable_reason": "identical single-category marginals; expected agreement equals one"
     },
     "q2": {
       "denominator": 568,
       "agreements": 557,
       "agreement_rate": 0.9806338028169014,
-      "cohens_kappa": 0.2577809455927777,
+      "cohens_kappa": 0.25778094559277737,
       "first_distribution": {
         "Established": 559,
         "Not established": 8,
@@ -224,7 +225,7 @@
       "denominator": 568,
       "agreements": 522,
       "agreement_rate": 0.9190140845070423,
-      "cohens_kappa": 0.2688605327960602,
+      "cohens_kappa": 0.26886053279606,
       "first_distribution": {
         "Established": 544,
         "Not established": 24
@@ -239,7 +240,7 @@
       "denominator": 568,
       "agreements": 406,
       "agreement_rate": 0.7147887323943662,
-      "cohens_kappa": 0.4174580262858012,
+      "cohens_kappa": 0.4174580262858011,
       "first_distribution": {
         "Not established": 361,
         "Established": 186,
@@ -255,7 +256,7 @@
       "denominator": 568,
       "agreements": 281,
       "agreement_rate": 0.49471830985915494,
-      "cohens_kappa": 0.18303690005462586,
+      "cohens_kappa": 0.18303690005462592,
       "first_distribution": {
         "Indeterminate": 269,
         "Established": 186,
@@ -270,18 +271,25 @@
   },
   "eligibility": {
     "denominator": 568,
-    "agreements": 276,
-    "agreement_rate": 0.4859154929577465,
-    "cohens_kappa": 0.26084844487425746,
+    "agreements": 419,
+    "agreement_rate": 0.7376760563380281,
+    "cohens_kappa": 0.44947277351703324,
     "first_distribution": {
-      "Not established": 171,
+      "Not established": 377,
       "Established": 170,
-      "Indeterminate": 227
+      "Indeterminate": 21
     },
     "second_distribution": {
       "Not established": 366,
       "Established": 179,
       "Indeterminate": 23
     }
+  },
+  "coding_population": "original_226",
+  "eligibility_derivation": {
+    "rule": "v3.3.0 section 3: all Q2-Q5 Established; any Not established fails; otherwise Indeterminate",
+    "input": "unchanged pre-adjudication Q2-Q5; raw reported values remain in the comparison table and are not summarized",
+    "first_corrected_rows": 206,
+    "second_corrected_rows": 0
   }
 }

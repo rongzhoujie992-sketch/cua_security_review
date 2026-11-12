@@ -2102,17 +2102,18 @@ generated.
 ### Field-consistency validation
 
 
-The companion `validate_v3.3.0_relation_consistency.py` applies deterministic structural and lexical
-checks and emits semantic review flags. With `--study-csv`, it checks the Study-level review-scope
-metadata. With `--candidate-csv`, it requires the complete public Candidate interface, blocks invalid
-gate values and the noncanonical `q4_basis_type` field, checks the Q2/Q3 semantic projections, requires
-minimum Q1/Q4/Q5 evidence objects, and verifies that the stored derived `hpat_eligibility` agrees with
-Q2-Q5. When the release root supplies relation and HPAT IDs, it checks Candidate/HPAT foreign-key and
-exactly-nine relation multiplicity. It never assigns or changes a semantic status or Candidate boundary.
+Run `python scripts/validate_release.py` from the public repository root. Its shared rules in
+`scripts/release_checks.py` check gate-derived eligibility, Candidate/HPAT and evidence links,
+exactly-nine relation multiplicity, relation status and evidence-ceiling values, locator/reason/excerpt
+completeness, coding-study source mappings and public source URLs, and independently recomputed
+reliability statistics. The command reads the published records directly and makes no coding changes.
+
+The criteria below define package QA obligations. Source-dependent criteria are assessed through
+the evidence and decision records and source review.
 
 #### Release-blocking errors
 
-0. When `--study-csv` is supplied, a Study record lacks required review-scope metadata, has an invalid
+0. A supplied Study record lacks required review-scope metadata, has an invalid
    `review_scope_complete` value, or marks an incomplete scope without an unavailable-material reason.
 1. The public Candidate record lacks any required gate, derived projection, or Q4/Q5 evidence field,
    or contains the noncanonical `q4_basis_type` field.
@@ -2157,11 +2158,11 @@ Validator output is a release gate and audit queue, not an automatic recoding de
 
 
 Candidate validation is separate from relation validation. The conditions below are a normative
-Candidate-package QA contract. The companion `validate_v3.3.0_relation_consistency.py` validates the
-controlled Candidate interface when `--candidate-csv` is supplied, but it does not automatically decide
-Candidate split/merge boundaries, duplicate reporting, or source alignment. A Candidate-aware checker
-or documented human review is therefore required for those semantic obligations. The checks must not
-infer a Candidate boundary or assign a semantic status:
+Candidate-package QA contract. `scripts/validate_release.py` checks stored gate-derived eligibility,
+Candidate/eligibility/HPAT linkage, and coding-study source mappings. Source-native boundaries,
+split/merge rationales, duplicate reporting, and source alignment are assessed through decision and
+evidence records and source review. The checks must not infer a Candidate boundary or assign a
+semantic status:
 
 #### Release-blocking errors
 

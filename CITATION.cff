@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this artifact, please cite the associated CUA security survey and this versioned reproducibility package."
 title: "CUA Security Survey Reproducibility Artifact"
-version: "2.1.0"
-date-released: 2026-10-23
+version: "2.1.1"
+date-released: 2026-11-12
 type: dataset
 authors:
   - family-names: Rong

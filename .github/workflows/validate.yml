@@ -13,3 +13,5 @@ jobs:
         with:
           python-version: "3.11"
       - run: python scripts/validate_release.py
+      - run: python prisma/scripts/validate_release.py
+      - run: python scripts/test_release_checks.py

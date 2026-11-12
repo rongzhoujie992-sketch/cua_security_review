@@ -5,12 +5,90 @@
   "mapping_rows": 208,
   "non_one_to_one_rows_excluded_from_reliability": 141,
   "fields": {
-    "q2_gate": {"nonmissing": 67, "agreement": 0.970149, "cohen_kappa": 0.651042},
-    "q3_gate": {"nonmissing": 67, "agreement": 0.940299, "cohen_kappa": 0.0},
-    "q4_gate": {"nonmissing": 67, "agreement": 0.820896, "cohen_kappa": 0.428165},
-    "q5_gate": {"nonmissing": 67, "agreement": 0.552239, "cohen_kappa": 0.13474},
-    "hpat_eligibility": {"nonmissing": 67, "agreement": 0.80597, "cohen_kappa": 0.362838}
+    "q2_gate": {
+      "nonmissing": 67,
+      "agreement": 0.9701492537313433,
+      "cohen_kappa": 0.6510416666666666,
+      "agreements": 65,
+      "first_distribution": {
+        "Established": 64,
+        "Not established": 3
+      },
+      "second_distribution": {
+        "Not established": 3,
+        "Established": 64
+      }
+    },
+    "q3_gate": {
+      "nonmissing": 67,
+      "agreement": 0.9402985074626866,
+      "cohen_kappa": 0.0,
+      "agreements": 63,
+      "first_distribution": {
+        "Established": 63,
+        "Not established": 3,
+        "Indeterminate": 1
+      },
+      "second_distribution": {
+        "Established": 67
+      }
+    },
+    "q4_gate": {
+      "nonmissing": 67,
+      "agreement": 0.8208955223880597,
+      "cohen_kappa": 0.42816500711237554,
+      "agreements": 55,
+      "first_distribution": {
+        "Not established": 55,
+        "Established": 12
+      },
+      "second_distribution": {
+        "Not established": 53,
+        "Established": 14
+      }
+    },
+    "q5_gate": {
+      "nonmissing": 67,
+      "agreement": 0.5522388059701493,
+      "cohen_kappa": 0.134739560912613,
+      "agreements": 37,
+      "first_distribution": {
+        "Not established": 16,
+        "Established": 12,
+        "Indeterminate": 39
+      },
+      "second_distribution": {
+        "Indeterminate": 50,
+        "Not established": 3,
+        "Established": 14
+      }
+    },
+    "hpat_eligibility": {
+      "nonmissing": 67,
+      "agreement": 0.8059701492537313,
+      "cohen_kappa": 0.36283833211411853,
+      "agreements": 54,
+      "first_distribution": {
+        "Not established": 56,
+        "Established": 11
+      },
+      "second_distribution": {
+        "Not established": 53,
+        "Established": 14
+      }
+    }
   },
   "relation_reliability": "not estimated as ordinary reliability; relation rows are adjudicated on the 42-HPAT derived population",
-  "boundary": "These values are not pooled with the original 226-study reliability denominator."
+  "boundary": "These values are not pooled with the original 226-study reliability denominator.",
+  "q1": {
+    "denominator": 0,
+    "agreements": 0,
+    "agreement_rate": null,
+    "cohens_kappa": null,
+    "first_distribution": {},
+    "second_distribution": {},
+    "kappa_not_estimable_reason": "no paired nonmissing observations",
+    "not_estimable_reason": "First-coder raw Q1 was not stored; implicit Candidate existence is not substituted for a recorded gate."
+  },
+  "raw_comparison_source": "Population post_cutoff_34 in the existing comparison CSVs; no adjudicated values used."
 }

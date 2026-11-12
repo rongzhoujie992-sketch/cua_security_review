@@ -11,9 +11,20 @@ route is recorded separately in `supplementary_evidence_route.csv`.
 The unified supplementary route contains 12 foundational/classical source
 records, 9 TDES source records, and 34 post-cutoff study sources. Foundational
 and official deployment documents remain source-route materials; they are not
-mapped to Candidate or HPAT transitions. The resulting unified evidence/source
-base is 277 source records. The PRISMA component's separate accounting is 243
-because it predates the 34 post-cutoff route.
+mapped to Candidate or HPAT transitions. Together with the 222-study main corpus,
+these routes form the [277-source evidence base](../prisma/reports/integrated_source_accounting_277.csv).
 
 Mapping methods are recorded per row, with explicit identity reconciliations
 and normalized-title matches where applicable.
+
+For each of the 34 post-cutoff studies, `source_url` records its arXiv, DOI or
+official conference publication page. `source_locator` preserves the original
+PDF identifier used by the coding records. Use `coding_study_id` to connect a
+coded source locator with its public publication page.
+
+The existing `provenance/` tables contain both the original-corpus and the
+supplementary process records, distinguished by `coding_population`.
+Supplementary raw gate decisions retain their original decision IDs and
+fields; relation adjudications are projected from the existing supplementary
+relation ledger. The independent-comparison tables use the same population
+field so their denominators remain separate.

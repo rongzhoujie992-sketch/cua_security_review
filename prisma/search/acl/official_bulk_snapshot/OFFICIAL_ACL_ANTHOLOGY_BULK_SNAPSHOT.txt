@@ -1,4 +1,0 @@
-url=https://aclanthology.org/anthology+abstracts.bib.gz
-retrieval_timestamp_utc=2026-08-14T07:47:24+00:00
-bytes=42334397
-snapshot_id=ACL-BULK-2026-08-14

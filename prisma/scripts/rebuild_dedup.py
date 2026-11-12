@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Reproduce deduplication and compare the published mapping and edges without writes."""
 from pathlib import Path
 import csv, re, unicodedata, urllib.parse, collections
 
@@ -112,19 +113,19 @@ def main():
         for i in ids: idx_to_rec[i]=rec
     assert len(ordered)==10090,len(ordered)
     assert len(edges)==8281,len(edges)
-    mapout=root/"dedup"/"occurrence_to_record_REBUILT.csv"
-    with open(mapout,"w",newline="",encoding="utf-8-sig") as f:
-        w=csv.DictWriter(f,fieldnames=["occurrence_id","record_id","source","query_id"])
-        w.writeheader()
-        for i,r in sorted(enumerate(rows),key=lambda item:(idx_to_rec[item[0]],item[0])):
-            w.writerow({"occurrence_id":r["occurrence_id"],"record_id":idx_to_rec[i],"source":r["source"],"query_id":r["query_id"]})
-    edgeout=root/"dedup"/"dedup_edges_REBUILT.csv"
-    with open(edgeout,"w",newline="",encoding="utf-8-sig") as f:
-        w=csv.DictWriter(f,fieldnames=["edge_id","left_occurrence_id","right_occurrence_id","dedup_rule","result_record_id"])
-        w.writeheader()
-        for k,(a,b,rule) in enumerate(edges,1):
-            w.writerow({"edge_id":f"DE-{k:05d}","left_occurrence_id":rows[a]["occurrence_id"],"right_occurrence_id":rows[b]["occurrence_id"],"dedup_rule":rule,"result_record_id":idx_to_rec[a]})
-    print("DEDUP REBUILD: PASS")
+    reconstructed_mapping=[
+        {"occurrence_id":r["occurrence_id"],"record_id":idx_to_rec[i],"source":r["source"],"query_id":r["query_id"]}
+        for i,r in sorted(enumerate(rows),key=lambda item:(idx_to_rec[item[0]],item[0]))]
+    reconstructed_edges=[
+        {"edge_id":f"DE-{k:05d}","left_occurrence_id":rows[a]["occurrence_id"],"right_occurrence_id":rows[b]["occurrence_id"],"dedup_rule":rule,"result_record_id":idx_to_rec[a]}
+        for k,(a,b,rule) in enumerate(edges,1)]
+    with open(root/"dedup"/"occurrence_to_record.csv",newline="",encoding="utf-8-sig") as f:
+        published_mapping=list(csv.DictReader(f))
+    with open(root/"dedup"/"dedup_edges.csv",newline="",encoding="utf-8-sig") as f:
+        published_edges=list(csv.DictReader(f))
+    assert reconstructed_mapping==published_mapping,"Occurrence mapping differs from dedup reconstruction"
+    assert reconstructed_edges==published_edges,"Dedup edges differ from reconstruction"
+    print("DEDUP RECONSTRUCTION CHECK: PASS")
     print("records=10,090 duplicates_removed=8,281")
 
 if __name__=="__main__": main()

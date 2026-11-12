@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Reconstruct captured occurrences and compare the published ledger without writing files."""
 from pathlib import Path
 import csv, re, xml.etree.ElementTree as ET
 
@@ -62,10 +63,9 @@ with open(ROOT/"search/venue_checks/iclr_official_venue_check.csv",newline="",en
             "raw_artifact":"search/venue_checks/iclr_official_venue_check.csv"
         })
 assert len(rows)==18371,len(rows)
-out=ROOT/"dedup/global_occurrence_ledger_REBUILT.csv"
-with open(out,"w",newline="",encoding="utf-8-sig") as f:
-    fields=["occurrence_index"]+list(rows[0].keys())
-    w=csv.DictWriter(f,fieldnames=fields); w.writeheader()
-    for i,r in enumerate(rows,1): w.writerow({"occurrence_index":i,**r})
-print("OCCURRENCE LEDGER BUILD: PASS")
+reconstructed=[{"occurrence_index":str(i),**r} for i,r in enumerate(rows,1)]
+with open(ROOT/"dedup/global_occurrence_ledger.csv",newline="",encoding="utf-8-sig") as f:
+    published=list(csv.DictReader(f))
+assert reconstructed==published,"Occurrence ledger differs from source reconstruction"
+print("OCCURRENCE RECONSTRUCTION CHECK: PASS")
 print("records=18,371")

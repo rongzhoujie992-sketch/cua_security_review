@@ -14,4 +14,4 @@ Rules are applied in deterministic order:
 
 Fuzzy title similarity is not an automatic merge rule. Identifiable preprint/formal or submission/publication versions are retained as separate report records until later version consolidation.
 
-The complete merge ledger is `dedup/dedup_edges.csv`; every removed duplicate occurrence is listed in `dedup/duplicate_occurrences_removed.csv`. The executable implementation is `scripts/rebuild_dedup.py`.
+The complete merge ledger is `dedup/dedup_edges.csv`; every removed duplicate occurrence is listed in `dedup/duplicate_occurrences_removed.csv`. Running `python prisma/scripts/rebuild_dedup.py` from the repository root reconstructs the occurrence mappings and merge edges in memory and compares them with these published tables without writing files.

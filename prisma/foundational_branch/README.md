@@ -15,14 +15,8 @@ This branch supplies classical and authoritative security foundations used to de
 
 The 12 foundational sources are not included in the 222-study main-corpus denominator.
 
-## Final integrated accounting
-
-- Main CUA corpus: 222 studies
-- Foundational/classical security sources: 12 sources
-- TDES supplementary sources: 9 sources
-- **PRISMA-component evidence/source base: 243 sources**
-
-The unified root release adds 34 post-cutoff study sources and reports 277
-sources overall.
+The [unified source accounting](../reports/integrated_source_accounting_277.csv)
+combines these 12 sources with the main corpus, TDES and post-cutoff sources
+into the 277-source evidence base.
 
 Full-text PDFs are not redistributed in this public repository; the branch publishes source metadata, locators, accounting, and verification information.

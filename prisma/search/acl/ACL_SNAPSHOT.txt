@@ -1,4 +1,5 @@
 source=https://aclanthology.org/anthology+abstracts.bib.gz
+retrieval_timestamp_utc=2026-08-14T07:47:24+00:00
 retrieval_or_validation_timestamp_utc=2026-08-14T09:07:08+00:00
 bytes=42334397
 snapshot_id=ACL-BULK-2026-08-14
